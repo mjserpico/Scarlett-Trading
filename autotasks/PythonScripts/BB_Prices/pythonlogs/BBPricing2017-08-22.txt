@@ -1,0 +1,158 @@
+2017-08-22 17:42:06,137 - DEBUG - ****************************************************
+2017-08-22 17:42:06,138 - DEBUG - StartingZL
+2017-08-22 17:42:06,183 - DEBUG - Connecting to Server
+2017-08-22 17:42:07,184 - DEBUG - Registered HistoricalData Reply Handler
+2017-08-22 17:42:08,187 - DEBUG - Requesting historical data
+2017-08-22 17:42:08,194 - DEBUG - Returned from Reply Handler
+2017-08-22 17:42:09,198 - DEBUG - Disconnecting from Server
+2017-08-22 17:42:10,200 - DEBUG - Start Bollinger Band Calculation
+2017-08-22 17:42:10,201 - DEBUG - Connecting to Database again
+2017-08-22 17:42:11,671 - DEBUG - ran select statement to get prices for calc
+2017-08-22 17:42:11,674 - DEBUG - Got StdDev. (None,)
+2017-08-22 17:42:11,733 - DEBUG - Got Max ID. (1,)
+2017-08-22 17:42:11,734 - DEBUG - &&&&&&&&&&& END &&&&&&&&& Band Calculation
+2017-08-22 17:43:19,792 - DEBUG - ****************************************************
+2017-08-22 17:43:19,793 - DEBUG - StartingLE
+2017-08-22 17:43:19,809 - DEBUG - Connecting to Server
+2017-08-22 17:43:20,815 - DEBUG - Registered HistoricalData Reply Handler
+2017-08-22 17:43:21,819 - DEBUG - Requesting historical data
+2017-08-22 17:43:21,828 - DEBUG - Returned from Reply Handler
+2017-08-22 17:43:22,832 - DEBUG - Disconnecting from Server
+2017-08-22 17:43:23,839 - DEBUG - Start Bollinger Band Calculation
+2017-08-22 17:43:23,844 - DEBUG - Connecting to Database again
+2017-08-22 17:43:27,969 - DEBUG - ran select statement to get prices for calc
+2017-08-22 17:43:27,973 - DEBUG - Got StdDev. (None,)
+2017-08-22 17:43:28,045 - DEBUG - Got Max ID. (1,)
+2017-08-22 17:43:28,051 - DEBUG - &&&&&&&&&&& END &&&&&&&&& Band Calculation
+2017-08-22 17:43:33,184 - DEBUG - ****************************************************
+2017-08-22 17:43:33,187 - DEBUG - StartingLE
+2017-08-22 17:43:33,200 - DEBUG - Connecting to Server
+2017-08-22 17:43:34,209 - DEBUG - Registered HistoricalData Reply Handler
+2017-08-22 17:43:35,213 - DEBUG - Requesting historical data
+2017-08-22 17:43:35,223 - DEBUG - Returned from Reply Handler
+2017-08-22 17:43:36,232 - DEBUG - Disconnecting from Server
+2017-08-22 17:43:37,237 - DEBUG - Start Bollinger Band Calculation
+2017-08-22 17:43:37,243 - DEBUG - Connecting to Database again
+2017-08-22 17:43:37,750 - DEBUG - ran select statement to get prices for calc
+2017-08-22 17:43:37,756 - DEBUG - Got StdDev. (None,)
+2017-08-22 17:43:37,816 - DEBUG - Got Max ID. (1,)
+2017-08-22 17:43:37,821 - DEBUG - &&&&&&&&&&& END &&&&&&&&& Band Calculation
+2017-08-22 17:43:40,961 - DEBUG - ****************************************************
+2017-08-22 17:43:40,964 - DEBUG - StartingLE
+2017-08-22 17:43:40,976 - DEBUG - Connecting to Server
+2017-08-22 17:43:41,986 - DEBUG - Registered HistoricalData Reply Handler
+2017-08-22 17:43:42,994 - DEBUG - Requesting historical data
+2017-08-22 17:43:43,000 - DEBUG - Returned from Reply Handler
+2017-08-22 17:43:44,003 - DEBUG - Disconnecting from Server
+2017-08-22 17:43:45,012 - DEBUG - Start Bollinger Band Calculation
+2017-08-22 17:43:45,019 - DEBUG - Connecting to Database again
+2017-08-22 17:43:45,489 - DEBUG - ran select statement to get prices for calc
+2017-08-22 17:43:45,497 - DEBUG - Got StdDev. (None,)
+2017-08-22 17:43:46,367 - DEBUG - Got Max ID. (1,)
+2017-08-22 17:43:46,375 - DEBUG - &&&&&&&&&&& END &&&&&&&&& Band Calculation
+2017-08-22 17:43:52,059 - DEBUG - ****************************************************
+2017-08-22 17:43:52,062 - DEBUG - StartingLE
+2017-08-22 17:43:52,075 - DEBUG - Connecting to Server
+2017-08-22 17:43:53,084 - DEBUG - Registered HistoricalData Reply Handler
+2017-08-22 17:43:54,094 - DEBUG - Requesting historical data
+2017-08-22 17:43:54,108 - DEBUG - Returned from Reply Handler
+2017-08-22 17:43:55,118 - DEBUG - Disconnecting from Server
+2017-08-22 17:43:56,128 - DEBUG - Start Bollinger Band Calculation
+2017-08-22 17:43:56,138 - DEBUG - Connecting to Database again
+2017-08-22 17:43:57,351 - DEBUG - ran select statement to get prices for calc
+2017-08-22 17:43:57,364 - DEBUG - Got StdDev. (None,)
+2017-08-22 17:43:57,430 - DEBUG - Got Max ID. (1,)
+2017-08-22 17:43:57,440 - DEBUG - &&&&&&&&&&& END &&&&&&&&& Band Calculation
+2017-08-22 17:44:18,664 - DEBUG - ****************************************************
+2017-08-22 17:44:18,670 - DEBUG - StartingLE
+2017-08-22 17:44:18,684 - DEBUG - Connecting to Server
+2017-08-22 17:44:19,697 - DEBUG - Registered HistoricalData Reply Handler
+2017-08-22 17:44:20,710 - DEBUG - Requesting historical data
+2017-08-22 17:44:20,724 - DEBUG - Returned from Reply Handler
+2017-08-22 17:44:21,734 - DEBUG - Disconnecting from Server
+2017-08-22 17:44:22,744 - DEBUG - Start Bollinger Band Calculation
+2017-08-22 17:44:22,756 - DEBUG - Connecting to Database again
+2017-08-22 17:44:23,285 - DEBUG - ran select statement to get prices for calc
+2017-08-22 17:44:23,298 - DEBUG - Got StdDev. (None,)
+2017-08-22 17:44:23,361 - DEBUG - Got Max ID. (1,)
+2017-08-22 17:44:23,377 - DEBUG - &&&&&&&&&&& END &&&&&&&&& Band Calculation
+2017-08-22 17:45:01,513 - DEBUG - ****************************************************
+2017-08-22 17:45:01,519 - DEBUG - StartingLC
+2017-08-22 17:45:01,536 - DEBUG - Connecting to Server
+2017-08-22 17:45:02,549 - DEBUG - Registered HistoricalData Reply Handler
+2017-08-22 17:45:03,565 - DEBUG - Requesting historical data
+2017-08-22 17:45:03,578 - DEBUG - Returned from Reply Handler
+2017-08-22 17:45:04,595 - DEBUG - Disconnecting from Server
+2017-08-22 17:45:05,608 - DEBUG - Start Bollinger Band Calculation
+2017-08-22 17:45:05,621 - DEBUG - Connecting to Database again
+2017-08-22 17:45:06,121 - DEBUG - ran select statement to get prices for calc
+2017-08-22 17:45:06,128 - DEBUG - Got StdDev. (None,)
+2017-08-22 17:45:06,220 - DEBUG - Got Max ID. (1,)
+2017-08-22 17:45:06,239 - DEBUG - &&&&&&&&&&& END &&&&&&&&& Band Calculation
+2017-08-22 17:45:11,039 - DEBUG - ****************************************************
+2017-08-22 17:45:11,052 - DEBUG - StartingLE
+2017-08-22 17:45:11,088 - DEBUG - Connecting to Server
+2017-08-22 17:45:12,096 - DEBUG - Registered HistoricalData Reply Handler
+2017-08-22 17:45:13,105 - DEBUG - Requesting historical data
+2017-08-22 17:45:13,131 - DEBUG - Returned from Reply Handler
+2017-08-22 17:45:14,140 - DEBUG - Disconnecting from Server
+2017-08-22 17:45:15,155 - DEBUG - Start Bollinger Band Calculation
+2017-08-22 17:45:15,174 - DEBUG - Connecting to Database again
+2017-08-22 17:45:15,663 - DEBUG - ran select statement to get prices for calc
+2017-08-22 17:45:15,680 - DEBUG - Got StdDev. (None,)
+2017-08-22 17:45:15,744 - DEBUG - Got Max ID. (1,)
+2017-08-22 17:45:15,757 - DEBUG - &&&&&&&&&&& END &&&&&&&&& Band Calculation
+2017-08-22 17:51:24,032 - DEBUG - ****************************************************
+2017-08-22 17:51:24,051 - DEBUG - StartingES
+2017-08-22 17:51:24,072 - DEBUG - Connecting to Server
+2017-08-22 17:51:25,085 - DEBUG - Registered HistoricalData Reply Handler
+2017-08-22 17:51:26,102 - DEBUG - Requesting historical data
+2017-08-22 17:51:26,121 - DEBUG - Returned from Reply Handler
+2017-08-22 17:51:26,221 - DEBUG - Reply is <historicalData reqId=6, date=20170822  16:55:00, open=2451.75, high=2451.75, low=2451.5, close=2451.75, volume=-1, count=-1, WAP=-1.0, hasGaps=False>
+2017-08-22 17:51:26,260 - DEBUG - Valid Price Found OPEN NOT negative one
+2017-08-22 17:51:26,720 - DEBUG - Connected to Database
+2017-08-22 17:51:26,812 - DEBUG - Ran Insert Script
+2017-08-22 17:51:26,821 - DEBUG - Reply is <historicalData reqId=6, date=finished-20170822  17:50:30-20170822  17:51:30, open=-1, high=-1, low=-1, close=-1, volume=-1, count=-1, WAP=-1, hasGaps=False>
+2017-08-22 17:51:27,132 - DEBUG - Disconnecting from Server
+2017-08-22 17:51:28,151 - DEBUG - Start Bollinger Band Calculation
+2017-08-22 17:51:28,168 - DEBUG - Connecting to Database again
+2017-08-22 17:51:28,448 - DEBUG - ran select statement to get prices for calc
+2017-08-22 17:51:28,467 - DEBUG - Got StdDev. (1.44455,)
+2017-08-22 17:51:28,549 - DEBUG - Got Max ID. (168,)
+2017-08-22 17:51:28,569 - DEBUG - Over 20 entries, can now print BB
+2017-08-22 17:51:28,585 - DEBUG - Query is . Select round(Avg(Close),5) as Average from FUT_BB_ES where ID BETWEEN ((SELECT MAX(ID) as max_ID FROM FUT_BB_ES)-20) and (SELECT MAX(ID) as max_ID FROM FUT_BB_ES);
+2017-08-22 17:51:28,644 - DEBUG - Past query
+2017-08-22 17:51:28,665 - DEBUG - In For Loop
+2017-08-22 17:51:28,680 - DEBUG - Average is (2448.60714,)
+2017-08-22 17:51:28,690 - DEBUG - Average is <type 'tuple'>
+2017-08-22 17:51:28,697 - DEBUG - BBAverage is 2448.60
+2017-08-22 17:51:28,704 - DEBUG - BBAverage is <type 'str'>
+2017-08-22 17:51:28,711 - DEBUG - Out of For Loop
+2017-08-22 17:51:28,720 - DEBUG - tStdDev[0] is 1.44455
+2017-08-22 17:51:28,727 - DEBUG - tStdDev[0] is <type 'float'>
+2017-08-22 17:51:28,734 - DEBUG - BBAverage is 2448.60
+2017-08-22 17:51:28,743 - DEBUG - BBAverage is <type 'str'>
+2017-08-22 17:51:28,750 - DEBUG - std dev 2 is 2.8891
+2017-08-22 17:51:28,757 - DEBUG - tUpperBand 2451.48
+2017-08-22 17:51:28,766 - DEBUG - Upper is . 2451.48
+2017-08-22 17:51:28,790 - DEBUG - Lower is . 2445.71
+2017-08-22 17:51:28,799 - DEBUG - Query is Update FUT_BB_ES set UpperBand = 2451.48, LowerBand = 2445.71, MidLine = 2448.60 where ID = 168;
+2017-08-22 17:51:28,913 - DEBUG - &&&&&&&&&&& END &&&&&&&&& Band Calculation
+2017-08-22 17:52:28,851 - DEBUG - ****************************************************
+2017-08-22 17:52:28,868 - DEBUG - StartingLE
+2017-08-22 17:52:28,890 - DEBUG - Connecting to Server
+2017-08-22 17:52:29,905 - DEBUG - Registered HistoricalData Reply Handler
+2017-08-22 17:52:30,924 - DEBUG - Requesting historical data
+2017-08-22 17:52:30,950 - DEBUG - Returned from Reply Handler
+2017-08-22 17:52:31,023 - DEBUG - Reply is <historicalData reqId=6, date=20170822  14:00:00, open=110.1, high=110.15, low=110.0, close=110.05, volume=-1, count=-1, WAP=-100.0, hasGaps=False>
+2017-08-22 17:52:31,040 - DEBUG - Valid Price Found OPEN NOT negative one
+2017-08-22 17:52:31,460 - DEBUG - Connected to Database
+2017-08-22 17:52:31,609 - DEBUG - Ran Insert Script
+2017-08-22 17:52:31,631 - DEBUG - Reply is <historicalData reqId=6, date=finished-20170822  17:51:36-20170822  17:52:36, open=-1, high=-1, low=-1, close=-1, volume=-1, count=-1, WAP=-1, hasGaps=False>
+2017-08-22 17:52:31,963 - DEBUG - Disconnecting from Server
+2017-08-22 17:52:32,986 - DEBUG - Start Bollinger Band Calculation
+2017-08-22 17:52:33,006 - DEBUG - Connecting to Database again
+2017-08-22 17:52:33,203 - DEBUG - ran select statement to get prices for calc
+2017-08-22 17:52:33,223 - DEBUG - Got StdDev. (0.0,)
+2017-08-22 17:52:33,292 - DEBUG - Got Max ID. (2,)
+2017-08-22 17:52:33,308 - DEBUG - &&&&&&&&&&& END &&&&&&&&& Band Calculation

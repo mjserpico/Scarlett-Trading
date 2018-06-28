@@ -1,0 +1,21 @@
+2017-07-17 15:47:36,099 - DEBUG - ****************************************************
+2017-07-17 15:47:36,211 - DEBUG - Connected To Database
+2017-07-17 15:47:36,213 - DEBUG - Product set to M6A
+2017-07-17 15:47:36,214 - DEBUG - Connecting to Server
+2017-07-17 15:47:38,231 - DEBUG - Product set to M6B
+2017-07-17 15:47:38,231 - DEBUG - Connecting to Server
+2017-07-17 15:47:40,231 - DEBUG - Product set to ES
+2017-07-17 15:47:40,231 - DEBUG - Connecting to Server
+2017-07-17 15:47:42,238 - DEBUG - Product set to M6E
+2017-07-17 15:47:42,238 - DEBUG - Connecting to Server
+2017-07-17 15:48:54,933 - DEBUG - ****************************************************
+2017-07-17 15:48:54,964 - DEBUG - Connected To Database
+2017-07-17 15:48:54,964 - DEBUG - Product set to M6A
+2017-07-17 15:48:54,964 - DEBUG - Connecting to Server
+2017-07-17 15:48:56,975 - DEBUG - Product set to M6B
+2017-07-17 15:48:56,975 - DEBUG - Connecting to Server
+2017-07-17 15:48:59,005 - DEBUG - Product set to ES
+2017-07-17 15:48:59,005 - DEBUG - Connecting to Server
+2017-07-17 15:49:01,012 - DEBUG - Product set to M6E
+2017-07-17 15:49:01,012 - DEBUG - Connecting to Server
+2017-07-17 15:49:03,036 - DEBUG - Query is SELECT Leg1_Month from RolloverExpiry where Product ='-1';

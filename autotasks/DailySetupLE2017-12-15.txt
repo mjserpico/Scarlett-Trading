@@ -1,0 +1,101 @@
+2017-12-15 09:33:00,360 - DEBUG - ****************************************************
+2017-12-15 09:33:00,360 - DEBUG - Starting BB_STRAT L E
+2017-12-15 09:33:00,401 - DEBUG - Connecting To Database
+2017-12-15 09:33:00,403 - DEBUG - Has Position is ('0',)
+2017-12-15 09:33:00,403 - DEBUG - Query is SELECT BB_Position from hasPosition where CCY ='LE';
+2017-12-15 09:33:00,405 - DEBUG - count is 0
+2017-12-15 09:33:00,406 - DEBUG - Stop Loss pips is (10.0,)
+2017-12-15 09:33:00,408 - DEBUG - Profit Target Pips is (25.0,)
+2017-12-15 09:33:00,408 - DEBUG - Profit Target Pips type is <class 'tuple'>
+2017-12-15 09:33:00,409 - DEBUG - AcctBalanceBasis is (10000.0,)
+2017-12-15 09:33:00,411 - DEBUG - BB_SizeMultiplier is (0.0,)
+2017-12-15 09:33:00,412 - DEBUG - CurrentPositions is (0.0,)
+2017-12-15 09:33:00,413 - DEBUG - stopLoss is (10.0,)
+2017-12-15 09:33:00,414 - DEBUG - profitTarget is (25.0,)
+2017-12-15 09:33:00,415 - DEBUG - MovAvg is ('122.20',)
+2017-12-15 09:33:00,416 - DEBUG - MAX ID Query is SELECT max(ID) from LE;
+2017-12-15 09:33:00,417 - DEBUG - ID for time period is (104,)
+2017-12-15 09:33:00,417 - DEBUG - query for time period is SELECT Open from LE where ID = 104;
+2017-12-15 09:33:00,418 - DEBUG - tOpen for time period is ('118.5',)
+2017-12-15 09:33:00,420 - DEBUG - tHigh for time period is ('119.9',)
+2017-12-15 09:33:00,421 - DEBUG - tLow for time period is ('118.25',)
+2017-12-15 09:33:00,422 - DEBUG - tClose for time period is ('119.375',)
+2017-12-15 09:33:00,424 - DEBUG - Master Fill is (0.0,)
+2017-12-15 09:33:00,424 - DEBUG - Today is 2017-12-15
+2017-12-15 09:33:00,425 - DEBUG - Previous trading day was 12/14/2017
+2017-12-15 09:33:00,425 - DEBUG - Max Id - 1 SELECT (max(ID)-1) from LE;
+2017-12-15 09:33:00,426 - DEBUG - ID for Last trading period--1 Day ago-- is (103,)
+2017-12-15 09:33:00,427 - DEBUG - query is SELECT Open from LE where ID = 103;
+2017-12-15 09:33:00,428 - DEBUG - yOpen for last time period was ('119.375',)
+2017-12-15 09:33:00,428 - DEBUG - query is SELECT High from LE where ID = 103;
+2017-12-15 09:33:00,429 - DEBUG - yHigh for last time period was ('120.0',)
+2017-12-15 09:33:00,430 - DEBUG - query is SELECT Low from LE where ID = 103;
+2017-12-15 09:33:00,431 - DEBUG - yLow for last time period was ('118.15',)
+2017-12-15 09:33:00,431 - DEBUG - query is SELECT Close from LE where ID = 103;
+2017-12-15 09:33:00,433 - DEBUG - yClose for last time period was ('118.4',)
+2017-12-15 09:33:00,433 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='LE';
+2017-12-15 09:33:00,434 - DEBUG - BBEntry Pending is ('0',)
+2017-12-15 09:33:00,434 - DEBUG - Max Order query is SELECT max(idOrder) from Orders;
+2017-12-15 09:33:00,436 - DEBUG - Order Id for next trade is 30
+2017-12-15 09:33:00,436 - DEBUG - Today High is ('119.9',)
+2017-12-15 09:33:00,436 - DEBUG - Today Low is ('118.25',)
+2017-12-15 09:33:00,436 - DEBUG - Position Size for trade is 1
+2017-12-15 09:33:00,437 - DEBUG - STRATEGY LOGIC !!!!!!
+2017-12-15 09:33:00,437 - DEBUG - Current Position is (0.0,)
+2017-12-15 09:33:00,437 - DEBUG - There is an available position slot for LE
+2017-12-15 09:33:00,437 - DEBUG - Checking for Longs
+2017-12-15 09:33:00,438 - DEBUG - tCLose is 119.375
+2017-12-15 09:33:00,438 - DEBUG - MovAvg is 122.2
+2017-12-15 09:33:00,438 - DEBUG - yClose is 118.4
+2017-12-15 09:33:00,438 - DEBUG - yOpen is 119.375
+2017-12-15 09:33:00,439 - DEBUG - yLow is 118.15
+2017-12-15 09:33:00,439 - DEBUG - Current Position is (0.0,)
+2017-12-15 09:33:00,439 - DEBUG - Checking for Long trade entry
+2017-12-15 09:33:00,439 - DEBUG - Past Long Function
+2017-12-15 09:33:00,439 - DEBUG - time is 09:33AM
+2017-12-15 09:33:00,440 - DEBUG - Checking Short value
+2017-12-15 09:33:00,440 - DEBUG - tCLose is 119.375
+2017-12-15 09:33:00,440 - DEBUG - MovAvg is 122.2
+2017-12-15 09:33:00,440 - DEBUG - yClose is 118.4
+2017-12-15 09:33:00,441 - DEBUG - yOpen is 119.375
+2017-12-15 09:33:00,441 - DEBUG - yLow is 118.15
+2017-12-15 09:33:00,441 - DEBUG - Current Position is (0.0,)
+2017-12-15 09:33:00,441 - DEBUG - Checking for SHORT trade entry
+2017-12-15 09:33:00,441 - DEBUG - Valid ShortEntry Found
+2017-12-15 09:33:00,448 - DEBUG - Connected to database
+2017-12-15 09:33:00,448 - DEBUG - Reply: <openOrder orderId=29, contract=<ib.ext.Contract.Contract object at 0x00000000020189E8>, order=<ib.ext.Order.Order object at 0x0000000002018A20>, orderState=<ib.ext.OrderState.OrderState object at 0x0000000002018D30>>
+2017-12-15 09:33:00,449 - DEBUG - Query is UPDATE hasPosition SET BBEntryPending = 1 where CCY ='LE';
+2017-12-15 09:33:00,449 - DEBUG - Reply: <orderStatus orderId=29, status=PreSubmitted, filled=0, remaining=10, avgFillPrice=0.0, permId=318989850, parentId=0, lastFillPrice=0.0, clientId=999, whyHeld=locate,trigger>
+2017-12-15 09:33:00,451 - DEBUG - Reply: <openOrder orderId=28, contract=<ib.ext.Contract.Contract object at 0x0000000002018CF8>, order=<ib.ext.Order.Order object at 0x0000000002018D30>, orderState=<ib.ext.OrderState.OrderState object at 0x0000000002018D68>>
+2017-12-15 09:33:00,451 - DEBUG - Reply: <orderStatus orderId=28, status=PreSubmitted, filled=0, remaining=1, avgFillPrice=0.0, permId=318989849, parentId=0, lastFillPrice=0.0, clientId=999, whyHeld=locate,trigger>
+2017-12-15 09:33:00,452 - DEBUG - Reply: <openOrderEnd>
+2017-12-15 09:33:00,452 - DEBUG - Reply: <managedAccounts accountsList=U1998629>
+2017-12-15 09:33:00,453 - DEBUG - Reply: <nextValidId orderId=30>
+2017-12-15 09:33:00,464 - DEBUG - In Short Order Function
+2017-12-15 09:33:00,464 - DEBUG - Limit Value is 1
+2017-12-15 09:33:00,464 - DEBUG - In Limit is 1 subfunction
+2017-12-15 09:33:00,464 - DEBUG - In Sell subfunction
+2017-12-15 09:33:00,465 - DEBUG - Buy Stop Limit"Limit" Price or better to buy 118.200
+2017-12-15 09:33:00,465 - DEBUG - Stop Price: 118.200
+2017-12-15 09:33:00,465 - DEBUG - transmitted order
+2017-12-15 09:33:00,467 - DEBUG - Order placed for short
+2017-12-15 09:33:00,484 - DEBUG - New Current Position is 1.0
+2017-12-15 09:33:00,485 - DEBUG - Query is UPDATE RiskParameters SET RiskParametersValue= 1.0 WHERE idRiskParameters='5'
+2017-12-15 09:33:00,501 - DEBUG - Query is UPDATE hasPosition SET BB_EntryID = 30 WHERE CCY ='LE';
+2017-12-15 09:33:00,502 - DEBUG - Reply: <openOrder orderId=30, contract=<ib.ext.Contract.Contract object at 0x0000000002018CF8>, order=<ib.ext.Order.Order object at 0x00000000020189B0>, orderState=<ib.ext.OrderState.OrderState object at 0x0000000002018FD0>>
+2017-12-15 09:33:00,503 - DEBUG - Reply: <orderStatus orderId=30, status=PreSubmitted, filled=0, remaining=1, avgFillPrice=0.0, permId=318989851, parentId=0, lastFillPrice=0.0, clientId=999, whyHeld=locate,trigger>
+2017-12-15 09:33:00,515 - DEBUG - hasPosition query is UPDATE hasPosition SET BB_EntryPrice = 118.2 WHERE CCY ='LE';
+2017-12-15 09:33:00,528 - DEBUG - hasPosition Entry Price set to 118.2 
+2017-12-15 09:33:00,528 - DEBUG - 107.25
+2017-12-15 09:33:00,528 - DEBUG - query is UPDATE hasPosition SET BB_ProfitPrice = 107.25 WHERE CCY ='LE'; 
+2017-12-15 09:33:00,541 - DEBUG - HasPosition table set ProfitPrice to 107.25
+2017-12-15 09:33:00,555 - DEBUG - HasPosition table set ProfitID to 30
+2017-12-15 09:33:00,556 - DEBUG - hasPosition query is UPDATE hasPosition SET BB_StopLossVal = 120.15 WHERE CCY ='LE';
+2017-12-15 09:33:00,567 - DEBUG - Stop Loss Value set to 120.15
+2017-12-15 09:33:00,569 - DEBUG - hasPosition query is UPDATE hasPosition SET BB_StopQty = 1 WHERE CCY ='LE';
+2017-12-15 09:33:00,581 - DEBUG - Stop Loss Quantity set to 1
+2017-12-15 09:33:00,584 - DEBUG - hasPosition query is UPDATE hasPosition SET BB_direction = 'Short' WHERE CCY ='LE';
+2017-12-15 09:33:00,596 - DEBUG - Direction set to Short
+2017-12-15 09:33:00,596 - DEBUG - Database disconnected
+2017-12-15 09:33:00,597 - DEBUG - Past Short function
+2017-12-15 09:33:00,597 - DEBUG - %%%%%%% END STRATEGY LE

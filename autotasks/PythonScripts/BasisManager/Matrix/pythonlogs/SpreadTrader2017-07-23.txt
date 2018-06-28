@@ -1,0 +1,1543 @@
+2017-07-23 15:41:46,499 - DEBUG - ****************************************************
+2017-07-23 15:41:47,201 - DEBUG - Connected To Database
+2017-07-23 15:41:47,203 - DEBUG - Product set to M6A
+2017-07-23 15:41:47,206 - DEBUG - Connecting to Server
+2017-07-23 15:41:49,207 - DEBUG - Product set to M6B
+2017-07-23 15:41:49,210 - DEBUG - Connecting to Server
+2017-07-23 15:41:51,211 - DEBUG - Product set to ES
+2017-07-23 15:41:51,213 - DEBUG - Connecting to Server
+2017-07-23 15:41:53,217 - DEBUG - Product set to M6E
+2017-07-23 15:41:53,219 - DEBUG - Connecting to Server
+2017-07-23 15:41:55,221 - DEBUG - Query is SELECT Leg1_Month from RolloverExpiry where Product ='-1';
+2017-07-23 15:42:27,447 - DEBUG - ****************************************************
+2017-07-23 15:42:27,448 - DEBUG - Starting SpreadTrader M6A
+2017-07-23 15:42:27,915 - DEBUG - Connected To Database
+2017-07-23 15:42:27,921 - DEBUG - Product set to M6A
+2017-07-23 15:42:27,924 - DEBUG - Connecting to Server
+2017-07-23 15:42:29,927 - DEBUG - Product set to M6B
+2017-07-23 15:42:29,930 - DEBUG - Connecting to Server
+2017-07-23 15:42:31,934 - DEBUG - Product set to ES
+2017-07-23 15:42:31,938 - DEBUG - Connecting to Server
+2017-07-23 15:42:33,943 - DEBUG - Product set to M6E
+2017-07-23 15:42:33,946 - DEBUG - Connecting to Server
+2017-07-23 15:42:35,950 - DEBUG - Query is SELECT Leg1_Month from RolloverExpiry where Product ='-1';
+2017-07-23 15:44:31,250 - DEBUG - ****************************************************
+2017-07-23 15:44:31,252 - DEBUG - Starting SpreadTrader M6A
+2017-07-23 15:44:34,959 - DEBUG - Connected To Database
+2017-07-23 15:44:34,964 - DEBUG - Product set to M6A
+2017-07-23 15:44:34,971 - DEBUG - Connecting to Server
+2017-07-23 15:44:36,977 - DEBUG - Product set to M6B
+2017-07-23 15:44:36,983 - DEBUG - Connecting to Server
+2017-07-23 15:44:38,990 - DEBUG - Product set to ES
+2017-07-23 15:44:38,994 - DEBUG - Connecting to Server
+2017-07-23 15:44:41,000 - DEBUG - Product set to M6E
+2017-07-23 15:44:41,006 - DEBUG - Connecting to Server
+2017-07-23 15:44:43,012 - DEBUG - Query is SELECT Leg1_Month from RolloverExpiry where Product ='-1';
+2017-07-23 15:46:03,565 - DEBUG - ****************************************************
+2017-07-23 15:46:03,569 - DEBUG - Starting SpreadTrader M6A
+2017-07-23 15:46:04,121 - DEBUG - Connected To Database
+2017-07-23 15:46:04,125 - DEBUG - Product set to M6A
+2017-07-23 15:46:04,130 - DEBUG - Connecting to Server
+2017-07-23 15:46:06,134 - DEBUG - Product set to M6B
+2017-07-23 15:46:06,141 - DEBUG - Connecting to Server
+2017-07-23 15:46:08,145 - DEBUG - Product set to ES
+2017-07-23 15:46:08,153 - DEBUG - Connecting to Server
+2017-07-23 15:46:10,160 - DEBUG - Product set to M6E
+2017-07-23 15:46:10,167 - DEBUG - Connecting to Server
+2017-07-23 15:46:12,174 - DEBUG - Query is SELECT Leg1_Month from RolloverExpiry where Product ='-1';
+2017-07-23 15:48:05,256 - DEBUG - ****************************************************
+2017-07-23 15:48:05,257 - DEBUG - Starting SpreadTrader M6A
+2017-07-23 15:48:05,736 - DEBUG - Connected To Database
+2017-07-23 15:48:05,737 - DEBUG - Product set to M6A
+2017-07-23 15:48:05,740 - DEBUG - Connecting to Server
+2017-07-23 15:48:07,742 - DEBUG - Product set to M6B
+2017-07-23 15:48:07,743 - DEBUG - Connecting to Server
+2017-07-23 15:48:09,744 - DEBUG - Product set to ES
+2017-07-23 15:48:09,746 - DEBUG - Connecting to Server
+2017-07-23 15:48:11,747 - DEBUG - Product set to M6E
+2017-07-23 15:48:11,749 - DEBUG - Connecting to Server
+2017-07-23 15:48:13,750 - DEBUG - Query is SELECT Leg1_Month from RolloverExpiry where Product ='-1';
+2017-07-23 15:48:18,634 - DEBUG - ****************************************************
+2017-07-23 15:48:18,635 - DEBUG - Starting Daily Bull Bear M6 E
+2017-07-23 15:48:18,638 - DEBUG - Connecting To Database
+2017-07-23 15:48:19,072 - DEBUG - Connected To Database
+2017-07-23 15:48:19,075 - DEBUG - Query is SELECT Count from hasPosition where CCY ='M6E';
+2017-07-23 15:48:19,104 - DEBUG - count is 0
+2017-07-23 15:48:19,108 - DEBUG - Query is SELECT BB_Position from hasPosition where CCY ='M6E';
+2017-07-23 15:48:19,138 - DEBUG - count is 0
+2017-07-23 15:48:19,141 - DEBUG - Query is SELECT RiskParametersValue from RiskParameters where idRiskParameters = 5
+2017-07-23 15:48:19,171 - DEBUG - Max Positions (0.0,)
+2017-07-23 15:48:19,174 - DEBUG - Query is SELECT RiskParametersValue from RiskParameters where idRiskParameters = 1
+2017-07-23 15:48:19,203 - DEBUG - totalRiskPercent is (0.05,)
+2017-07-23 15:48:19,226 - DEBUG - riskPerPosition is (0.01,)
+2017-07-23 15:48:19,253 - DEBUG - AcctBalanceBasis is (10000.0,)
+2017-07-23 15:48:19,283 - DEBUG - MaxPositions is (100000.0,)
+2017-07-23 15:48:19,312 - DEBUG - MaxPositions is (100000.0,)
+2017-07-23 15:48:19,336 - DEBUG - RiskRewardRatio is (2.0,)
+2017-07-23 15:48:19,367 - DEBUG - stopLoss is (0.01,)
+2017-07-23 15:48:19,398 - DEBUG - profitTarget is (0.02,)
+2017-07-23 15:48:19,430 - DEBUG - MovingAvg is (50.0,)
+2017-07-23 15:48:19,467 - DEBUG - Breakeven Val is (0.6,)
+2017-07-23 15:48:19,492 - DEBUG - tOpen is 0.0
+2017-07-23 15:48:19,519 - DEBUG - tHigh is 0.0
+2017-07-23 15:48:19,549 - DEBUG - tLow is 0.0
+2017-07-23 15:48:19,592 - DEBUG - tClose is 0.0
+2017-07-23 15:48:19,595 - DEBUG - Yesterday2 was 07/22/2017
+2017-07-23 15:48:19,622 - DEBUG - yOpen is 0.0
+2017-07-23 15:48:19,657 - DEBUG - yHigh is 0.0
+2017-07-23 15:48:19,683 - DEBUG - yLow is 0.0
+2017-07-23 15:48:41,200 - DEBUG - Starting MCD Daily OHLC
+2017-07-23 15:48:44,703 - DEBUG - Connecting to Server
+2017-07-23 15:48:45,709 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-23 15:48:46,714 - DEBUG - Requesting historical data
+2017-07-23 15:48:46,736 - DEBUG - Returned from Reply Handler
+2017-07-23 15:48:46,839 - DEBUG - test5 -1
+2017-07-23 15:48:46,842 - DEBUG - In Reply Handler
+2017-07-23 15:48:46,845 - DEBUG - Valid Price Found (OPEN NOT -1)
+2017-07-23 15:48:47,234 - DEBUG - Connected to Database
+2017-07-23 15:48:47,318 - DEBUG - Ran Insert Script
+2017-07-23 15:48:47,325 - DEBUG - Yesterday2 was 07/22/2017
+2017-07-23 15:48:47,332 - DEBUG - Today is still  2017-07-23
+2017-07-23 15:48:47,338 - DEBUG - Date shifted back 10 is 2017-07-10
+2017-07-23 15:48:47,345 - DEBUG - First Date of BB Moving Average is 07/10/2017
+2017-07-23 15:48:47,349 - DEBUG - Query is SELECT ID from MCD where Date = "07/22/2017"
+2017-07-23 15:48:47,384 - DEBUG - Query is SELECT ID from MCD where Date = "07/10/2017"
+2017-07-23 15:48:47,436 - ERROR - Exception in message dispatch.  Handler 'reply_handler' for 'historicalData'
+Traceback (most recent call last):
+  File "C:\Program Files\Anaconda2\lib\site-packages\ib\opt\dispatcher.py", line 44, in __call__
+    results.append(listener(message))
+  File "C:/Users/Michael/Documents/GitHub/Autotasks/autotasks/PythonScripts/MCDdailyOHLC.py", line 124, in reply_handler
+    logger.debug('BB ID1 is %s', ID1)
+UnboundLocalError: local variable 'ID1' referenced before assignment
+2017-07-23 15:48:47,444 - DEBUG - test5 -1
+2017-07-23 15:48:47,450 - DEBUG - In Reply Handler
+2017-07-23 15:48:47,750 - DEBUG - Disconnecting from Server
+2017-07-23 15:48:57,657 - DEBUG - Connecting to Server
+2017-07-23 15:48:58,670 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-23 15:48:59,674 - DEBUG - Requesting historical data
+2017-07-23 15:48:59,687 - DEBUG - Returned from Reply Handler
+2017-07-23 15:48:59,760 - DEBUG - test5 -1
+2017-07-23 15:48:59,765 - DEBUG - In Reply Handler
+2017-07-23 15:48:59,769 - DEBUG - Valid Price Found (OPEN NOT -1)
+2017-07-23 15:49:00,234 - DEBUG - Connected to Database
+2017-07-23 15:49:00,693 - DEBUG - Disconnecting from Server
+2017-07-23 15:49:01,542 - DEBUG - Ran Insert Script
+2017-07-23 15:49:01,549 - DEBUG - Yesterday2 was 07/22/2017
+2017-07-23 15:49:01,556 - DEBUG - Today is still  2017-07-23
+2017-07-23 15:49:01,562 - DEBUG - Date shifted back 10 is 2017-07-10
+2017-07-23 15:49:01,566 - DEBUG - First Date of BB Moving Average is 07/10/2017
+2017-07-23 15:49:01,571 - DEBUG - Query is SELECT ID from MCD where Date = "07/22/2017"
+2017-07-23 15:49:01,595 - DEBUG - Query is SELECT ID from MCD where Date = "07/10/2017"
+2017-07-23 15:49:01,619 - ERROR - Exception in message dispatch.  Handler 'reply_handler' for 'historicalData'
+Traceback (most recent call last):
+  File "C:\Program Files\Anaconda2\lib\site-packages\ib\opt\dispatcher.py", line 44, in __call__
+    results.append(listener(message))
+  File "C:/Users/Michael/Documents/GitHub/Autotasks/autotasks/PythonScripts/MCDdailyOHLC.py", line 124, in reply_handler
+    logger.debug('BB ID1 is %s', ID1)
+UnboundLocalError: local variable 'ID1' referenced before assignment
+2017-07-23 15:49:01,624 - DEBUG - test5 -1
+2017-07-23 15:49:01,627 - DEBUG - In Reply Handler
+2017-07-23 15:49:05,049 - DEBUG - Connecting to Server
+2017-07-23 15:49:06,052 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-23 15:50:41,888 - DEBUG - ****************************************************
+2017-07-23 15:50:41,891 - DEBUG - Starting SpreadTrader M6A
+2017-07-23 15:50:42,447 - DEBUG - Connected To Database
+2017-07-23 15:50:42,456 - DEBUG - Product set to M6A
+2017-07-23 15:50:44,464 - DEBUG - Product set to M6B
+2017-07-23 15:50:46,473 - DEBUG - Product set to ES
+2017-07-23 15:50:48,480 - DEBUG - Product set to M6E
+2017-07-23 15:50:50,487 - DEBUG - Query is SELECT Leg1_Month from RolloverExpiry where Product ='-1';
+2017-07-23 15:51:34,638 - DEBUG - ****************************************************
+2017-07-23 15:51:34,641 - DEBUG - Starting SpreadTrader M6A
+2017-07-23 15:51:35,073 - DEBUG - Connected To Database
+2017-07-23 15:51:35,085 - DEBUG - Product set to M6A
+2017-07-23 15:51:36,096 - DEBUG - Product set to M6A
+2017-07-23 15:51:37,108 - DEBUG - Product set to M6A
+2017-07-23 15:51:38,118 - DEBUG - Product set to M6A
+2017-07-23 15:51:39,128 - DEBUG - Product set to M6A
+2017-07-23 15:51:40,138 - DEBUG - Product set to M6A
+2017-07-23 15:51:41,148 - DEBUG - Product set to M6A
+2017-07-23 15:51:42,158 - DEBUG - Product set to M6A
+2017-07-23 15:51:43,171 - DEBUG - Product set to M6A
+2017-07-23 15:51:44,183 - DEBUG - Product set to M6A
+2017-07-23 15:51:45,191 - DEBUG - Product set to M6A
+2017-07-23 15:51:46,200 - DEBUG - Product set to M6A
+2017-07-23 15:51:47,211 - DEBUG - Product set to M6A
+2017-07-23 15:51:48,220 - DEBUG - Product set to M6A
+2017-07-23 15:51:49,230 - DEBUG - Product set to M6A
+2017-07-23 15:51:50,240 - DEBUG - Product set to M6A
+2017-07-23 15:51:51,250 - DEBUG - Product set to M6A
+2017-07-23 15:51:52,262 - DEBUG - Product set to M6A
+2017-07-23 15:51:53,273 - DEBUG - Product set to M6A
+2017-07-23 15:51:54,282 - DEBUG - Product set to M6A
+2017-07-23 15:51:55,293 - DEBUG - Product set to M6A
+2017-07-23 15:51:56,305 - DEBUG - Product set to M6A
+2017-07-23 15:51:57,318 - DEBUG - Product set to M6A
+2017-07-23 15:51:58,328 - DEBUG - Product set to M6A
+2017-07-23 15:51:59,341 - DEBUG - Product set to M6A
+2017-07-23 16:16:01,927 - DEBUG - ****************************************************
+2017-07-23 16:16:01,931 - DEBUG - Starting SpreadTrader M6A
+2017-07-23 16:16:02,489 - DEBUG - Connected To Database
+2017-07-23 16:16:02,499 - DEBUG - Product set to M6A
+2017-07-23 16:16:03,506 - DEBUG - Query is SELECT Leg1_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 16:17:27,792 - DEBUG - ****************************************************
+2017-07-23 16:17:27,796 - DEBUG - Starting SpreadTrader M6A
+2017-07-23 16:17:28,273 - DEBUG - Connected To Database
+2017-07-23 16:17:28,288 - DEBUG - Product set to M6A
+2017-07-23 16:17:29,301 - DEBUG - Query is SELECT Leg1_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 16:17:29,341 - DEBUG - Leg1_month is (u'U',)
+2017-07-23 16:17:29,349 - DEBUG - Query is SELECT Leg2_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 16:17:29,388 - DEBUG - Leg2_month is (u'Z',)
+2017-07-23 16:17:29,394 - DEBUG - Query is SELECT Leg1_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 16:17:29,430 - DEBUG - Leg1_action is (u'Buy',)
+2017-07-23 16:17:29,437 - DEBUG - Query is SELECT Leg2_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 16:17:29,470 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 16:17:29,477 - DEBUG - Query is SELECT Quantity from RolloverExpiry where Product ='M6A';
+2017-07-23 16:17:29,517 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 16:17:29,582 - DEBUG - Order ID for next trade is 52
+2017-07-23 16:17:29,592 - DEBUG - Connecting to Server
+2017-07-23 16:19:24,503 - DEBUG - ****************************************************
+2017-07-23 16:19:24,510 - DEBUG - Starting SpreadTrader M6A
+2017-07-23 16:19:24,802 - DEBUG - Connected To Database
+2017-07-23 16:19:24,822 - DEBUG - Product set to M6A
+2017-07-23 16:19:25,844 - DEBUG - Query is SELECT Leg1_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 16:19:25,894 - DEBUG - Leg1_month is (u'U',)
+2017-07-23 16:19:25,908 - DEBUG - Query is SELECT Leg2_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 16:19:25,950 - DEBUG - Leg2_month is (u'Z',)
+2017-07-23 16:19:25,957 - DEBUG - Query is SELECT Leg1_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 16:19:25,992 - DEBUG - Leg1_action is (u'Buy',)
+2017-07-23 16:19:25,997 - DEBUG - Query is SELECT Leg2_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 16:19:26,049 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 16:19:26,055 - DEBUG - Query is SELECT Quantity from RolloverExpiry where Product ='M6A';
+2017-07-23 16:19:26,095 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 16:19:26,140 - DEBUG - Order ID for next trade is 52
+2017-07-23 16:19:26,154 - DEBUG - Connecting to Server
+2017-07-23 16:19:27,710 - DEBUG - Reply Handler <error id=-1, errorCode=326, errorMsg=Unable connect as the client id is already in use. Retry with a unique client id.>
+2017-07-23 16:19:28,210 - DEBUG - Reply Handler <error id=None, errorCode=None, errorMsg=unpack requires a string argument of length 1>
+2017-07-23 16:19:28,240 - DEBUG - Reply Handler <connectionClosed>
+2017-07-23 16:19:38,641 - DEBUG - Reply Handler <error id=None, errorCode=None, errorMsg=unpack requires a string argument of length 1>
+2017-07-23 16:19:38,660 - DEBUG - Reply Handler <connectionClosed>
+2017-07-23 16:20:49,365 - DEBUG - ****************************************************
+2017-07-23 16:20:49,375 - DEBUG - Starting SpreadTrader M6A
+2017-07-23 16:20:52,862 - DEBUG - Connected To Database
+2017-07-23 16:20:52,881 - DEBUG - Product set to M6A
+2017-07-23 16:20:53,898 - DEBUG - Query is SELECT Leg1_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 16:20:53,950 - DEBUG - Leg1_month is (u'U',)
+2017-07-23 16:20:53,970 - DEBUG - Query is SELECT Leg2_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 16:20:54,013 - DEBUG - Leg2_month is (u'Z',)
+2017-07-23 16:20:54,028 - DEBUG - Query is SELECT Leg1_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 16:20:54,071 - DEBUG - Leg1_action is (u'Buy',)
+2017-07-23 16:20:54,079 - DEBUG - Query is SELECT Leg2_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 16:20:54,151 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 16:20:54,168 - DEBUG - Query is SELECT Quantity from RolloverExpiry where Product ='M6A';
+2017-07-23 16:20:54,230 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 16:20:54,273 - DEBUG - Order ID for next trade is 52
+2017-07-23 16:20:54,292 - DEBUG - Connecting to Server
+2017-07-23 16:20:55,990 - DEBUG - Reply Handler <managedAccounts accountsList=DU599852>
+2017-07-23 16:20:56,029 - DEBUG - Reply Handler <nextValidId orderId=1>
+2017-07-23 16:20:56,042 - DEBUG - Reply Handler <error id=-1, errorCode=2104, errorMsg=Market data farm connection is OK:usfuture>
+2017-07-23 16:20:56,065 - DEBUG - Reply Handler <error id=-1, errorCode=2104, errorMsg=Market data farm connection is OK:cashfarm>
+2017-07-23 16:20:56,128 - DEBUG - Reply Handler <error id=-1, errorCode=2104, errorMsg=Market data farm connection is OK:usfarm.us>
+2017-07-23 16:20:56,154 - DEBUG - Reply Handler <error id=-1, errorCode=2104, errorMsg=Market data farm connection is OK:usfarm>
+2017-07-23 16:20:56,177 - DEBUG - Reply Handler <error id=-1, errorCode=2106, errorMsg=HMDS data farm connection is OK:ilhmds>
+2017-07-23 16:20:56,200 - DEBUG - Reply Handler <error id=-1, errorCode=2106, errorMsg=HMDS data farm connection is OK:ushmds>
+2017-07-23 16:21:41,927 - DEBUG - Reply Handler <error id=None, errorCode=None, errorMsg=unpack requires a string argument of length 1>
+2017-07-23 16:21:41,944 - DEBUG - Reply Handler <connectionClosed>
+2017-07-23 16:40:40,107 - DEBUG - ****************************************************
+2017-07-23 16:40:40,114 - DEBUG - Starting SpreadTrader M6A
+2017-07-23 16:40:41,621 - DEBUG - Connected To Database
+2017-07-23 16:40:41,642 - DEBUG - Product set to M6A
+2017-07-23 16:40:42,654 - DEBUG - Query is SELECT Leg1_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 16:40:42,733 - DEBUG - Leg1_month is (u'U',)
+2017-07-23 16:40:42,755 - DEBUG - Query is SELECT Leg2_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 16:40:42,792 - DEBUG - Leg2_month is (u'Z',)
+2017-07-23 16:40:42,802 - DEBUG - Query is SELECT Leg1_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 16:40:42,838 - DEBUG - Leg1_action is (u'Buy',)
+2017-07-23 16:40:42,845 - DEBUG - Query is SELECT Leg2_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 16:40:42,878 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 16:40:42,888 - DEBUG - Query is SELECT Quantity from RolloverExpiry where Product ='M6A';
+2017-07-23 16:40:43,210 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 16:40:43,273 - DEBUG - Order ID for next trade is 52
+2017-07-23 16:40:43,283 - DEBUG - Connecting to Server
+2017-07-23 16:40:44,986 - DEBUG - symbol M6A
+2017-07-23 16:40:44,990 - DEBUG - Reply Handler <managedAccounts accountsList=DU599852>
+2017-07-23 16:40:45,025 - DEBUG - sec_type FUT
+2017-07-23 16:40:45,029 - DEBUG - Reply Handler <nextValidId orderId=1>
+2017-07-23 16:40:45,053 - DEBUG - exch Globex
+2017-07-23 16:40:45,059 - DEBUG - Reply Handler <error id=-1, errorCode=2104, errorMsg=Market data farm connection is OK:usfuture>
+2017-07-23 16:40:45,068 - DEBUG - prim_exch Globex
+2017-07-23 16:40:45,072 - DEBUG - Reply Handler <error id=-1, errorCode=2104, errorMsg=Market data farm connection is OK:cashfarm>
+2017-07-23 16:40:45,082 - DEBUG - month U
+2017-07-23 16:40:45,088 - DEBUG - Reply Handler <error id=-1, errorCode=2104, errorMsg=Market data farm connection is OK:usfarm.us>
+2017-07-23 16:40:45,095 - DEBUG - curr USD
+2017-07-23 16:40:45,099 - DEBUG - Reply Handler <error id=-1, errorCode=2104, errorMsg=Market data farm connection is OK:usfarm>
+2017-07-23 16:40:45,108 - DEBUG - Contract created
+2017-07-23 16:40:45,121 - DEBUG - Reply Handler <error id=-1, errorCode=2106, errorMsg=HMDS data farm connection is OK:ilhmds>
+2017-07-23 16:40:45,121 - DEBUG - Back From contract function
+2017-07-23 16:40:45,138 - DEBUG - Back from Order Function
+2017-07-23 16:40:45,138 - DEBUG - Reply Handler <error id=-1, errorCode=2106, errorMsg=HMDS data farm connection is OK:ushmds>
+2017-07-23 16:42:17,404 - DEBUG - ****************************************************
+2017-07-23 16:42:17,414 - DEBUG - Starting SpreadTrader M6A
+2017-07-23 16:42:17,640 - DEBUG - Connected To Database
+2017-07-23 16:42:17,657 - DEBUG - Product set to M6A
+2017-07-23 16:42:18,668 - DEBUG - Query is SELECT Leg1_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 16:42:18,717 - DEBUG - Leg1_month is (u'U',)
+2017-07-23 16:42:18,730 - DEBUG - Query is SELECT Leg2_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 16:42:18,766 - DEBUG - Leg2_month is (u'Z',)
+2017-07-23 16:42:18,776 - DEBUG - Query is SELECT Leg1_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 16:42:18,811 - DEBUG - Leg1_action is (u'Buy',)
+2017-07-23 16:42:18,821 - DEBUG - Query is SELECT Leg2_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 16:42:18,855 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 16:42:18,864 - DEBUG - Query is SELECT Quantity from RolloverExpiry where Product ='M6A';
+2017-07-23 16:42:18,894 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 16:42:18,930 - DEBUG - Order ID for next trade is 52
+2017-07-23 16:42:18,940 - DEBUG - Connecting to Server
+2017-07-23 16:42:21,361 - DEBUG - symbol M6A
+2017-07-23 16:42:21,411 - DEBUG - Reply Handler <error id=-1, errorCode=326, errorMsg=Unable connect as the client id is already in use. Retry with a unique client id.>
+2017-07-23 16:42:21,414 - DEBUG - sec_type FUT
+2017-07-23 16:42:21,444 - DEBUG - exch Globex
+2017-07-23 16:42:21,460 - DEBUG - prim_exch Globex
+2017-07-23 16:42:21,471 - DEBUG - month U
+2017-07-23 16:42:21,483 - DEBUG - curr USD
+2017-07-23 16:42:21,496 - DEBUG - Contract created
+2017-07-23 16:42:21,513 - DEBUG - Back From contract function
+2017-07-23 16:42:21,533 - DEBUG - Back from Order Function
+2017-07-23 16:42:21,904 - DEBUG - Reply Handler <error id=None, errorCode=None, errorMsg=unpack requires a string argument of length 1>
+2017-07-23 16:42:21,943 - DEBUG - Reply Handler <connectionClosed>
+2017-07-23 16:42:30,946 - DEBUG - Reply Handler <error id=-1, errorCode=2108, errorMsg=Market data farm connection is inactive but should be available upon demand.cashfarm>
+2017-07-23 16:42:30,970 - DEBUG - Reply Handler <error id=-1, errorCode=2108, errorMsg=Market data farm connection is inactive but should be available upon demand.cashfarm>
+2017-07-23 16:42:30,984 - DEBUG - Reply Handler <error id=-1, errorCode=2108, errorMsg=Market data farm connection is inactive but should be available upon demand.usfarm.us>
+2017-07-23 16:42:30,994 - DEBUG - Reply Handler <error id=-1, errorCode=2108, errorMsg=Market data farm connection is inactive but should be available upon demand.usfarm.us>
+2017-07-23 17:18:02,673 - DEBUG - ****************************************************
+2017-07-23 17:18:02,683 - DEBUG - Starting SpreadTrader M6A
+2017-07-23 17:18:06,237 - DEBUG - Connected To Database
+2017-07-23 17:18:06,249 - DEBUG - Product set to M6A
+2017-07-23 17:18:07,259 - DEBUG - Query is SELECT Leg1_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 17:18:07,313 - DEBUG - Leg1_month is (u'U',)
+2017-07-23 17:18:07,338 - DEBUG - Query is SELECT Leg2_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 17:18:07,391 - DEBUG - Leg2_month is (u'Z',)
+2017-07-23 17:18:07,401 - DEBUG - Query is SELECT Leg1_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 17:18:07,440 - DEBUG - Leg1_action is (u'Buy',)
+2017-07-23 17:18:07,450 - DEBUG - Query is SELECT Leg2_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 17:18:07,486 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 17:18:07,496 - DEBUG - Query is SELECT Quantity from RolloverExpiry where Product ='M6A';
+2017-07-23 17:18:07,533 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 17:18:07,601 - DEBUG - Order ID for next trade is 52
+2017-07-23 17:18:07,615 - DEBUG - Connecting to Server
+2017-07-23 17:18:09,517 - DEBUG - symbol M6A
+2017-07-23 17:18:09,519 - DEBUG - Reply Handler <error id=-1, errorCode=326, errorMsg=Unable connect as the client id is already in use. Retry with a unique client id.>
+2017-07-23 17:18:09,551 - DEBUG - sec_type FUT
+2017-07-23 17:18:09,576 - DEBUG - exch Globex
+2017-07-23 17:18:09,592 - DEBUG - prim_exch Globex
+2017-07-23 17:18:09,608 - DEBUG - month U
+2017-07-23 17:18:09,622 - DEBUG - curr USD
+2017-07-23 17:18:09,640 - DEBUG - Contract created
+2017-07-23 17:18:09,664 - DEBUG - Back From contract function
+2017-07-23 17:18:09,687 - DEBUG - Back from Order Function
+2017-07-23 17:18:09,996 - DEBUG - Reply Handler <error id=None, errorCode=None, errorMsg=unpack requires a string argument of length 1>
+2017-07-23 17:18:10,019 - DEBUG - Reply Handler <connectionClosed>
+2017-07-23 17:21:13,858 - DEBUG - ****************************************************
+2017-07-23 17:21:13,872 - DEBUG - Starting SpreadTrader M6A
+2017-07-23 17:21:14,390 - DEBUG - Connected To Database
+2017-07-23 17:21:14,414 - DEBUG - Product set to M6A
+2017-07-23 17:21:15,430 - DEBUG - Query is SELECT Leg1_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 17:21:15,496 - DEBUG - Leg1_month is (u'U',)
+2017-07-23 17:21:15,519 - DEBUG - Query is SELECT Leg2_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 17:21:15,562 - DEBUG - Leg2_month is (u'Z',)
+2017-07-23 17:21:15,572 - DEBUG - Query is SELECT Leg1_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 17:21:15,621 - DEBUG - Leg1_action is (u'Buy',)
+2017-07-23 17:21:15,631 - DEBUG - Query is SELECT Leg2_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 17:21:15,670 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 17:21:15,680 - DEBUG - Query is SELECT Quantity from RolloverExpiry where Product ='M6A';
+2017-07-23 17:21:15,740 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 17:21:15,828 - DEBUG - Order ID for next trade is 52
+2017-07-23 17:21:15,858 - DEBUG - Connecting to Server
+2017-07-23 17:21:17,836 - DEBUG - symbol M6A
+2017-07-23 17:21:17,884 - DEBUG - sec_type FUT
+2017-07-23 17:21:17,904 - DEBUG - exch Globex
+2017-07-23 17:21:17,921 - DEBUG - prim_exch Globex
+2017-07-23 17:21:17,936 - DEBUG - month U
+2017-07-23 17:21:17,947 - DEBUG - curr USD
+2017-07-23 17:21:17,961 - DEBUG - Contract created
+2017-07-23 17:21:17,976 - DEBUG - Back From contract function
+2017-07-23 17:21:17,990 - DEBUG - action (u'Buy',)
+2017-07-23 17:21:18,003 - DEBUG - qty (1,)
+2017-07-23 17:21:18,019 - DEBUG - Back from Order Function
+2017-07-23 17:21:18,334 - DEBUG - Reply Handler <error id=None, errorCode=None, errorMsg=unpack requires a string argument of length 1>
+2017-07-23 17:21:18,371 - DEBUG - Reply Handler <connectionClosed>
+2017-07-23 17:21:57,545 - DEBUG - ****************************************************
+2017-07-23 17:21:57,559 - DEBUG - Starting SpreadTrader M6A
+2017-07-23 17:21:58,153 - DEBUG - Connected To Database
+2017-07-23 17:21:58,180 - DEBUG - Product set to M6A
+2017-07-23 17:21:59,196 - DEBUG - Query is SELECT Leg1_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 17:21:59,266 - DEBUG - Leg1_month is (u'U',)
+2017-07-23 17:21:59,290 - DEBUG - Query is SELECT Leg2_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 17:21:59,332 - DEBUG - Leg2_month is (u'Z',)
+2017-07-23 17:21:59,344 - DEBUG - Query is SELECT Leg1_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 17:21:59,622 - DEBUG - Leg1_action is (u'Buy',)
+2017-07-23 17:21:59,651 - DEBUG - Query is SELECT Leg2_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 17:21:59,700 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 17:21:59,711 - DEBUG - Query is SELECT Quantity from RolloverExpiry where Product ='M6A';
+2017-07-23 17:21:59,753 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 17:21:59,805 - DEBUG - Order ID for next trade is 52
+2017-07-23 17:21:59,829 - DEBUG - Connecting to Server
+2017-07-23 17:22:01,490 - DEBUG - symbol M6A
+2017-07-23 17:22:01,540 - DEBUG - sec_type FUT
+2017-07-23 17:22:01,565 - DEBUG - exch Globex
+2017-07-23 17:22:01,582 - DEBUG - prim_exch Globex
+2017-07-23 17:22:01,592 - DEBUG - month U
+2017-07-23 17:22:01,607 - DEBUG - curr USD
+2017-07-23 17:22:01,618 - DEBUG - Contract created
+2017-07-23 17:22:01,631 - DEBUG - Back From contract function
+2017-07-23 17:22:01,642 - DEBUG - action (u'Buy',)
+2017-07-23 17:22:01,654 - DEBUG - qty (1,)
+2017-07-23 17:22:01,667 - DEBUG - Back from Order Function
+2017-07-23 17:22:01,986 - DEBUG - Reply Handler <error id=None, errorCode=None, errorMsg=unpack requires a string argument of length 1>
+2017-07-23 17:22:02,022 - DEBUG - Reply Handler <connectionClosed>
+2017-07-23 17:22:35,015 - DEBUG - ****************************************************
+2017-07-23 17:22:35,028 - DEBUG - Starting SpreadTrader M6A
+2017-07-23 17:22:36,058 - DEBUG - Connected To Database
+2017-07-23 17:22:36,092 - DEBUG - Product set to M6A
+2017-07-23 17:22:37,107 - DEBUG - Query is SELECT Leg1_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 17:22:37,174 - DEBUG - Leg1_month is (u'U',)
+2017-07-23 17:22:37,186 - DEBUG - Query is SELECT Leg2_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 17:22:37,226 - DEBUG - Leg2_month is (u'Z',)
+2017-07-23 17:22:37,237 - DEBUG - Query is SELECT Leg1_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 17:22:37,296 - DEBUG - Leg1_action is (u'Buy',)
+2017-07-23 17:22:37,321 - DEBUG - Query is SELECT Leg2_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 17:22:37,407 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 17:22:37,424 - DEBUG - Query is SELECT Quantity from RolloverExpiry where Product ='M6A';
+2017-07-23 17:22:37,483 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 17:22:37,529 - DEBUG - Order ID for next trade is 52
+2017-07-23 17:22:37,549 - DEBUG - Connecting to Server
+2017-07-23 17:22:42,118 - DEBUG - symbol M6A
+2017-07-23 17:22:42,154 - DEBUG - sec_type FUT
+2017-07-23 17:22:42,180 - DEBUG - exch Globex
+2017-07-23 17:22:42,196 - DEBUG - prim_exch Globex
+2017-07-23 17:22:42,210 - DEBUG - month U
+2017-07-23 17:22:42,223 - DEBUG - curr USD
+2017-07-23 17:22:42,236 - DEBUG - Contract created
+2017-07-23 17:22:42,247 - DEBUG - Back From contract function
+2017-07-23 17:22:42,259 - DEBUG - action Buy
+2017-07-23 17:22:42,273 - DEBUG - qty 1
+2017-07-23 17:22:42,283 - DEBUG - Back from Order Function
+2017-07-23 17:22:42,615 - DEBUG - Reply Handler <error id=None, errorCode=None, errorMsg=unpack requires a string argument of length 1>
+2017-07-23 17:22:42,638 - DEBUG - Reply Handler <connectionClosed>
+2017-07-23 17:24:00,783 - DEBUG - ****************************************************
+2017-07-23 17:24:00,798 - DEBUG - Starting SpreadTrader M6A
+2017-07-23 17:24:01,369 - DEBUG - Connected To Database
+2017-07-23 17:24:01,385 - DEBUG - Product set to M6A
+2017-07-23 17:24:02,414 - DEBUG - Query is SELECT Leg1_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 17:24:02,496 - DEBUG - Leg1_month is (u'U',)
+2017-07-23 17:24:02,516 - DEBUG - Query is SELECT Leg2_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 17:24:02,565 - DEBUG - Leg2_month is (u'Z',)
+2017-07-23 17:24:02,581 - DEBUG - Query is SELECT Leg1_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 17:24:02,880 - DEBUG - Leg1_action is (u'Buy',)
+2017-07-23 17:24:02,914 - DEBUG - Query is SELECT Leg2_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 17:24:02,973 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 17:24:03,000 - DEBUG - Query is SELECT Quantity from RolloverExpiry where Product ='M6A';
+2017-07-23 17:24:03,084 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 17:24:03,145 - DEBUG - Order ID for next trade is 52
+2017-07-23 17:24:03,160 - DEBUG - Connecting to Server
+2017-07-23 17:24:08,430 - DEBUG - symbol M6A
+2017-07-23 17:24:08,476 - DEBUG - sec_type FUT
+2017-07-23 17:24:08,500 - DEBUG - exch Globex
+2017-07-23 17:24:08,523 - DEBUG - prim_exch Globex
+2017-07-23 17:24:08,542 - DEBUG - month U
+2017-07-23 17:24:08,561 - DEBUG - curr USD
+2017-07-23 17:24:08,578 - DEBUG - Contract created
+2017-07-23 17:24:08,591 - DEBUG - Back From contract function
+2017-07-23 17:24:08,604 - DEBUG - action Buy
+2017-07-23 17:24:08,618 - DEBUG - qty 1
+2017-07-23 17:24:08,631 - DEBUG - Back from Order Function
+2017-07-23 17:24:08,933 - DEBUG - Reply Handler <error id=None, errorCode=None, errorMsg=unpack requires a string argument of length 1>
+2017-07-23 17:24:08,980 - DEBUG - Reply Handler <connectionClosed>
+2017-07-23 17:25:26,400 - DEBUG - ****************************************************
+2017-07-23 17:25:26,414 - DEBUG - Starting SpreadTrader M6A
+2017-07-23 17:25:26,907 - DEBUG - Connected To Database
+2017-07-23 17:25:26,944 - DEBUG - Product set to M6A
+2017-07-23 17:25:27,963 - DEBUG - Query is SELECT Leg1_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 17:25:28,015 - DEBUG - Leg1_month is (u'U',)
+2017-07-23 17:25:28,030 - DEBUG - Query is SELECT Leg2_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 17:25:28,073 - DEBUG - Leg2_month is (u'Z',)
+2017-07-23 17:25:28,085 - DEBUG - Query is SELECT Leg1_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 17:25:28,132 - DEBUG - Leg1_action is (u'Buy',)
+2017-07-23 17:25:28,145 - DEBUG - Query is SELECT Leg2_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 17:25:29,229 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 17:25:29,260 - DEBUG - Query is SELECT Quantity from RolloverExpiry where Product ='M6A';
+2017-07-23 17:25:29,318 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 17:25:29,377 - DEBUG - Order ID for next trade is 52
+2017-07-23 17:25:29,395 - DEBUG - Connecting to Server
+2017-07-23 17:25:31,423 - DEBUG - symbol M6A
+2017-07-23 17:25:31,473 - DEBUG - sec_type FUT
+2017-07-23 17:25:31,516 - DEBUG - exch Globex
+2017-07-23 17:25:31,539 - DEBUG - prim_exch Globex
+2017-07-23 17:25:31,573 - DEBUG - month U
+2017-07-23 17:25:31,595 - DEBUG - curr USD
+2017-07-23 17:25:31,615 - DEBUG - Contract created
+2017-07-23 17:25:31,637 - DEBUG - Back From contract function
+2017-07-23 17:25:31,655 - DEBUG - action Buy
+2017-07-23 17:25:31,680 - DEBUG - qty 1
+2017-07-23 17:25:31,697 - DEBUG - Back from Order Function
+2017-07-23 17:25:31,719 - DEBUG - Order Placed
+2017-07-23 17:25:31,887 - DEBUG - Order ID for next trade is 52
+2017-07-23 17:25:31,907 - DEBUG - symbol M6A
+2017-07-23 17:25:31,927 - DEBUG - Reply Handler <error id=None, errorCode=None, errorMsg=unpack requires a string argument of length 1>
+2017-07-23 17:25:31,936 - DEBUG - sec_type FUT
+2017-07-23 17:25:31,951 - DEBUG - Reply Handler <connectionClosed>
+2017-07-23 17:25:31,959 - DEBUG - exch Globex
+2017-07-23 17:25:31,979 - DEBUG - prim_exch Globex
+2017-07-23 17:25:31,992 - DEBUG - month Z
+2017-07-23 17:25:32,006 - DEBUG - curr USD
+2017-07-23 17:25:32,022 - DEBUG - Contract created
+2017-07-23 17:25:32,036 - DEBUG - action (u'Sell',)
+2017-07-23 17:25:32,051 - DEBUG - qty (1,)
+2017-07-23 17:25:32,065 - DEBUG - Reply Handler <error id=-1, errorCode=504, errorMsg=Not connected>
+2017-07-23 17:25:32,079 - DEBUG - Product set to M6A
+2017-07-23 17:25:33,095 - DEBUG - Query is SELECT Leg1_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 17:25:33,154 - DEBUG - Leg1_month is (u'U',)
+2017-07-23 17:25:33,187 - DEBUG - Query is SELECT Leg2_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 17:25:33,293 - DEBUG - Leg2_month is (u'Z',)
+2017-07-23 17:25:33,325 - DEBUG - Query is SELECT Leg1_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 17:25:33,391 - DEBUG - Leg1_action is (u'Buy',)
+2017-07-23 17:25:33,423 - DEBUG - Query is SELECT Leg2_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 17:25:33,545 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 17:25:33,578 - DEBUG - Query is SELECT Quantity from RolloverExpiry where Product ='M6A';
+2017-07-23 17:25:33,624 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 17:25:33,693 - DEBUG - Order ID for next trade is 52
+2017-07-23 17:25:33,717 - DEBUG - Connecting to Server
+2017-07-23 17:25:37,118 - DEBUG - symbol M6A
+2017-07-23 17:25:37,171 - DEBUG - sec_type FUT
+2017-07-23 17:25:37,193 - DEBUG - exch Globex
+2017-07-23 17:25:37,211 - DEBUG - prim_exch Globex
+2017-07-23 17:25:37,230 - DEBUG - month U
+2017-07-23 17:25:37,244 - DEBUG - curr USD
+2017-07-23 17:25:37,260 - DEBUG - Contract created
+2017-07-23 17:25:37,275 - DEBUG - Back From contract function
+2017-07-23 17:25:37,289 - DEBUG - action Buy
+2017-07-23 17:25:37,303 - DEBUG - qty 1
+2017-07-23 17:25:37,318 - DEBUG - Back from Order Function
+2017-07-23 17:25:37,335 - DEBUG - Order Placed
+2017-07-23 17:25:37,385 - DEBUG - Order ID for next trade is 52
+2017-07-23 17:25:37,403 - DEBUG - symbol M6A
+2017-07-23 17:25:37,420 - DEBUG - sec_type FUT
+2017-07-23 17:25:37,440 - DEBUG - exch Globex
+2017-07-23 17:25:37,459 - DEBUG - prim_exch Globex
+2017-07-23 17:25:37,479 - DEBUG - month Z
+2017-07-23 17:25:37,496 - DEBUG - curr USD
+2017-07-23 17:25:37,512 - DEBUG - Contract created
+2017-07-23 17:25:37,526 - DEBUG - action (u'Sell',)
+2017-07-23 17:25:37,540 - DEBUG - qty (1,)
+2017-07-23 17:25:37,558 - DEBUG - Product set to M6A
+2017-07-23 17:25:37,617 - DEBUG - Reply Handler <error id=None, errorCode=None, errorMsg=unpack requires a string argument of length 1>
+2017-07-23 17:25:37,717 - DEBUG - Reply Handler <connectionClosed>
+2017-07-23 17:25:38,572 - DEBUG - Query is SELECT Leg1_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 17:25:38,631 - DEBUG - Leg1_month is (u'U',)
+2017-07-23 17:25:38,650 - DEBUG - Query is SELECT Leg2_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 17:25:38,688 - DEBUG - Leg2_month is (u'Z',)
+2017-07-23 17:25:38,700 - DEBUG - Query is SELECT Leg1_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 17:25:38,737 - DEBUG - Leg1_action is (u'Buy',)
+2017-07-23 17:25:38,753 - DEBUG - Query is SELECT Leg2_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 17:25:38,805 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 17:25:38,831 - DEBUG - Query is SELECT Quantity from RolloverExpiry where Product ='M6A';
+2017-07-23 17:25:38,878 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 17:25:38,927 - DEBUG - Order ID for next trade is 52
+2017-07-23 17:25:38,937 - DEBUG - Connecting to Server
+2017-07-23 17:25:48,963 - DEBUG - symbol M6A
+2017-07-23 17:25:48,969 - DEBUG - Reply Handler <error id=-1, errorCode=326, errorMsg=Unable connect as the client id is already in use. Retry with a unique client id.>
+2017-07-23 17:25:48,993 - DEBUG - sec_type FUT
+2017-07-23 17:25:49,015 - DEBUG - exch Globex
+2017-07-23 17:25:49,033 - DEBUG - prim_exch Globex
+2017-07-23 17:25:49,051 - DEBUG - month U
+2017-07-23 17:25:49,068 - DEBUG - curr USD
+2017-07-23 17:25:49,082 - DEBUG - Contract created
+2017-07-23 17:25:49,096 - DEBUG - Back From contract function
+2017-07-23 17:25:49,111 - DEBUG - action Buy
+2017-07-23 17:25:49,128 - DEBUG - qty 1
+2017-07-23 17:25:49,144 - DEBUG - Back from Order Function
+2017-07-23 17:25:49,165 - DEBUG - Order Placed
+2017-07-23 17:25:49,230 - DEBUG - Order ID for next trade is 52
+2017-07-23 17:25:49,256 - DEBUG - symbol M6A
+2017-07-23 17:25:49,279 - DEBUG - sec_type FUT
+2017-07-23 17:25:49,302 - DEBUG - exch Globex
+2017-07-23 17:25:49,323 - DEBUG - prim_exch Globex
+2017-07-23 17:25:49,342 - DEBUG - month Z
+2017-07-23 17:25:49,365 - DEBUG - curr USD
+2017-07-23 17:25:49,387 - DEBUG - Contract created
+2017-07-23 17:25:49,405 - DEBUG - action (u'Sell',)
+2017-07-23 17:25:49,434 - DEBUG - qty (1,)
+2017-07-23 17:25:49,464 - DEBUG - Reply Handler <error id=None, errorCode=None, errorMsg=unpack requires a string argument of length 1>
+2017-07-23 17:25:49,503 - DEBUG - Reply Handler <connectionClosed>
+2017-07-23 17:25:51,295 - DEBUG - Reply Handler <error id=-1, errorCode=2104, errorMsg=Market data farm connection is OK:cashfarm>
+2017-07-23 17:25:52,025 - DEBUG - Reply Handler <error id=-1, errorCode=2104, errorMsg=Market data farm connection is OK:usfarm.us>
+2017-07-23 17:26:20,480 - DEBUG - Reply Handler <error id=-1, errorCode=2108, errorMsg=Market data farm connection is inactive but should be available upon demand.cashfarm>
+2017-07-23 17:26:20,509 - DEBUG - Reply Handler <error id=-1, errorCode=2108, errorMsg=Market data farm connection is inactive but should be available upon demand.cashfarm>
+2017-07-23 17:26:20,525 - DEBUG - Reply Handler <error id=-1, errorCode=2108, errorMsg=Market data farm connection is inactive but should be available upon demand.usfarm.us>
+2017-07-23 17:26:20,539 - DEBUG - Reply Handler <error id=-1, errorCode=2108, errorMsg=Market data farm connection is inactive but should be available upon demand.usfarm.us>
+2017-07-23 17:27:55,132 - DEBUG - Reply Handler <error id=None, errorCode=None, errorMsg=unpack requires a string argument of length 1>
+2017-07-23 17:27:55,178 - DEBUG - Reply Handler <connectionClosed>
+2017-07-23 18:02:03,678 - DEBUG - ****************************************************
+2017-07-23 18:02:03,700 - DEBUG - Starting SpreadTrader M6A
+2017-07-23 18:02:04,301 - DEBUG - Connected To Database
+2017-07-23 18:02:04,334 - DEBUG - Product set to M6A
+2017-07-23 18:02:05,352 - DEBUG - Query is SELECT Leg1_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 18:02:05,407 - DEBUG - Leg1_month is (u'U',)
+2017-07-23 18:02:05,424 - DEBUG - Query is SELECT Leg2_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 18:02:05,467 - DEBUG - Leg2_month is (u'Z',)
+2017-07-23 18:02:05,480 - DEBUG - Query is SELECT Leg1_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 18:02:05,520 - DEBUG - Leg1_action is (u'Buy',)
+2017-07-23 18:02:05,535 - DEBUG - Query is SELECT Leg2_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 18:02:05,578 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 18:02:05,592 - DEBUG - Query is SELECT Quantity from RolloverExpiry where Product ='M6A';
+2017-07-23 18:02:05,638 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 18:02:05,684 - DEBUG - Order ID for next trade is 52
+2017-07-23 18:02:05,701 - DEBUG - Connecting to Server
+2017-07-23 18:02:07,641 - DEBUG - symbol M6A
+2017-07-23 18:02:07,642 - DEBUG - Reply Handler <error id=-1, errorCode=2104, errorMsg=Market data farm connection is OK:usfarm>
+2017-07-23 18:02:07,701 - DEBUG - sec_type FUT
+2017-07-23 18:02:07,742 - DEBUG - Reply Handler <error id=-1, errorCode=2106, errorMsg=HMDS data farm connection is OK:ilhmds>
+2017-07-23 18:02:07,743 - DEBUG - exch Globex
+2017-07-23 18:02:07,779 - DEBUG - prim_exch Globex
+2017-07-23 18:02:07,780 - DEBUG - Reply Handler <error id=-1, errorCode=2106, errorMsg=HMDS data farm connection is OK:ushmds>
+2017-07-23 18:02:07,809 - DEBUG - month U
+2017-07-23 18:02:07,831 - DEBUG - curr USD
+2017-07-23 18:02:07,851 - DEBUG - Contract created
+2017-07-23 18:02:07,872 - DEBUG - Back From contract function
+2017-07-23 18:02:07,891 - DEBUG - action Buy
+2017-07-23 18:02:07,907 - DEBUG - qty 1
+2017-07-23 18:02:07,923 - DEBUG - Back from Order Function
+2017-07-23 18:02:07,941 - DEBUG - Order Placed
+2017-07-23 18:02:07,986 - DEBUG - Order ID for next trade is 52
+2017-07-23 18:02:08,009 - DEBUG - symbol M6A
+2017-07-23 18:02:08,049 - DEBUG - sec_type FUT
+2017-07-23 18:02:08,075 - DEBUG - exch Globex
+2017-07-23 18:02:08,094 - DEBUG - prim_exch Globex
+2017-07-23 18:02:08,142 - DEBUG - month Z
+2017-07-23 18:02:08,181 - DEBUG - curr USD
+2017-07-23 18:02:08,211 - DEBUG - Contract created
+2017-07-23 18:02:08,236 - DEBUG - action (u'Sell',)
+2017-07-23 18:02:08,240 - DEBUG - Reply Handler <openOrder orderId=52, contract=<ib.ext.Contract.Contract object at 0x0000000015F5D240>, order=<ib.ext.Order.Order object at 0x0000000015F5D0B8>, orderState=<ib.ext.OrderState.OrderState object at 0x0000000015F5D400>>
+2017-07-23 18:02:08,282 - DEBUG - Reply Handler <orderStatus orderId=52, status=Submitted, filled=0, remaining=1, avgFillPrice=0.0, permId=661986484, parentId=0, lastFillPrice=0.0, clientId=999, whyHeld=None>
+2017-07-23 18:02:08,286 - DEBUG - qty (1,)
+2017-07-23 18:02:08,361 - DEBUG - Reply Handler <execDetails reqId=-1, contract=<ib.ext.Contract.Contract object at 0x0000000015F5D0F0>, execution=<ib.ext.Execution.Execution object at 0x0000000015F5D1D0>>
+2017-07-23 18:02:08,415 - DEBUG - Product set to M6A
+2017-07-23 18:02:08,510 - DEBUG - Reply Handler <openOrder orderId=52, contract=<ib.ext.Contract.Contract object at 0x0000000015F5D668>, order=<ib.ext.Order.Order object at 0x0000000015F5D198>, orderState=<ib.ext.OrderState.OrderState object at 0x0000000015F5D400>>
+2017-07-23 18:02:08,559 - DEBUG - Reply Handler <orderStatus orderId=52, status=Filled, filled=1, remaining=0, avgFillPrice=0.7906, permId=661986484, parentId=0, lastFillPrice=0.7906, clientId=999, whyHeld=None>
+2017-07-23 18:02:08,598 - DEBUG - Reply Handler <openOrder orderId=52, contract=<ib.ext.Contract.Contract object at 0x0000000015F5D400>, order=<ib.ext.Order.Order object at 0x0000000015F5D6D8>, orderState=<ib.ext.OrderState.OrderState object at 0x0000000015F5D0F0>>
+2017-07-23 18:02:08,621 - DEBUG - Reply Handler <orderStatus orderId=52, status=Filled, filled=1, remaining=0, avgFillPrice=0.7906, permId=661986484, parentId=0, lastFillPrice=0.7906, clientId=999, whyHeld=None>
+2017-07-23 18:02:08,641 - DEBUG - Reply Handler <commissionReport commissionReport=<ib.ext.CommissionReport.CommissionReport object at 0x0000000015F5D668>>
+2017-07-23 18:02:08,661 - DEBUG - Reply Handler <error id=52, errorCode=104, errorMsg=Can't modify a filled order>
+2017-07-23 18:02:09,552 - DEBUG - Query is SELECT Leg1_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 18:02:09,822 - DEBUG - Leg1_month is (u'U',)
+2017-07-23 18:02:09,871 - DEBUG - Query is SELECT Leg2_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 18:02:09,927 - DEBUG - Leg2_month is (u'Z',)
+2017-07-23 18:02:09,944 - DEBUG - Query is SELECT Leg1_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 18:02:09,994 - DEBUG - Leg1_action is (u'Buy',)
+2017-07-23 18:02:10,016 - DEBUG - Query is SELECT Leg2_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 18:02:10,065 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 18:02:10,082 - DEBUG - Query is SELECT Quantity from RolloverExpiry where Product ='M6A';
+2017-07-23 18:02:10,128 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 18:02:10,174 - DEBUG - Order ID for next trade is 52
+2017-07-23 18:02:10,190 - DEBUG - Connecting to Server
+2017-07-23 18:02:13,569 - DEBUG - symbol M6A
+2017-07-23 18:02:13,569 - DEBUG - Reply Handler <error id=-1, errorCode=326, errorMsg=Unable connect as the client id is already in use. Retry with a unique client id.>
+2017-07-23 18:02:13,601 - DEBUG - sec_type FUT
+2017-07-23 18:02:13,631 - DEBUG - exch Globex
+2017-07-23 18:02:13,645 - DEBUG - prim_exch Globex
+2017-07-23 18:02:13,667 - DEBUG - month U
+2017-07-23 18:02:13,684 - DEBUG - curr USD
+2017-07-23 18:02:13,698 - DEBUG - Contract created
+2017-07-23 18:02:13,714 - DEBUG - Back From contract function
+2017-07-23 18:02:13,730 - DEBUG - action Buy
+2017-07-23 18:02:13,746 - DEBUG - qty 1
+2017-07-23 18:02:13,760 - DEBUG - Back from Order Function
+2017-07-23 18:02:13,778 - DEBUG - Order Placed
+2017-07-23 18:02:13,819 - DEBUG - Order ID for next trade is 52
+2017-07-23 18:02:13,835 - DEBUG - symbol M6A
+2017-07-23 18:02:13,849 - DEBUG - sec_type FUT
+2017-07-23 18:02:13,865 - DEBUG - exch Globex
+2017-07-23 18:02:13,880 - DEBUG - prim_exch Globex
+2017-07-23 18:02:13,894 - DEBUG - month Z
+2017-07-23 18:02:13,911 - DEBUG - curr USD
+2017-07-23 18:02:13,926 - DEBUG - Contract created
+2017-07-23 18:02:13,940 - DEBUG - action (u'Sell',)
+2017-07-23 18:02:13,954 - DEBUG - qty (1,)
+2017-07-23 18:02:13,973 - DEBUG - Product set to M6A
+2017-07-23 18:02:14,112 - DEBUG - Reply Handler <error id=None, errorCode=None, errorMsg=unpack requires a string argument of length 1>
+2017-07-23 18:02:14,153 - DEBUG - Reply Handler <connectionClosed>
+2017-07-23 18:02:14,992 - DEBUG - Query is SELECT Leg1_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 18:02:15,061 - DEBUG - Leg1_month is (u'U',)
+2017-07-23 18:02:15,096 - DEBUG - Query is SELECT Leg2_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 18:02:15,164 - DEBUG - Leg2_month is (u'Z',)
+2017-07-23 18:02:15,180 - DEBUG - Query is SELECT Leg1_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 18:02:15,229 - DEBUG - Leg1_action is (u'Buy',)
+2017-07-23 18:02:15,244 - DEBUG - Query is SELECT Leg2_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 18:02:15,285 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 18:02:15,302 - DEBUG - Query is SELECT Quantity from RolloverExpiry where Product ='M6A';
+2017-07-23 18:02:15,355 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 18:02:15,404 - DEBUG - Order ID for next trade is 52
+2017-07-23 18:02:15,421 - DEBUG - Connecting to Server
+2017-07-23 18:02:19,525 - DEBUG - symbol M6A
+2017-07-23 18:02:19,555 - DEBUG - sec_type FUT
+2017-07-23 18:02:19,585 - DEBUG - exch Globex
+2017-07-23 18:02:19,604 - DEBUG - prim_exch Globex
+2017-07-23 18:02:19,628 - DEBUG - month U
+2017-07-23 18:02:19,644 - DEBUG - curr USD
+2017-07-23 18:02:19,660 - DEBUG - Contract created
+2017-07-23 18:02:19,674 - DEBUG - Back From contract function
+2017-07-23 18:02:19,690 - DEBUG - action Buy
+2017-07-23 18:02:19,704 - DEBUG - qty 1
+2017-07-23 18:02:19,720 - DEBUG - Back from Order Function
+2017-07-23 18:02:19,739 - DEBUG - Order Placed
+2017-07-23 18:02:19,783 - DEBUG - Order ID for next trade is 52
+2017-07-23 18:02:19,805 - DEBUG - symbol M6A
+2017-07-23 18:02:19,828 - DEBUG - sec_type FUT
+2017-07-23 18:02:19,849 - DEBUG - exch Globex
+2017-07-23 18:02:19,871 - DEBUG - prim_exch Globex
+2017-07-23 18:02:19,888 - DEBUG - month Z
+2017-07-23 18:02:19,904 - DEBUG - curr USD
+2017-07-23 18:02:19,920 - DEBUG - Contract created
+2017-07-23 18:02:19,936 - DEBUG - action (u'Sell',)
+2017-07-23 18:02:19,950 - DEBUG - qty (1,)
+2017-07-23 18:02:19,970 - DEBUG - Product set to M6A
+2017-07-23 18:02:20,016 - DEBUG - Reply Handler <error id=None, errorCode=None, errorMsg=unpack requires a string argument of length 1>
+2017-07-23 18:02:20,039 - DEBUG - Reply Handler <connectionClosed>
+2017-07-23 18:02:20,984 - DEBUG - Query is SELECT Leg1_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 18:02:21,105 - DEBUG - Leg1_month is (u'U',)
+2017-07-23 18:02:21,134 - DEBUG - Query is SELECT Leg2_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 18:02:21,194 - DEBUG - Leg2_month is (u'Z',)
+2017-07-23 18:02:21,226 - DEBUG - Query is SELECT Leg1_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 18:02:21,275 - DEBUG - Leg1_action is (u'Buy',)
+2017-07-23 18:02:21,289 - DEBUG - Query is SELECT Leg2_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 18:02:21,346 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 18:02:21,377 - DEBUG - Query is SELECT Quantity from RolloverExpiry where Product ='M6A';
+2017-07-23 18:02:21,822 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 18:02:21,882 - DEBUG - Order ID for next trade is 52
+2017-07-23 18:02:21,901 - DEBUG - Connecting to Server
+2017-07-23 18:02:31,252 - DEBUG - symbol M6A
+2017-07-23 18:02:31,292 - DEBUG - sec_type FUT
+2017-07-23 18:02:31,312 - DEBUG - exch Globex
+2017-07-23 18:02:31,329 - DEBUG - prim_exch Globex
+2017-07-23 18:02:31,345 - DEBUG - month U
+2017-07-23 18:02:31,361 - DEBUG - curr USD
+2017-07-23 18:02:31,375 - DEBUG - Contract created
+2017-07-23 18:02:31,391 - DEBUG - Back From contract function
+2017-07-23 18:02:31,407 - DEBUG - action Buy
+2017-07-23 18:02:31,423 - DEBUG - qty 1
+2017-07-23 18:02:31,446 - DEBUG - Back from Order Function
+2017-07-23 18:02:31,473 - DEBUG - Reply Handler <error id=-1, errorCode=504, errorMsg=Not connected>
+2017-07-23 18:02:31,490 - DEBUG - Order Placed
+2017-07-23 18:02:31,989 - DEBUG - Order ID for next trade is 52
+2017-07-23 18:02:32,026 - DEBUG - symbol M6A
+2017-07-23 18:02:32,042 - DEBUG - sec_type FUT
+2017-07-23 18:02:32,058 - DEBUG - exch Globex
+2017-07-23 18:02:32,072 - DEBUG - prim_exch Globex
+2017-07-23 18:02:32,088 - DEBUG - month Z
+2017-07-23 18:02:32,101 - DEBUG - curr USD
+2017-07-23 18:02:32,118 - DEBUG - Contract created
+2017-07-23 18:02:32,130 - DEBUG - action (u'Sell',)
+2017-07-23 18:02:32,144 - DEBUG - qty (1,)
+2017-07-23 18:02:32,158 - DEBUG - Reply Handler <error id=-1, errorCode=504, errorMsg=Not connected>
+2017-07-23 18:02:32,176 - DEBUG - Product set to M6A
+2017-07-23 18:03:18,992 - DEBUG - ****************************************************
+2017-07-23 18:03:19,007 - DEBUG - Starting SpreadTrader M6A
+2017-07-23 18:03:19,482 - DEBUG - Connected To Database
+2017-07-23 18:03:19,513 - DEBUG - Product set to M6A
+2017-07-23 18:03:20,532 - DEBUG - Query is SELECT Leg1_Month from RolloverExpiry where Product ='-1';
+2017-07-23 18:03:20,607 - DEBUG - Leg1_month is (u'U',)
+2017-07-23 18:03:20,622 - DEBUG - Query is SELECT Leg2_Month from RolloverExpiry where Product ='-1';
+2017-07-23 18:03:20,661 - DEBUG - Leg2_month is (u'Z',)
+2017-07-23 18:03:20,680 - DEBUG - Query is SELECT Leg1_Action from RolloverExpiry where Product ='-1';
+2017-07-23 18:03:20,726 - DEBUG - Leg1_action is (u'Buy',)
+2017-07-23 18:03:20,743 - DEBUG - Query is SELECT Leg2_Action from RolloverExpiry where Product ='-1';
+2017-07-23 18:03:20,806 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 18:03:37,802 - DEBUG - Reply Handler <error id=-1, errorCode=2108, errorMsg=Market data farm connection is inactive but should be available upon demand.cashfarm>
+2017-07-23 18:03:37,832 - DEBUG - Reply Handler <error id=-1, errorCode=2108, errorMsg=Market data farm connection is inactive but should be available upon demand.usfarm.us>
+2017-07-23 18:03:37,864 - DEBUG - Reply Handler <error id=-1, errorCode=2108, errorMsg=Market data farm connection is inactive but should be available upon demand.usfarm.us>
+2017-07-23 18:03:37,880 - DEBUG - Reply Handler <error id=-1, errorCode=2108, errorMsg=Market data farm connection is inactive but should be available upon demand.cashfarm>
+2017-07-23 18:03:58,108 - DEBUG - ****************************************************
+2017-07-23 18:03:58,121 - DEBUG - Starting SpreadTrader M6A
+2017-07-23 18:03:59,349 - DEBUG - Connected To Database
+2017-07-23 18:03:59,384 - DEBUG - Product set to M6A
+2017-07-23 18:04:00,403 - DEBUG - Query is SELECT Leg1_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 18:04:00,483 - DEBUG - Leg1_month is (u'U',)
+2017-07-23 18:04:00,516 - DEBUG - Query is SELECT Leg2_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 18:04:00,576 - DEBUG - Leg2_month is (u'Z',)
+2017-07-23 18:04:00,609 - DEBUG - Query is SELECT Leg1_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 18:04:00,661 - DEBUG - Leg1_action is (u'Buy',)
+2017-07-23 18:04:00,678 - DEBUG - Query is SELECT Leg2_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 18:04:00,736 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 18:04:00,763 - DEBUG - Query is SELECT Quantity from RolloverExpiry where Product ='M6A';
+2017-07-23 18:04:01,066 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 18:04:01,155 - DEBUG - Order ID for next trade is 52
+2017-07-23 18:04:01,188 - DEBUG - Connecting to Server
+2017-07-23 18:04:03,128 - DEBUG - symbol M6A
+2017-07-23 18:04:03,163 - DEBUG - sec_type FUT
+2017-07-23 18:04:03,184 - DEBUG - exch Globex
+2017-07-23 18:04:03,206 - DEBUG - prim_exch Globex
+2017-07-23 18:04:03,223 - DEBUG - month U
+2017-07-23 18:04:03,243 - DEBUG - curr USD
+2017-07-23 18:04:03,263 - DEBUG - Contract created
+2017-07-23 18:04:03,279 - DEBUG - Back From contract function
+2017-07-23 18:04:03,296 - DEBUG - action Buy
+2017-07-23 18:04:03,312 - DEBUG - qty 1
+2017-07-23 18:04:03,329 - DEBUG - Back from Order Function
+2017-07-23 18:04:03,349 - DEBUG - Order Placed
+2017-07-23 18:04:03,413 - DEBUG - Order ID for next trade is 52
+2017-07-23 18:04:03,434 - DEBUG - symbol M6A
+2017-07-23 18:04:03,476 - DEBUG - sec_type FUT
+2017-07-23 18:04:03,506 - DEBUG - exch Globex
+2017-07-23 18:04:03,529 - DEBUG - prim_exch Globex
+2017-07-23 18:04:03,556 - DEBUG - month Z
+2017-07-23 18:04:03,578 - DEBUG - curr USD
+2017-07-23 18:04:03,599 - DEBUG - Contract created
+2017-07-23 18:04:03,617 - DEBUG - action (u'Sell',)
+2017-07-23 18:04:03,634 - DEBUG - Reply Handler <error id=None, errorCode=None, errorMsg=unpack requires a string argument of length 1>
+2017-07-23 18:04:03,637 - DEBUG - qty (1,)
+2017-07-23 18:04:03,664 - DEBUG - Reply Handler <connectionClosed>
+2017-07-23 18:04:03,667 - DEBUG - Reply Handler <error id=-1, errorCode=504, errorMsg=Not connected>
+2017-07-23 18:04:11,384 - DEBUG - Reply Handler <error id=None, errorCode=None, errorMsg=unpack requires a string argument of length 1>
+2017-07-23 18:04:11,427 - DEBUG - Reply Handler <connectionClosed>
+2017-07-23 18:05:06,233 - DEBUG - ****************************************************
+2017-07-23 18:05:06,250 - DEBUG - Starting SpreadTrader M6A
+2017-07-23 18:05:06,743 - DEBUG - Connected To Database
+2017-07-23 18:05:06,786 - DEBUG - Product set to M6A
+2017-07-23 18:05:07,805 - DEBUG - Query is SELECT Leg1_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 18:05:07,865 - DEBUG - Leg1_month is (u'U',)
+2017-07-23 18:05:07,881 - DEBUG - Query is SELECT Leg2_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 18:05:07,924 - DEBUG - Leg2_month is (u'Z',)
+2017-07-23 18:05:07,941 - DEBUG - Query is SELECT Leg1_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 18:05:07,980 - DEBUG - Leg1_action is (u'Buy',)
+2017-07-23 18:05:07,999 - DEBUG - Query is SELECT Leg2_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 18:05:08,040 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 18:05:08,059 - DEBUG - Query is SELECT Quantity from RolloverExpiry where Product ='M6A';
+2017-07-23 18:05:08,118 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 18:05:08,180 - DEBUG - Order ID for next trade is 52
+2017-07-23 18:05:08,200 - DEBUG - Connecting to Server
+2017-07-23 18:05:10,494 - DEBUG - symbol M6A
+2017-07-23 18:05:10,496 - DEBUG - Reply Handler <managedAccounts accountsList=DU599852>
+2017-07-23 18:05:10,525 - DEBUG - sec_type FUT
+2017-07-23 18:05:10,563 - DEBUG - exch Globex
+2017-07-23 18:05:10,573 - DEBUG - Reply Handler <nextValidId orderId=53>
+2017-07-23 18:05:10,588 - DEBUG - prim_exch Globex
+2017-07-23 18:05:10,612 - DEBUG - Reply Handler <error id=-1, errorCode=2104, errorMsg=Market data farm connection is OK:usfuture>
+2017-07-23 18:05:10,621 - DEBUG - month U
+2017-07-23 18:05:10,651 - DEBUG - curr USD
+2017-07-23 18:05:10,651 - DEBUG - Reply Handler <error id=-1, errorCode=2104, errorMsg=Market data farm connection is OK:cashfarm>
+2017-07-23 18:05:10,687 - DEBUG - Contract created
+2017-07-23 18:05:10,691 - DEBUG - Reply Handler <error id=-1, errorCode=2104, errorMsg=Market data farm connection is OK:usfarm.us>
+2017-07-23 18:05:10,730 - DEBUG - Back From contract function
+2017-07-23 18:05:10,736 - DEBUG - Reply Handler <error id=-1, errorCode=2104, errorMsg=Market data farm connection is OK:usfarm>
+2017-07-23 18:05:10,759 - DEBUG - action Buy
+2017-07-23 18:05:10,767 - DEBUG - Reply Handler <error id=-1, errorCode=2106, errorMsg=HMDS data farm connection is OK:ilhmds>
+2017-07-23 18:05:10,786 - DEBUG - qty 1
+2017-07-23 18:05:10,799 - DEBUG - Reply Handler <error id=-1, errorCode=2106, errorMsg=HMDS data farm connection is OK:ushmds>
+2017-07-23 18:05:10,815 - DEBUG - Back from Order Function
+2017-07-23 18:05:10,849 - DEBUG - Order Placed
+2017-07-23 18:05:10,910 - DEBUG - Order ID for next trade is 52
+2017-07-23 18:05:10,930 - DEBUG - symbol M6A
+2017-07-23 18:05:10,936 - DEBUG - Reply Handler <error id=52, errorCode=103, errorMsg=Duplicate order id>
+2017-07-23 18:05:10,961 - DEBUG - sec_type FUT
+2017-07-23 18:05:10,996 - DEBUG - exch Globex
+2017-07-23 18:05:11,016 - DEBUG - prim_exch Globex
+2017-07-23 18:05:11,036 - DEBUG - month Z
+2017-07-23 18:05:11,055 - DEBUG - curr USD
+2017-07-23 18:05:11,075 - DEBUG - Contract created
+2017-07-23 18:05:11,092 - DEBUG - action (u'Sell',)
+2017-07-23 18:05:11,111 - DEBUG - qty (1,)
+2017-07-23 18:48:55,236 - DEBUG - ****************************************************
+2017-07-23 18:48:55,256 - DEBUG - Starting SpreadTrader M6A
+2017-07-23 18:48:59,443 - DEBUG - Connected To Database
+2017-07-23 18:48:59,497 - DEBUG - Product set to M6A
+2017-07-23 18:49:00,513 - DEBUG - Time is 06:49PM
+2017-07-23 18:49:00,551 - DEBUG - Query is SELECT Leg1_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 18:49:00,599 - DEBUG - Leg1_month is (u'U',)
+2017-07-23 18:49:00,618 - DEBUG - Query is SELECT Leg2_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 18:49:00,661 - DEBUG - Leg2_month is (u'Z',)
+2017-07-23 18:49:00,736 - DEBUG - Query is SELECT Leg1_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 18:49:00,789 - DEBUG - Leg1_action is (u'Buy',)
+2017-07-23 18:49:00,808 - DEBUG - Query is SELECT Leg2_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 18:49:00,858 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 18:49:00,881 - DEBUG - Query is SELECT Quantity from RolloverExpiry where Product ='M6A';
+2017-07-23 18:49:00,944 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 18:49:00,990 - DEBUG - Order ID for next trade is 52
+2017-07-23 18:49:01,016 - DEBUG - Connecting to Server
+2017-07-23 18:49:02,993 - DEBUG - symbol M6A
+2017-07-23 18:49:03,000 - DEBUG - Reply Handler <managedAccounts accountsList=DU599852>
+2017-07-23 18:49:03,029 - DEBUG - sec_type FUT
+2017-07-23 18:49:03,068 - DEBUG - Reply Handler <nextValidId orderId=53>
+2017-07-23 18:49:03,069 - DEBUG - exch Globex
+2017-07-23 18:49:03,099 - DEBUG - prim_exch Globex
+2017-07-23 18:49:03,102 - DEBUG - Reply Handler <error id=-1, errorCode=2104, errorMsg=Market data farm connection is OK:usfuture>
+2017-07-23 18:49:03,137 - DEBUG - month U
+2017-07-23 18:49:03,144 - DEBUG - Reply Handler <error id=-1, errorCode=2104, errorMsg=Market data farm connection is OK:cashfarm>
+2017-07-23 18:49:03,168 - DEBUG - curr USD
+2017-07-23 18:49:03,180 - DEBUG - Reply Handler <error id=-1, errorCode=2104, errorMsg=Market data farm connection is OK:usfarm.us>
+2017-07-23 18:49:03,197 - DEBUG - Contract created
+2017-07-23 18:49:03,211 - DEBUG - Reply Handler <error id=-1, errorCode=2104, errorMsg=Market data farm connection is OK:usfarm>
+2017-07-23 18:49:03,226 - DEBUG - Back From contract function
+2017-07-23 18:49:03,243 - DEBUG - Reply Handler <error id=-1, errorCode=2106, errorMsg=HMDS data farm connection is OK:ilhmds>
+2017-07-23 18:49:03,257 - DEBUG - action Buy
+2017-07-23 18:49:03,273 - DEBUG - Reply Handler <error id=-1, errorCode=2106, errorMsg=HMDS data farm connection is OK:ushmds>
+2017-07-23 18:49:03,286 - DEBUG - qty 1
+2017-07-23 18:49:03,313 - DEBUG - Back from Order Function
+2017-07-23 18:49:03,336 - DEBUG - Order Placed
+2017-07-23 18:49:03,430 - DEBUG - Reply Handler <error id=52, errorCode=103, errorMsg=Duplicate order id>
+2017-07-23 18:52:47,946 - DEBUG - ****************************************************
+2017-07-23 18:52:47,947 - DEBUG - Starting SpreadTrader M6A
+2017-07-23 18:52:48,983 - DEBUG - Connected To Database
+2017-07-23 18:52:48,984 - DEBUG - Product set to M6A
+2017-07-23 18:52:49,986 - DEBUG - Time is 06:52PM
+2017-07-23 18:52:49,987 - DEBUG - Query is SELECT Leg1_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 18:52:50,015 - DEBUG - Leg1_month is (u'U',)
+2017-07-23 18:52:50,016 - DEBUG - Query is SELECT Leg2_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 18:52:50,040 - DEBUG - Leg2_month is (u'Z',)
+2017-07-23 18:52:50,042 - DEBUG - Query is SELECT Leg1_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 18:52:50,072 - DEBUG - Leg1_action is (u'Buy',)
+2017-07-23 18:52:50,073 - DEBUG - Query is SELECT Leg2_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 18:52:50,107 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 18:52:50,108 - DEBUG - Query is SELECT Quantity from RolloverExpiry where Product ='M6A';
+2017-07-23 18:52:50,137 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 18:52:50,161 - DEBUG - Order ID for next trade is 2
+2017-07-23 18:52:50,161 - DEBUG - Connecting to Server
+2017-07-23 18:52:51,671 - DEBUG - Reply Handler <error id=-1, errorCode=2104, errorMsg=Market data farm connection is OK:usfarm>
+2017-07-23 18:52:51,676 - DEBUG - Reply Handler <error id=-1, errorCode=2106, errorMsg=HMDS data farm connection is OK:ilhmds>
+2017-07-23 18:52:51,677 - DEBUG - Reply Handler <error id=-1, errorCode=2106, errorMsg=HMDS data farm connection is OK:ushmds>
+2017-07-23 18:53:11,566 - DEBUG - ****************************************************
+2017-07-23 18:53:11,569 - DEBUG - Starting SpreadTrader M6A
+2017-07-23 18:53:11,986 - DEBUG - Connected To Database
+2017-07-23 18:53:11,989 - DEBUG - Product set to M6A
+2017-07-23 18:53:12,993 - DEBUG - Time is 06:53PM
+2017-07-23 18:53:12,999 - DEBUG - Query is SELECT Leg1_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 18:53:13,026 - DEBUG - Leg1_month is (u'U',)
+2017-07-23 18:53:13,029 - DEBUG - Query is SELECT Leg2_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 18:53:13,079 - DEBUG - Leg2_month is (u'Z',)
+2017-07-23 18:53:13,085 - DEBUG - Query is SELECT Leg1_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 18:53:13,115 - DEBUG - Leg1_action is (u'Buy',)
+2017-07-23 18:53:13,131 - DEBUG - Query is SELECT Leg2_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 18:53:13,157 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 18:53:13,158 - DEBUG - Query is SELECT Quantity from RolloverExpiry where Product ='M6A';
+2017-07-23 18:53:13,183 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 18:53:13,207 - DEBUG - Order ID for next trade is 2
+2017-07-23 18:53:13,210 - DEBUG - Connecting to Server
+2017-07-23 18:53:14,811 - DEBUG - symbol M6A
+2017-07-23 18:53:14,812 - DEBUG - Reply Handler <error id=-1, errorCode=326, errorMsg=Unable connect as the client id is already in use. Retry with a unique client id.>
+2017-07-23 18:53:14,821 - DEBUG - sec_type FUT
+2017-07-23 18:53:14,825 - DEBUG - exch Globex
+2017-07-23 18:53:14,831 - DEBUG - prim_exch Globex
+2017-07-23 18:53:14,835 - DEBUG - month U
+2017-07-23 18:53:14,838 - DEBUG - curr USD
+2017-07-23 18:53:14,842 - DEBUG - Contract created
+2017-07-23 18:53:14,845 - DEBUG - Back From contract function
+2017-07-23 18:53:14,848 - DEBUG - action Buy
+2017-07-23 18:53:14,851 - DEBUG - qty 1
+2017-07-23 18:53:14,854 - DEBUG - Back from Order Function
+2017-07-23 18:53:14,862 - DEBUG - Order Placed
+2017-07-23 18:53:15,311 - DEBUG - Reply Handler <error id=None, errorCode=None, errorMsg=unpack requires a string argument of length 1>
+2017-07-23 18:53:15,332 - DEBUG - Reply Handler <connectionClosed>
+2017-07-23 18:53:57,221 - DEBUG - ****************************************************
+2017-07-23 18:53:57,224 - DEBUG - Starting SpreadTrader M6A
+2017-07-23 18:53:57,657 - DEBUG - Connected To Database
+2017-07-23 18:53:57,663 - DEBUG - Product set to M6A
+2017-07-23 18:53:58,671 - DEBUG - Time is 06:53PM
+2017-07-23 18:53:58,677 - DEBUG - Query is SELECT Leg1_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 18:53:58,707 - DEBUG - Leg1_month is (u'U',)
+2017-07-23 18:53:58,713 - DEBUG - Query is SELECT Leg2_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 18:53:58,746 - DEBUG - Leg2_month is (u'Z',)
+2017-07-23 18:53:58,752 - DEBUG - Query is SELECT Leg1_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 18:53:58,782 - DEBUG - Leg1_action is (u'Buy',)
+2017-07-23 18:53:58,786 - DEBUG - Query is SELECT Leg2_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 18:53:58,818 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 18:53:58,825 - DEBUG - Query is SELECT Quantity from RolloverExpiry where Product ='M6A';
+2017-07-23 18:53:58,859 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 18:53:58,894 - DEBUG - Order ID for next trade is 2
+2017-07-23 18:53:58,901 - DEBUG - Connecting to Server
+2017-07-23 18:54:04,599 - DEBUG - symbol M6A
+2017-07-23 18:54:04,601 - DEBUG - Reply Handler <error id=-1, errorCode=326, errorMsg=Unable connect as the client id is already in use. Retry with a unique client id.>
+2017-07-23 18:54:04,609 - DEBUG - sec_type FUT
+2017-07-23 18:54:04,615 - DEBUG - exch Globex
+2017-07-23 18:54:04,621 - DEBUG - prim_exch Globex
+2017-07-23 18:54:04,625 - DEBUG - month U
+2017-07-23 18:54:04,631 - DEBUG - curr USD
+2017-07-23 18:54:04,638 - DEBUG - Contract created
+2017-07-23 18:54:04,644 - DEBUG - Back From contract function
+2017-07-23 18:54:04,651 - DEBUG - action Buy
+2017-07-23 18:54:04,655 - DEBUG - qty 1
+2017-07-23 18:54:04,660 - DEBUG - Back from Order Function
+2017-07-23 18:54:04,668 - DEBUG - Order Placed
+2017-07-23 18:54:05,098 - DEBUG - Reply Handler <error id=None, errorCode=None, errorMsg=unpack requires a string argument of length 1>
+2017-07-23 18:54:05,118 - DEBUG - Reply Handler <connectionClosed>
+2017-07-23 18:54:31,632 - DEBUG - ****************************************************
+2017-07-23 18:54:31,635 - DEBUG - Starting SpreadTrader M6A
+2017-07-23 18:54:32,119 - DEBUG - Connected To Database
+2017-07-23 18:54:32,140 - DEBUG - Product set to M6A
+2017-07-23 18:54:33,144 - DEBUG - Time is 06:54PM
+2017-07-23 18:54:33,151 - DEBUG - Query is SELECT Leg1_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 18:54:33,193 - DEBUG - Leg1_month is (u'U',)
+2017-07-23 18:54:33,197 - DEBUG - Query is SELECT Leg2_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 18:54:33,502 - DEBUG - Leg2_month is (u'Z',)
+2017-07-23 18:54:33,507 - DEBUG - Query is SELECT Leg1_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 18:54:33,538 - DEBUG - Leg1_action is (u'Buy',)
+2017-07-23 18:54:33,542 - DEBUG - Query is SELECT Leg2_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 18:54:33,579 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 18:54:33,588 - DEBUG - Query is SELECT Quantity from RolloverExpiry where Product ='M6A';
+2017-07-23 18:54:33,631 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 18:54:33,667 - DEBUG - Order ID for next trade is 2
+2017-07-23 18:54:33,674 - DEBUG - Connecting to Server
+2017-07-23 18:54:35,984 - DEBUG - symbol M6A
+2017-07-23 18:54:35,986 - DEBUG - Reply Handler <error id=-1, errorCode=326, errorMsg=Unable connect as the client id is already in use. Retry with a unique client id.>
+2017-07-23 18:54:36,012 - DEBUG - sec_type FUT
+2017-07-23 18:54:36,019 - DEBUG - exch Globex
+2017-07-23 18:54:36,025 - DEBUG - prim_exch Globex
+2017-07-23 18:54:36,030 - DEBUG - month U
+2017-07-23 18:54:36,038 - DEBUG - curr USD
+2017-07-23 18:54:36,046 - DEBUG - Contract created
+2017-07-23 18:54:36,052 - DEBUG - Back From contract function
+2017-07-23 18:54:36,059 - DEBUG - action Buy
+2017-07-23 18:54:36,065 - DEBUG - qty 1
+2017-07-23 18:54:36,071 - DEBUG - Back from Order Function
+2017-07-23 18:54:36,081 - DEBUG - Order Placed
+2017-07-23 18:54:36,190 - DEBUG - Order ID for next trade is 3
+2017-07-23 18:54:36,194 - DEBUG - symbol M6A
+2017-07-23 18:54:36,200 - DEBUG - sec_type FUT
+2017-07-23 18:54:36,207 - DEBUG - exch Globex
+2017-07-23 18:54:36,211 - DEBUG - prim_exch Globex
+2017-07-23 18:54:36,219 - DEBUG - month Z
+2017-07-23 18:54:36,224 - DEBUG - curr USD
+2017-07-23 18:54:36,230 - DEBUG - Contract created
+2017-07-23 18:54:36,234 - DEBUG - Back From contract function
+2017-07-23 18:54:36,240 - DEBUG - action (u'Sell',)
+2017-07-23 18:54:36,243 - DEBUG - qty (1,)
+2017-07-23 18:54:36,247 - DEBUG - Back from Order Function
+2017-07-23 18:54:36,255 - DEBUG - Order Placed
+2017-07-23 18:54:36,483 - DEBUG - Reply Handler <error id=None, errorCode=None, errorMsg=unpack requires a string argument of length 1>
+2017-07-23 18:54:36,489 - DEBUG - Reply Handler <connectionClosed>
+2017-07-23 18:55:09,019 - DEBUG - Reply Handler <error id=None, errorCode=None, errorMsg=unpack requires a string argument of length 1>
+2017-07-23 18:55:09,030 - DEBUG - Reply Handler <connectionClosed>
+2017-07-23 19:15:32,213 - DEBUG - ****************************************************
+2017-07-23 19:15:32,217 - DEBUG - Starting SpreadTrader M6A
+2017-07-23 19:15:32,739 - DEBUG - Connected To Database
+2017-07-23 19:15:32,750 - DEBUG - Product set to M6A
+2017-07-23 19:15:33,763 - DEBUG - Time is 07:15PM
+2017-07-23 19:15:33,773 - DEBUG - Query is SELECT Leg1_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 19:15:33,828 - DEBUG - Leg1_month is (u'U',)
+2017-07-23 19:15:33,838 - DEBUG - Query is SELECT Leg2_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 19:15:33,871 - DEBUG - Leg2_month is (u'Z',)
+2017-07-23 19:15:33,877 - DEBUG - Query is SELECT Leg1_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 19:15:33,911 - DEBUG - Leg1_action is (u'Buy',)
+2017-07-23 19:15:33,915 - DEBUG - Query is SELECT Leg2_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 19:15:33,950 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 19:15:33,956 - DEBUG - Query is SELECT Quantity from RolloverExpiry where Product ='M6A';
+2017-07-23 19:15:34,010 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 19:15:34,052 - DEBUG - Order ID for next trade is 6
+2017-07-23 19:15:34,059 - DEBUG - Connecting to Server
+2017-07-23 19:15:35,638 - DEBUG - symbol M6A
+2017-07-23 19:15:35,653 - DEBUG - sec_type FUT
+2017-07-23 19:15:35,663 - DEBUG - exch Globex
+2017-07-23 19:15:35,671 - DEBUG - prim_exch Globex
+2017-07-23 19:15:35,678 - DEBUG - month U
+2017-07-23 19:15:35,686 - DEBUG - curr USD
+2017-07-23 19:15:35,696 - DEBUG - Contract created
+2017-07-23 19:15:35,703 - DEBUG - Back From contract function
+2017-07-23 19:15:35,710 - DEBUG - action Sell
+2017-07-23 19:15:35,721 - DEBUG - qty 1
+2017-07-23 19:15:35,732 - DEBUG - Back from Order Function
+2017-07-23 19:15:35,744 - DEBUG - Order Placed
+2017-07-23 19:15:35,832 - DEBUG - Reply Handler <error id=6, errorCode=103, errorMsg=Duplicate order id>
+2017-07-23 19:15:35,868 - DEBUG - Order ID for next trade is 7
+2017-07-23 19:15:35,874 - DEBUG - symbol M6A
+2017-07-23 19:15:35,881 - DEBUG - sec_type FUT
+2017-07-23 19:15:35,887 - DEBUG - exch Globex
+2017-07-23 19:15:35,894 - DEBUG - prim_exch Globex
+2017-07-23 19:15:35,901 - DEBUG - month Z
+2017-07-23 19:15:35,905 - DEBUG - curr USD
+2017-07-23 19:15:35,913 - DEBUG - Contract created
+2017-07-23 19:15:35,920 - DEBUG - Back From contract function
+2017-07-23 19:15:35,926 - DEBUG - action (u'Buy',)
+2017-07-23 19:15:35,931 - DEBUG - qty (1,)
+2017-07-23 19:15:35,938 - DEBUG - Back from Order Function
+2017-07-23 19:15:35,948 - DEBUG - Order Placed
+2017-07-23 19:15:35,951 - DEBUG - Reply Handler <error id=7, errorCode=103, errorMsg=Duplicate order id>
+2017-07-23 19:16:33,976 - DEBUG - ****************************************************
+2017-07-23 19:16:33,982 - DEBUG - Starting SpreadTrader M6A
+2017-07-23 19:16:34,497 - DEBUG - Connected To Database
+2017-07-23 19:16:34,512 - DEBUG - Product set to M6A
+2017-07-23 19:16:35,523 - DEBUG - Time is 07:16PM
+2017-07-23 19:16:35,535 - DEBUG - Query is SELECT Leg1_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 19:16:35,578 - DEBUG - Leg1_month is (u'U',)
+2017-07-23 19:16:35,584 - DEBUG - Query is SELECT Leg2_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 19:16:35,634 - DEBUG - Leg2_month is (u'Z',)
+2017-07-23 19:16:35,642 - DEBUG - Query is SELECT Leg1_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 19:16:35,681 - DEBUG - Leg1_action is (u'Buy',)
+2017-07-23 19:16:35,694 - DEBUG - Query is SELECT Leg2_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 19:16:35,750 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 19:16:35,763 - DEBUG - Query is SELECT Quantity from RolloverExpiry where Product ='M6A';
+2017-07-23 19:16:35,803 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 19:16:35,835 - DEBUG - Order ID for next trade is 8
+2017-07-23 19:16:35,845 - DEBUG - Connecting to Server
+2017-07-23 19:16:37,575 - DEBUG - symbol M6A
+2017-07-23 19:16:37,575 - DEBUG - Reply Handler <error id=-1, errorCode=2104, errorMsg=Market data farm connection is OK:usfarm.us>
+2017-07-23 19:16:37,599 - DEBUG - sec_type FUT
+2017-07-23 19:16:37,604 - DEBUG - Reply Handler <error id=-1, errorCode=2104, errorMsg=Market data farm connection is OK:usfarm>
+2017-07-23 19:16:37,621 - DEBUG - exch Globex
+2017-07-23 19:16:37,625 - DEBUG - Reply Handler <error id=-1, errorCode=2106, errorMsg=HMDS data farm connection is OK:ilhmds>
+2017-07-23 19:16:37,647 - DEBUG - prim_exch Globex
+2017-07-23 19:16:37,654 - DEBUG - Reply Handler <error id=-1, errorCode=2106, errorMsg=HMDS data farm connection is OK:ushmds>
+2017-07-23 19:16:37,667 - DEBUG - month U
+2017-07-23 19:16:37,693 - DEBUG - curr USD
+2017-07-23 19:16:37,700 - DEBUG - Contract created
+2017-07-23 19:16:37,707 - DEBUG - Back From contract function
+2017-07-23 19:16:37,714 - DEBUG - action Sell
+2017-07-23 19:16:37,720 - DEBUG - qty 1
+2017-07-23 19:16:37,727 - DEBUG - Back from Order Function
+2017-07-23 19:16:37,740 - DEBUG - Order Placed
+2017-07-23 19:16:37,742 - DEBUG - Reply Handler <error id=8, errorCode=103, errorMsg=Duplicate order id>
+2017-07-23 19:16:37,852 - DEBUG - Order ID for next trade is 9
+2017-07-23 19:16:37,865 - DEBUG - symbol M6A
+2017-07-23 19:16:37,878 - DEBUG - sec_type FUT
+2017-07-23 19:16:37,891 - DEBUG - exch Globex
+2017-07-23 19:16:37,901 - DEBUG - prim_exch Globex
+2017-07-23 19:16:37,908 - DEBUG - month Z
+2017-07-23 19:16:37,915 - DEBUG - curr USD
+2017-07-23 19:16:37,923 - DEBUG - Contract created
+2017-07-23 19:16:37,930 - DEBUG - Back From contract function
+2017-07-23 19:16:37,934 - DEBUG - action (u'Buy',)
+2017-07-23 19:16:37,938 - DEBUG - qty (1,)
+2017-07-23 19:16:37,944 - DEBUG - Back from Order Function
+2017-07-23 19:16:37,953 - DEBUG - Order Placed
+2017-07-23 19:16:37,956 - DEBUG - Reply Handler <error id=9, errorCode=103, errorMsg=Duplicate order id>
+2017-07-23 19:18:18,273 - DEBUG - ****************************************************
+2017-07-23 19:18:18,279 - DEBUG - Starting SpreadTrader M6A
+2017-07-23 19:18:19,039 - DEBUG - Connected To Database
+2017-07-23 19:18:19,055 - DEBUG - Product set to M6A
+2017-07-23 19:18:20,065 - DEBUG - Time is 07:18PM
+2017-07-23 19:18:20,072 - DEBUG - Query is SELECT Leg1_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 19:18:20,111 - DEBUG - Leg1_month is (u'U',)
+2017-07-23 19:18:20,125 - DEBUG - Query is SELECT Leg2_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 19:18:20,163 - DEBUG - Leg2_month is (u'Z',)
+2017-07-23 19:18:20,168 - DEBUG - Query is SELECT Leg1_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 19:18:20,230 - DEBUG - Leg1_action is (u'Buy',)
+2017-07-23 19:18:20,256 - DEBUG - Query is SELECT Leg2_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 19:18:20,292 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 19:18:20,299 - DEBUG - Query is SELECT Quantity from RolloverExpiry where Product ='M6A';
+2017-07-23 19:18:20,332 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 19:18:20,368 - DEBUG - Order ID for next trade is 10
+2017-07-23 19:18:20,378 - DEBUG - Connecting to Server
+2017-07-23 19:18:21,388 - DEBUG - symbol M6A
+2017-07-23 19:18:21,404 - DEBUG - sec_type FUT
+2017-07-23 19:18:21,415 - DEBUG - exch Globex
+2017-07-23 19:18:21,427 - DEBUG - prim_exch Globex
+2017-07-23 19:18:21,436 - DEBUG - month U
+2017-07-23 19:18:21,441 - DEBUG - curr USD
+2017-07-23 19:18:21,447 - DEBUG - Contract created
+2017-07-23 19:18:21,453 - DEBUG - Back From contract function
+2017-07-23 19:18:21,460 - DEBUG - action Sell
+2017-07-23 19:18:21,467 - DEBUG - qty 1
+2017-07-23 19:18:21,476 - DEBUG - Back from Order Function
+2017-07-23 19:18:21,483 - DEBUG - Reply Handler <error id=-1, errorCode=504, errorMsg=Not connected>
+2017-07-23 19:18:21,490 - DEBUG - Order Placed
+2017-07-23 19:18:21,619 - DEBUG - Order ID for next trade is 11
+2017-07-23 19:18:21,627 - DEBUG - symbol M6A
+2017-07-23 19:18:21,634 - DEBUG - sec_type FUT
+2017-07-23 19:18:21,644 - DEBUG - exch Globex
+2017-07-23 19:18:21,651 - DEBUG - prim_exch Globex
+2017-07-23 19:18:21,660 - DEBUG - month Z
+2017-07-23 19:18:21,667 - DEBUG - curr USD
+2017-07-23 19:18:21,674 - DEBUG - Contract created
+2017-07-23 19:18:21,681 - DEBUG - Back From contract function
+2017-07-23 19:18:21,688 - DEBUG - action (u'Buy',)
+2017-07-23 19:18:21,696 - DEBUG - qty (1,)
+2017-07-23 19:18:21,701 - DEBUG - Back from Order Function
+2017-07-23 19:18:21,709 - DEBUG - Reply Handler <error id=-1, errorCode=504, errorMsg=Not connected>
+2017-07-23 19:18:21,714 - DEBUG - Order Placed
+2017-07-23 19:18:44,673 - DEBUG - ****************************************************
+2017-07-23 19:18:44,680 - DEBUG - Starting SpreadTrader M6A
+2017-07-23 19:18:45,127 - DEBUG - Connected To Database
+2017-07-23 19:18:45,144 - DEBUG - Product set to M6A
+2017-07-23 19:18:46,158 - DEBUG - Time is 07:18PM
+2017-07-23 19:18:46,174 - DEBUG - Query is SELECT Leg1_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 19:18:46,214 - DEBUG - Leg1_month is (u'U',)
+2017-07-23 19:18:46,223 - DEBUG - Query is SELECT Leg2_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 19:18:46,253 - DEBUG - Leg2_month is (u'Z',)
+2017-07-23 19:18:46,259 - DEBUG - Query is SELECT Leg1_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 19:18:46,345 - DEBUG - Leg1_action is (u'Buy',)
+2017-07-23 19:18:46,358 - DEBUG - Query is SELECT Leg2_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 19:18:46,392 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 19:18:46,401 - DEBUG - Query is SELECT Quantity from RolloverExpiry where Product ='M6A';
+2017-07-23 19:18:46,441 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 19:18:46,506 - DEBUG - Order ID for next trade is 12
+2017-07-23 19:18:46,519 - DEBUG - Connecting to Server
+2017-07-23 19:18:47,538 - DEBUG - symbol M6A
+2017-07-23 19:18:47,555 - DEBUG - sec_type FUT
+2017-07-23 19:18:47,565 - DEBUG - exch Globex
+2017-07-23 19:18:47,575 - DEBUG - prim_exch Globex
+2017-07-23 19:18:47,585 - DEBUG - month U
+2017-07-23 19:18:47,595 - DEBUG - curr USD
+2017-07-23 19:18:47,609 - DEBUG - Contract created
+2017-07-23 19:18:47,624 - DEBUG - Back From contract function
+2017-07-23 19:18:47,630 - DEBUG - action Sell
+2017-07-23 19:18:47,638 - DEBUG - qty 1
+2017-07-23 19:18:47,644 - DEBUG - Back from Order Function
+2017-07-23 19:18:47,651 - DEBUG - Reply Handler <error id=-1, errorCode=504, errorMsg=Not connected>
+2017-07-23 19:18:47,658 - DEBUG - Order Placed
+2017-07-23 19:18:47,779 - DEBUG - Order ID for next trade is 13
+2017-07-23 19:18:47,795 - DEBUG - symbol M6A
+2017-07-23 19:18:47,806 - DEBUG - sec_type FUT
+2017-07-23 19:18:47,815 - DEBUG - exch Globex
+2017-07-23 19:18:47,825 - DEBUG - prim_exch Globex
+2017-07-23 19:18:47,835 - DEBUG - month Z
+2017-07-23 19:18:47,842 - DEBUG - curr USD
+2017-07-23 19:18:47,851 - DEBUG - Contract created
+2017-07-23 19:18:47,858 - DEBUG - Back From contract function
+2017-07-23 19:18:47,865 - DEBUG - action (u'Buy',)
+2017-07-23 19:18:47,872 - DEBUG - qty (1,)
+2017-07-23 19:18:47,881 - DEBUG - Back from Order Function
+2017-07-23 19:18:47,888 - DEBUG - Reply Handler <error id=-1, errorCode=504, errorMsg=Not connected>
+2017-07-23 19:18:47,894 - DEBUG - Order Placed
+2017-07-23 19:19:39,940 - DEBUG - ****************************************************
+2017-07-23 19:19:39,947 - DEBUG - Starting SpreadTrader M6A
+2017-07-23 19:19:40,714 - DEBUG - Connected To Database
+2017-07-23 19:19:40,740 - DEBUG - Product set to M6A
+2017-07-23 19:19:41,750 - DEBUG - Time is 07:19PM
+2017-07-23 19:19:41,767 - DEBUG - Query is SELECT Leg1_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 19:19:41,819 - DEBUG - Leg1_month is (u'U',)
+2017-07-23 19:19:41,828 - DEBUG - Query is SELECT Leg2_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 19:19:41,862 - DEBUG - Leg2_month is (u'Z',)
+2017-07-23 19:19:41,869 - DEBUG - Query is SELECT Leg1_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 19:19:41,913 - DEBUG - Leg1_action is (u'Buy',)
+2017-07-23 19:19:41,921 - DEBUG - Query is SELECT Leg2_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 19:19:41,954 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 19:19:41,963 - DEBUG - Query is SELECT Quantity from RolloverExpiry where Product ='M6A';
+2017-07-23 19:19:41,997 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 19:19:42,061 - DEBUG - Order ID for next trade is 14
+2017-07-23 19:19:42,069 - DEBUG - Connecting to Server
+2017-07-23 19:19:43,088 - DEBUG - symbol M6A
+2017-07-23 19:19:43,105 - DEBUG - sec_type FUT
+2017-07-23 19:19:43,115 - DEBUG - exch Globex
+2017-07-23 19:19:43,125 - DEBUG - prim_exch Globex
+2017-07-23 19:19:43,138 - DEBUG - month U
+2017-07-23 19:19:43,148 - DEBUG - curr USD
+2017-07-23 19:19:43,160 - DEBUG - Contract created
+2017-07-23 19:19:43,177 - DEBUG - Back From contract function
+2017-07-23 19:19:43,194 - DEBUG - action Sell
+2017-07-23 19:19:43,211 - DEBUG - qty 1
+2017-07-23 19:19:43,223 - DEBUG - Back from Order Function
+2017-07-23 19:19:43,233 - DEBUG - Reply Handler <error id=-1, errorCode=504, errorMsg=Not connected>
+2017-07-23 19:19:43,247 - DEBUG - Order Placed
+2017-07-23 19:19:43,344 - DEBUG - Order ID for next trade is 15
+2017-07-23 19:19:43,361 - DEBUG - symbol M6A
+2017-07-23 19:19:43,372 - DEBUG - sec_type FUT
+2017-07-23 19:19:43,384 - DEBUG - exch Globex
+2017-07-23 19:19:43,395 - DEBUG - prim_exch Globex
+2017-07-23 19:19:43,407 - DEBUG - month Z
+2017-07-23 19:19:43,420 - DEBUG - curr USD
+2017-07-23 19:19:43,430 - DEBUG - Contract created
+2017-07-23 19:19:43,444 - DEBUG - Back From contract function
+2017-07-23 19:19:43,453 - DEBUG - action (u'Buy',)
+2017-07-23 19:19:43,466 - DEBUG - qty (1,)
+2017-07-23 19:19:43,476 - DEBUG - Back from Order Function
+2017-07-23 19:19:43,483 - DEBUG - Reply Handler <error id=-1, errorCode=504, errorMsg=Not connected>
+2017-07-23 19:19:43,493 - DEBUG - Order Placed
+2017-07-23 19:20:18,740 - DEBUG - ****************************************************
+2017-07-23 19:20:18,750 - DEBUG - Starting SpreadTrader M6A
+2017-07-23 19:20:20,430 - DEBUG - Connected To Database
+2017-07-23 19:20:20,453 - DEBUG - Product set to M6A
+2017-07-23 19:20:21,461 - DEBUG - Time is 07:20PM
+2017-07-23 19:20:21,470 - DEBUG - Query is SELECT Leg1_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 19:20:21,520 - DEBUG - Leg1_month is (u'U',)
+2017-07-23 19:20:21,546 - DEBUG - Query is SELECT Leg2_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 19:20:21,598 - DEBUG - Leg2_month is (u'Z',)
+2017-07-23 19:20:21,611 - DEBUG - Query is SELECT Leg1_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 19:20:21,665 - DEBUG - Leg1_action is (u'Buy',)
+2017-07-23 19:20:21,676 - DEBUG - Query is SELECT Leg2_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 19:20:21,766 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 19:20:21,776 - DEBUG - Query is SELECT Quantity from RolloverExpiry where Product ='M6A';
+2017-07-23 19:20:21,815 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 19:20:21,855 - DEBUG - Order ID for next trade is 16
+2017-07-23 19:20:21,868 - DEBUG - Connecting to Server
+2017-07-23 19:20:22,882 - DEBUG - symbol M6A
+2017-07-23 19:20:22,904 - DEBUG - sec_type FUT
+2017-07-23 19:20:22,924 - DEBUG - exch Globex
+2017-07-23 19:20:22,937 - DEBUG - prim_exch Globex
+2017-07-23 19:20:22,946 - DEBUG - month U
+2017-07-23 19:20:22,954 - DEBUG - curr USD
+2017-07-23 19:20:22,963 - DEBUG - Contract created
+2017-07-23 19:20:22,973 - DEBUG - Back From contract function
+2017-07-23 19:20:22,983 - DEBUG - action Sell
+2017-07-23 19:20:22,992 - DEBUG - qty 1
+2017-07-23 19:20:23,000 - DEBUG - Back from Order Function
+2017-07-23 19:20:23,009 - DEBUG - Reply Handler <error id=-1, errorCode=504, errorMsg=Not connected>
+2017-07-23 19:20:23,020 - DEBUG - Order Placed
+2017-07-23 19:20:23,147 - DEBUG - Order ID for next trade is 17
+2017-07-23 19:20:23,168 - DEBUG - symbol M6A
+2017-07-23 19:20:23,184 - DEBUG - sec_type FUT
+2017-07-23 19:20:23,198 - DEBUG - exch Globex
+2017-07-23 19:20:23,209 - DEBUG - prim_exch Globex
+2017-07-23 19:20:23,217 - DEBUG - month Z
+2017-07-23 19:20:23,226 - DEBUG - curr USD
+2017-07-23 19:20:23,236 - DEBUG - Contract created
+2017-07-23 19:20:23,246 - DEBUG - Back From contract function
+2017-07-23 19:20:23,255 - DEBUG - action (u'Buy',)
+2017-07-23 19:20:23,263 - DEBUG - qty (1,)
+2017-07-23 19:20:23,272 - DEBUG - Back from Order Function
+2017-07-23 19:20:23,279 - DEBUG - Reply Handler <error id=-1, errorCode=504, errorMsg=Not connected>
+2017-07-23 19:20:23,289 - DEBUG - Order Placed
+2017-07-23 19:20:44,457 - DEBUG - ****************************************************
+2017-07-23 19:20:44,469 - DEBUG - Starting SpreadTrader M6A
+2017-07-23 19:20:44,693 - DEBUG - Connected To Database
+2017-07-23 19:20:44,713 - DEBUG - Product set to M6A
+2017-07-23 19:20:45,723 - DEBUG - Time is 07:20PM
+2017-07-23 19:20:45,746 - DEBUG - Query is SELECT Leg1_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 19:20:45,822 - DEBUG - Leg1_month is (u'U',)
+2017-07-23 19:20:45,849 - DEBUG - Query is SELECT Leg2_Month from RolloverExpiry where Product ='M6A';
+2017-07-23 19:20:45,897 - DEBUG - Leg2_month is (u'Z',)
+2017-07-23 19:20:45,908 - DEBUG - Query is SELECT Leg1_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 19:20:45,960 - DEBUG - Leg1_action is (u'Buy',)
+2017-07-23 19:20:45,970 - DEBUG - Query is SELECT Leg2_Action from RolloverExpiry where Product ='M6A';
+2017-07-23 19:20:46,279 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 19:20:46,301 - DEBUG - Query is SELECT Quantity from RolloverExpiry where Product ='M6A';
+2017-07-23 19:20:46,369 - DEBUG - Leg2_Action is (u'Sell',)
+2017-07-23 19:20:46,404 - DEBUG - Order ID for next trade is 18
+2017-07-23 19:20:46,414 - DEBUG - Connecting to Server
+2017-07-23 19:20:47,867 - DEBUG - symbol M6A
+2017-07-23 19:20:47,898 - DEBUG - sec_type FUT
+2017-07-23 19:20:47,920 - DEBUG - exch Globex
+2017-07-23 19:20:47,931 - DEBUG - prim_exch Globex
+2017-07-23 19:20:47,950 - DEBUG - month U
+2017-07-23 19:20:47,963 - DEBUG - curr USD
+2017-07-23 19:20:47,976 - DEBUG - Contract created
+2017-07-23 19:20:47,990 - DEBUG - Back From contract function
+2017-07-23 19:20:48,003 - DEBUG - action Sell
+2017-07-23 19:20:48,016 - DEBUG - qty 1
+2017-07-23 19:20:48,029 - DEBUG - Back from Order Function
+2017-07-23 19:20:48,052 - DEBUG - Order Placed
+2017-07-23 19:20:48,191 - DEBUG - Order ID for next trade is 19
+2017-07-23 19:20:48,220 - DEBUG - symbol M6A
+2017-07-23 19:20:48,246 - DEBUG - sec_type FUT
+2017-07-23 19:20:48,267 - DEBUG - exch Globex
+2017-07-23 19:20:48,292 - DEBUG - prim_exch Globex
+2017-07-23 19:20:48,308 - DEBUG - month Z
+2017-07-23 19:20:48,319 - DEBUG - curr USD
+2017-07-23 19:20:48,338 - DEBUG - Contract created
+2017-07-23 19:20:48,342 - DEBUG - Reply Handler <openOrder orderId=18, contract=<ib.ext.Contract.Contract object at 0x0000000016156128>, order=<ib.ext.Order.Order object at 0x00000000161561D0>, orderState=<ib.ext.OrderState.OrderState object at 0x0000000016156240>>
+2017-07-23 19:20:48,358 - DEBUG - Back From contract function
+2017-07-23 19:20:48,361 - DEBUG - Reply Handler <orderStatus orderId=18, status=Submitted, filled=0, remaining=1, avgFillPrice=0.0, permId=38088438, parentId=0, lastFillPrice=0.0, clientId=999, whyHeld=None>
+2017-07-23 19:20:48,378 - DEBUG - action (u'Buy',)
+2017-07-23 19:20:48,392 - DEBUG - qty (1,)
+2017-07-23 19:20:48,410 - DEBUG - Back from Order Function
+2017-07-23 19:20:48,427 - DEBUG - Order Placed
+2017-07-24 21:40:17,124 - DEBUG - Starting FDailyOHLC
+2017-07-24 21:40:18,835 - DEBUG - Product set to M6A
+2017-07-24 21:40:18,868 - DEBUG - Connecting to Server
+2017-07-24 21:40:19,891 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-24 21:40:20,915 - DEBUG - Product is M6B
+2017-07-24 21:40:20,938 - DEBUG - Requesting historical data
+2017-07-24 21:40:20,957 - DEBUG - Product set to M6B
+2017-07-24 21:40:20,976 - DEBUG - Connecting to Server
+2017-07-24 21:40:21,987 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-24 21:40:23,010 - DEBUG - Product is ES
+2017-07-24 21:40:23,035 - DEBUG - Requesting historical data
+2017-07-24 21:40:23,055 - DEBUG - Product set to ES
+2017-07-24 21:40:23,066 - DEBUG - Connecting to Server
+2017-07-24 21:40:24,078 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-24 21:40:25,099 - DEBUG - Product is M6E
+2017-07-24 21:40:25,109 - DEBUG - Requesting historical data
+2017-07-24 21:40:25,128 - DEBUG - Product set to M6E
+2017-07-24 21:40:25,138 - DEBUG - Connecting to Server
+2017-07-24 21:40:26,150 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-24 21:40:27,173 - DEBUG - Product is -1
+2017-07-24 21:40:27,196 - DEBUG - Requesting historical data
+2017-07-24 21:40:27,223 - DEBUG - Finished F Daily OHLC
+2017-07-24 21:40:35,710 - DEBUG - Starting FDailyOHLC
+2017-07-24 21:40:37,105 - DEBUG - Product set to M6A
+2017-07-24 21:40:37,134 - DEBUG - Connecting to Server
+2017-07-24 21:40:38,177 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-24 21:40:39,200 - DEBUG - Product is M6B
+2017-07-24 21:40:39,224 - DEBUG - Requesting historical data
+2017-07-24 21:40:39,252 - DEBUG - Product set to M6B
+2017-07-24 21:40:39,265 - DEBUG - Connecting to Server
+2017-07-24 21:40:40,278 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-24 21:40:41,301 - DEBUG - Product is ES
+2017-07-24 21:40:41,325 - DEBUG - Requesting historical data
+2017-07-24 21:40:41,345 - DEBUG - Product set to ES
+2017-07-24 21:40:41,357 - DEBUG - Connecting to Server
+2017-07-24 21:40:42,368 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-24 21:40:43,392 - DEBUG - Product is M6E
+2017-07-24 21:40:43,417 - DEBUG - Requesting historical data
+2017-07-24 21:40:43,434 - DEBUG - Product set to M6E
+2017-07-24 21:40:43,447 - DEBUG - Connecting to Server
+2017-07-24 21:40:44,461 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-24 21:40:45,486 - DEBUG - Product is -1
+2017-07-24 21:40:45,513 - DEBUG - Requesting historical data
+2017-07-24 21:40:45,529 - DEBUG - Finished F Daily OHLC
+2017-07-25 17:14:33,016 - DEBUG - ****************************************************
+2017-07-25 17:14:33,028 - DEBUG - Current Time is 05:14PM
+2017-07-25 17:14:33,042 - DEBUG - Starting Pos Mgmt M6 E
+2017-07-25 17:14:33,058 - DEBUG - Connecting to database
+2017-07-25 17:14:33,595 - DEBUG - Connected to database
+2017-07-25 17:14:33,622 - DEBUG - Query is SELECT BB_ProfitID FROM hasPosition where CCY = 'M6E'
+2017-07-25 17:14:33,678 - DEBUG - Order Profit is 0
+2017-07-25 17:14:33,691 - DEBUG - Query is SELECT BB_StopID FROM hasPosition where CCY = 'M6E'
+2017-07-25 17:14:33,732 - DEBUG - Stop ID is 0
+2017-07-25 17:14:33,773 - DEBUG - Query is SELECT BB_EntryID FROM hasPosition where CCY = 'M6E'
+2017-07-25 17:14:33,786 - DEBUG - Order Entry is 56
+2017-07-25 17:14:33,799 - DEBUG - Connecting to IBController
+2017-07-25 17:14:36,441 - DEBUG - Connected to IBController
+2017-07-25 17:14:36,467 - DEBUG - Position requested
+2017-07-25 17:14:36,494 - DEBUG - Pos Mgmt 3
+2017-07-25 17:14:36,507 - DEBUG - Reply handler <position account=DU599852, contract=<ib.ext.Contract.Contract object at 0x000000001615AFD0>, pos=3, avgCost=8009.32>
+2017-07-25 17:14:36,520 - DEBUG - ccy1 Symbol with position is MCD
+2017-07-25 17:14:36,532 - DEBUG - ccy2 Currency with position is USD
+2017-07-25 17:14:36,545 - DEBUG - Position is 3
+2017-07-25 17:14:36,559 - DEBUG - Pos Mgmt 1
+2017-07-25 17:14:36,571 - DEBUG - Reply handler <position account=DU599852, contract=<ib.ext.Contract.Contract object at 0x000000001610E940>, pos=1, avgCost=14625.32>
+2017-07-25 17:14:36,585 - DEBUG - ccy1 Symbol with position is M6E
+2017-07-25 17:14:36,596 - DEBUG - ccy2 Currency with position is USD
+2017-07-25 17:14:36,608 - DEBUG - Position is 1
+2017-07-25 17:14:36,619 - DEBUG - In Position
+2017-07-25 17:14:36,631 - DEBUG - Position is 1
+2017-07-25 17:14:37,486 - DEBUG - Open Orders requested
+2017-07-25 17:14:37,512 - DEBUG - Reply Handler Orders is <openOrder orderId=44, contract=<ib.ext.Contract.Contract object at 0x000000001610EA58>, order=<ib.ext.Order.Order object at 0x000000001610E278>, orderState=<ib.ext.OrderState.OrderState object at 0x000000000713BE80>>
+2017-07-25 17:14:37,532 - DEBUG - Order OrderID 44
+2017-07-25 17:14:37,546 - DEBUG - reply handler status <orderStatus orderId=44, status=Submitted, filled=0, remaining=1, avgFillPrice=0.0, permId=1216710124, parentId=0, lastFillPrice=0.0, clientId=999, whyHeld=None>
+2017-07-25 17:14:37,559 - DEBUG - Order status Submitted
+2017-07-25 17:14:37,571 - DEBUG - Order Identification 44
+2017-07-25 17:14:37,582 - DEBUG - Order Identification <type 'int'>
+2017-07-25 17:14:37,594 - DEBUG - Profit ID from database is 0
+2017-07-25 17:14:37,605 - DEBUG - Profit ID from database is <type 'unicode'>
+2017-07-25 17:14:37,617 - DEBUG - Stop ID database is 0
+2017-07-25 17:14:37,628 - DEBUG - Entry ID database is 56
+2017-07-25 17:14:37,642 - DEBUG - Reply Handler Orders is <openOrder orderId=26, contract=<ib.ext.Contract.Contract object at 0x000000000713B860>, order=<ib.ext.Order.Order object at 0x000000000713BE80>, orderState=<ib.ext.OrderState.OrderState object at 0x000000001615AFD0>>
+2017-07-25 17:14:37,655 - DEBUG - Order OrderID 26
+2017-07-25 17:14:37,667 - DEBUG - reply handler status <orderStatus orderId=26, status=Submitted, filled=0, remaining=1, avgFillPrice=0.0, permId=1216710120, parentId=0, lastFillPrice=0.0, clientId=999, whyHeld=None>
+2017-07-25 17:14:37,681 - DEBUG - Order status Submitted
+2017-07-25 17:14:37,694 - DEBUG - Order Identification 26
+2017-07-25 17:14:37,706 - DEBUG - Order Identification <type 'int'>
+2017-07-25 17:14:37,717 - DEBUG - Profit ID from database is 0
+2017-07-25 17:14:37,730 - DEBUG - Profit ID from database is <type 'unicode'>
+2017-07-25 17:14:37,742 - DEBUG - Stop ID database is 0
+2017-07-25 17:14:37,755 - DEBUG - Entry ID database is 56
+2017-07-25 17:14:37,769 - DEBUG - Reply Handler Orders is <openOrder orderId=54, contract=<ib.ext.Contract.Contract object at 0x000000000713BE80>, order=<ib.ext.Order.Order object at 0x000000001615AFD0>, orderState=<ib.ext.OrderState.OrderState object at 0x000000000713B860>>
+2017-07-25 17:14:37,782 - DEBUG - Order OrderID 54
+2017-07-25 17:14:37,795 - DEBUG - reply handler status <orderStatus orderId=54, status=Submitted, filled=0, remaining=1, avgFillPrice=0.0, permId=201928311, parentId=0, lastFillPrice=0.0, clientId=999, whyHeld=None>
+2017-07-25 17:14:37,809 - DEBUG - Order status Submitted
+2017-07-25 17:14:37,829 - DEBUG - Order Identification 54
+2017-07-25 17:14:37,842 - DEBUG - Order Identification <type 'int'>
+2017-07-25 17:14:37,855 - DEBUG - Profit ID from database is 0
+2017-07-25 17:14:37,868 - DEBUG - Profit ID from database is <type 'unicode'>
+2017-07-25 17:14:37,880 - DEBUG - Stop ID database is 0
+2017-07-25 17:14:37,892 - DEBUG - Entry ID database is 56
+2017-07-25 17:14:39,542 - DEBUG - Connecting to database
+2017-07-25 17:14:39,744 - DEBUG - Connected to database
+2017-07-25 17:14:39,789 - DEBUG - Query is SELECT BB_StopLossVal FROM hasPosition where CCY = 'M6E'
+2017-07-25 17:14:39,805 - DEBUG - Stop loss value is 1.1688
+2017-07-25 17:14:39,846 - DEBUG - Query is SELECT BB_EntryPrice FROM hasPosition where CCY = 'M6E'
+2017-07-25 17:14:39,858 - DEBUG - EntryPrice value is 1.17
+2017-07-25 17:14:39,901 - DEBUG - Query is SELECT BB_StopQty FROM hasPosition where CCY = 'M6E'
+2017-07-25 17:14:39,914 - DEBUG - Stop quantity 1
+2017-07-25 17:14:39,950 - DEBUG - Query is SELECT BB_direction FROM hasPosition where CCY = 'M6E'
+2017-07-25 17:14:39,963 - DEBUG - Direction is Long
+2017-07-25 17:14:40,000 - DEBUG - Query is SELECT BB_Position FROM hasPosition where CCY = 'M6E'
+2017-07-25 17:14:40,022 - DEBUG - Count is 0
+2017-07-25 17:14:40,058 - DEBUG - Query is SELECT BB_StopLossFlag FROM hasPosition where CCY = 'M6E'
+2017-07-25 17:14:40,072 - DEBUG - Stop Loss Flag is 0
+2017-07-25 17:14:40,108 - DEBUG - Query is SELECT max(idOrder) FROM Orders
+2017-07-25 17:14:40,121 - DEBUG - Max ID Order is (56,)
+2017-07-25 17:14:40,134 - DEBUG - Today is 2017-07-25
+2017-07-25 17:14:40,147 - DEBUG - Day of the week 1
+2017-07-25 17:14:40,158 - DEBUG - Yesterday is 07/24/2017
+2017-07-25 17:14:40,171 - DEBUG - In Position is  1
+2017-07-25 17:14:40,184 - DEBUG - In Position is  <type 'int'>
+2017-07-25 17:14:40,197 - DEBUG - curStopLossFlag is  0
+2017-07-25 17:14:40,209 - DEBUG - curStopLossFlag is  <type 'unicode'>
+2017-07-25 17:14:40,220 - DEBUG - Checking if Entry has been filled
+2017-07-25 17:14:40,233 - DEBUG - Identified Entry Order Has Been Filled: In Stop Loss creation
+2017-07-25 17:14:40,246 - DEBUG - Order Profit is (u'0',)
+2017-07-25 17:14:40,259 - DEBUG - Incremented Order ID for stop loss 57
+2017-07-25 17:14:40,270 - DEBUG - Symbol, secType, exchange is M6 FUT GLOBEX
+2017-07-25 17:14:40,285 - DEBUG - Contract is <ib.ext.Contract.Contract object at 0x00000000166B0CC0>
+2017-07-25 17:14:40,296 - DEBUG - Entry Trade Direction is Long
+2017-07-25 17:14:40,309 - DEBUG - In Long direction.
+2017-07-25 17:14:40,322 - DEBUG - Counter action, qty, limit, OID and Pos Size are Sell 1 1 57 1
+2017-07-25 17:14:40,335 - DEBUG - In TRAIL STOP function
+2017-07-25 17:14:40,351 - DEBUG - Order action Sell
+2017-07-25 17:14:40,364 - DEBUG - Limit value is 1
+2017-07-25 17:14:40,377 - DEBUG - In Sell action. TRAIL LIMIT stop price is 1.1688
+2017-07-25 17:14:40,390 - DEBUG - In Sell action. AUX trail amt price is 1.1688
+2017-07-25 17:15:12,694 - DEBUG - ****************************************************
+2017-07-25 17:15:12,710 - DEBUG - Current Time is 05:15PM
+2017-07-25 17:15:12,723 - DEBUG - Starting Pos Mgmt M6 E
+2017-07-25 17:15:12,736 - DEBUG - Connecting to database
+2017-07-25 17:15:14,380 - DEBUG - Connected to database
+2017-07-25 17:15:14,408 - DEBUG - Query is SELECT BB_ProfitID FROM hasPosition where CCY = 'M6E'
+2017-07-25 17:15:14,451 - DEBUG - Order Profit is 0
+2017-07-25 17:15:14,466 - DEBUG - Query is SELECT BB_StopID FROM hasPosition where CCY = 'M6E'
+2017-07-25 17:15:14,505 - DEBUG - Stop ID is 0
+2017-07-25 17:15:14,549 - DEBUG - Query is SELECT BB_EntryID FROM hasPosition where CCY = 'M6E'
+2017-07-25 17:15:14,562 - DEBUG - Order Entry is 56
+2017-07-25 17:15:14,575 - DEBUG - Connecting to IBController
+2017-07-25 17:15:17,200 - DEBUG - Connected to IBController
+2017-07-25 17:15:17,229 - DEBUG - Position requested
+2017-07-25 17:15:18,243 - DEBUG - Open Orders requested
+2017-07-25 17:15:20,273 - DEBUG - Connecting to database
+2017-07-25 17:15:20,582 - DEBUG - Connected to database
+2017-07-25 17:15:20,632 - DEBUG - Query is SELECT BB_StopLossVal FROM hasPosition where CCY = 'M6E'
+2017-07-25 17:15:20,647 - DEBUG - Stop loss value is 1.1688
+2017-07-25 17:15:20,928 - DEBUG - Query is SELECT BB_EntryPrice FROM hasPosition where CCY = 'M6E'
+2017-07-25 17:15:20,944 - DEBUG - EntryPrice value is 1.17
+2017-07-25 17:15:20,982 - DEBUG - Query is SELECT BB_StopQty FROM hasPosition where CCY = 'M6E'
+2017-07-25 17:15:21,002 - DEBUG - Stop quantity 1
+2017-07-25 17:15:21,068 - DEBUG - Query is SELECT BB_direction FROM hasPosition where CCY = 'M6E'
+2017-07-25 17:15:21,082 - DEBUG - Direction is Long
+2017-07-25 17:15:21,118 - DEBUG - Query is SELECT BB_Position FROM hasPosition where CCY = 'M6E'
+2017-07-25 17:15:21,132 - DEBUG - Count is 0
+2017-07-25 17:15:21,183 - DEBUG - Query is SELECT BB_StopLossFlag FROM hasPosition where CCY = 'M6E'
+2017-07-25 17:15:21,210 - DEBUG - Stop Loss Flag is 0
+2017-07-25 17:15:21,503 - DEBUG - Query is SELECT max(idOrder) FROM Orders
+2017-07-25 17:15:21,532 - DEBUG - Max ID Order is (56,)
+2017-07-25 17:15:21,552 - DEBUG - Today is 2017-07-25
+2017-07-25 17:15:21,566 - DEBUG - Day of the week 1
+2017-07-25 17:15:21,579 - DEBUG - Yesterday is 07/24/2017
+2017-07-25 17:15:21,594 - DEBUG - In Position is  0
+2017-07-25 17:15:21,607 - DEBUG - In Position is  <type 'int'>
+2017-07-25 17:15:21,619 - DEBUG - curStopLossFlag is  0
+2017-07-25 17:15:21,632 - DEBUG - curStopLossFlag is  <type 'unicode'>
+2017-07-25 17:15:21,647 - DEBUG - Checking if Entry has been filled
+2017-07-25 17:15:21,660 - DEBUG - Try to Cancel Stop
+2017-07-25 17:15:21,674 - DEBUG - Stop API ID 0
+2017-07-25 17:15:21,687 - DEBUG - Profit API ID 0
+2017-07-25 17:15:21,700 - DEBUG - Pos is 0
+2017-07-25 17:15:21,714 - DEBUG - CurCount is 0
+2017-07-25 17:15:21,730 - DEBUG - In Pos 0
+2017-07-25 17:15:21,743 - DEBUG - Stop ID is 0
+2017-07-25 17:15:21,756 - DEBUG - Stop API ID 0
+2017-07-25 17:15:21,769 - DEBUG - Profit API ID 0
+2017-07-25 17:15:21,782 - DEBUG - Pos is 0
+2017-07-25 17:15:21,795 - DEBUG - CurCount is 0
+2017-07-25 17:15:21,809 - DEBUG - In Pos 0
+2017-07-25 17:15:21,822 - DEBUG - profitID is 0
+2017-07-25 17:15:21,835 - DEBUG - stopID is 0
+2017-07-25 17:15:21,848 - DEBUG - Entry Date is 10
+2017-07-25 17:15:21,862 - DEBUG - confirming yesterday is 07/24/2017
+2017-07-25 17:15:21,875 - DEBUG - Order Profit ID is 0
+2017-07-25 17:15:21,888 - DEBUG - Order Entry ID is 56
+2017-07-25 17:15:21,901 - DEBUG - API ID is  0
+2017-07-25 17:15:21,914 - DEBUG - Current Position is 0
+2017-07-25 17:15:21,928 - DEBUG - Current Position is <type 'unicode'>
+2017-07-25 17:15:21,941 - DEBUG - Checking if Positions should be close at EOD
+2017-07-25 17:15:21,956 - DEBUG - Time is 17
+2017-07-25 17:15:21,969 - DEBUG - Time is <type 'int'>
+2017-07-25 17:15:21,983 - ERROR - Setup Never Executed. Clearing Position information and Orders
+2017-07-25 17:15:21,996 - ERROR - Canceled Order 56
+2017-07-25 17:15:22,009 - DEBUG - Query is UPDATE Orders SET Status = 'Canceled' where idOrder = 56;
+2017-07-25 17:15:22,138 - DEBUG - Query is UPDATE hasPosition SET BB_StopLossVal = 0 where CCY ='M6E';
+2017-07-25 17:15:22,292 - DEBUG - Query is UPDATE hasPosition SET BB_StopQty = 0 where CCY ='M6E';
+2017-07-25 17:15:22,390 - DEBUG - Query is UPDATE hasPosition SET BB_direction = 0 where CCY ='M6E';
+2017-07-25 17:15:22,486 - DEBUG - Query is UPDATE hasPosition SET BB_EntryID = 0 where CCY = 'M6E'
+2017-07-25 17:15:22,569 - DEBUG - Query is UPDATE hasPosition SET BB_Position = 0 where CCY = 'M6E'
+2017-07-25 17:15:22,667 - DEBUG - Query is UPDATE hasPosition SET BB_ProfitID = 0 where CCY = 'M6E'
+2017-07-25 17:15:22,755 - DEBUG - Query is UPDATE hasPosition SET BB_StopID = 0 where CCY = 'M6E'
+2017-07-25 17:15:22,841 - DEBUG - Query is UPDATE hasPosition SET BBEntryPending = 0 where CCY = 'M6E'
+2017-07-25 17:15:22,956 - DEBUG - Query is UPDATE hasPosition SET Count = 0 where CCY = 'M6E'
+2017-07-25 17:15:23,085 - DEBUG - Disconnected from IBController
+2017-07-25 17:15:23,112 - DEBUG - END POS MGMT SCRIPT :-!

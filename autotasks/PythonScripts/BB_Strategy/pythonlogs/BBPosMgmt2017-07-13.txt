@@ -1,0 +1,15 @@
+2017-07-13 14:33:04,559 - DEBUG - ****************************************************
+2017-07-13 14:33:04,561 - DEBUG - Current Time is 02:33PM
+2017-07-13 14:33:04,562 - DEBUG - Starting Pos Mgmt E 7
+2017-07-13 14:33:04,563 - DEBUG - Connecting to database
+2017-07-13 14:33:05,187 - DEBUG - Connected to database
+2017-07-13 14:33:05,190 - DEBUG - Query is SELECT BB_ProfitID FROM hasPosition where CCY = 'E7'
+2017-07-13 14:33:05,213 - DEBUG - Order Profit is 0
+2017-07-13 14:33:05,214 - DEBUG - Query is SELECT BB_StopID FROM hasPosition where CCY = 'E7'
+2017-07-13 14:33:05,256 - DEBUG - Stop ID is 15
+2017-07-13 14:33:05,289 - DEBUG - Query is SELECT BB_EntryID FROM hasPosition where CCY = 'E7'
+2017-07-13 14:33:05,290 - DEBUG - Order Entry is 0
+2017-07-13 14:33:05,293 - DEBUG - Connecting to IBController
+2017-07-13 14:33:07,302 - DEBUG - Connected to IBController
+2017-07-13 14:33:07,305 - DEBUG - Position requested
+2017-07-13 14:33:08,309 - DEBUG - Open Orders requested

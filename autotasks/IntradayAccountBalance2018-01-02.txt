@@ -1,0 +1,258 @@
+2018-01-02 03:00:02,010 - DEBUG - ****************************************************
+2018-01-02 03:00:02,010 - DEBUG - Connecting to Database
+2018-01-02 03:00:02,062 - DEBUG - Connected to Database
+2018-01-02 03:00:02,062 - DEBUG - Requested Account Summary
+2018-01-02 03:00:02,078 - DEBUG - Message Value is <accountSummary reqId=1, account=U1998629, tag=TotalCashValue, value=9488.47, currency=USD>
+2018-01-02 03:00:02,079 - DEBUG - Account Value to be entered into database. 9488.47
+2018-01-02 03:00:02,114 - DEBUG - Ran insert statement
+2018-01-02 03:00:02,115 - DEBUG - Flag set to 1
+2018-01-02 03:00:03,062 - DEBUG - disconnected from IBController
+2018-01-02 05:00:00,237 - DEBUG - ****************************************************
+2018-01-02 05:00:00,237 - DEBUG - Connecting to Database
+2018-01-02 05:00:00,276 - DEBUG - Connected to Database
+2018-01-02 05:00:00,278 - DEBUG - Requested Account Summary
+2018-01-02 05:00:00,289 - DEBUG - Message Value is <accountSummary reqId=1, account=U1998629, tag=TotalCashValue, value=9488.47, currency=USD>
+2018-01-02 05:00:00,289 - DEBUG - Account Value to be entered into database. 9488.47
+2018-01-02 05:00:00,322 - DEBUG - Ran insert statement
+2018-01-02 05:00:00,323 - DEBUG - Flag set to 1
+2018-01-02 05:00:01,279 - DEBUG - disconnected from IBController
+2018-01-02 05:06:04,799 - DEBUG - ****************************************************
+2018-01-02 05:06:04,801 - DEBUG - Connecting to Database
+2018-01-02 05:06:04,809 - DEBUG - Connected to Database
+2018-01-02 05:06:04,809 - DEBUG - Requested Account Summary
+2018-01-02 05:06:04,822 - DEBUG - Message Value is <accountSummary reqId=1, account=U1998629, tag=TotalCashValue, value=9445.26, currency=USD>
+2018-01-02 05:06:04,822 - DEBUG - Account Value to be entered into database. 9445.26
+2018-01-02 05:06:04,842 - ERROR - Exception in message dispatch.  Handler 'reply_handler' for 'accountSummary'
+Traceback (most recent call last):
+  File "C:\Program Files\Anaconda3\envs\Scarlett1\lib\site-packages\ib\opt\dispatcher.py", line 44, in __call__
+    results.append(listener(message))
+  File "C:\Program Files\SERPICO\autotasks\PythonScripts\acctbalintraday.py", line 51, in reply_handler
+    cur.execute("""Insert Into IntraAccountBalance (Date, Balance) values(%s,%s)""",(time.strftime("%m/%d/%Y/%H"), float(test)))
+  File "C:\Program Files\Anaconda3\envs\Scarlett1\lib\site-packages\mysql\connector\cursor.py", line 507, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "C:\Program Files\Anaconda3\envs\Scarlett1\lib\site-packages\mysql\connector\connection.py", line 722, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Program Files\Anaconda3\envs\Scarlett1\lib\site-packages\mysql\connector\connection.py", line 640, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.IntegrityError: 1062 (23000): Duplicate entry '01/02/2018/05' for key 'PRIMARY'
+2018-01-02 05:06:05,809 - DEBUG - Connecting to Database
+2018-01-02 05:06:05,813 - DEBUG - Connected to Database
+2018-01-02 05:06:05,815 - DEBUG - Requested Account Summary
+2018-01-02 05:06:06,815 - DEBUG - Connecting to Database
+2018-01-02 05:06:06,819 - DEBUG - Connected to Database
+2018-01-02 05:06:06,819 - DEBUG - Requested Account Summary
+2018-01-02 05:06:07,821 - DEBUG - Connecting to Database
+2018-01-02 05:06:07,825 - DEBUG - Connected to Database
+2018-01-02 05:06:07,825 - DEBUG - Requested Account Summary
+2018-01-02 05:06:08,825 - DEBUG - Connecting to Database
+2018-01-02 05:06:08,829 - DEBUG - Connected to Database
+2018-01-02 05:06:08,831 - DEBUG - Requested Account Summary
+2018-01-02 05:06:09,831 - DEBUG - Connecting to Database
+2018-01-02 05:06:09,835 - DEBUG - Connected to Database
+2018-01-02 05:06:09,836 - DEBUG - Requested Account Summary
+2018-01-02 05:06:10,836 - DEBUG - Connecting to Database
+2018-01-02 05:06:10,841 - DEBUG - Connected to Database
+2018-01-02 05:06:10,842 - DEBUG - Requested Account Summary
+2018-01-02 05:06:11,842 - DEBUG - Connecting to Database
+2018-01-02 05:06:11,846 - DEBUG - Connected to Database
+2018-01-02 05:06:11,848 - DEBUG - Requested Account Summary
+2018-01-02 05:06:12,848 - DEBUG - Connecting to Database
+2018-01-02 05:06:12,852 - DEBUG - Connected to Database
+2018-01-02 05:06:12,854 - DEBUG - Requested Account Summary
+2018-01-02 05:06:13,854 - DEBUG - Connecting to Database
+2018-01-02 05:06:13,858 - DEBUG - Connected to Database
+2018-01-02 05:06:13,859 - DEBUG - Requested Account Summary
+2018-01-02 05:06:14,859 - DEBUG - Connecting to Database
+2018-01-02 05:06:14,867 - DEBUG - Connected to Database
+2018-01-02 05:06:14,867 - DEBUG - Requested Account Summary
+2018-01-02 05:06:15,868 - DEBUG - Connecting to Database
+2018-01-02 05:06:15,872 - DEBUG - Connected to Database
+2018-01-02 05:06:15,874 - DEBUG - Requested Account Summary
+2018-01-02 05:06:16,874 - DEBUG - Connecting to Database
+2018-01-02 05:06:16,878 - DEBUG - Connected to Database
+2018-01-02 05:06:16,880 - DEBUG - Requested Account Summary
+2018-01-02 05:06:17,880 - DEBUG - Connecting to Database
+2018-01-02 05:06:17,884 - DEBUG - Connected to Database
+2018-01-02 05:06:17,884 - DEBUG - Requested Account Summary
+2018-01-02 05:06:18,884 - DEBUG - Connecting to Database
+2018-01-02 05:06:18,888 - DEBUG - Connected to Database
+2018-01-02 05:06:18,890 - DEBUG - Requested Account Summary
+2018-01-02 05:06:19,890 - DEBUG - Connecting to Database
+2018-01-02 05:06:19,898 - DEBUG - Connected to Database
+2018-01-02 05:06:19,898 - DEBUG - Requested Account Summary
+2018-01-02 05:06:20,898 - DEBUG - Connecting to Database
+2018-01-02 05:06:20,903 - DEBUG - Connected to Database
+2018-01-02 05:06:20,904 - DEBUG - Requested Account Summary
+2018-01-02 05:06:21,904 - DEBUG - Connecting to Database
+2018-01-02 05:06:21,910 - DEBUG - Connected to Database
+2018-01-02 05:06:21,910 - DEBUG - Requested Account Summary
+2018-01-02 05:06:22,911 - DEBUG - Connecting to Database
+2018-01-02 05:06:22,914 - DEBUG - Connected to Database
+2018-01-02 05:06:22,915 - DEBUG - Requested Account Summary
+2018-01-02 05:06:23,915 - DEBUG - Connecting to Database
+2018-01-02 05:06:23,921 - DEBUG - Connected to Database
+2018-01-02 05:06:23,921 - DEBUG - Requested Account Summary
+2018-01-02 05:06:24,921 - DEBUG - Connecting to Database
+2018-01-02 05:06:24,926 - DEBUG - Connected to Database
+2018-01-02 05:06:24,926 - DEBUG - Requested Account Summary
+2018-01-02 05:09:14,226 - DEBUG - ****************************************************
+2018-01-02 05:09:14,227 - DEBUG - Connecting to Database
+2018-01-02 05:09:14,237 - DEBUG - Connected to Database
+2018-01-02 05:09:14,239 - DEBUG - Requested Account Summary
+2018-01-02 05:09:14,253 - DEBUG - Message Value is <accountSummary reqId=1, account=U1998629, tag=TotalCashValue, value=9451.82, currency=USD>
+2018-01-02 05:09:14,253 - DEBUG - Account Value to be entered into database. 9451.82
+2018-01-02 05:09:14,269 - ERROR - Exception in message dispatch.  Handler 'reply_handler' for 'accountSummary'
+Traceback (most recent call last):
+  File "C:\Program Files\Anaconda3\envs\Scarlett1\lib\site-packages\ib\opt\dispatcher.py", line 44, in __call__
+    results.append(listener(message))
+  File "C:\Program Files\SERPICO\autotasks\PythonScripts\acctbalintraday.py", line 51, in reply_handler
+    cur.execute("""Insert Into IntraAccountBalance (Date, Balance) values(%s,%s)""",(time.strftime("%m/%d/%Y/%H"), float(test)))
+  File "C:\Program Files\Anaconda3\envs\Scarlett1\lib\site-packages\mysql\connector\cursor.py", line 507, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "C:\Program Files\Anaconda3\envs\Scarlett1\lib\site-packages\mysql\connector\connection.py", line 722, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Program Files\Anaconda3\envs\Scarlett1\lib\site-packages\mysql\connector\connection.py", line 640, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.IntegrityError: 1062 (23000): Duplicate entry '01/02/2018/05' for key 'PRIMARY'
+2018-01-02 05:09:15,239 - DEBUG - Connecting to Database
+2018-01-02 05:09:15,243 - DEBUG - Connected to Database
+2018-01-02 05:09:15,243 - DEBUG - Requested Account Summary
+2018-01-02 05:09:16,243 - DEBUG - Connecting to Database
+2018-01-02 05:09:16,247 - DEBUG - Connected to Database
+2018-01-02 05:09:16,247 - DEBUG - Requested Account Summary
+2018-01-02 05:09:17,249 - DEBUG - Connecting to Database
+2018-01-02 05:09:17,253 - DEBUG - Connected to Database
+2018-01-02 05:09:17,253 - DEBUG - Requested Account Summary
+2018-01-02 05:09:18,253 - DEBUG - Connecting to Database
+2018-01-02 05:09:18,257 - DEBUG - Connected to Database
+2018-01-02 05:09:18,259 - DEBUG - Requested Account Summary
+2018-01-02 05:09:19,259 - DEBUG - Connecting to Database
+2018-01-02 05:09:19,263 - DEBUG - Connected to Database
+2018-01-02 05:09:19,265 - DEBUG - Requested Account Summary
+2018-01-02 05:09:20,265 - DEBUG - Connecting to Database
+2018-01-02 05:09:20,270 - DEBUG - Connected to Database
+2018-01-02 05:09:20,272 - DEBUG - Requested Account Summary
+2018-01-02 05:09:21,272 - DEBUG - Connecting to Database
+2018-01-02 05:09:21,276 - DEBUG - Connected to Database
+2018-01-02 05:09:21,278 - DEBUG - Requested Account Summary
+2018-01-02 05:09:22,278 - DEBUG - Connecting to Database
+2018-01-02 05:09:46,592 - DEBUG - Connected to Database
+2018-01-02 05:09:46,592 - DEBUG - Requested Account Summary
+2018-01-02 05:09:47,592 - DEBUG - Connecting to Database
+2018-01-02 05:09:47,595 - DEBUG - Connected to Database
+2018-01-02 05:09:47,596 - DEBUG - Requested Account Summary
+2018-01-02 05:10:39,226 - DEBUG - ****************************************************
+2018-01-02 05:10:39,226 - DEBUG - Connecting to Database
+2018-01-02 05:10:39,240 - DEBUG - Connected to Database
+2018-01-02 05:10:39,240 - DEBUG - Requested Account Summary
+2018-01-02 05:10:39,255 - DEBUG - Message Value is <accountSummary reqId=1, account=U1998629, tag=TotalCashValue, value=9433.02, currency=USD>
+2018-01-02 05:10:39,255 - DEBUG - Account Value to be entered into database. 9433.02
+2018-01-02 05:10:39,348 - ERROR - Exception in message dispatch.  Handler 'reply_handler' for 'accountSummary'
+Traceback (most recent call last):
+  File "C:\Program Files\Anaconda3\envs\Scarlett1\lib\site-packages\ib\opt\dispatcher.py", line 44, in __call__
+    results.append(listener(message))
+  File "C:\Program Files\SERPICO\autotasks\PythonScripts\acctbalintraday.py", line 51, in reply_handler
+    cur.execute("""Insert Into IntraAccountBalance (Date, Balance) values(%s,%s)""",(time.strftime("%m/%d/%Y/%H"), float(test)))
+  File "C:\Program Files\Anaconda3\envs\Scarlett1\lib\site-packages\mysql\connector\cursor.py", line 507, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "C:\Program Files\Anaconda3\envs\Scarlett1\lib\site-packages\mysql\connector\connection.py", line 722, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Program Files\Anaconda3\envs\Scarlett1\lib\site-packages\mysql\connector\connection.py", line 640, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.IntegrityError: 1062 (23000): Duplicate entry '01/02/2018/05' for key 'PRIMARY'
+2018-01-02 05:10:40,240 - DEBUG - Connecting to Database
+2018-01-02 05:10:40,243 - DEBUG - Connected to Database
+2018-01-02 05:10:40,244 - DEBUG - Requested Account Summary
+2018-01-02 05:10:41,244 - DEBUG - Connecting to Database
+2018-01-02 05:10:41,252 - DEBUG - Connected to Database
+2018-01-02 05:10:41,252 - DEBUG - Requested Account Summary
+2018-01-02 05:10:42,253 - DEBUG - Connecting to Database
+2018-01-02 05:10:42,256 - DEBUG - Connected to Database
+2018-01-02 05:10:42,256 - DEBUG - Requested Account Summary
+2018-01-02 05:10:43,256 - DEBUG - Connecting to Database
+2018-01-02 05:10:43,263 - DEBUG - Connected to Database
+2018-01-02 05:10:43,263 - DEBUG - Requested Account Summary
+2018-01-02 05:10:44,263 - DEBUG - Connecting to Database
+2018-01-02 05:10:44,270 - DEBUG - Connected to Database
+2018-01-02 05:10:44,270 - DEBUG - Requested Account Summary
+2018-01-02 05:10:45,270 - DEBUG - Connecting to Database
+2018-01-02 05:10:45,275 - DEBUG - Connected to Database
+2018-01-02 05:10:45,275 - DEBUG - Requested Account Summary
+2018-01-02 05:10:46,276 - DEBUG - Connecting to Database
+2018-01-02 05:10:46,279 - DEBUG - Connected to Database
+2018-01-02 05:10:46,280 - DEBUG - Requested Account Summary
+2018-01-02 05:10:47,282 - DEBUG - Connecting to Database
+2018-01-02 05:10:47,286 - DEBUG - Connected to Database
+2018-01-02 05:10:47,286 - DEBUG - Requested Account Summary
+2018-01-02 05:12:59,528 - DEBUG - ****************************************************
+2018-01-02 05:12:59,529 - DEBUG - Connecting to Database
+2018-01-02 05:12:59,539 - DEBUG - Connected to Database
+2018-01-02 05:12:59,539 - DEBUG - Requested Account Summary
+2018-01-02 05:12:59,552 - DEBUG - Message Value is <accountSummary reqId=1, account=U1998629, tag=TotalCashValue, value=9434.51, currency=USD>
+2018-01-02 05:12:59,553 - DEBUG - Account Value to be entered into database. 9434.51
+2018-01-02 05:12:59,579 - DEBUG - Ran insert statement
+2018-01-02 05:12:59,581 - DEBUG - Flag set to 1
+2018-01-02 05:13:00,539 - DEBUG - disconnected from IBController
+2018-01-02 05:17:48,700 - DEBUG - ****************************************************
+2018-01-02 05:17:48,701 - DEBUG - Connecting to Database
+2018-01-02 05:17:48,710 - DEBUG - Connected to Database
+2018-01-02 05:17:48,711 - DEBUG - Requested Account Summary
+2018-01-02 05:17:48,724 - DEBUG - Message Value is <accountSummary reqId=1, account=U1998629, tag=TotalCashValue, value=9428.11, currency=USD>
+2018-01-02 05:17:48,726 - DEBUG - Account Value to be entered into database. 9428.11
+2018-01-02 05:17:48,759 - DEBUG - Ran insert statement
+2018-01-02 05:17:48,759 - DEBUG - Flag set to 1
+2018-01-02 05:17:49,711 - DEBUG - disconnected from IBController
+2018-01-02 07:00:00,224 - DEBUG - ****************************************************
+2018-01-02 07:00:00,224 - DEBUG - Connecting to Database
+2018-01-02 07:00:00,273 - DEBUG - Connected to Database
+2018-01-02 07:00:00,273 - DEBUG - Requested Account Summary
+2018-01-02 07:00:00,296 - DEBUG - Message Value is <accountSummary reqId=1, account=U1998629, tag=TotalCashValue, value=9408.05, currency=USD>
+2018-01-02 07:00:00,298 - DEBUG - Account Value to be entered into database. 9408.05
+2018-01-02 07:00:00,325 - DEBUG - Ran insert statement
+2018-01-02 07:00:00,328 - DEBUG - Flag set to 1
+2018-01-02 07:00:01,276 - DEBUG - disconnected from IBController
+2018-01-02 09:00:00,236 - DEBUG - ****************************************************
+2018-01-02 09:00:00,237 - DEBUG - Connecting to Database
+2018-01-02 09:00:00,259 - DEBUG - Connected to Database
+2018-01-02 09:00:00,259 - DEBUG - Requested Account Summary
+2018-01-02 09:00:00,270 - DEBUG - Message Value is <accountSummary reqId=1, account=U1998629, tag=TotalCashValue, value=9381.05, currency=USD>
+2018-01-02 09:00:00,272 - DEBUG - Account Value to be entered into database. 9381.05
+2018-01-02 09:00:00,302 - DEBUG - Ran insert statement
+2018-01-02 09:00:00,311 - DEBUG - Flag set to 1
+2018-01-02 09:00:01,262 - DEBUG - disconnected from IBController
+2018-01-02 11:00:00,243 - DEBUG - ****************************************************
+2018-01-02 11:00:00,244 - DEBUG - Connecting to Database
+2018-01-02 11:00:00,289 - DEBUG - Connected to Database
+2018-01-02 11:00:00,289 - DEBUG - Requested Account Summary
+2018-01-02 11:00:00,301 - DEBUG - Message Value is <accountSummary reqId=1, account=U1998629, tag=TotalCashValue, value=9255.17, currency=USD>
+2018-01-02 11:00:00,301 - DEBUG - Account Value to be entered into database. 9255.17
+2018-01-02 11:00:00,331 - DEBUG - Ran insert statement
+2018-01-02 11:00:00,332 - DEBUG - Flag set to 1
+2018-01-02 11:00:01,290 - DEBUG - disconnected from IBController
+2018-01-02 13:00:00,253 - DEBUG - ****************************************************
+2018-01-02 13:00:00,253 - DEBUG - Connecting to Database
+2018-01-02 13:00:00,292 - DEBUG - Connected to Database
+2018-01-02 13:00:00,292 - DEBUG - Requested Account Summary
+2018-01-02 13:00:00,315 - DEBUG - Message Value is <accountSummary reqId=1, account=U1998629, tag=TotalCashValue, value=9255.17, currency=USD>
+2018-01-02 13:00:00,315 - DEBUG - Account Value to be entered into database. 9255.17
+2018-01-02 13:00:00,342 - DEBUG - Ran insert statement
+2018-01-02 13:00:00,342 - DEBUG - Flag set to 1
+2018-01-02 13:00:01,293 - DEBUG - disconnected from IBController
+2018-01-02 15:00:00,269 - DEBUG - ****************************************************
+2018-01-02 15:00:00,269 - DEBUG - Connecting to Database
+2018-01-02 15:00:00,299 - DEBUG - Connected to Database
+2018-01-02 15:00:00,299 - DEBUG - Requested Account Summary
+2018-01-02 15:00:00,312 - DEBUG - Message Value is <accountSummary reqId=1, account=U1998629, tag=TotalCashValue, value=9255.17, currency=USD>
+2018-01-02 15:00:00,313 - DEBUG - Account Value to be entered into database. 9255.17
+2018-01-02 15:00:00,338 - DEBUG - Ran insert statement
+2018-01-02 15:00:00,341 - DEBUG - Flag set to 1
+2018-01-02 15:00:01,299 - DEBUG - disconnected from IBController
+2018-01-02 16:15:00,242 - DEBUG - ****************************************************
+2018-01-02 16:15:00,242 - DEBUG - Connecting to Database
+2018-01-02 16:15:00,252 - DEBUG - Connected to Database
+2018-01-02 16:15:00,252 - DEBUG - Requested Account Summary
+2018-01-02 16:15:00,266 - DEBUG - Message Value is <accountSummary reqId=1, account=U1998629, tag=TotalCashValue, value=9255.17, currency=USD>
+2018-01-02 16:15:00,266 - DEBUG - Account Value to be entered into database. 9255.17
+2018-01-02 16:15:00,313 - DEBUG - Ran insert statement
+2018-01-02 16:15:00,313 - DEBUG - Flag set to 1
+2018-01-02 16:15:01,253 - DEBUG - disconnected from IBController

@@ -1,0 +1,2110 @@
+2018-02-20 02:10:00,419 - DEBUG - ****************************************************
+2018-02-20 02:10:00,419 - DEBUG - Current Time is 02:10AM
+2018-02-20 02:10:00,420 - DEBUG - Starting Pos Mgmt E S
+2018-02-20 02:10:00,420 - DEBUG - Connecting to database
+2018-02-20 02:10:00,453 - DEBUG - Connected to database
+2018-02-20 02:10:00,453 - DEBUG - Query is SELECT BB_ProfitID FROM hasPosition where CCY = 'ES'
+2018-02-20 02:10:00,455 - DEBUG - Order Profit is 0
+2018-02-20 02:10:00,455 - DEBUG - Query is SELECT BB_StopID FROM hasPosition where CCY = 'ES'
+2018-02-20 02:10:00,457 - DEBUG - Stop ID is 0
+2018-02-20 02:10:00,457 - DEBUG - Query is SELECT BB_EntryID FROM hasPosition where CCY = 'ES'
+2018-02-20 02:10:00,459 - DEBUG - Entry ID is 0
+2018-02-20 02:10:00,459 - DEBUG - Query is select max(idOCAGroup) as OCA from OCAGroup
+2018-02-20 02:10:00,460 - DEBUG - OCA ID is 1
+2018-02-20 02:10:00,461 - DEBUG - Connecting to IBController
+2018-02-20 02:10:01,465 - DEBUG - Connected to IBController
+2018-02-20 02:10:01,465 - DEBUG - Position requested
+2018-02-20 02:10:02,465 - DEBUG - Open Orders requested
+2018-02-20 02:10:04,465 - DEBUG - Connecting to database
+2018-02-20 02:10:04,473 - DEBUG - Connected to database
+2018-02-20 02:10:04,474 - DEBUG - Query is SELECT BB_StopLossVal FROM hasPosition where CCY = 'ES'
+2018-02-20 02:10:04,475 - DEBUG - Stop loss value is 0
+2018-02-20 02:10:04,476 - DEBUG - Query is SELECT BB_ProfitPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 02:10:04,476 - DEBUG - Stop loss value is 0
+2018-02-20 02:10:04,478 - DEBUG - Query is SELECT BB_EntryPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 02:10:04,478 - DEBUG - EntryPrice value is 0
+2018-02-20 02:10:04,480 - DEBUG - Query is SELECT BB_StopQty FROM hasPosition where CCY = 'ES'
+2018-02-20 02:10:04,480 - DEBUG - Stop quantity 0
+2018-02-20 02:10:04,481 - DEBUG - Query is SELECT BB_direction FROM hasPosition where CCY = 'ES'
+2018-02-20 02:10:04,482 - DEBUG - Direction is 0
+2018-02-20 02:10:04,483 - DEBUG - Query is SELECT BB_Position FROM hasPosition where CCY = 'ES'
+2018-02-20 02:10:04,483 - DEBUG - Count is 0
+2018-02-20 02:10:04,485 - DEBUG - Query is SELECT BB_StopLossFlag FROM hasPosition where CCY = 'ES'
+2018-02-20 02:10:04,485 - DEBUG - Stop Loss Flag is 0
+2018-02-20 02:10:04,486 - DEBUG - Query is SELECT max(idOrder) FROM Orders
+2018-02-20 02:10:04,487 - DEBUG - Max ID Order is (212,)
+2018-02-20 02:10:04,487 - DEBUG - Today is 2018-02-20
+2018-02-20 02:10:04,487 - DEBUG - Day of the week 1
+2018-02-20 02:10:04,488 - DEBUG - Yesterday is 02/19/2018
+2018-02-20 02:10:04,488 - DEBUG - In Position is  0
+2018-02-20 02:10:04,488 - DEBUG - In Position is  <class 'int'>
+2018-02-20 02:10:04,488 - DEBUG - curStopLossFlag is  0
+2018-02-20 02:10:04,489 - DEBUG - curStopLossFlag is  <class 'str'>
+2018-02-20 02:10:04,489 - DEBUG - Checking if Entry has been filled
+2018-02-20 02:10:04,489 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 02:10:04,491 - DEBUG - EntryPend is 0
+2018-02-20 02:10:04,491 - DEBUG - Try to Cancel Stop
+2018-02-20 02:10:04,491 - DEBUG - Stop API ID 0
+2018-02-20 02:10:04,491 - DEBUG - Profit API ID 0
+2018-02-20 02:10:04,491 - DEBUG - Stop API ID <class 'int'>
+2018-02-20 02:10:04,492 - DEBUG - Profit API ID <class 'int'>
+2018-02-20 02:10:04,492 - DEBUG - Pos is 0
+2018-02-20 02:10:04,492 - DEBUG - CurCount is 0
+2018-02-20 02:10:04,492 - DEBUG - In Pos 0
+2018-02-20 02:10:04,492 - DEBUG - Stop ID is 0
+2018-02-20 02:10:04,493 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 02:10:04,494 - DEBUG - EntryPend is 0
+2018-02-20 02:10:04,494 - DEBUG - CHECKING IF STOP LOSS FILLED
+2018-02-20 02:10:04,495 - DEBUG - Entry Date is 10
+2018-02-20 02:10:04,495 - DEBUG - confirming yesterday is 02/19/2018
+2018-02-20 02:10:04,495 - DEBUG - Order Profit ID is 0
+2018-02-20 02:10:04,495 - DEBUG - Order Entry ID is 0
+2018-02-20 02:10:04,495 - DEBUG - API ID is  0
+2018-02-20 02:10:04,496 - DEBUG - Current Position is 0
+2018-02-20 02:10:04,496 - DEBUG - Current Position is <class 'str'>
+2018-02-20 02:10:04,496 - DEBUG - Checking if Positions should be close at EOD
+2018-02-20 02:10:04,496 - DEBUG - Time is 2
+2018-02-20 02:10:04,497 - DEBUG - Time is <class 'int'>
+2018-02-20 02:10:04,497 - DEBUG - Disconnected from IBController
+2018-02-20 02:10:04,497 - DEBUG - END POS MGMT SCRIPT :-!
+2018-02-20 02:15:00,266 - DEBUG - ****************************************************
+2018-02-20 02:15:00,266 - DEBUG - Current Time is 02:15AM
+2018-02-20 02:15:00,266 - DEBUG - Starting Pos Mgmt E S
+2018-02-20 02:15:00,267 - DEBUG - Connecting to database
+2018-02-20 02:15:00,287 - DEBUG - Connected to database
+2018-02-20 02:15:00,287 - DEBUG - Query is SELECT BB_ProfitID FROM hasPosition where CCY = 'ES'
+2018-02-20 02:15:00,289 - DEBUG - Order Profit is 0
+2018-02-20 02:15:00,289 - DEBUG - Query is SELECT BB_StopID FROM hasPosition where CCY = 'ES'
+2018-02-20 02:15:00,290 - DEBUG - Stop ID is 0
+2018-02-20 02:15:00,290 - DEBUG - Query is SELECT BB_EntryID FROM hasPosition where CCY = 'ES'
+2018-02-20 02:15:00,292 - DEBUG - Entry ID is 213
+2018-02-20 02:15:00,292 - DEBUG - Query is select max(idOCAGroup) as OCA from OCAGroup
+2018-02-20 02:15:00,293 - DEBUG - OCA ID is 1
+2018-02-20 02:15:00,294 - DEBUG - Connecting to IBController
+2018-02-20 02:15:01,298 - DEBUG - Connected to IBController
+2018-02-20 02:15:01,298 - DEBUG - Position requested
+2018-02-20 02:15:02,298 - DEBUG - Open Orders requested
+2018-02-20 02:15:04,298 - DEBUG - Connecting to database
+2018-02-20 02:15:04,305 - DEBUG - Connected to database
+2018-02-20 02:15:04,306 - DEBUG - Query is SELECT BB_StopLossVal FROM hasPosition where CCY = 'ES'
+2018-02-20 02:15:04,307 - DEBUG - Stop loss value is 2722.00
+2018-02-20 02:15:04,308 - DEBUG - Query is SELECT BB_ProfitPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 02:15:04,308 - DEBUG - Stop loss value is 2765.75
+2018-02-20 02:15:04,310 - DEBUG - Query is SELECT BB_EntryPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 02:15:04,310 - DEBUG - EntryPrice value is 2756.25
+2018-02-20 02:15:04,312 - DEBUG - Query is SELECT BB_StopQty FROM hasPosition where CCY = 'ES'
+2018-02-20 02:15:04,312 - DEBUG - Stop quantity 1
+2018-02-20 02:15:04,313 - DEBUG - Query is SELECT BB_direction FROM hasPosition where CCY = 'ES'
+2018-02-20 02:15:04,314 - DEBUG - Direction is Long
+2018-02-20 02:15:04,315 - DEBUG - Query is SELECT BB_Position FROM hasPosition where CCY = 'ES'
+2018-02-20 02:15:04,315 - DEBUG - Count is 0
+2018-02-20 02:15:04,316 - DEBUG - Query is SELECT BB_StopLossFlag FROM hasPosition where CCY = 'ES'
+2018-02-20 02:15:04,317 - DEBUG - Stop Loss Flag is 0
+2018-02-20 02:15:04,318 - DEBUG - Query is SELECT max(idOrder) FROM Orders
+2018-02-20 02:15:04,318 - DEBUG - Max ID Order is (213,)
+2018-02-20 02:15:04,319 - DEBUG - Today is 2018-02-20
+2018-02-20 02:15:04,319 - DEBUG - Day of the week 1
+2018-02-20 02:15:04,319 - DEBUG - Yesterday is 02/19/2018
+2018-02-20 02:15:04,320 - DEBUG - In Position is  0
+2018-02-20 02:15:04,320 - DEBUG - In Position is  <class 'int'>
+2018-02-20 02:15:04,320 - DEBUG - curStopLossFlag is  0
+2018-02-20 02:15:04,321 - DEBUG - curStopLossFlag is  <class 'str'>
+2018-02-20 02:15:04,321 - DEBUG - Checking if Entry has been filled
+2018-02-20 02:15:04,321 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 02:15:04,322 - DEBUG - EntryPend is 1
+2018-02-20 02:15:04,323 - DEBUG - Try to Cancel Stop
+2018-02-20 02:15:04,323 - DEBUG - Stop API ID 0
+2018-02-20 02:15:04,323 - DEBUG - Profit API ID 0
+2018-02-20 02:15:04,323 - DEBUG - Stop API ID <class 'int'>
+2018-02-20 02:15:04,324 - DEBUG - Profit API ID <class 'int'>
+2018-02-20 02:15:04,324 - DEBUG - Pos is 0
+2018-02-20 02:15:04,324 - DEBUG - CurCount is 0
+2018-02-20 02:15:04,324 - DEBUG - In Pos 0
+2018-02-20 02:15:04,325 - DEBUG - Stop ID is 0
+2018-02-20 02:15:04,325 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 02:15:04,326 - DEBUG - EntryPend is 1
+2018-02-20 02:15:04,326 - DEBUG - CHECKING IF STOP LOSS FILLED
+2018-02-20 02:15:04,327 - DEBUG - Entry Date is 10
+2018-02-20 02:15:04,327 - DEBUG - confirming yesterday is 02/19/2018
+2018-02-20 02:15:04,327 - DEBUG - Order Profit ID is 0
+2018-02-20 02:15:04,327 - DEBUG - Order Entry ID is 213
+2018-02-20 02:15:04,328 - DEBUG - API ID is  0
+2018-02-20 02:15:04,328 - DEBUG - Current Position is 0
+2018-02-20 02:15:04,328 - DEBUG - Current Position is <class 'str'>
+2018-02-20 02:15:04,328 - DEBUG - Checking if Positions should be close at EOD
+2018-02-20 02:15:04,328 - DEBUG - Time is 2
+2018-02-20 02:15:04,329 - DEBUG - Time is <class 'int'>
+2018-02-20 02:15:04,329 - DEBUG - Disconnected from IBController
+2018-02-20 02:15:04,329 - DEBUG - END POS MGMT SCRIPT :-!
+2018-02-20 02:20:00,261 - DEBUG - ****************************************************
+2018-02-20 02:20:00,262 - DEBUG - Current Time is 02:20AM
+2018-02-20 02:20:00,262 - DEBUG - Starting Pos Mgmt E S
+2018-02-20 02:20:00,262 - DEBUG - Connecting to database
+2018-02-20 02:20:00,293 - DEBUG - Connected to database
+2018-02-20 02:20:00,293 - DEBUG - Query is SELECT BB_ProfitID FROM hasPosition where CCY = 'ES'
+2018-02-20 02:20:00,294 - DEBUG - Order Profit is 0
+2018-02-20 02:20:00,295 - DEBUG - Query is SELECT BB_StopID FROM hasPosition where CCY = 'ES'
+2018-02-20 02:20:00,296 - DEBUG - Stop ID is 0
+2018-02-20 02:20:00,296 - DEBUG - Query is SELECT BB_EntryID FROM hasPosition where CCY = 'ES'
+2018-02-20 02:20:00,298 - DEBUG - Entry ID is 213
+2018-02-20 02:20:00,298 - DEBUG - Query is select max(idOCAGroup) as OCA from OCAGroup
+2018-02-20 02:20:00,299 - DEBUG - OCA ID is 1
+2018-02-20 02:20:00,300 - DEBUG - Connecting to IBController
+2018-02-20 02:20:01,303 - DEBUG - Connected to IBController
+2018-02-20 02:20:01,303 - DEBUG - Position requested
+2018-02-20 02:20:02,303 - DEBUG - Open Orders requested
+2018-02-20 02:20:04,303 - DEBUG - Connecting to database
+2018-02-20 02:20:04,310 - DEBUG - Connected to database
+2018-02-20 02:20:04,311 - DEBUG - Query is SELECT BB_StopLossVal FROM hasPosition where CCY = 'ES'
+2018-02-20 02:20:04,312 - DEBUG - Stop loss value is 2722.00
+2018-02-20 02:20:04,313 - DEBUG - Query is SELECT BB_ProfitPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 02:20:04,313 - DEBUG - Stop loss value is 2765.75
+2018-02-20 02:20:04,315 - DEBUG - Query is SELECT BB_EntryPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 02:20:04,315 - DEBUG - EntryPrice value is 2756.25
+2018-02-20 02:20:04,316 - DEBUG - Query is SELECT BB_StopQty FROM hasPosition where CCY = 'ES'
+2018-02-20 02:20:04,317 - DEBUG - Stop quantity 1
+2018-02-20 02:20:04,318 - DEBUG - Query is SELECT BB_direction FROM hasPosition where CCY = 'ES'
+2018-02-20 02:20:04,318 - DEBUG - Direction is Long
+2018-02-20 02:20:04,320 - DEBUG - Query is SELECT BB_Position FROM hasPosition where CCY = 'ES'
+2018-02-20 02:20:04,320 - DEBUG - Count is 0
+2018-02-20 02:20:04,321 - DEBUG - Query is SELECT BB_StopLossFlag FROM hasPosition where CCY = 'ES'
+2018-02-20 02:20:04,322 - DEBUG - Stop Loss Flag is 0
+2018-02-20 02:20:04,323 - DEBUG - Query is SELECT max(idOrder) FROM Orders
+2018-02-20 02:20:04,323 - DEBUG - Max ID Order is (213,)
+2018-02-20 02:20:04,324 - DEBUG - Today is 2018-02-20
+2018-02-20 02:20:04,324 - DEBUG - Day of the week 1
+2018-02-20 02:20:04,324 - DEBUG - Yesterday is 02/19/2018
+2018-02-20 02:20:04,325 - DEBUG - In Position is  0
+2018-02-20 02:20:04,325 - DEBUG - In Position is  <class 'int'>
+2018-02-20 02:20:04,325 - DEBUG - curStopLossFlag is  0
+2018-02-20 02:20:04,325 - DEBUG - curStopLossFlag is  <class 'str'>
+2018-02-20 02:20:04,326 - DEBUG - Checking if Entry has been filled
+2018-02-20 02:20:04,326 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 02:20:04,327 - DEBUG - EntryPend is 1
+2018-02-20 02:20:04,328 - DEBUG - Try to Cancel Stop
+2018-02-20 02:20:04,328 - DEBUG - Stop API ID 0
+2018-02-20 02:20:04,328 - DEBUG - Profit API ID 0
+2018-02-20 02:20:04,328 - DEBUG - Stop API ID <class 'int'>
+2018-02-20 02:20:04,328 - DEBUG - Profit API ID <class 'int'>
+2018-02-20 02:20:04,329 - DEBUG - Pos is 0
+2018-02-20 02:20:04,329 - DEBUG - CurCount is 0
+2018-02-20 02:20:04,329 - DEBUG - In Pos 0
+2018-02-20 02:20:04,329 - DEBUG - Stop ID is 0
+2018-02-20 02:20:04,330 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 02:20:04,331 - DEBUG - EntryPend is 1
+2018-02-20 02:20:04,331 - DEBUG - CHECKING IF STOP LOSS FILLED
+2018-02-20 02:20:04,332 - DEBUG - Entry Date is 10
+2018-02-20 02:20:04,332 - DEBUG - confirming yesterday is 02/19/2018
+2018-02-20 02:20:04,332 - DEBUG - Order Profit ID is 0
+2018-02-20 02:20:04,332 - DEBUG - Order Entry ID is 213
+2018-02-20 02:20:04,333 - DEBUG - API ID is  0
+2018-02-20 02:20:04,333 - DEBUG - Current Position is 0
+2018-02-20 02:20:04,333 - DEBUG - Current Position is <class 'str'>
+2018-02-20 02:20:04,333 - DEBUG - Checking if Positions should be close at EOD
+2018-02-20 02:20:04,334 - DEBUG - Time is 2
+2018-02-20 02:20:04,334 - DEBUG - Time is <class 'int'>
+2018-02-20 02:20:04,334 - DEBUG - Disconnected from IBController
+2018-02-20 02:20:04,334 - DEBUG - END POS MGMT SCRIPT :-!
+2018-02-20 02:25:00,256 - DEBUG - ****************************************************
+2018-02-20 02:25:00,257 - DEBUG - Current Time is 02:25AM
+2018-02-20 02:25:00,257 - DEBUG - Starting Pos Mgmt E S
+2018-02-20 02:25:00,257 - DEBUG - Connecting to database
+2018-02-20 02:25:00,282 - DEBUG - Connected to database
+2018-02-20 02:25:00,282 - DEBUG - Query is SELECT BB_ProfitID FROM hasPosition where CCY = 'ES'
+2018-02-20 02:25:00,283 - DEBUG - Order Profit is 0
+2018-02-20 02:25:00,284 - DEBUG - Query is SELECT BB_StopID FROM hasPosition where CCY = 'ES'
+2018-02-20 02:25:00,285 - DEBUG - Stop ID is 0
+2018-02-20 02:25:00,285 - DEBUG - Query is SELECT BB_EntryID FROM hasPosition where CCY = 'ES'
+2018-02-20 02:25:00,287 - DEBUG - Entry ID is 213
+2018-02-20 02:25:00,287 - DEBUG - Query is select max(idOCAGroup) as OCA from OCAGroup
+2018-02-20 02:25:00,288 - DEBUG - OCA ID is 1
+2018-02-20 02:25:00,289 - DEBUG - Connecting to IBController
+2018-02-20 02:25:01,292 - DEBUG - Connected to IBController
+2018-02-20 02:25:01,292 - DEBUG - Position requested
+2018-02-20 02:25:02,292 - DEBUG - Open Orders requested
+2018-02-20 02:25:04,292 - DEBUG - Connecting to database
+2018-02-20 02:25:04,299 - DEBUG - Connected to database
+2018-02-20 02:25:04,301 - DEBUG - Query is SELECT BB_StopLossVal FROM hasPosition where CCY = 'ES'
+2018-02-20 02:25:04,301 - DEBUG - Stop loss value is 2722.00
+2018-02-20 02:25:04,303 - DEBUG - Query is SELECT BB_ProfitPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 02:25:04,303 - DEBUG - Stop loss value is 2765.75
+2018-02-20 02:25:04,305 - DEBUG - Query is SELECT BB_EntryPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 02:25:04,305 - DEBUG - EntryPrice value is 2756.25
+2018-02-20 02:25:04,306 - DEBUG - Query is SELECT BB_StopQty FROM hasPosition where CCY = 'ES'
+2018-02-20 02:25:04,307 - DEBUG - Stop quantity 1
+2018-02-20 02:25:04,308 - DEBUG - Query is SELECT BB_direction FROM hasPosition where CCY = 'ES'
+2018-02-20 02:25:04,309 - DEBUG - Direction is Long
+2018-02-20 02:25:04,310 - DEBUG - Query is SELECT BB_Position FROM hasPosition where CCY = 'ES'
+2018-02-20 02:25:04,310 - DEBUG - Count is 0
+2018-02-20 02:25:04,312 - DEBUG - Query is SELECT BB_StopLossFlag FROM hasPosition where CCY = 'ES'
+2018-02-20 02:25:04,312 - DEBUG - Stop Loss Flag is 0
+2018-02-20 02:25:04,313 - DEBUG - Query is SELECT max(idOrder) FROM Orders
+2018-02-20 02:25:04,314 - DEBUG - Max ID Order is (213,)
+2018-02-20 02:25:04,314 - DEBUG - Today is 2018-02-20
+2018-02-20 02:25:04,315 - DEBUG - Day of the week 1
+2018-02-20 02:25:04,315 - DEBUG - Yesterday is 02/19/2018
+2018-02-20 02:25:04,315 - DEBUG - In Position is  0
+2018-02-20 02:25:04,315 - DEBUG - In Position is  <class 'int'>
+2018-02-20 02:25:04,316 - DEBUG - curStopLossFlag is  0
+2018-02-20 02:25:04,316 - DEBUG - curStopLossFlag is  <class 'str'>
+2018-02-20 02:25:04,316 - DEBUG - Checking if Entry has been filled
+2018-02-20 02:25:04,316 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 02:25:04,318 - DEBUG - EntryPend is 1
+2018-02-20 02:25:04,318 - DEBUG - Try to Cancel Stop
+2018-02-20 02:25:04,318 - DEBUG - Stop API ID 0
+2018-02-20 02:25:04,319 - DEBUG - Profit API ID 0
+2018-02-20 02:25:04,319 - DEBUG - Stop API ID <class 'int'>
+2018-02-20 02:25:04,319 - DEBUG - Profit API ID <class 'int'>
+2018-02-20 02:25:04,319 - DEBUG - Pos is 0
+2018-02-20 02:25:04,319 - DEBUG - CurCount is 0
+2018-02-20 02:25:04,320 - DEBUG - In Pos 0
+2018-02-20 02:25:04,320 - DEBUG - Stop ID is 0
+2018-02-20 02:25:04,320 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 02:25:04,321 - DEBUG - EntryPend is 1
+2018-02-20 02:25:04,322 - DEBUG - CHECKING IF STOP LOSS FILLED
+2018-02-20 02:25:04,322 - DEBUG - Entry Date is 10
+2018-02-20 02:25:04,322 - DEBUG - confirming yesterday is 02/19/2018
+2018-02-20 02:25:04,322 - DEBUG - Order Profit ID is 0
+2018-02-20 02:25:04,323 - DEBUG - Order Entry ID is 213
+2018-02-20 02:25:04,323 - DEBUG - API ID is  0
+2018-02-20 02:25:04,323 - DEBUG - Current Position is 0
+2018-02-20 02:25:04,323 - DEBUG - Current Position is <class 'str'>
+2018-02-20 02:25:04,324 - DEBUG - Checking if Positions should be close at EOD
+2018-02-20 02:25:04,324 - DEBUG - Time is 2
+2018-02-20 02:25:04,324 - DEBUG - Time is <class 'int'>
+2018-02-20 02:25:04,324 - DEBUG - Disconnected from IBController
+2018-02-20 02:25:04,325 - DEBUG - END POS MGMT SCRIPT :-!
+2018-02-20 02:30:00,255 - DEBUG - ****************************************************
+2018-02-20 02:30:00,256 - DEBUG - Current Time is 02:30AM
+2018-02-20 02:30:00,256 - DEBUG - Starting Pos Mgmt E S
+2018-02-20 02:30:00,256 - DEBUG - Connecting to database
+2018-02-20 02:30:00,280 - DEBUG - Connected to database
+2018-02-20 02:30:00,280 - DEBUG - Query is SELECT BB_ProfitID FROM hasPosition where CCY = 'ES'
+2018-02-20 02:30:00,282 - DEBUG - Order Profit is 0
+2018-02-20 02:30:00,282 - DEBUG - Query is SELECT BB_StopID FROM hasPosition where CCY = 'ES'
+2018-02-20 02:30:00,283 - DEBUG - Stop ID is 0
+2018-02-20 02:30:00,283 - DEBUG - Query is SELECT BB_EntryID FROM hasPosition where CCY = 'ES'
+2018-02-20 02:30:00,285 - DEBUG - Entry ID is 213
+2018-02-20 02:30:00,285 - DEBUG - Query is select max(idOCAGroup) as OCA from OCAGroup
+2018-02-20 02:30:00,286 - DEBUG - OCA ID is 1
+2018-02-20 02:30:00,287 - DEBUG - Connecting to IBController
+2018-02-20 02:30:01,290 - DEBUG - Connected to IBController
+2018-02-20 02:30:01,290 - DEBUG - Position requested
+2018-02-20 02:30:02,290 - DEBUG - Open Orders requested
+2018-02-20 02:30:04,290 - DEBUG - Connecting to database
+2018-02-20 02:30:04,297 - DEBUG - Connected to database
+2018-02-20 02:30:04,299 - DEBUG - Query is SELECT BB_StopLossVal FROM hasPosition where CCY = 'ES'
+2018-02-20 02:30:04,299 - DEBUG - Stop loss value is 2722.00
+2018-02-20 02:30:04,300 - DEBUG - Query is SELECT BB_ProfitPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 02:30:04,301 - DEBUG - Stop loss value is 2765.75
+2018-02-20 02:30:04,302 - DEBUG - Query is SELECT BB_EntryPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 02:30:04,303 - DEBUG - EntryPrice value is 2756.25
+2018-02-20 02:30:04,304 - DEBUG - Query is SELECT BB_StopQty FROM hasPosition where CCY = 'ES'
+2018-02-20 02:30:04,304 - DEBUG - Stop quantity 1
+2018-02-20 02:30:04,305 - DEBUG - Query is SELECT BB_direction FROM hasPosition where CCY = 'ES'
+2018-02-20 02:30:04,306 - DEBUG - Direction is Long
+2018-02-20 02:30:04,307 - DEBUG - Query is SELECT BB_Position FROM hasPosition where CCY = 'ES'
+2018-02-20 02:30:04,307 - DEBUG - Count is 0
+2018-02-20 02:30:04,309 - DEBUG - Query is SELECT BB_StopLossFlag FROM hasPosition where CCY = 'ES'
+2018-02-20 02:30:04,309 - DEBUG - Stop Loss Flag is 0
+2018-02-20 02:30:04,310 - DEBUG - Query is SELECT max(idOrder) FROM Orders
+2018-02-20 02:30:04,311 - DEBUG - Max ID Order is (213,)
+2018-02-20 02:30:04,311 - DEBUG - Today is 2018-02-20
+2018-02-20 02:30:04,311 - DEBUG - Day of the week 1
+2018-02-20 02:30:04,312 - DEBUG - Yesterday is 02/19/2018
+2018-02-20 02:30:04,312 - DEBUG - In Position is  0
+2018-02-20 02:30:04,312 - DEBUG - In Position is  <class 'int'>
+2018-02-20 02:30:04,313 - DEBUG - curStopLossFlag is  0
+2018-02-20 02:30:04,313 - DEBUG - curStopLossFlag is  <class 'str'>
+2018-02-20 02:30:04,313 - DEBUG - Checking if Entry has been filled
+2018-02-20 02:30:04,313 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 02:30:04,315 - DEBUG - EntryPend is 1
+2018-02-20 02:30:04,315 - DEBUG - Try to Cancel Stop
+2018-02-20 02:30:04,315 - DEBUG - Stop API ID 0
+2018-02-20 02:30:04,315 - DEBUG - Profit API ID 0
+2018-02-20 02:30:04,315 - DEBUG - Stop API ID <class 'int'>
+2018-02-20 02:30:04,316 - DEBUG - Profit API ID <class 'int'>
+2018-02-20 02:30:04,316 - DEBUG - Pos is 0
+2018-02-20 02:30:04,316 - DEBUG - CurCount is 0
+2018-02-20 02:30:04,316 - DEBUG - In Pos 0
+2018-02-20 02:30:04,317 - DEBUG - Stop ID is 0
+2018-02-20 02:30:04,317 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 02:30:04,318 - DEBUG - EntryPend is 1
+2018-02-20 02:30:04,319 - DEBUG - CHECKING IF STOP LOSS FILLED
+2018-02-20 02:30:04,319 - DEBUG - Entry Date is 10
+2018-02-20 02:30:04,319 - DEBUG - confirming yesterday is 02/19/2018
+2018-02-20 02:30:04,319 - DEBUG - Order Profit ID is 0
+2018-02-20 02:30:04,319 - DEBUG - Order Entry ID is 213
+2018-02-20 02:30:04,320 - DEBUG - API ID is  0
+2018-02-20 02:30:04,320 - DEBUG - Current Position is 0
+2018-02-20 02:30:04,320 - DEBUG - Current Position is <class 'str'>
+2018-02-20 02:30:04,320 - DEBUG - Checking if Positions should be close at EOD
+2018-02-20 02:30:04,321 - DEBUG - Time is 2
+2018-02-20 02:30:04,321 - DEBUG - Time is <class 'int'>
+2018-02-20 02:30:04,321 - DEBUG - Disconnected from IBController
+2018-02-20 02:30:04,321 - DEBUG - END POS MGMT SCRIPT :-!
+2018-02-20 02:35:00,268 - DEBUG - ****************************************************
+2018-02-20 02:35:00,268 - DEBUG - Current Time is 02:35AM
+2018-02-20 02:35:00,269 - DEBUG - Starting Pos Mgmt E S
+2018-02-20 02:35:00,269 - DEBUG - Connecting to database
+2018-02-20 02:35:00,291 - DEBUG - Connected to database
+2018-02-20 02:35:00,292 - DEBUG - Query is SELECT BB_ProfitID FROM hasPosition where CCY = 'ES'
+2018-02-20 02:35:00,293 - DEBUG - Order Profit is 0
+2018-02-20 02:35:00,293 - DEBUG - Query is SELECT BB_StopID FROM hasPosition where CCY = 'ES'
+2018-02-20 02:35:00,295 - DEBUG - Stop ID is 0
+2018-02-20 02:35:00,295 - DEBUG - Query is SELECT BB_EntryID FROM hasPosition where CCY = 'ES'
+2018-02-20 02:35:00,296 - DEBUG - Entry ID is 213
+2018-02-20 02:35:00,296 - DEBUG - Query is select max(idOCAGroup) as OCA from OCAGroup
+2018-02-20 02:35:00,298 - DEBUG - OCA ID is 1
+2018-02-20 02:35:00,298 - DEBUG - Connecting to IBController
+2018-02-20 02:35:01,302 - DEBUG - Connected to IBController
+2018-02-20 02:35:01,302 - DEBUG - Position requested
+2018-02-20 02:35:02,302 - DEBUG - Open Orders requested
+2018-02-20 02:35:04,302 - DEBUG - Connecting to database
+2018-02-20 02:35:04,311 - DEBUG - Connected to database
+2018-02-20 02:35:04,312 - DEBUG - Query is SELECT BB_StopLossVal FROM hasPosition where CCY = 'ES'
+2018-02-20 02:35:04,312 - DEBUG - Stop loss value is 2722.00
+2018-02-20 02:35:04,314 - DEBUG - Query is SELECT BB_ProfitPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 02:35:04,314 - DEBUG - Stop loss value is 2765.75
+2018-02-20 02:35:04,315 - DEBUG - Query is SELECT BB_EntryPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 02:35:04,316 - DEBUG - EntryPrice value is 2756.25
+2018-02-20 02:35:04,317 - DEBUG - Query is SELECT BB_StopQty FROM hasPosition where CCY = 'ES'
+2018-02-20 02:35:04,317 - DEBUG - Stop quantity 1
+2018-02-20 02:35:04,319 - DEBUG - Query is SELECT BB_direction FROM hasPosition where CCY = 'ES'
+2018-02-20 02:35:04,319 - DEBUG - Direction is Long
+2018-02-20 02:35:04,321 - DEBUG - Query is SELECT BB_Position FROM hasPosition where CCY = 'ES'
+2018-02-20 02:35:04,321 - DEBUG - Count is 0
+2018-02-20 02:35:04,322 - DEBUG - Query is SELECT BB_StopLossFlag FROM hasPosition where CCY = 'ES'
+2018-02-20 02:35:04,323 - DEBUG - Stop Loss Flag is 0
+2018-02-20 02:35:04,324 - DEBUG - Query is SELECT max(idOrder) FROM Orders
+2018-02-20 02:35:04,324 - DEBUG - Max ID Order is (213,)
+2018-02-20 02:35:04,325 - DEBUG - Today is 2018-02-20
+2018-02-20 02:35:04,325 - DEBUG - Day of the week 1
+2018-02-20 02:35:04,325 - DEBUG - Yesterday is 02/19/2018
+2018-02-20 02:35:04,326 - DEBUG - In Position is  0
+2018-02-20 02:35:04,326 - DEBUG - In Position is  <class 'int'>
+2018-02-20 02:35:04,326 - DEBUG - curStopLossFlag is  0
+2018-02-20 02:35:04,327 - DEBUG - curStopLossFlag is  <class 'str'>
+2018-02-20 02:35:04,327 - DEBUG - Checking if Entry has been filled
+2018-02-20 02:35:04,327 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 02:35:04,328 - DEBUG - EntryPend is 1
+2018-02-20 02:35:04,329 - DEBUG - Try to Cancel Stop
+2018-02-20 02:35:04,329 - DEBUG - Stop API ID 0
+2018-02-20 02:35:04,329 - DEBUG - Profit API ID 0
+2018-02-20 02:35:04,329 - DEBUG - Stop API ID <class 'int'>
+2018-02-20 02:35:04,330 - DEBUG - Profit API ID <class 'int'>
+2018-02-20 02:35:04,330 - DEBUG - Pos is 0
+2018-02-20 02:35:04,330 - DEBUG - CurCount is 0
+2018-02-20 02:35:04,330 - DEBUG - In Pos 0
+2018-02-20 02:35:04,331 - DEBUG - Stop ID is 0
+2018-02-20 02:35:04,331 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 02:35:04,332 - DEBUG - EntryPend is 1
+2018-02-20 02:35:04,332 - DEBUG - CHECKING IF STOP LOSS FILLED
+2018-02-20 02:35:04,333 - DEBUG - Entry Date is 10
+2018-02-20 02:35:04,333 - DEBUG - confirming yesterday is 02/19/2018
+2018-02-20 02:35:04,333 - DEBUG - Order Profit ID is 0
+2018-02-20 02:35:04,333 - DEBUG - Order Entry ID is 213
+2018-02-20 02:35:04,334 - DEBUG - API ID is  0
+2018-02-20 02:35:04,334 - DEBUG - Current Position is 0
+2018-02-20 02:35:04,334 - DEBUG - Current Position is <class 'str'>
+2018-02-20 02:35:04,334 - DEBUG - Checking if Positions should be close at EOD
+2018-02-20 02:35:04,335 - DEBUG - Time is 2
+2018-02-20 02:35:04,335 - DEBUG - Time is <class 'int'>
+2018-02-20 02:35:04,335 - DEBUG - Disconnected from IBController
+2018-02-20 02:35:04,335 - DEBUG - END POS MGMT SCRIPT :-!
+2018-02-20 02:40:00,266 - DEBUG - ****************************************************
+2018-02-20 02:40:00,267 - DEBUG - Current Time is 02:40AM
+2018-02-20 02:40:00,267 - DEBUG - Starting Pos Mgmt E S
+2018-02-20 02:40:00,267 - DEBUG - Connecting to database
+2018-02-20 02:40:00,290 - DEBUG - Connected to database
+2018-02-20 02:40:00,291 - DEBUG - Query is SELECT BB_ProfitID FROM hasPosition where CCY = 'ES'
+2018-02-20 02:40:00,292 - DEBUG - Order Profit is 0
+2018-02-20 02:40:00,292 - DEBUG - Query is SELECT BB_StopID FROM hasPosition where CCY = 'ES'
+2018-02-20 02:40:00,294 - DEBUG - Stop ID is 0
+2018-02-20 02:40:00,294 - DEBUG - Query is SELECT BB_EntryID FROM hasPosition where CCY = 'ES'
+2018-02-20 02:40:00,296 - DEBUG - Entry ID is 213
+2018-02-20 02:40:00,296 - DEBUG - Query is select max(idOCAGroup) as OCA from OCAGroup
+2018-02-20 02:40:00,298 - DEBUG - OCA ID is 1
+2018-02-20 02:40:00,298 - DEBUG - Connecting to IBController
+2018-02-20 02:40:01,303 - DEBUG - Connected to IBController
+2018-02-20 02:40:01,303 - DEBUG - Position requested
+2018-02-20 02:40:02,303 - DEBUG - Open Orders requested
+2018-02-20 02:40:04,303 - DEBUG - Connecting to database
+2018-02-20 02:40:04,310 - DEBUG - Connected to database
+2018-02-20 02:40:04,311 - DEBUG - Query is SELECT BB_StopLossVal FROM hasPosition where CCY = 'ES'
+2018-02-20 02:40:04,312 - DEBUG - Stop loss value is 2722.00
+2018-02-20 02:40:04,313 - DEBUG - Query is SELECT BB_ProfitPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 02:40:04,314 - DEBUG - Stop loss value is 2765.75
+2018-02-20 02:40:04,315 - DEBUG - Query is SELECT BB_EntryPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 02:40:04,315 - DEBUG - EntryPrice value is 2756.25
+2018-02-20 02:40:04,317 - DEBUG - Query is SELECT BB_StopQty FROM hasPosition where CCY = 'ES'
+2018-02-20 02:40:04,317 - DEBUG - Stop quantity 1
+2018-02-20 02:40:04,319 - DEBUG - Query is SELECT BB_direction FROM hasPosition where CCY = 'ES'
+2018-02-20 02:40:04,319 - DEBUG - Direction is Long
+2018-02-20 02:40:04,320 - DEBUG - Query is SELECT BB_Position FROM hasPosition where CCY = 'ES'
+2018-02-20 02:40:04,320 - DEBUG - Count is 0
+2018-02-20 02:40:04,322 - DEBUG - Query is SELECT BB_StopLossFlag FROM hasPosition where CCY = 'ES'
+2018-02-20 02:40:04,322 - DEBUG - Stop Loss Flag is 0
+2018-02-20 02:40:04,323 - DEBUG - Query is SELECT max(idOrder) FROM Orders
+2018-02-20 02:40:04,324 - DEBUG - Max ID Order is (213,)
+2018-02-20 02:40:04,324 - DEBUG - Today is 2018-02-20
+2018-02-20 02:40:04,325 - DEBUG - Day of the week 1
+2018-02-20 02:40:04,325 - DEBUG - Yesterday is 02/19/2018
+2018-02-20 02:40:04,325 - DEBUG - In Position is  0
+2018-02-20 02:40:04,325 - DEBUG - In Position is  <class 'int'>
+2018-02-20 02:40:04,326 - DEBUG - curStopLossFlag is  0
+2018-02-20 02:40:04,326 - DEBUG - curStopLossFlag is  <class 'str'>
+2018-02-20 02:40:04,326 - DEBUG - Checking if Entry has been filled
+2018-02-20 02:40:04,326 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 02:40:04,328 - DEBUG - EntryPend is 1
+2018-02-20 02:40:04,328 - DEBUG - Try to Cancel Stop
+2018-02-20 02:40:04,328 - DEBUG - Stop API ID 0
+2018-02-20 02:40:04,329 - DEBUG - Profit API ID 0
+2018-02-20 02:40:04,329 - DEBUG - Stop API ID <class 'int'>
+2018-02-20 02:40:04,329 - DEBUG - Profit API ID <class 'int'>
+2018-02-20 02:40:04,329 - DEBUG - Pos is 0
+2018-02-20 02:40:04,329 - DEBUG - CurCount is 0
+2018-02-20 02:40:04,330 - DEBUG - In Pos 0
+2018-02-20 02:40:04,330 - DEBUG - Stop ID is 0
+2018-02-20 02:40:04,330 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 02:40:04,331 - DEBUG - EntryPend is 1
+2018-02-20 02:40:04,332 - DEBUG - CHECKING IF STOP LOSS FILLED
+2018-02-20 02:40:04,332 - DEBUG - Entry Date is 10
+2018-02-20 02:40:04,332 - DEBUG - confirming yesterday is 02/19/2018
+2018-02-20 02:40:04,332 - DEBUG - Order Profit ID is 0
+2018-02-20 02:40:04,333 - DEBUG - Order Entry ID is 213
+2018-02-20 02:40:04,333 - DEBUG - API ID is  0
+2018-02-20 02:40:04,333 - DEBUG - Current Position is 0
+2018-02-20 02:40:04,333 - DEBUG - Current Position is <class 'str'>
+2018-02-20 02:40:04,334 - DEBUG - Checking if Positions should be close at EOD
+2018-02-20 02:40:04,334 - DEBUG - Time is 2
+2018-02-20 02:40:04,334 - DEBUG - Time is <class 'int'>
+2018-02-20 02:40:04,334 - DEBUG - Disconnected from IBController
+2018-02-20 02:40:04,334 - DEBUG - END POS MGMT SCRIPT :-!
+2018-02-20 02:45:00,270 - DEBUG - ****************************************************
+2018-02-20 02:45:00,270 - DEBUG - Current Time is 02:45AM
+2018-02-20 02:45:00,271 - DEBUG - Starting Pos Mgmt E S
+2018-02-20 02:45:00,271 - DEBUG - Connecting to database
+2018-02-20 02:45:00,296 - DEBUG - Connected to database
+2018-02-20 02:45:00,296 - DEBUG - Query is SELECT BB_ProfitID FROM hasPosition where CCY = 'ES'
+2018-02-20 02:45:00,298 - DEBUG - Order Profit is 0
+2018-02-20 02:45:00,298 - DEBUG - Query is SELECT BB_StopID FROM hasPosition where CCY = 'ES'
+2018-02-20 02:45:00,299 - DEBUG - Stop ID is 0
+2018-02-20 02:45:00,299 - DEBUG - Query is SELECT BB_EntryID FROM hasPosition where CCY = 'ES'
+2018-02-20 02:45:00,301 - DEBUG - Entry ID is 213
+2018-02-20 02:45:00,301 - DEBUG - Query is select max(idOCAGroup) as OCA from OCAGroup
+2018-02-20 02:45:00,302 - DEBUG - OCA ID is 1
+2018-02-20 02:45:00,303 - DEBUG - Connecting to IBController
+2018-02-20 02:45:01,306 - DEBUG - Connected to IBController
+2018-02-20 02:45:01,306 - DEBUG - Position requested
+2018-02-20 02:45:02,306 - DEBUG - Open Orders requested
+2018-02-20 02:45:04,306 - DEBUG - Connecting to database
+2018-02-20 02:45:04,313 - DEBUG - Connected to database
+2018-02-20 02:45:04,314 - DEBUG - Query is SELECT BB_StopLossVal FROM hasPosition where CCY = 'ES'
+2018-02-20 02:45:04,315 - DEBUG - Stop loss value is 2722.00
+2018-02-20 02:45:04,316 - DEBUG - Query is SELECT BB_ProfitPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 02:45:04,316 - DEBUG - Stop loss value is 2765.75
+2018-02-20 02:45:04,318 - DEBUG - Query is SELECT BB_EntryPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 02:45:04,318 - DEBUG - EntryPrice value is 2756.25
+2018-02-20 02:45:04,319 - DEBUG - Query is SELECT BB_StopQty FROM hasPosition where CCY = 'ES'
+2018-02-20 02:45:04,320 - DEBUG - Stop quantity 1
+2018-02-20 02:45:04,321 - DEBUG - Query is SELECT BB_direction FROM hasPosition where CCY = 'ES'
+2018-02-20 02:45:04,321 - DEBUG - Direction is Long
+2018-02-20 02:45:04,322 - DEBUG - Query is SELECT BB_Position FROM hasPosition where CCY = 'ES'
+2018-02-20 02:45:04,323 - DEBUG - Count is 0
+2018-02-20 02:45:04,324 - DEBUG - Query is SELECT BB_StopLossFlag FROM hasPosition where CCY = 'ES'
+2018-02-20 02:45:04,324 - DEBUG - Stop Loss Flag is 0
+2018-02-20 02:45:04,326 - DEBUG - Query is SELECT max(idOrder) FROM Orders
+2018-02-20 02:45:04,326 - DEBUG - Max ID Order is (213,)
+2018-02-20 02:45:04,326 - DEBUG - Today is 2018-02-20
+2018-02-20 02:45:04,327 - DEBUG - Day of the week 1
+2018-02-20 02:45:04,327 - DEBUG - Yesterday is 02/19/2018
+2018-02-20 02:45:04,327 - DEBUG - In Position is  0
+2018-02-20 02:45:04,328 - DEBUG - In Position is  <class 'int'>
+2018-02-20 02:45:04,328 - DEBUG - curStopLossFlag is  0
+2018-02-20 02:45:04,328 - DEBUG - curStopLossFlag is  <class 'str'>
+2018-02-20 02:45:04,328 - DEBUG - Checking if Entry has been filled
+2018-02-20 02:45:04,329 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 02:45:04,330 - DEBUG - EntryPend is 1
+2018-02-20 02:45:04,330 - DEBUG - Try to Cancel Stop
+2018-02-20 02:45:04,330 - DEBUG - Stop API ID 0
+2018-02-20 02:45:04,331 - DEBUG - Profit API ID 0
+2018-02-20 02:45:04,331 - DEBUG - Stop API ID <class 'int'>
+2018-02-20 02:45:04,331 - DEBUG - Profit API ID <class 'int'>
+2018-02-20 02:45:04,331 - DEBUG - Pos is 0
+2018-02-20 02:45:04,331 - DEBUG - CurCount is 0
+2018-02-20 02:45:04,332 - DEBUG - In Pos 0
+2018-02-20 02:45:04,332 - DEBUG - Stop ID is 0
+2018-02-20 02:45:04,332 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 02:45:04,334 - DEBUG - EntryPend is 1
+2018-02-20 02:45:04,334 - DEBUG - CHECKING IF STOP LOSS FILLED
+2018-02-20 02:45:04,334 - DEBUG - Entry Date is 10
+2018-02-20 02:45:04,334 - DEBUG - confirming yesterday is 02/19/2018
+2018-02-20 02:45:04,334 - DEBUG - Order Profit ID is 0
+2018-02-20 02:45:04,335 - DEBUG - Order Entry ID is 213
+2018-02-20 02:45:04,335 - DEBUG - API ID is  0
+2018-02-20 02:45:04,335 - DEBUG - Current Position is 0
+2018-02-20 02:45:04,335 - DEBUG - Current Position is <class 'str'>
+2018-02-20 02:45:04,336 - DEBUG - Checking if Positions should be close at EOD
+2018-02-20 02:45:04,336 - DEBUG - Time is 2
+2018-02-20 02:45:04,336 - DEBUG - Time is <class 'int'>
+2018-02-20 02:45:04,336 - DEBUG - Disconnected from IBController
+2018-02-20 02:45:04,336 - DEBUG - END POS MGMT SCRIPT :-!
+2018-02-20 02:50:00,267 - DEBUG - ****************************************************
+2018-02-20 02:50:00,268 - DEBUG - Current Time is 02:50AM
+2018-02-20 02:50:00,268 - DEBUG - Starting Pos Mgmt E S
+2018-02-20 02:50:00,268 - DEBUG - Connecting to database
+2018-02-20 02:50:00,299 - DEBUG - Connected to database
+2018-02-20 02:50:00,300 - DEBUG - Query is SELECT BB_ProfitID FROM hasPosition where CCY = 'ES'
+2018-02-20 02:50:00,301 - DEBUG - Order Profit is 0
+2018-02-20 02:50:00,302 - DEBUG - Query is SELECT BB_StopID FROM hasPosition where CCY = 'ES'
+2018-02-20 02:50:00,303 - DEBUG - Stop ID is 0
+2018-02-20 02:50:00,303 - DEBUG - Query is SELECT BB_EntryID FROM hasPosition where CCY = 'ES'
+2018-02-20 02:50:00,304 - DEBUG - Entry ID is 213
+2018-02-20 02:50:00,305 - DEBUG - Query is select max(idOCAGroup) as OCA from OCAGroup
+2018-02-20 02:50:00,306 - DEBUG - OCA ID is 1
+2018-02-20 02:50:00,306 - DEBUG - Connecting to IBController
+2018-02-20 02:50:01,311 - DEBUG - Connected to IBController
+2018-02-20 02:50:01,311 - DEBUG - Position requested
+2018-02-20 02:50:02,311 - DEBUG - Open Orders requested
+2018-02-20 02:50:04,311 - DEBUG - Connecting to database
+2018-02-20 02:50:04,318 - DEBUG - Connected to database
+2018-02-20 02:50:04,319 - DEBUG - Query is SELECT BB_StopLossVal FROM hasPosition where CCY = 'ES'
+2018-02-20 02:50:04,320 - DEBUG - Stop loss value is 2722.00
+2018-02-20 02:50:04,321 - DEBUG - Query is SELECT BB_ProfitPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 02:50:04,321 - DEBUG - Stop loss value is 2765.75
+2018-02-20 02:50:04,323 - DEBUG - Query is SELECT BB_EntryPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 02:50:04,323 - DEBUG - EntryPrice value is 2756.25
+2018-02-20 02:50:04,324 - DEBUG - Query is SELECT BB_StopQty FROM hasPosition where CCY = 'ES'
+2018-02-20 02:50:04,325 - DEBUG - Stop quantity 1
+2018-02-20 02:50:04,326 - DEBUG - Query is SELECT BB_direction FROM hasPosition where CCY = 'ES'
+2018-02-20 02:50:04,326 - DEBUG - Direction is Long
+2018-02-20 02:50:04,328 - DEBUG - Query is SELECT BB_Position FROM hasPosition where CCY = 'ES'
+2018-02-20 02:50:04,328 - DEBUG - Count is 0
+2018-02-20 02:50:04,329 - DEBUG - Query is SELECT BB_StopLossFlag FROM hasPosition where CCY = 'ES'
+2018-02-20 02:50:04,330 - DEBUG - Stop Loss Flag is 0
+2018-02-20 02:50:04,331 - DEBUG - Query is SELECT max(idOrder) FROM Orders
+2018-02-20 02:50:04,331 - DEBUG - Max ID Order is (213,)
+2018-02-20 02:50:04,332 - DEBUG - Today is 2018-02-20
+2018-02-20 02:50:04,332 - DEBUG - Day of the week 1
+2018-02-20 02:50:04,333 - DEBUG - Yesterday is 02/19/2018
+2018-02-20 02:50:04,333 - DEBUG - In Position is  0
+2018-02-20 02:50:04,333 - DEBUG - In Position is  <class 'int'>
+2018-02-20 02:50:04,333 - DEBUG - curStopLossFlag is  0
+2018-02-20 02:50:04,334 - DEBUG - curStopLossFlag is  <class 'str'>
+2018-02-20 02:50:04,334 - DEBUG - Checking if Entry has been filled
+2018-02-20 02:50:04,334 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 02:50:04,335 - DEBUG - EntryPend is 1
+2018-02-20 02:50:04,336 - DEBUG - Try to Cancel Stop
+2018-02-20 02:50:04,336 - DEBUG - Stop API ID 0
+2018-02-20 02:50:04,336 - DEBUG - Profit API ID 0
+2018-02-20 02:50:04,336 - DEBUG - Stop API ID <class 'int'>
+2018-02-20 02:50:04,337 - DEBUG - Profit API ID <class 'int'>
+2018-02-20 02:50:04,337 - DEBUG - Pos is 0
+2018-02-20 02:50:04,337 - DEBUG - CurCount is 0
+2018-02-20 02:50:04,337 - DEBUG - In Pos 0
+2018-02-20 02:50:04,337 - DEBUG - Stop ID is 0
+2018-02-20 02:50:04,338 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 02:50:04,339 - DEBUG - EntryPend is 1
+2018-02-20 02:50:04,339 - DEBUG - CHECKING IF STOP LOSS FILLED
+2018-02-20 02:50:04,340 - DEBUG - Entry Date is 10
+2018-02-20 02:50:04,340 - DEBUG - confirming yesterday is 02/19/2018
+2018-02-20 02:50:04,340 - DEBUG - Order Profit ID is 0
+2018-02-20 02:50:04,340 - DEBUG - Order Entry ID is 213
+2018-02-20 02:50:04,340 - DEBUG - API ID is  0
+2018-02-20 02:50:04,341 - DEBUG - Current Position is 0
+2018-02-20 02:50:04,341 - DEBUG - Current Position is <class 'str'>
+2018-02-20 02:50:04,341 - DEBUG - Checking if Positions should be close at EOD
+2018-02-20 02:50:04,341 - DEBUG - Time is 2
+2018-02-20 02:50:04,342 - DEBUG - Time is <class 'int'>
+2018-02-20 02:50:04,342 - DEBUG - Disconnected from IBController
+2018-02-20 02:50:04,342 - DEBUG - END POS MGMT SCRIPT :-!
+2018-02-20 02:55:00,265 - DEBUG - ****************************************************
+2018-02-20 02:55:00,265 - DEBUG - Current Time is 02:55AM
+2018-02-20 02:55:00,266 - DEBUG - Starting Pos Mgmt E S
+2018-02-20 02:55:00,266 - DEBUG - Connecting to database
+2018-02-20 02:55:00,290 - DEBUG - Connected to database
+2018-02-20 02:55:00,291 - DEBUG - Query is SELECT BB_ProfitID FROM hasPosition where CCY = 'ES'
+2018-02-20 02:55:00,292 - DEBUG - Order Profit is 0
+2018-02-20 02:55:00,292 - DEBUG - Query is SELECT BB_StopID FROM hasPosition where CCY = 'ES'
+2018-02-20 02:55:00,294 - DEBUG - Stop ID is 0
+2018-02-20 02:55:00,294 - DEBUG - Query is SELECT BB_EntryID FROM hasPosition where CCY = 'ES'
+2018-02-20 02:55:00,296 - DEBUG - Entry ID is 213
+2018-02-20 02:55:00,296 - DEBUG - Query is select max(idOCAGroup) as OCA from OCAGroup
+2018-02-20 02:55:00,297 - DEBUG - OCA ID is 1
+2018-02-20 02:55:00,298 - DEBUG - Connecting to IBController
+2018-02-20 02:55:01,301 - DEBUG - Connected to IBController
+2018-02-20 02:55:01,301 - DEBUG - Position requested
+2018-02-20 02:55:02,301 - DEBUG - Open Orders requested
+2018-02-20 02:55:04,301 - DEBUG - Connecting to database
+2018-02-20 02:55:04,308 - DEBUG - Connected to database
+2018-02-20 02:55:04,310 - DEBUG - Query is SELECT BB_StopLossVal FROM hasPosition where CCY = 'ES'
+2018-02-20 02:55:04,310 - DEBUG - Stop loss value is 2722.00
+2018-02-20 02:55:04,311 - DEBUG - Query is SELECT BB_ProfitPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 02:55:04,312 - DEBUG - Stop loss value is 2765.75
+2018-02-20 02:55:04,313 - DEBUG - Query is SELECT BB_EntryPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 02:55:04,313 - DEBUG - EntryPrice value is 2756.25
+2018-02-20 02:55:04,315 - DEBUG - Query is SELECT BB_StopQty FROM hasPosition where CCY = 'ES'
+2018-02-20 02:55:04,315 - DEBUG - Stop quantity 1
+2018-02-20 02:55:04,316 - DEBUG - Query is SELECT BB_direction FROM hasPosition where CCY = 'ES'
+2018-02-20 02:55:04,317 - DEBUG - Direction is Long
+2018-02-20 02:55:04,318 - DEBUG - Query is SELECT BB_Position FROM hasPosition where CCY = 'ES'
+2018-02-20 02:55:04,318 - DEBUG - Count is 0
+2018-02-20 02:55:04,320 - DEBUG - Query is SELECT BB_StopLossFlag FROM hasPosition where CCY = 'ES'
+2018-02-20 02:55:04,320 - DEBUG - Stop Loss Flag is 0
+2018-02-20 02:55:04,321 - DEBUG - Query is SELECT max(idOrder) FROM Orders
+2018-02-20 02:55:04,322 - DEBUG - Max ID Order is (213,)
+2018-02-20 02:55:04,322 - DEBUG - Today is 2018-02-20
+2018-02-20 02:55:04,322 - DEBUG - Day of the week 1
+2018-02-20 02:55:04,323 - DEBUG - Yesterday is 02/19/2018
+2018-02-20 02:55:04,323 - DEBUG - In Position is  0
+2018-02-20 02:55:04,323 - DEBUG - In Position is  <class 'int'>
+2018-02-20 02:55:04,324 - DEBUG - curStopLossFlag is  0
+2018-02-20 02:55:04,324 - DEBUG - curStopLossFlag is  <class 'str'>
+2018-02-20 02:55:04,324 - DEBUG - Checking if Entry has been filled
+2018-02-20 02:55:04,324 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 02:55:04,326 - DEBUG - EntryPend is 1
+2018-02-20 02:55:04,326 - DEBUG - Try to Cancel Stop
+2018-02-20 02:55:04,326 - DEBUG - Stop API ID 0
+2018-02-20 02:55:04,326 - DEBUG - Profit API ID 0
+2018-02-20 02:55:04,326 - DEBUG - Stop API ID <class 'int'>
+2018-02-20 02:55:04,327 - DEBUG - Profit API ID <class 'int'>
+2018-02-20 02:55:04,327 - DEBUG - Pos is 0
+2018-02-20 02:55:04,327 - DEBUG - CurCount is 0
+2018-02-20 02:55:04,327 - DEBUG - In Pos 0
+2018-02-20 02:55:04,328 - DEBUG - Stop ID is 0
+2018-02-20 02:55:04,328 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 02:55:04,329 - DEBUG - EntryPend is 1
+2018-02-20 02:55:04,329 - DEBUG - CHECKING IF STOP LOSS FILLED
+2018-02-20 02:55:04,330 - DEBUG - Entry Date is 10
+2018-02-20 02:55:04,330 - DEBUG - confirming yesterday is 02/19/2018
+2018-02-20 02:55:04,330 - DEBUG - Order Profit ID is 0
+2018-02-20 02:55:04,330 - DEBUG - Order Entry ID is 213
+2018-02-20 02:55:04,330 - DEBUG - API ID is  0
+2018-02-20 02:55:04,331 - DEBUG - Current Position is 0
+2018-02-20 02:55:04,331 - DEBUG - Current Position is <class 'str'>
+2018-02-20 02:55:04,331 - DEBUG - Checking if Positions should be close at EOD
+2018-02-20 02:55:04,331 - DEBUG - Time is 2
+2018-02-20 02:55:04,332 - DEBUG - Time is <class 'int'>
+2018-02-20 02:55:04,332 - DEBUG - Disconnected from IBController
+2018-02-20 02:55:04,332 - DEBUG - END POS MGMT SCRIPT :-!
+2018-02-20 03:00:00,273 - DEBUG - ****************************************************
+2018-02-20 03:00:00,273 - DEBUG - Current Time is 03:00AM
+2018-02-20 03:00:00,273 - DEBUG - Starting Pos Mgmt E S
+2018-02-20 03:00:00,274 - DEBUG - Connecting to database
+2018-02-20 03:00:00,299 - DEBUG - Connected to database
+2018-02-20 03:00:00,300 - DEBUG - Query is SELECT BB_ProfitID FROM hasPosition where CCY = 'ES'
+2018-02-20 03:00:00,301 - DEBUG - Order Profit is 0
+2018-02-20 03:00:00,302 - DEBUG - Query is SELECT BB_StopID FROM hasPosition where CCY = 'ES'
+2018-02-20 03:00:00,303 - DEBUG - Stop ID is 0
+2018-02-20 03:00:00,303 - DEBUG - Query is SELECT BB_EntryID FROM hasPosition where CCY = 'ES'
+2018-02-20 03:00:00,304 - DEBUG - Entry ID is 213
+2018-02-20 03:00:00,305 - DEBUG - Query is select max(idOCAGroup) as OCA from OCAGroup
+2018-02-20 03:00:00,306 - DEBUG - OCA ID is 1
+2018-02-20 03:00:00,307 - DEBUG - Connecting to IBController
+2018-02-20 03:00:01,311 - DEBUG - Connected to IBController
+2018-02-20 03:00:01,311 - DEBUG - Position requested
+2018-02-20 03:00:02,311 - DEBUG - Open Orders requested
+2018-02-20 03:00:04,311 - DEBUG - Connecting to database
+2018-02-20 03:00:04,319 - DEBUG - Connected to database
+2018-02-20 03:00:04,324 - DEBUG - Query is SELECT BB_StopLossVal FROM hasPosition where CCY = 'ES'
+2018-02-20 03:00:04,325 - DEBUG - Stop loss value is 2722.00
+2018-02-20 03:00:04,326 - DEBUG - Query is SELECT BB_ProfitPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 03:00:04,327 - DEBUG - Stop loss value is 2765.75
+2018-02-20 03:00:04,328 - DEBUG - Query is SELECT BB_EntryPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 03:00:04,328 - DEBUG - EntryPrice value is 2756.25
+2018-02-20 03:00:04,330 - DEBUG - Query is SELECT BB_StopQty FROM hasPosition where CCY = 'ES'
+2018-02-20 03:00:04,330 - DEBUG - Stop quantity 1
+2018-02-20 03:00:04,331 - DEBUG - Query is SELECT BB_direction FROM hasPosition where CCY = 'ES'
+2018-02-20 03:00:04,332 - DEBUG - Direction is Long
+2018-02-20 03:00:04,333 - DEBUG - Query is SELECT BB_Position FROM hasPosition where CCY = 'ES'
+2018-02-20 03:00:04,334 - DEBUG - Count is 0
+2018-02-20 03:00:04,335 - DEBUG - Query is SELECT BB_StopLossFlag FROM hasPosition where CCY = 'ES'
+2018-02-20 03:00:04,335 - DEBUG - Stop Loss Flag is 0
+2018-02-20 03:00:04,337 - DEBUG - Query is SELECT max(idOrder) FROM Orders
+2018-02-20 03:00:04,337 - DEBUG - Max ID Order is (213,)
+2018-02-20 03:00:04,337 - DEBUG - Today is 2018-02-20
+2018-02-20 03:00:04,338 - DEBUG - Day of the week 1
+2018-02-20 03:00:04,338 - DEBUG - Yesterday is 02/19/2018
+2018-02-20 03:00:04,338 - DEBUG - In Position is  0
+2018-02-20 03:00:04,339 - DEBUG - In Position is  <class 'int'>
+2018-02-20 03:00:04,339 - DEBUG - curStopLossFlag is  0
+2018-02-20 03:00:04,339 - DEBUG - curStopLossFlag is  <class 'str'>
+2018-02-20 03:00:04,340 - DEBUG - Checking if Entry has been filled
+2018-02-20 03:00:04,340 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 03:00:04,341 - DEBUG - EntryPend is 1
+2018-02-20 03:00:04,342 - DEBUG - Try to Cancel Stop
+2018-02-20 03:00:04,342 - DEBUG - Stop API ID 0
+2018-02-20 03:00:04,342 - DEBUG - Profit API ID 0
+2018-02-20 03:00:04,342 - DEBUG - Stop API ID <class 'int'>
+2018-02-20 03:00:04,342 - DEBUG - Profit API ID <class 'int'>
+2018-02-20 03:00:04,343 - DEBUG - Pos is 0
+2018-02-20 03:00:04,343 - DEBUG - CurCount is 0
+2018-02-20 03:00:04,343 - DEBUG - In Pos 0
+2018-02-20 03:00:04,344 - DEBUG - Stop ID is 0
+2018-02-20 03:00:04,344 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 03:00:04,345 - DEBUG - EntryPend is 1
+2018-02-20 03:00:04,345 - DEBUG - CHECKING IF STOP LOSS FILLED
+2018-02-20 03:00:04,346 - DEBUG - Entry Date is 10
+2018-02-20 03:00:04,346 - DEBUG - confirming yesterday is 02/19/2018
+2018-02-20 03:00:04,346 - DEBUG - Order Profit ID is 0
+2018-02-20 03:00:04,346 - DEBUG - Order Entry ID is 213
+2018-02-20 03:00:04,347 - DEBUG - API ID is  0
+2018-02-20 03:00:04,347 - DEBUG - Current Position is 0
+2018-02-20 03:00:04,347 - DEBUG - Current Position is <class 'str'>
+2018-02-20 03:00:04,347 - DEBUG - Checking if Positions should be close at EOD
+2018-02-20 03:00:04,348 - DEBUG - Time is 3
+2018-02-20 03:00:04,348 - DEBUG - Time is <class 'int'>
+2018-02-20 03:00:04,348 - DEBUG - Disconnected from IBController
+2018-02-20 03:00:04,348 - DEBUG - END POS MGMT SCRIPT :-!
+2018-02-20 03:05:00,277 - DEBUG - ****************************************************
+2018-02-20 03:05:00,277 - DEBUG - Current Time is 03:05AM
+2018-02-20 03:05:00,277 - DEBUG - Starting Pos Mgmt E S
+2018-02-20 03:05:00,278 - DEBUG - Connecting to database
+2018-02-20 03:05:00,297 - DEBUG - Connected to database
+2018-02-20 03:05:00,297 - DEBUG - Query is SELECT BB_ProfitID FROM hasPosition where CCY = 'ES'
+2018-02-20 03:05:00,299 - DEBUG - Order Profit is 0
+2018-02-20 03:05:00,299 - DEBUG - Query is SELECT BB_StopID FROM hasPosition where CCY = 'ES'
+2018-02-20 03:05:00,300 - DEBUG - Stop ID is 0
+2018-02-20 03:05:00,301 - DEBUG - Query is SELECT BB_EntryID FROM hasPosition where CCY = 'ES'
+2018-02-20 03:05:00,302 - DEBUG - Entry ID is 213
+2018-02-20 03:05:00,302 - DEBUG - Query is select max(idOCAGroup) as OCA from OCAGroup
+2018-02-20 03:05:00,304 - DEBUG - OCA ID is 1
+2018-02-20 03:05:00,304 - DEBUG - Connecting to IBController
+2018-02-20 03:05:01,307 - DEBUG - Connected to IBController
+2018-02-20 03:05:01,307 - DEBUG - Position requested
+2018-02-20 03:05:02,307 - DEBUG - Open Orders requested
+2018-02-20 03:05:04,307 - DEBUG - Connecting to database
+2018-02-20 03:05:04,314 - DEBUG - Connected to database
+2018-02-20 03:05:04,316 - DEBUG - Query is SELECT BB_StopLossVal FROM hasPosition where CCY = 'ES'
+2018-02-20 03:05:04,316 - DEBUG - Stop loss value is 2722.00
+2018-02-20 03:05:04,317 - DEBUG - Query is SELECT BB_ProfitPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 03:05:04,318 - DEBUG - Stop loss value is 2765.75
+2018-02-20 03:05:04,319 - DEBUG - Query is SELECT BB_EntryPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 03:05:04,319 - DEBUG - EntryPrice value is 2756.25
+2018-02-20 03:05:04,321 - DEBUG - Query is SELECT BB_StopQty FROM hasPosition where CCY = 'ES'
+2018-02-20 03:05:04,321 - DEBUG - Stop quantity 1
+2018-02-20 03:05:04,322 - DEBUG - Query is SELECT BB_direction FROM hasPosition where CCY = 'ES'
+2018-02-20 03:05:04,323 - DEBUG - Direction is Long
+2018-02-20 03:05:04,324 - DEBUG - Query is SELECT BB_Position FROM hasPosition where CCY = 'ES'
+2018-02-20 03:05:04,324 - DEBUG - Count is 0
+2018-02-20 03:05:04,326 - DEBUG - Query is SELECT BB_StopLossFlag FROM hasPosition where CCY = 'ES'
+2018-02-20 03:05:04,326 - DEBUG - Stop Loss Flag is 0
+2018-02-20 03:05:04,327 - DEBUG - Query is SELECT max(idOrder) FROM Orders
+2018-02-20 03:05:04,328 - DEBUG - Max ID Order is (213,)
+2018-02-20 03:05:04,328 - DEBUG - Today is 2018-02-20
+2018-02-20 03:05:04,328 - DEBUG - Day of the week 1
+2018-02-20 03:05:04,329 - DEBUG - Yesterday is 02/19/2018
+2018-02-20 03:05:04,329 - DEBUG - In Position is  0
+2018-02-20 03:05:04,329 - DEBUG - In Position is  <class 'int'>
+2018-02-20 03:05:04,330 - DEBUG - curStopLossFlag is  0
+2018-02-20 03:05:04,330 - DEBUG - curStopLossFlag is  <class 'str'>
+2018-02-20 03:05:04,330 - DEBUG - Checking if Entry has been filled
+2018-02-20 03:05:04,330 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 03:05:04,332 - DEBUG - EntryPend is 1
+2018-02-20 03:05:04,332 - DEBUG - Try to Cancel Stop
+2018-02-20 03:05:04,332 - DEBUG - Stop API ID 0
+2018-02-20 03:05:04,332 - DEBUG - Profit API ID 0
+2018-02-20 03:05:04,332 - DEBUG - Stop API ID <class 'int'>
+2018-02-20 03:05:04,333 - DEBUG - Profit API ID <class 'int'>
+2018-02-20 03:05:04,333 - DEBUG - Pos is 0
+2018-02-20 03:05:04,333 - DEBUG - CurCount is 0
+2018-02-20 03:05:04,333 - DEBUG - In Pos 0
+2018-02-20 03:05:04,334 - DEBUG - Stop ID is 0
+2018-02-20 03:05:04,334 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 03:05:04,335 - DEBUG - EntryPend is 1
+2018-02-20 03:05:04,336 - DEBUG - CHECKING IF STOP LOSS FILLED
+2018-02-20 03:05:04,336 - DEBUG - Entry Date is 10
+2018-02-20 03:05:04,336 - DEBUG - confirming yesterday is 02/19/2018
+2018-02-20 03:05:04,336 - DEBUG - Order Profit ID is 0
+2018-02-20 03:05:04,337 - DEBUG - Order Entry ID is 213
+2018-02-20 03:05:04,337 - DEBUG - API ID is  0
+2018-02-20 03:05:04,337 - DEBUG - Current Position is 0
+2018-02-20 03:05:04,337 - DEBUG - Current Position is <class 'str'>
+2018-02-20 03:05:04,338 - DEBUG - Checking if Positions should be close at EOD
+2018-02-20 03:05:04,338 - DEBUG - Time is 3
+2018-02-20 03:05:04,338 - DEBUG - Time is <class 'int'>
+2018-02-20 03:05:04,338 - DEBUG - Disconnected from IBController
+2018-02-20 03:05:04,338 - DEBUG - END POS MGMT SCRIPT :-!
+2018-02-20 03:10:00,264 - DEBUG - ****************************************************
+2018-02-20 03:10:00,264 - DEBUG - Current Time is 03:10AM
+2018-02-20 03:10:00,265 - DEBUG - Starting Pos Mgmt E S
+2018-02-20 03:10:00,265 - DEBUG - Connecting to database
+2018-02-20 03:10:00,300 - DEBUG - Connected to database
+2018-02-20 03:10:00,301 - DEBUG - Query is SELECT BB_ProfitID FROM hasPosition where CCY = 'ES'
+2018-02-20 03:10:00,302 - DEBUG - Order Profit is 0
+2018-02-20 03:10:00,303 - DEBUG - Query is SELECT BB_StopID FROM hasPosition where CCY = 'ES'
+2018-02-20 03:10:00,304 - DEBUG - Stop ID is 0
+2018-02-20 03:10:00,304 - DEBUG - Query is SELECT BB_EntryID FROM hasPosition where CCY = 'ES'
+2018-02-20 03:10:00,306 - DEBUG - Entry ID is 213
+2018-02-20 03:10:00,306 - DEBUG - Query is select max(idOCAGroup) as OCA from OCAGroup
+2018-02-20 03:10:00,307 - DEBUG - OCA ID is 1
+2018-02-20 03:10:00,308 - DEBUG - Connecting to IBController
+2018-02-20 03:10:01,312 - DEBUG - Connected to IBController
+2018-02-20 03:10:01,312 - DEBUG - Position requested
+2018-02-20 03:10:02,312 - DEBUG - Open Orders requested
+2018-02-20 03:10:04,312 - DEBUG - Connecting to database
+2018-02-20 03:10:04,320 - DEBUG - Connected to database
+2018-02-20 03:10:04,321 - DEBUG - Query is SELECT BB_StopLossVal FROM hasPosition where CCY = 'ES'
+2018-02-20 03:10:04,321 - DEBUG - Stop loss value is 2722.00
+2018-02-20 03:10:04,323 - DEBUG - Query is SELECT BB_ProfitPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 03:10:04,323 - DEBUG - Stop loss value is 2765.75
+2018-02-20 03:10:04,325 - DEBUG - Query is SELECT BB_EntryPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 03:10:04,325 - DEBUG - EntryPrice value is 2756.25
+2018-02-20 03:10:04,326 - DEBUG - Query is SELECT BB_StopQty FROM hasPosition where CCY = 'ES'
+2018-02-20 03:10:04,327 - DEBUG - Stop quantity 1
+2018-02-20 03:10:04,328 - DEBUG - Query is SELECT BB_direction FROM hasPosition where CCY = 'ES'
+2018-02-20 03:10:04,328 - DEBUG - Direction is Long
+2018-02-20 03:10:04,330 - DEBUG - Query is SELECT BB_Position FROM hasPosition where CCY = 'ES'
+2018-02-20 03:10:04,330 - DEBUG - Count is 0
+2018-02-20 03:10:04,331 - DEBUG - Query is SELECT BB_StopLossFlag FROM hasPosition where CCY = 'ES'
+2018-02-20 03:10:04,332 - DEBUG - Stop Loss Flag is 0
+2018-02-20 03:10:04,333 - DEBUG - Query is SELECT max(idOrder) FROM Orders
+2018-02-20 03:10:04,333 - DEBUG - Max ID Order is (213,)
+2018-02-20 03:10:04,334 - DEBUG - Today is 2018-02-20
+2018-02-20 03:10:04,334 - DEBUG - Day of the week 1
+2018-02-20 03:10:04,334 - DEBUG - Yesterday is 02/19/2018
+2018-02-20 03:10:04,335 - DEBUG - In Position is  0
+2018-02-20 03:10:04,335 - DEBUG - In Position is  <class 'int'>
+2018-02-20 03:10:04,335 - DEBUG - curStopLossFlag is  0
+2018-02-20 03:10:04,335 - DEBUG - curStopLossFlag is  <class 'str'>
+2018-02-20 03:10:04,336 - DEBUG - Checking if Entry has been filled
+2018-02-20 03:10:04,336 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 03:10:04,337 - DEBUG - EntryPend is 1
+2018-02-20 03:10:04,338 - DEBUG - Try to Cancel Stop
+2018-02-20 03:10:04,338 - DEBUG - Stop API ID 0
+2018-02-20 03:10:04,338 - DEBUG - Profit API ID 0
+2018-02-20 03:10:04,338 - DEBUG - Stop API ID <class 'int'>
+2018-02-20 03:10:04,338 - DEBUG - Profit API ID <class 'int'>
+2018-02-20 03:10:04,339 - DEBUG - Pos is 0
+2018-02-20 03:10:04,339 - DEBUG - CurCount is 0
+2018-02-20 03:10:04,339 - DEBUG - In Pos 0
+2018-02-20 03:10:04,339 - DEBUG - Stop ID is 0
+2018-02-20 03:10:04,340 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 03:10:04,341 - DEBUG - EntryPend is 1
+2018-02-20 03:10:04,341 - DEBUG - CHECKING IF STOP LOSS FILLED
+2018-02-20 03:10:04,341 - DEBUG - Entry Date is 10
+2018-02-20 03:10:04,342 - DEBUG - confirming yesterday is 02/19/2018
+2018-02-20 03:10:04,342 - DEBUG - Order Profit ID is 0
+2018-02-20 03:10:04,342 - DEBUG - Order Entry ID is 213
+2018-02-20 03:10:04,342 - DEBUG - API ID is  0
+2018-02-20 03:10:04,343 - DEBUG - Current Position is 0
+2018-02-20 03:10:04,343 - DEBUG - Current Position is <class 'str'>
+2018-02-20 03:10:04,343 - DEBUG - Checking if Positions should be close at EOD
+2018-02-20 03:10:04,343 - DEBUG - Time is 3
+2018-02-20 03:10:04,343 - DEBUG - Time is <class 'int'>
+2018-02-20 03:10:04,344 - DEBUG - Disconnected from IBController
+2018-02-20 03:10:04,344 - DEBUG - END POS MGMT SCRIPT :-!
+2018-02-20 03:15:00,268 - DEBUG - ****************************************************
+2018-02-20 03:15:00,269 - DEBUG - Current Time is 03:15AM
+2018-02-20 03:15:00,269 - DEBUG - Starting Pos Mgmt E S
+2018-02-20 03:15:00,269 - DEBUG - Connecting to database
+2018-02-20 03:15:00,305 - DEBUG - Connected to database
+2018-02-20 03:15:00,306 - DEBUG - Query is SELECT BB_ProfitID FROM hasPosition where CCY = 'ES'
+2018-02-20 03:15:00,307 - DEBUG - Order Profit is 0
+2018-02-20 03:15:00,308 - DEBUG - Query is SELECT BB_StopID FROM hasPosition where CCY = 'ES'
+2018-02-20 03:15:00,309 - DEBUG - Stop ID is 0
+2018-02-20 03:15:00,309 - DEBUG - Query is SELECT BB_EntryID FROM hasPosition where CCY = 'ES'
+2018-02-20 03:15:00,312 - DEBUG - Entry ID is 213
+2018-02-20 03:15:00,312 - DEBUG - Query is select max(idOCAGroup) as OCA from OCAGroup
+2018-02-20 03:15:00,313 - DEBUG - OCA ID is 1
+2018-02-20 03:15:00,314 - DEBUG - Connecting to IBController
+2018-02-20 03:15:01,319 - DEBUG - Connected to IBController
+2018-02-20 03:15:01,319 - DEBUG - Position requested
+2018-02-20 03:15:02,319 - DEBUG - Open Orders requested
+2018-02-20 03:15:04,319 - DEBUG - Connecting to database
+2018-02-20 03:15:04,326 - DEBUG - Connected to database
+2018-02-20 03:15:04,327 - DEBUG - Query is SELECT BB_StopLossVal FROM hasPosition where CCY = 'ES'
+2018-02-20 03:15:04,328 - DEBUG - Stop loss value is 2722.00
+2018-02-20 03:15:04,329 - DEBUG - Query is SELECT BB_ProfitPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 03:15:04,330 - DEBUG - Stop loss value is 2765.75
+2018-02-20 03:15:04,331 - DEBUG - Query is SELECT BB_EntryPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 03:15:04,331 - DEBUG - EntryPrice value is 2756.25
+2018-02-20 03:15:04,333 - DEBUG - Query is SELECT BB_StopQty FROM hasPosition where CCY = 'ES'
+2018-02-20 03:15:04,333 - DEBUG - Stop quantity 1
+2018-02-20 03:15:04,334 - DEBUG - Query is SELECT BB_direction FROM hasPosition where CCY = 'ES'
+2018-02-20 03:15:04,335 - DEBUG - Direction is Long
+2018-02-20 03:15:04,336 - DEBUG - Query is SELECT BB_Position FROM hasPosition where CCY = 'ES'
+2018-02-20 03:15:04,336 - DEBUG - Count is 0
+2018-02-20 03:15:04,337 - DEBUG - Query is SELECT BB_StopLossFlag FROM hasPosition where CCY = 'ES'
+2018-02-20 03:15:04,338 - DEBUG - Stop Loss Flag is 0
+2018-02-20 03:15:04,339 - DEBUG - Query is SELECT max(idOrder) FROM Orders
+2018-02-20 03:15:04,339 - DEBUG - Max ID Order is (213,)
+2018-02-20 03:15:04,340 - DEBUG - Today is 2018-02-20
+2018-02-20 03:15:04,340 - DEBUG - Day of the week 1
+2018-02-20 03:15:04,341 - DEBUG - Yesterday is 02/19/2018
+2018-02-20 03:15:04,341 - DEBUG - In Position is  0
+2018-02-20 03:15:04,341 - DEBUG - In Position is  <class 'int'>
+2018-02-20 03:15:04,341 - DEBUG - curStopLossFlag is  0
+2018-02-20 03:15:04,342 - DEBUG - curStopLossFlag is  <class 'str'>
+2018-02-20 03:15:04,342 - DEBUG - Checking if Entry has been filled
+2018-02-20 03:15:04,342 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 03:15:04,344 - DEBUG - EntryPend is 1
+2018-02-20 03:15:04,344 - DEBUG - Try to Cancel Stop
+2018-02-20 03:15:04,344 - DEBUG - Stop API ID 0
+2018-02-20 03:15:04,344 - DEBUG - Profit API ID 0
+2018-02-20 03:15:04,345 - DEBUG - Stop API ID <class 'int'>
+2018-02-20 03:15:04,345 - DEBUG - Profit API ID <class 'int'>
+2018-02-20 03:15:04,345 - DEBUG - Pos is 0
+2018-02-20 03:15:04,345 - DEBUG - CurCount is 0
+2018-02-20 03:15:04,346 - DEBUG - In Pos 0
+2018-02-20 03:15:04,346 - DEBUG - Stop ID is 0
+2018-02-20 03:15:04,346 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 03:15:04,348 - DEBUG - EntryPend is 1
+2018-02-20 03:15:04,348 - DEBUG - CHECKING IF STOP LOSS FILLED
+2018-02-20 03:15:04,348 - DEBUG - Entry Date is 10
+2018-02-20 03:15:04,348 - DEBUG - confirming yesterday is 02/19/2018
+2018-02-20 03:15:04,349 - DEBUG - Order Profit ID is 0
+2018-02-20 03:15:04,349 - DEBUG - Order Entry ID is 213
+2018-02-20 03:15:04,349 - DEBUG - API ID is  0
+2018-02-20 03:15:04,349 - DEBUG - Current Position is 0
+2018-02-20 03:15:04,350 - DEBUG - Current Position is <class 'str'>
+2018-02-20 03:15:04,350 - DEBUG - Checking if Positions should be close at EOD
+2018-02-20 03:15:04,350 - DEBUG - Time is 3
+2018-02-20 03:15:04,350 - DEBUG - Time is <class 'int'>
+2018-02-20 03:15:04,351 - DEBUG - Disconnected from IBController
+2018-02-20 03:15:04,351 - DEBUG - END POS MGMT SCRIPT :-!
+2018-02-20 03:20:00,265 - DEBUG - ****************************************************
+2018-02-20 03:20:00,266 - DEBUG - Current Time is 03:20AM
+2018-02-20 03:20:00,266 - DEBUG - Starting Pos Mgmt E S
+2018-02-20 03:20:00,266 - DEBUG - Connecting to database
+2018-02-20 03:20:00,298 - DEBUG - Connected to database
+2018-02-20 03:20:00,298 - DEBUG - Query is SELECT BB_ProfitID FROM hasPosition where CCY = 'ES'
+2018-02-20 03:20:00,300 - DEBUG - Order Profit is 0
+2018-02-20 03:20:00,300 - DEBUG - Query is SELECT BB_StopID FROM hasPosition where CCY = 'ES'
+2018-02-20 03:20:00,302 - DEBUG - Stop ID is 0
+2018-02-20 03:20:00,302 - DEBUG - Query is SELECT BB_EntryID FROM hasPosition where CCY = 'ES'
+2018-02-20 03:20:00,303 - DEBUG - Entry ID is 213
+2018-02-20 03:20:00,304 - DEBUG - Query is select max(idOCAGroup) as OCA from OCAGroup
+2018-02-20 03:20:00,305 - DEBUG - OCA ID is 1
+2018-02-20 03:20:00,305 - DEBUG - Connecting to IBController
+2018-02-20 03:20:01,310 - DEBUG - Connected to IBController
+2018-02-20 03:20:01,310 - DEBUG - Position requested
+2018-02-20 03:20:02,310 - DEBUG - Open Orders requested
+2018-02-20 03:20:04,310 - DEBUG - Connecting to database
+2018-02-20 03:20:04,317 - DEBUG - Connected to database
+2018-02-20 03:20:04,318 - DEBUG - Query is SELECT BB_StopLossVal FROM hasPosition where CCY = 'ES'
+2018-02-20 03:20:04,319 - DEBUG - Stop loss value is 2722.00
+2018-02-20 03:20:04,320 - DEBUG - Query is SELECT BB_ProfitPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 03:20:04,321 - DEBUG - Stop loss value is 2765.75
+2018-02-20 03:20:04,322 - DEBUG - Query is SELECT BB_EntryPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 03:20:04,322 - DEBUG - EntryPrice value is 2756.25
+2018-02-20 03:20:04,324 - DEBUG - Query is SELECT BB_StopQty FROM hasPosition where CCY = 'ES'
+2018-02-20 03:20:04,324 - DEBUG - Stop quantity 1
+2018-02-20 03:20:04,325 - DEBUG - Query is SELECT BB_direction FROM hasPosition where CCY = 'ES'
+2018-02-20 03:20:04,325 - DEBUG - Direction is Long
+2018-02-20 03:20:04,327 - DEBUG - Query is SELECT BB_Position FROM hasPosition where CCY = 'ES'
+2018-02-20 03:20:04,327 - DEBUG - Count is 0
+2018-02-20 03:20:04,328 - DEBUG - Query is SELECT BB_StopLossFlag FROM hasPosition where CCY = 'ES'
+2018-02-20 03:20:04,329 - DEBUG - Stop Loss Flag is 0
+2018-02-20 03:20:04,330 - DEBUG - Query is SELECT max(idOrder) FROM Orders
+2018-02-20 03:20:04,331 - DEBUG - Max ID Order is (213,)
+2018-02-20 03:20:04,331 - DEBUG - Today is 2018-02-20
+2018-02-20 03:20:04,331 - DEBUG - Day of the week 1
+2018-02-20 03:20:04,332 - DEBUG - Yesterday is 02/19/2018
+2018-02-20 03:20:04,332 - DEBUG - In Position is  0
+2018-02-20 03:20:04,332 - DEBUG - In Position is  <class 'int'>
+2018-02-20 03:20:04,333 - DEBUG - curStopLossFlag is  0
+2018-02-20 03:20:04,333 - DEBUG - curStopLossFlag is  <class 'str'>
+2018-02-20 03:20:04,333 - DEBUG - Checking if Entry has been filled
+2018-02-20 03:20:04,333 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 03:20:04,335 - DEBUG - EntryPend is 1
+2018-02-20 03:20:04,335 - DEBUG - Try to Cancel Stop
+2018-02-20 03:20:04,335 - DEBUG - Stop API ID 0
+2018-02-20 03:20:04,335 - DEBUG - Profit API ID 0
+2018-02-20 03:20:04,336 - DEBUG - Stop API ID <class 'int'>
+2018-02-20 03:20:04,336 - DEBUG - Profit API ID <class 'int'>
+2018-02-20 03:20:04,336 - DEBUG - Pos is 0
+2018-02-20 03:20:04,336 - DEBUG - CurCount is 0
+2018-02-20 03:20:04,337 - DEBUG - In Pos 0
+2018-02-20 03:20:04,337 - DEBUG - Stop ID is 0
+2018-02-20 03:20:04,337 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 03:20:04,338 - DEBUG - EntryPend is 1
+2018-02-20 03:20:04,339 - DEBUG - CHECKING IF STOP LOSS FILLED
+2018-02-20 03:20:04,339 - DEBUG - Entry Date is 10
+2018-02-20 03:20:04,339 - DEBUG - confirming yesterday is 02/19/2018
+2018-02-20 03:20:04,339 - DEBUG - Order Profit ID is 0
+2018-02-20 03:20:04,339 - DEBUG - Order Entry ID is 213
+2018-02-20 03:20:04,340 - DEBUG - API ID is  0
+2018-02-20 03:20:04,340 - DEBUG - Current Position is 0
+2018-02-20 03:20:04,340 - DEBUG - Current Position is <class 'str'>
+2018-02-20 03:20:04,340 - DEBUG - Checking if Positions should be close at EOD
+2018-02-20 03:20:04,341 - DEBUG - Time is 3
+2018-02-20 03:20:04,341 - DEBUG - Time is <class 'int'>
+2018-02-20 03:20:04,341 - DEBUG - Disconnected from IBController
+2018-02-20 03:20:04,341 - DEBUG - END POS MGMT SCRIPT :-!
+2018-02-20 03:25:00,264 - DEBUG - ****************************************************
+2018-02-20 03:25:00,265 - DEBUG - Current Time is 03:25AM
+2018-02-20 03:25:00,265 - DEBUG - Starting Pos Mgmt E S
+2018-02-20 03:25:00,265 - DEBUG - Connecting to database
+2018-02-20 03:25:00,292 - DEBUG - Connected to database
+2018-02-20 03:25:00,293 - DEBUG - Query is SELECT BB_ProfitID FROM hasPosition where CCY = 'ES'
+2018-02-20 03:25:00,294 - DEBUG - Order Profit is 0
+2018-02-20 03:25:00,294 - DEBUG - Query is SELECT BB_StopID FROM hasPosition where CCY = 'ES'
+2018-02-20 03:25:00,296 - DEBUG - Stop ID is 0
+2018-02-20 03:25:00,296 - DEBUG - Query is SELECT BB_EntryID FROM hasPosition where CCY = 'ES'
+2018-02-20 03:25:00,297 - DEBUG - Entry ID is 213
+2018-02-20 03:25:00,297 - DEBUG - Query is select max(idOCAGroup) as OCA from OCAGroup
+2018-02-20 03:25:00,299 - DEBUG - OCA ID is 1
+2018-02-20 03:25:00,299 - DEBUG - Connecting to IBController
+2018-02-20 03:25:01,303 - DEBUG - Connected to IBController
+2018-02-20 03:25:01,303 - DEBUG - Position requested
+2018-02-20 03:25:02,303 - DEBUG - Open Orders requested
+2018-02-20 03:25:04,303 - DEBUG - Connecting to database
+2018-02-20 03:25:04,310 - DEBUG - Connected to database
+2018-02-20 03:25:04,312 - DEBUG - Query is SELECT BB_StopLossVal FROM hasPosition where CCY = 'ES'
+2018-02-20 03:25:04,312 - DEBUG - Stop loss value is 2722.00
+2018-02-20 03:25:04,313 - DEBUG - Query is SELECT BB_ProfitPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 03:25:04,314 - DEBUG - Stop loss value is 2765.75
+2018-02-20 03:25:04,315 - DEBUG - Query is SELECT BB_EntryPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 03:25:04,315 - DEBUG - EntryPrice value is 2756.25
+2018-02-20 03:25:04,317 - DEBUG - Query is SELECT BB_StopQty FROM hasPosition where CCY = 'ES'
+2018-02-20 03:25:04,317 - DEBUG - Stop quantity 1
+2018-02-20 03:25:04,319 - DEBUG - Query is SELECT BB_direction FROM hasPosition where CCY = 'ES'
+2018-02-20 03:25:04,319 - DEBUG - Direction is Long
+2018-02-20 03:25:04,320 - DEBUG - Query is SELECT BB_Position FROM hasPosition where CCY = 'ES'
+2018-02-20 03:25:04,321 - DEBUG - Count is 0
+2018-02-20 03:25:04,322 - DEBUG - Query is SELECT BB_StopLossFlag FROM hasPosition where CCY = 'ES'
+2018-02-20 03:25:04,322 - DEBUG - Stop Loss Flag is 0
+2018-02-20 03:25:04,324 - DEBUG - Query is SELECT max(idOrder) FROM Orders
+2018-02-20 03:25:04,324 - DEBUG - Max ID Order is (213,)
+2018-02-20 03:25:04,324 - DEBUG - Today is 2018-02-20
+2018-02-20 03:25:04,325 - DEBUG - Day of the week 1
+2018-02-20 03:25:04,325 - DEBUG - Yesterday is 02/19/2018
+2018-02-20 03:25:04,325 - DEBUG - In Position is  0
+2018-02-20 03:25:04,325 - DEBUG - In Position is  <class 'int'>
+2018-02-20 03:25:04,326 - DEBUG - curStopLossFlag is  0
+2018-02-20 03:25:04,326 - DEBUG - curStopLossFlag is  <class 'str'>
+2018-02-20 03:25:04,326 - DEBUG - Checking if Entry has been filled
+2018-02-20 03:25:04,326 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 03:25:04,328 - DEBUG - EntryPend is 1
+2018-02-20 03:25:04,328 - DEBUG - Try to Cancel Stop
+2018-02-20 03:25:04,328 - DEBUG - Stop API ID 0
+2018-02-20 03:25:04,329 - DEBUG - Profit API ID 0
+2018-02-20 03:25:04,329 - DEBUG - Stop API ID <class 'int'>
+2018-02-20 03:25:04,329 - DEBUG - Profit API ID <class 'int'>
+2018-02-20 03:25:04,329 - DEBUG - Pos is 0
+2018-02-20 03:25:04,329 - DEBUG - CurCount is 0
+2018-02-20 03:25:04,330 - DEBUG - In Pos 0
+2018-02-20 03:25:04,330 - DEBUG - Stop ID is 0
+2018-02-20 03:25:04,330 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 03:25:04,331 - DEBUG - EntryPend is 1
+2018-02-20 03:25:04,332 - DEBUG - CHECKING IF STOP LOSS FILLED
+2018-02-20 03:25:04,332 - DEBUG - Entry Date is 10
+2018-02-20 03:25:04,332 - DEBUG - confirming yesterday is 02/19/2018
+2018-02-20 03:25:04,332 - DEBUG - Order Profit ID is 0
+2018-02-20 03:25:04,333 - DEBUG - Order Entry ID is 213
+2018-02-20 03:25:04,333 - DEBUG - API ID is  0
+2018-02-20 03:25:04,333 - DEBUG - Current Position is 0
+2018-02-20 03:25:04,333 - DEBUG - Current Position is <class 'str'>
+2018-02-20 03:25:04,333 - DEBUG - Checking if Positions should be close at EOD
+2018-02-20 03:25:04,334 - DEBUG - Time is 3
+2018-02-20 03:25:04,334 - DEBUG - Time is <class 'int'>
+2018-02-20 03:25:04,334 - DEBUG - Disconnected from IBController
+2018-02-20 03:25:04,334 - DEBUG - END POS MGMT SCRIPT :-!
+2018-02-20 03:30:00,250 - DEBUG - ****************************************************
+2018-02-20 03:30:00,251 - DEBUG - Current Time is 03:30AM
+2018-02-20 03:30:00,251 - DEBUG - Starting Pos Mgmt E S
+2018-02-20 03:30:00,251 - DEBUG - Connecting to database
+2018-02-20 03:30:00,270 - DEBUG - Connected to database
+2018-02-20 03:30:00,270 - DEBUG - Query is SELECT BB_ProfitID FROM hasPosition where CCY = 'ES'
+2018-02-20 03:30:00,272 - DEBUG - Order Profit is 0
+2018-02-20 03:30:00,272 - DEBUG - Query is SELECT BB_StopID FROM hasPosition where CCY = 'ES'
+2018-02-20 03:30:00,273 - DEBUG - Stop ID is 0
+2018-02-20 03:30:00,274 - DEBUG - Query is SELECT BB_EntryID FROM hasPosition where CCY = 'ES'
+2018-02-20 03:30:00,275 - DEBUG - Entry ID is 213
+2018-02-20 03:30:00,275 - DEBUG - Query is select max(idOCAGroup) as OCA from OCAGroup
+2018-02-20 03:30:00,277 - DEBUG - OCA ID is 1
+2018-02-20 03:30:00,277 - DEBUG - Connecting to IBController
+2018-02-20 03:30:01,281 - DEBUG - Connected to IBController
+2018-02-20 03:30:01,281 - DEBUG - Position requested
+2018-02-20 03:30:02,281 - DEBUG - Open Orders requested
+2018-02-20 03:30:04,281 - DEBUG - Connecting to database
+2018-02-20 03:30:04,288 - DEBUG - Connected to database
+2018-02-20 03:30:04,290 - DEBUG - Query is SELECT BB_StopLossVal FROM hasPosition where CCY = 'ES'
+2018-02-20 03:30:04,290 - DEBUG - Stop loss value is 2722.00
+2018-02-20 03:30:04,291 - DEBUG - Query is SELECT BB_ProfitPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 03:30:04,292 - DEBUG - Stop loss value is 2765.75
+2018-02-20 03:30:04,293 - DEBUG - Query is SELECT BB_EntryPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 03:30:04,293 - DEBUG - EntryPrice value is 2756.25
+2018-02-20 03:30:04,295 - DEBUG - Query is SELECT BB_StopQty FROM hasPosition where CCY = 'ES'
+2018-02-20 03:30:04,295 - DEBUG - Stop quantity 1
+2018-02-20 03:30:04,297 - DEBUG - Query is SELECT BB_direction FROM hasPosition where CCY = 'ES'
+2018-02-20 03:30:04,297 - DEBUG - Direction is Long
+2018-02-20 03:30:04,299 - DEBUG - Query is SELECT BB_Position FROM hasPosition where CCY = 'ES'
+2018-02-20 03:30:04,299 - DEBUG - Count is 0
+2018-02-20 03:30:04,300 - DEBUG - Query is SELECT BB_StopLossFlag FROM hasPosition where CCY = 'ES'
+2018-02-20 03:30:04,301 - DEBUG - Stop Loss Flag is 0
+2018-02-20 03:30:04,302 - DEBUG - Query is SELECT max(idOrder) FROM Orders
+2018-02-20 03:30:04,302 - DEBUG - Max ID Order is (213,)
+2018-02-20 03:30:04,303 - DEBUG - Today is 2018-02-20
+2018-02-20 03:30:04,303 - DEBUG - Day of the week 1
+2018-02-20 03:30:04,303 - DEBUG - Yesterday is 02/19/2018
+2018-02-20 03:30:04,303 - DEBUG - In Position is  0
+2018-02-20 03:30:04,304 - DEBUG - In Position is  <class 'int'>
+2018-02-20 03:30:04,304 - DEBUG - curStopLossFlag is  0
+2018-02-20 03:30:04,304 - DEBUG - curStopLossFlag is  <class 'str'>
+2018-02-20 03:30:04,305 - DEBUG - Checking if Entry has been filled
+2018-02-20 03:30:04,305 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 03:30:04,306 - DEBUG - EntryPend is 1
+2018-02-20 03:30:04,306 - DEBUG - Try to Cancel Stop
+2018-02-20 03:30:04,307 - DEBUG - Stop API ID 0
+2018-02-20 03:30:04,307 - DEBUG - Profit API ID 0
+2018-02-20 03:30:04,307 - DEBUG - Stop API ID <class 'int'>
+2018-02-20 03:30:04,307 - DEBUG - Profit API ID <class 'int'>
+2018-02-20 03:30:04,307 - DEBUG - Pos is 0
+2018-02-20 03:30:04,308 - DEBUG - CurCount is 0
+2018-02-20 03:30:04,308 - DEBUG - In Pos 0
+2018-02-20 03:30:04,308 - DEBUG - Stop ID is 0
+2018-02-20 03:30:04,308 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 03:30:04,310 - DEBUG - EntryPend is 1
+2018-02-20 03:30:04,310 - DEBUG - CHECKING IF STOP LOSS FILLED
+2018-02-20 03:30:04,310 - DEBUG - Entry Date is 10
+2018-02-20 03:30:04,310 - DEBUG - confirming yesterday is 02/19/2018
+2018-02-20 03:30:04,311 - DEBUG - Order Profit ID is 0
+2018-02-20 03:30:04,311 - DEBUG - Order Entry ID is 213
+2018-02-20 03:30:04,311 - DEBUG - API ID is  0
+2018-02-20 03:30:04,311 - DEBUG - Current Position is 0
+2018-02-20 03:30:04,312 - DEBUG - Current Position is <class 'str'>
+2018-02-20 03:30:04,312 - DEBUG - Checking if Positions should be close at EOD
+2018-02-20 03:30:04,312 - DEBUG - Time is 3
+2018-02-20 03:30:04,312 - DEBUG - Time is <class 'int'>
+2018-02-20 03:30:04,313 - DEBUG - Disconnected from IBController
+2018-02-20 03:30:04,313 - DEBUG - END POS MGMT SCRIPT :-!
+2018-02-20 03:35:00,264 - DEBUG - ****************************************************
+2018-02-20 03:35:00,264 - DEBUG - Current Time is 03:35AM
+2018-02-20 03:35:00,265 - DEBUG - Starting Pos Mgmt E S
+2018-02-20 03:35:00,265 - DEBUG - Connecting to database
+2018-02-20 03:35:00,283 - DEBUG - Connected to database
+2018-02-20 03:35:00,284 - DEBUG - Query is SELECT BB_ProfitID FROM hasPosition where CCY = 'ES'
+2018-02-20 03:35:00,285 - DEBUG - Order Profit is 0
+2018-02-20 03:35:00,286 - DEBUG - Query is SELECT BB_StopID FROM hasPosition where CCY = 'ES'
+2018-02-20 03:35:00,287 - DEBUG - Stop ID is 0
+2018-02-20 03:35:00,287 - DEBUG - Query is SELECT BB_EntryID FROM hasPosition where CCY = 'ES'
+2018-02-20 03:35:00,289 - DEBUG - Entry ID is 213
+2018-02-20 03:35:00,289 - DEBUG - Query is select max(idOCAGroup) as OCA from OCAGroup
+2018-02-20 03:35:00,290 - DEBUG - OCA ID is 1
+2018-02-20 03:35:00,290 - DEBUG - Connecting to IBController
+2018-02-20 03:35:01,295 - DEBUG - Connected to IBController
+2018-02-20 03:35:01,295 - DEBUG - Position requested
+2018-02-20 03:35:02,295 - DEBUG - Open Orders requested
+2018-02-20 03:35:04,295 - DEBUG - Connecting to database
+2018-02-20 03:35:04,302 - DEBUG - Connected to database
+2018-02-20 03:35:04,303 - DEBUG - Query is SELECT BB_StopLossVal FROM hasPosition where CCY = 'ES'
+2018-02-20 03:35:04,304 - DEBUG - Stop loss value is 2722.00
+2018-02-20 03:35:04,305 - DEBUG - Query is SELECT BB_ProfitPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 03:35:04,306 - DEBUG - Stop loss value is 2765.75
+2018-02-20 03:35:04,307 - DEBUG - Query is SELECT BB_EntryPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 03:35:04,307 - DEBUG - EntryPrice value is 2756.25
+2018-02-20 03:35:04,309 - DEBUG - Query is SELECT BB_StopQty FROM hasPosition where CCY = 'ES'
+2018-02-20 03:35:04,309 - DEBUG - Stop quantity 1
+2018-02-20 03:35:04,310 - DEBUG - Query is SELECT BB_direction FROM hasPosition where CCY = 'ES'
+2018-02-20 03:35:04,311 - DEBUG - Direction is Long
+2018-02-20 03:35:04,312 - DEBUG - Query is SELECT BB_Position FROM hasPosition where CCY = 'ES'
+2018-02-20 03:35:04,312 - DEBUG - Count is 0
+2018-02-20 03:35:04,314 - DEBUG - Query is SELECT BB_StopLossFlag FROM hasPosition where CCY = 'ES'
+2018-02-20 03:35:04,314 - DEBUG - Stop Loss Flag is 0
+2018-02-20 03:35:04,315 - DEBUG - Query is SELECT max(idOrder) FROM Orders
+2018-02-20 03:35:04,315 - DEBUG - Max ID Order is (213,)
+2018-02-20 03:35:04,316 - DEBUG - Today is 2018-02-20
+2018-02-20 03:35:04,316 - DEBUG - Day of the week 1
+2018-02-20 03:35:04,317 - DEBUG - Yesterday is 02/19/2018
+2018-02-20 03:35:04,317 - DEBUG - In Position is  0
+2018-02-20 03:35:04,317 - DEBUG - In Position is  <class 'int'>
+2018-02-20 03:35:04,317 - DEBUG - curStopLossFlag is  0
+2018-02-20 03:35:04,318 - DEBUG - curStopLossFlag is  <class 'str'>
+2018-02-20 03:35:04,318 - DEBUG - Checking if Entry has been filled
+2018-02-20 03:35:04,318 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 03:35:04,319 - DEBUG - EntryPend is 1
+2018-02-20 03:35:04,320 - DEBUG - Try to Cancel Stop
+2018-02-20 03:35:04,320 - DEBUG - Stop API ID 0
+2018-02-20 03:35:04,320 - DEBUG - Profit API ID 0
+2018-02-20 03:35:04,320 - DEBUG - Stop API ID <class 'int'>
+2018-02-20 03:35:04,320 - DEBUG - Profit API ID <class 'int'>
+2018-02-20 03:35:04,321 - DEBUG - Pos is 0
+2018-02-20 03:35:04,321 - DEBUG - CurCount is 0
+2018-02-20 03:35:04,321 - DEBUG - In Pos 0
+2018-02-20 03:35:04,321 - DEBUG - Stop ID is 0
+2018-02-20 03:35:04,322 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 03:35:04,323 - DEBUG - EntryPend is 1
+2018-02-20 03:35:04,323 - DEBUG - CHECKING IF STOP LOSS FILLED
+2018-02-20 03:35:04,323 - DEBUG - Entry Date is 10
+2018-02-20 03:35:04,324 - DEBUG - confirming yesterday is 02/19/2018
+2018-02-20 03:35:04,324 - DEBUG - Order Profit ID is 0
+2018-02-20 03:35:04,324 - DEBUG - Order Entry ID is 213
+2018-02-20 03:35:04,324 - DEBUG - API ID is  0
+2018-02-20 03:35:04,324 - DEBUG - Current Position is 0
+2018-02-20 03:35:04,325 - DEBUG - Current Position is <class 'str'>
+2018-02-20 03:35:04,325 - DEBUG - Checking if Positions should be close at EOD
+2018-02-20 03:35:04,325 - DEBUG - Time is 3
+2018-02-20 03:35:04,325 - DEBUG - Time is <class 'int'>
+2018-02-20 03:35:04,326 - DEBUG - Disconnected from IBController
+2018-02-20 03:35:04,326 - DEBUG - END POS MGMT SCRIPT :-!
+2018-02-20 03:40:00,259 - DEBUG - ****************************************************
+2018-02-20 03:40:00,260 - DEBUG - Current Time is 03:40AM
+2018-02-20 03:40:00,260 - DEBUG - Starting Pos Mgmt E S
+2018-02-20 03:40:00,261 - DEBUG - Connecting to database
+2018-02-20 03:40:00,301 - DEBUG - Connected to database
+2018-02-20 03:40:00,302 - DEBUG - Query is SELECT BB_ProfitID FROM hasPosition where CCY = 'ES'
+2018-02-20 03:40:00,303 - DEBUG - Order Profit is 0
+2018-02-20 03:40:00,304 - DEBUG - Query is SELECT BB_StopID FROM hasPosition where CCY = 'ES'
+2018-02-20 03:40:00,305 - DEBUG - Stop ID is 0
+2018-02-20 03:40:00,305 - DEBUG - Query is SELECT BB_EntryID FROM hasPosition where CCY = 'ES'
+2018-02-20 03:40:00,307 - DEBUG - Entry ID is 213
+2018-02-20 03:40:00,307 - DEBUG - Query is select max(idOCAGroup) as OCA from OCAGroup
+2018-02-20 03:40:00,308 - DEBUG - OCA ID is 1
+2018-02-20 03:40:00,309 - DEBUG - Connecting to IBController
+2018-02-20 03:40:01,314 - DEBUG - Connected to IBController
+2018-02-20 03:40:01,314 - DEBUG - Position requested
+2018-02-20 03:40:02,314 - DEBUG - Open Orders requested
+2018-02-20 03:40:04,314 - DEBUG - Connecting to database
+2018-02-20 03:40:04,321 - DEBUG - Connected to database
+2018-02-20 03:40:04,323 - DEBUG - Query is SELECT BB_StopLossVal FROM hasPosition where CCY = 'ES'
+2018-02-20 03:40:04,323 - DEBUG - Stop loss value is 2722.00
+2018-02-20 03:40:04,325 - DEBUG - Query is SELECT BB_ProfitPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 03:40:04,325 - DEBUG - Stop loss value is 2765.75
+2018-02-20 03:40:04,326 - DEBUG - Query is SELECT BB_EntryPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 03:40:04,327 - DEBUG - EntryPrice value is 2756.25
+2018-02-20 03:40:04,328 - DEBUG - Query is SELECT BB_StopQty FROM hasPosition where CCY = 'ES'
+2018-02-20 03:40:04,329 - DEBUG - Stop quantity 1
+2018-02-20 03:40:04,330 - DEBUG - Query is SELECT BB_direction FROM hasPosition where CCY = 'ES'
+2018-02-20 03:40:04,330 - DEBUG - Direction is Long
+2018-02-20 03:40:04,332 - DEBUG - Query is SELECT BB_Position FROM hasPosition where CCY = 'ES'
+2018-02-20 03:40:04,332 - DEBUG - Count is 0
+2018-02-20 03:40:04,333 - DEBUG - Query is SELECT BB_StopLossFlag FROM hasPosition where CCY = 'ES'
+2018-02-20 03:40:04,334 - DEBUG - Stop Loss Flag is 0
+2018-02-20 03:40:04,335 - DEBUG - Query is SELECT max(idOrder) FROM Orders
+2018-02-20 03:40:04,335 - DEBUG - Max ID Order is (213,)
+2018-02-20 03:40:04,336 - DEBUG - Today is 2018-02-20
+2018-02-20 03:40:04,336 - DEBUG - Day of the week 1
+2018-02-20 03:40:04,336 - DEBUG - Yesterday is 02/19/2018
+2018-02-20 03:40:04,337 - DEBUG - In Position is  0
+2018-02-20 03:40:04,337 - DEBUG - In Position is  <class 'int'>
+2018-02-20 03:40:04,337 - DEBUG - curStopLossFlag is  0
+2018-02-20 03:40:04,337 - DEBUG - curStopLossFlag is  <class 'str'>
+2018-02-20 03:40:04,338 - DEBUG - Checking if Entry has been filled
+2018-02-20 03:40:04,338 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 03:40:04,339 - DEBUG - EntryPend is 1
+2018-02-20 03:40:04,339 - DEBUG - Try to Cancel Stop
+2018-02-20 03:40:04,340 - DEBUG - Stop API ID 0
+2018-02-20 03:40:04,340 - DEBUG - Profit API ID 0
+2018-02-20 03:40:04,340 - DEBUG - Stop API ID <class 'int'>
+2018-02-20 03:40:04,340 - DEBUG - Profit API ID <class 'int'>
+2018-02-20 03:40:04,341 - DEBUG - Pos is 0
+2018-02-20 03:40:04,341 - DEBUG - CurCount is 0
+2018-02-20 03:40:04,341 - DEBUG - In Pos 0
+2018-02-20 03:40:04,341 - DEBUG - Stop ID is 0
+2018-02-20 03:40:04,342 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 03:40:04,343 - DEBUG - EntryPend is 1
+2018-02-20 03:40:04,343 - DEBUG - CHECKING IF STOP LOSS FILLED
+2018-02-20 03:40:04,343 - DEBUG - Entry Date is 10
+2018-02-20 03:40:04,344 - DEBUG - confirming yesterday is 02/19/2018
+2018-02-20 03:40:04,344 - DEBUG - Order Profit ID is 0
+2018-02-20 03:40:04,344 - DEBUG - Order Entry ID is 213
+2018-02-20 03:40:04,344 - DEBUG - API ID is  0
+2018-02-20 03:40:04,344 - DEBUG - Current Position is 0
+2018-02-20 03:40:04,345 - DEBUG - Current Position is <class 'str'>
+2018-02-20 03:40:04,345 - DEBUG - Checking if Positions should be close at EOD
+2018-02-20 03:40:04,345 - DEBUG - Time is 3
+2018-02-20 03:40:04,345 - DEBUG - Time is <class 'int'>
+2018-02-20 03:40:04,346 - DEBUG - Disconnected from IBController
+2018-02-20 03:40:04,346 - DEBUG - END POS MGMT SCRIPT :-!
+2018-02-20 03:45:00,259 - DEBUG - ****************************************************
+2018-02-20 03:45:00,260 - DEBUG - Current Time is 03:45AM
+2018-02-20 03:45:00,260 - DEBUG - Starting Pos Mgmt E S
+2018-02-20 03:45:00,260 - DEBUG - Connecting to database
+2018-02-20 03:45:00,290 - DEBUG - Connected to database
+2018-02-20 03:45:00,290 - DEBUG - Query is SELECT BB_ProfitID FROM hasPosition where CCY = 'ES'
+2018-02-20 03:45:00,292 - DEBUG - Order Profit is 0
+2018-02-20 03:45:00,292 - DEBUG - Query is SELECT BB_StopID FROM hasPosition where CCY = 'ES'
+2018-02-20 03:45:00,294 - DEBUG - Stop ID is 0
+2018-02-20 03:45:00,294 - DEBUG - Query is SELECT BB_EntryID FROM hasPosition where CCY = 'ES'
+2018-02-20 03:45:00,295 - DEBUG - Entry ID is 213
+2018-02-20 03:45:00,295 - DEBUG - Query is select max(idOCAGroup) as OCA from OCAGroup
+2018-02-20 03:45:00,297 - DEBUG - OCA ID is 1
+2018-02-20 03:45:00,297 - DEBUG - Connecting to IBController
+2018-02-20 03:45:01,302 - DEBUG - Connected to IBController
+2018-02-20 03:45:01,302 - DEBUG - Position requested
+2018-02-20 03:45:02,302 - DEBUG - Open Orders requested
+2018-02-20 03:45:04,302 - DEBUG - Connecting to database
+2018-02-20 03:45:04,309 - DEBUG - Connected to database
+2018-02-20 03:45:04,311 - DEBUG - Query is SELECT BB_StopLossVal FROM hasPosition where CCY = 'ES'
+2018-02-20 03:45:04,311 - DEBUG - Stop loss value is 2722.00
+2018-02-20 03:45:04,312 - DEBUG - Query is SELECT BB_ProfitPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 03:45:04,313 - DEBUG - Stop loss value is 2765.75
+2018-02-20 03:45:04,314 - DEBUG - Query is SELECT BB_EntryPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 03:45:04,314 - DEBUG - EntryPrice value is 2756.25
+2018-02-20 03:45:04,316 - DEBUG - Query is SELECT BB_StopQty FROM hasPosition where CCY = 'ES'
+2018-02-20 03:45:04,316 - DEBUG - Stop quantity 1
+2018-02-20 03:45:04,317 - DEBUG - Query is SELECT BB_direction FROM hasPosition where CCY = 'ES'
+2018-02-20 03:45:04,318 - DEBUG - Direction is Long
+2018-02-20 03:45:04,319 - DEBUG - Query is SELECT BB_Position FROM hasPosition where CCY = 'ES'
+2018-02-20 03:45:04,319 - DEBUG - Count is 0
+2018-02-20 03:45:04,321 - DEBUG - Query is SELECT BB_StopLossFlag FROM hasPosition where CCY = 'ES'
+2018-02-20 03:45:04,321 - DEBUG - Stop Loss Flag is 0
+2018-02-20 03:45:04,322 - DEBUG - Query is SELECT max(idOrder) FROM Orders
+2018-02-20 03:45:04,322 - DEBUG - Max ID Order is (213,)
+2018-02-20 03:45:04,323 - DEBUG - Today is 2018-02-20
+2018-02-20 03:45:04,323 - DEBUG - Day of the week 1
+2018-02-20 03:45:04,323 - DEBUG - Yesterday is 02/19/2018
+2018-02-20 03:45:04,324 - DEBUG - In Position is  0
+2018-02-20 03:45:04,324 - DEBUG - In Position is  <class 'int'>
+2018-02-20 03:45:04,324 - DEBUG - curStopLossFlag is  0
+2018-02-20 03:45:04,325 - DEBUG - curStopLossFlag is  <class 'str'>
+2018-02-20 03:45:04,325 - DEBUG - Checking if Entry has been filled
+2018-02-20 03:45:04,325 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 03:45:04,326 - DEBUG - EntryPend is 1
+2018-02-20 03:45:04,327 - DEBUG - Try to Cancel Stop
+2018-02-20 03:45:04,327 - DEBUG - Stop API ID 0
+2018-02-20 03:45:04,327 - DEBUG - Profit API ID 0
+2018-02-20 03:45:04,327 - DEBUG - Stop API ID <class 'int'>
+2018-02-20 03:45:04,327 - DEBUG - Profit API ID <class 'int'>
+2018-02-20 03:45:04,328 - DEBUG - Pos is 0
+2018-02-20 03:45:04,328 - DEBUG - CurCount is 0
+2018-02-20 03:45:04,328 - DEBUG - In Pos 0
+2018-02-20 03:45:04,328 - DEBUG - Stop ID is 0
+2018-02-20 03:45:04,328 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 03:45:04,330 - DEBUG - EntryPend is 1
+2018-02-20 03:45:04,330 - DEBUG - CHECKING IF STOP LOSS FILLED
+2018-02-20 03:45:04,330 - DEBUG - Entry Date is 10
+2018-02-20 03:45:04,330 - DEBUG - confirming yesterday is 02/19/2018
+2018-02-20 03:45:04,331 - DEBUG - Order Profit ID is 0
+2018-02-20 03:45:04,331 - DEBUG - Order Entry ID is 213
+2018-02-20 03:45:04,331 - DEBUG - API ID is  0
+2018-02-20 03:45:04,331 - DEBUG - Current Position is 0
+2018-02-20 03:45:04,332 - DEBUG - Current Position is <class 'str'>
+2018-02-20 03:45:04,332 - DEBUG - Checking if Positions should be close at EOD
+2018-02-20 03:45:04,332 - DEBUG - Time is 3
+2018-02-20 03:45:04,332 - DEBUG - Time is <class 'int'>
+2018-02-20 03:45:04,332 - DEBUG - Disconnected from IBController
+2018-02-20 03:45:04,333 - DEBUG - END POS MGMT SCRIPT :-!
+2018-02-20 03:50:00,272 - DEBUG - ****************************************************
+2018-02-20 03:50:00,272 - DEBUG - Current Time is 03:50AM
+2018-02-20 03:50:00,272 - DEBUG - Starting Pos Mgmt E S
+2018-02-20 03:50:00,273 - DEBUG - Connecting to database
+2018-02-20 03:50:00,291 - DEBUG - Connected to database
+2018-02-20 03:50:00,291 - DEBUG - Query is SELECT BB_ProfitID FROM hasPosition where CCY = 'ES'
+2018-02-20 03:50:00,293 - DEBUG - Order Profit is 0
+2018-02-20 03:50:00,293 - DEBUG - Query is SELECT BB_StopID FROM hasPosition where CCY = 'ES'
+2018-02-20 03:50:00,294 - DEBUG - Stop ID is 0
+2018-02-20 03:50:00,294 - DEBUG - Query is SELECT BB_EntryID FROM hasPosition where CCY = 'ES'
+2018-02-20 03:50:00,296 - DEBUG - Entry ID is 213
+2018-02-20 03:50:00,296 - DEBUG - Query is select max(idOCAGroup) as OCA from OCAGroup
+2018-02-20 03:50:00,297 - DEBUG - OCA ID is 1
+2018-02-20 03:50:00,298 - DEBUG - Connecting to IBController
+2018-02-20 03:50:01,302 - DEBUG - Connected to IBController
+2018-02-20 03:50:01,302 - DEBUG - Position requested
+2018-02-20 03:50:02,302 - DEBUG - Open Orders requested
+2018-02-20 03:50:04,302 - DEBUG - Connecting to database
+2018-02-20 03:50:04,309 - DEBUG - Connected to database
+2018-02-20 03:50:04,311 - DEBUG - Query is SELECT BB_StopLossVal FROM hasPosition where CCY = 'ES'
+2018-02-20 03:50:04,311 - DEBUG - Stop loss value is 2722.00
+2018-02-20 03:50:04,312 - DEBUG - Query is SELECT BB_ProfitPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 03:50:04,313 - DEBUG - Stop loss value is 2765.75
+2018-02-20 03:50:04,314 - DEBUG - Query is SELECT BB_EntryPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 03:50:04,314 - DEBUG - EntryPrice value is 2756.25
+2018-02-20 03:50:04,316 - DEBUG - Query is SELECT BB_StopQty FROM hasPosition where CCY = 'ES'
+2018-02-20 03:50:04,316 - DEBUG - Stop quantity 1
+2018-02-20 03:50:04,317 - DEBUG - Query is SELECT BB_direction FROM hasPosition where CCY = 'ES'
+2018-02-20 03:50:04,318 - DEBUG - Direction is Long
+2018-02-20 03:50:04,319 - DEBUG - Query is SELECT BB_Position FROM hasPosition where CCY = 'ES'
+2018-02-20 03:50:04,319 - DEBUG - Count is 0
+2018-02-20 03:50:04,321 - DEBUG - Query is SELECT BB_StopLossFlag FROM hasPosition where CCY = 'ES'
+2018-02-20 03:50:04,321 - DEBUG - Stop Loss Flag is 0
+2018-02-20 03:50:04,322 - DEBUG - Query is SELECT max(idOrder) FROM Orders
+2018-02-20 03:50:04,323 - DEBUG - Max ID Order is (213,)
+2018-02-20 03:50:04,323 - DEBUG - Today is 2018-02-20
+2018-02-20 03:50:04,323 - DEBUG - Day of the week 1
+2018-02-20 03:50:04,324 - DEBUG - Yesterday is 02/19/2018
+2018-02-20 03:50:04,324 - DEBUG - In Position is  0
+2018-02-20 03:50:04,324 - DEBUG - In Position is  <class 'int'>
+2018-02-20 03:50:04,324 - DEBUG - curStopLossFlag is  0
+2018-02-20 03:50:04,325 - DEBUG - curStopLossFlag is  <class 'str'>
+2018-02-20 03:50:04,325 - DEBUG - Checking if Entry has been filled
+2018-02-20 03:50:04,325 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 03:50:04,327 - DEBUG - EntryPend is 1
+2018-02-20 03:50:04,327 - DEBUG - Try to Cancel Stop
+2018-02-20 03:50:04,327 - DEBUG - Stop API ID 0
+2018-02-20 03:50:04,327 - DEBUG - Profit API ID 0
+2018-02-20 03:50:04,328 - DEBUG - Stop API ID <class 'int'>
+2018-02-20 03:50:04,328 - DEBUG - Profit API ID <class 'int'>
+2018-02-20 03:50:04,328 - DEBUG - Pos is 0
+2018-02-20 03:50:04,328 - DEBUG - CurCount is 0
+2018-02-20 03:50:04,328 - DEBUG - In Pos 0
+2018-02-20 03:50:04,329 - DEBUG - Stop ID is 0
+2018-02-20 03:50:04,329 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 03:50:04,330 - DEBUG - EntryPend is 1
+2018-02-20 03:50:04,331 - DEBUG - CHECKING IF STOP LOSS FILLED
+2018-02-20 03:50:04,331 - DEBUG - Entry Date is 10
+2018-02-20 03:50:04,331 - DEBUG - confirming yesterday is 02/19/2018
+2018-02-20 03:50:04,331 - DEBUG - Order Profit ID is 0
+2018-02-20 03:50:04,331 - DEBUG - Order Entry ID is 213
+2018-02-20 03:50:04,332 - DEBUG - API ID is  0
+2018-02-20 03:50:04,332 - DEBUG - Current Position is 0
+2018-02-20 03:50:04,332 - DEBUG - Current Position is <class 'str'>
+2018-02-20 03:50:04,332 - DEBUG - Checking if Positions should be close at EOD
+2018-02-20 03:50:04,333 - DEBUG - Time is 3
+2018-02-20 03:50:04,333 - DEBUG - Time is <class 'int'>
+2018-02-20 03:50:04,333 - DEBUG - Disconnected from IBController
+2018-02-20 03:50:04,333 - DEBUG - END POS MGMT SCRIPT :-!
+2018-02-20 03:55:00,261 - DEBUG - ****************************************************
+2018-02-20 03:55:00,261 - DEBUG - Current Time is 03:55AM
+2018-02-20 03:55:00,262 - DEBUG - Starting Pos Mgmt E S
+2018-02-20 03:55:00,262 - DEBUG - Connecting to database
+2018-02-20 03:55:00,301 - DEBUG - Connected to database
+2018-02-20 03:55:00,301 - DEBUG - Query is SELECT BB_ProfitID FROM hasPosition where CCY = 'ES'
+2018-02-20 03:55:00,303 - DEBUG - Order Profit is 0
+2018-02-20 03:55:00,303 - DEBUG - Query is SELECT BB_StopID FROM hasPosition where CCY = 'ES'
+2018-02-20 03:55:00,304 - DEBUG - Stop ID is 0
+2018-02-20 03:55:00,305 - DEBUG - Query is SELECT BB_EntryID FROM hasPosition where CCY = 'ES'
+2018-02-20 03:55:00,306 - DEBUG - Entry ID is 213
+2018-02-20 03:55:00,306 - DEBUG - Query is select max(idOCAGroup) as OCA from OCAGroup
+2018-02-20 03:55:00,308 - DEBUG - OCA ID is 1
+2018-02-20 03:55:00,308 - DEBUG - Connecting to IBController
+2018-02-20 03:55:01,312 - DEBUG - Connected to IBController
+2018-02-20 03:55:01,312 - DEBUG - Position requested
+2018-02-20 03:55:02,312 - DEBUG - Open Orders requested
+2018-02-20 03:55:04,312 - DEBUG - Connecting to database
+2018-02-20 03:55:04,319 - DEBUG - Connected to database
+2018-02-20 03:55:04,320 - DEBUG - Query is SELECT BB_StopLossVal FROM hasPosition where CCY = 'ES'
+2018-02-20 03:55:04,321 - DEBUG - Stop loss value is 2722.00
+2018-02-20 03:55:04,322 - DEBUG - Query is SELECT BB_ProfitPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 03:55:04,323 - DEBUG - Stop loss value is 2765.75
+2018-02-20 03:55:04,324 - DEBUG - Query is SELECT BB_EntryPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 03:55:04,324 - DEBUG - EntryPrice value is 2756.25
+2018-02-20 03:55:04,326 - DEBUG - Query is SELECT BB_StopQty FROM hasPosition where CCY = 'ES'
+2018-02-20 03:55:04,326 - DEBUG - Stop quantity 1
+2018-02-20 03:55:04,327 - DEBUG - Query is SELECT BB_direction FROM hasPosition where CCY = 'ES'
+2018-02-20 03:55:04,328 - DEBUG - Direction is Long
+2018-02-20 03:55:04,329 - DEBUG - Query is SELECT BB_Position FROM hasPosition where CCY = 'ES'
+2018-02-20 03:55:04,329 - DEBUG - Count is 0
+2018-02-20 03:55:04,330 - DEBUG - Query is SELECT BB_StopLossFlag FROM hasPosition where CCY = 'ES'
+2018-02-20 03:55:04,331 - DEBUG - Stop Loss Flag is 0
+2018-02-20 03:55:04,332 - DEBUG - Query is SELECT max(idOrder) FROM Orders
+2018-02-20 03:55:04,332 - DEBUG - Max ID Order is (213,)
+2018-02-20 03:55:04,333 - DEBUG - Today is 2018-02-20
+2018-02-20 03:55:04,333 - DEBUG - Day of the week 1
+2018-02-20 03:55:04,333 - DEBUG - Yesterday is 02/19/2018
+2018-02-20 03:55:04,334 - DEBUG - In Position is  0
+2018-02-20 03:55:04,334 - DEBUG - In Position is  <class 'int'>
+2018-02-20 03:55:04,334 - DEBUG - curStopLossFlag is  0
+2018-02-20 03:55:04,334 - DEBUG - curStopLossFlag is  <class 'str'>
+2018-02-20 03:55:04,335 - DEBUG - Checking if Entry has been filled
+2018-02-20 03:55:04,335 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 03:55:04,336 - DEBUG - EntryPend is 1
+2018-02-20 03:55:04,337 - DEBUG - Try to Cancel Stop
+2018-02-20 03:55:04,337 - DEBUG - Stop API ID 0
+2018-02-20 03:55:04,337 - DEBUG - Profit API ID 0
+2018-02-20 03:55:04,337 - DEBUG - Stop API ID <class 'int'>
+2018-02-20 03:55:04,337 - DEBUG - Profit API ID <class 'int'>
+2018-02-20 03:55:04,338 - DEBUG - Pos is 0
+2018-02-20 03:55:04,338 - DEBUG - CurCount is 0
+2018-02-20 03:55:04,338 - DEBUG - In Pos 0
+2018-02-20 03:55:04,338 - DEBUG - Stop ID is 0
+2018-02-20 03:55:04,339 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 03:55:04,340 - DEBUG - EntryPend is 1
+2018-02-20 03:55:04,340 - DEBUG - CHECKING IF STOP LOSS FILLED
+2018-02-20 03:55:04,340 - DEBUG - Entry Date is 10
+2018-02-20 03:55:04,341 - DEBUG - confirming yesterday is 02/19/2018
+2018-02-20 03:55:04,341 - DEBUG - Order Profit ID is 0
+2018-02-20 03:55:04,341 - DEBUG - Order Entry ID is 213
+2018-02-20 03:55:04,341 - DEBUG - API ID is  0
+2018-02-20 03:55:04,342 - DEBUG - Current Position is 0
+2018-02-20 03:55:04,342 - DEBUG - Current Position is <class 'str'>
+2018-02-20 03:55:04,342 - DEBUG - Checking if Positions should be close at EOD
+2018-02-20 03:55:04,342 - DEBUG - Time is 3
+2018-02-20 03:55:04,343 - DEBUG - Time is <class 'int'>
+2018-02-20 03:55:04,343 - DEBUG - Disconnected from IBController
+2018-02-20 03:55:04,343 - DEBUG - END POS MGMT SCRIPT :-!
+2018-02-20 04:00:00,267 - DEBUG - ****************************************************
+2018-02-20 04:00:00,268 - DEBUG - Current Time is 04:00AM
+2018-02-20 04:00:00,268 - DEBUG - Starting Pos Mgmt E S
+2018-02-20 04:00:00,268 - DEBUG - Connecting to database
+2018-02-20 04:00:00,301 - DEBUG - Connected to database
+2018-02-20 04:00:00,302 - DEBUG - Query is SELECT BB_ProfitID FROM hasPosition where CCY = 'ES'
+2018-02-20 04:00:00,303 - DEBUG - Order Profit is 0
+2018-02-20 04:00:00,303 - DEBUG - Query is SELECT BB_StopID FROM hasPosition where CCY = 'ES'
+2018-02-20 04:00:00,305 - DEBUG - Stop ID is 0
+2018-02-20 04:00:00,305 - DEBUG - Query is SELECT BB_EntryID FROM hasPosition where CCY = 'ES'
+2018-02-20 04:00:00,307 - DEBUG - Entry ID is 213
+2018-02-20 04:00:00,307 - DEBUG - Query is select max(idOCAGroup) as OCA from OCAGroup
+2018-02-20 04:00:00,308 - DEBUG - OCA ID is 1
+2018-02-20 04:00:00,309 - DEBUG - Connecting to IBController
+2018-02-20 04:00:01,315 - DEBUG - Connected to IBController
+2018-02-20 04:00:01,315 - DEBUG - Position requested
+2018-02-20 04:00:01,317 - DEBUG - Pos Mgmt -12987
+2018-02-20 04:00:01,317 - DEBUG - Reply handler <position account=U1998629, contract=<ib.ext.Contract.Contract object at 0x000000000206CDD8>, pos=-12987, avgCost=0.95368235>
+2018-02-20 04:00:01,318 - DEBUG - ccy1 Symbol with position is NZD
+2018-02-20 04:00:01,318 - DEBUG - ccy2 Currency with position is CAD
+2018-02-20 04:00:01,318 - DEBUG - Position is -12987
+2018-02-20 04:00:02,316 - DEBUG - Open Orders requested
+2018-02-20 04:00:02,318 - DEBUG - Reply Handler Orders is <openOrder orderId=213, contract=<ib.ext.Contract.Contract object at 0x000000000206CC88>, order=<ib.ext.Order.Order object at 0x000000000206CAC8>, orderState=<ib.ext.OrderState.OrderState object at 0x0000000002101048>>
+2018-02-20 04:00:02,319 - DEBUG - Order OrderID 213
+2018-02-20 04:00:02,319 - DEBUG - reply handler status <orderStatus orderId=213, status=PreSubmitted, filled=0, remaining=1, avgFillPrice=0.0, permId=1918128113, parentId=0, lastFillPrice=0.0, clientId=999, whyHeld=locate,trigger>
+2018-02-20 04:00:02,319 - DEBUG - Order status PreSubmitted
+2018-02-20 04:00:02,320 - DEBUG - Order Identification 213
+2018-02-20 04:00:02,320 - DEBUG - Order Identification <class 'int'>
+2018-02-20 04:00:02,320 - DEBUG - Profit ID from database is 0
+2018-02-20 04:00:02,320 - DEBUG - Profit ID from database is <class 'str'>
+2018-02-20 04:00:02,321 - DEBUG - Stop ID database is 0
+2018-02-20 04:00:02,321 - DEBUG - Entry ID database is 213
+2018-02-20 04:00:02,321 - DEBUG - Entry API ID is 213
+2018-02-20 04:00:04,317 - DEBUG - Connecting to database
+2018-02-20 04:00:04,324 - DEBUG - Connected to database
+2018-02-20 04:00:04,326 - DEBUG - Query is SELECT BB_StopLossVal FROM hasPosition where CCY = 'ES'
+2018-02-20 04:00:04,326 - DEBUG - Stop loss value is 2722.00
+2018-02-20 04:00:04,327 - DEBUG - Query is SELECT BB_ProfitPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 04:00:04,328 - DEBUG - Stop loss value is 2765.75
+2018-02-20 04:00:04,329 - DEBUG - Query is SELECT BB_EntryPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 04:00:04,330 - DEBUG - EntryPrice value is 2756.25
+2018-02-20 04:00:04,331 - DEBUG - Query is SELECT BB_StopQty FROM hasPosition where CCY = 'ES'
+2018-02-20 04:00:04,331 - DEBUG - Stop quantity 1
+2018-02-20 04:00:04,332 - DEBUG - Query is SELECT BB_direction FROM hasPosition where CCY = 'ES'
+2018-02-20 04:00:04,333 - DEBUG - Direction is Long
+2018-02-20 04:00:04,334 - DEBUG - Query is SELECT BB_Position FROM hasPosition where CCY = 'ES'
+2018-02-20 04:00:04,334 - DEBUG - Count is 0
+2018-02-20 04:00:04,336 - DEBUG - Query is SELECT BB_StopLossFlag FROM hasPosition where CCY = 'ES'
+2018-02-20 04:00:04,336 - DEBUG - Stop Loss Flag is 0
+2018-02-20 04:00:04,337 - DEBUG - Query is SELECT max(idOrder) FROM Orders
+2018-02-20 04:00:04,338 - DEBUG - Max ID Order is (213,)
+2018-02-20 04:00:04,338 - DEBUG - Today is 2018-02-20
+2018-02-20 04:00:04,339 - DEBUG - Day of the week 1
+2018-02-20 04:00:04,339 - DEBUG - Yesterday is 02/19/2018
+2018-02-20 04:00:04,339 - DEBUG - In Position is  0
+2018-02-20 04:00:04,339 - DEBUG - In Position is  <class 'int'>
+2018-02-20 04:00:04,340 - DEBUG - curStopLossFlag is  0
+2018-02-20 04:00:04,340 - DEBUG - curStopLossFlag is  <class 'str'>
+2018-02-20 04:00:04,340 - DEBUG - Checking if Entry has been filled
+2018-02-20 04:00:04,340 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 04:00:04,342 - DEBUG - EntryPend is 1
+2018-02-20 04:00:04,342 - DEBUG - Try to Cancel Stop
+2018-02-20 04:00:04,342 - DEBUG - Stop API ID 0
+2018-02-20 04:00:04,342 - DEBUG - Profit API ID 0
+2018-02-20 04:00:04,342 - DEBUG - Stop API ID <class 'int'>
+2018-02-20 04:00:04,343 - DEBUG - Profit API ID <class 'int'>
+2018-02-20 04:00:04,343 - DEBUG - Pos is 0
+2018-02-20 04:00:04,343 - DEBUG - CurCount is 0
+2018-02-20 04:00:04,343 - DEBUG - In Pos 0
+2018-02-20 04:00:04,344 - DEBUG - Stop ID is 0
+2018-02-20 04:00:04,344 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 04:00:04,345 - DEBUG - EntryPend is 1
+2018-02-20 04:00:04,345 - DEBUG - CHECKING IF STOP LOSS FILLED
+2018-02-20 04:00:04,346 - DEBUG - Entry Date is 10
+2018-02-20 04:00:04,346 - DEBUG - confirming yesterday is 02/19/2018
+2018-02-20 04:00:04,346 - DEBUG - Order Profit ID is 0
+2018-02-20 04:00:04,346 - DEBUG - Order Entry ID is 213
+2018-02-20 04:00:04,347 - DEBUG - API ID is  0
+2018-02-20 04:00:04,347 - DEBUG - Current Position is 0
+2018-02-20 04:00:04,347 - DEBUG - Current Position is <class 'str'>
+2018-02-20 04:00:04,347 - DEBUG - Checking if Positions should be close at EOD
+2018-02-20 04:00:04,347 - DEBUG - Time is 4
+2018-02-20 04:00:04,348 - DEBUG - Time is <class 'int'>
+2018-02-20 04:00:04,348 - DEBUG - Disconnected from IBController
+2018-02-20 04:00:04,348 - DEBUG - END POS MGMT SCRIPT :-!
+2018-02-20 04:05:00,268 - DEBUG - ****************************************************
+2018-02-20 04:05:00,269 - DEBUG - Current Time is 04:05AM
+2018-02-20 04:05:00,269 - DEBUG - Starting Pos Mgmt E S
+2018-02-20 04:05:00,270 - DEBUG - Connecting to database
+2018-02-20 04:05:00,288 - DEBUG - Connected to database
+2018-02-20 04:05:00,289 - DEBUG - Query is SELECT BB_ProfitID FROM hasPosition where CCY = 'ES'
+2018-02-20 04:05:00,290 - DEBUG - Order Profit is 0
+2018-02-20 04:05:00,290 - DEBUG - Query is SELECT BB_StopID FROM hasPosition where CCY = 'ES'
+2018-02-20 04:05:00,291 - DEBUG - Stop ID is 0
+2018-02-20 04:05:00,292 - DEBUG - Query is SELECT BB_EntryID FROM hasPosition where CCY = 'ES'
+2018-02-20 04:05:00,293 - DEBUG - Entry ID is 213
+2018-02-20 04:05:00,293 - DEBUG - Query is select max(idOCAGroup) as OCA from OCAGroup
+2018-02-20 04:05:00,294 - DEBUG - OCA ID is 1
+2018-02-20 04:05:00,295 - DEBUG - Connecting to IBController
+2018-02-20 04:05:01,300 - DEBUG - Connected to IBController
+2018-02-20 04:05:01,300 - DEBUG - Position requested
+2018-02-20 04:05:01,302 - DEBUG - Pos Mgmt -12987
+2018-02-20 04:05:01,302 - DEBUG - Reply handler <position account=U1998629, contract=<ib.ext.Contract.Contract object at 0x000000000206DDA0>, pos=-12987, avgCost=0.95368235>
+2018-02-20 04:05:01,303 - DEBUG - ccy1 Symbol with position is NZD
+2018-02-20 04:05:01,303 - DEBUG - ccy2 Currency with position is CAD
+2018-02-20 04:05:01,303 - DEBUG - Position is -12987
+2018-02-20 04:05:02,302 - DEBUG - Open Orders requested
+2018-02-20 04:05:02,304 - DEBUG - Reply Handler Orders is <openOrder orderId=213, contract=<ib.ext.Contract.Contract object at 0x000000000206DA90>, order=<ib.ext.Order.Order object at 0x000000000206DBA8>, orderState=<ib.ext.OrderState.OrderState object at 0x00000000021020B8>>
+2018-02-20 04:05:02,305 - DEBUG - Order OrderID 213
+2018-02-20 04:05:02,305 - DEBUG - reply handler status <orderStatus orderId=213, status=PreSubmitted, filled=0, remaining=1, avgFillPrice=0.0, permId=1918128113, parentId=0, lastFillPrice=0.0, clientId=999, whyHeld=locate,trigger>
+2018-02-20 04:05:02,306 - DEBUG - Order status PreSubmitted
+2018-02-20 04:05:02,306 - DEBUG - Order Identification 213
+2018-02-20 04:05:02,306 - DEBUG - Order Identification <class 'int'>
+2018-02-20 04:05:02,307 - DEBUG - Profit ID from database is 0
+2018-02-20 04:05:02,307 - DEBUG - Profit ID from database is <class 'str'>
+2018-02-20 04:05:02,307 - DEBUG - Stop ID database is 0
+2018-02-20 04:05:02,307 - DEBUG - Entry ID database is 213
+2018-02-20 04:05:02,307 - DEBUG - Entry API ID is 213
+2018-02-20 04:05:04,305 - DEBUG - Connecting to database
+2018-02-20 04:05:04,312 - DEBUG - Connected to database
+2018-02-20 04:05:04,314 - DEBUG - Query is SELECT BB_StopLossVal FROM hasPosition where CCY = 'ES'
+2018-02-20 04:05:04,314 - DEBUG - Stop loss value is 2722.00
+2018-02-20 04:05:04,316 - DEBUG - Query is SELECT BB_ProfitPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 04:05:04,316 - DEBUG - Stop loss value is 2765.75
+2018-02-20 04:05:04,317 - DEBUG - Query is SELECT BB_EntryPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 04:05:04,318 - DEBUG - EntryPrice value is 2756.25
+2018-02-20 04:05:04,319 - DEBUG - Query is SELECT BB_StopQty FROM hasPosition where CCY = 'ES'
+2018-02-20 04:05:04,319 - DEBUG - Stop quantity 1
+2018-02-20 04:05:04,321 - DEBUG - Query is SELECT BB_direction FROM hasPosition where CCY = 'ES'
+2018-02-20 04:05:04,321 - DEBUG - Direction is Long
+2018-02-20 04:05:04,323 - DEBUG - Query is SELECT BB_Position FROM hasPosition where CCY = 'ES'
+2018-02-20 04:05:04,323 - DEBUG - Count is 0
+2018-02-20 04:05:04,324 - DEBUG - Query is SELECT BB_StopLossFlag FROM hasPosition where CCY = 'ES'
+2018-02-20 04:05:04,325 - DEBUG - Stop Loss Flag is 0
+2018-02-20 04:05:04,326 - DEBUG - Query is SELECT max(idOrder) FROM Orders
+2018-02-20 04:05:04,326 - DEBUG - Max ID Order is (213,)
+2018-02-20 04:05:04,327 - DEBUG - Today is 2018-02-20
+2018-02-20 04:05:04,327 - DEBUG - Day of the week 1
+2018-02-20 04:05:04,327 - DEBUG - Yesterday is 02/19/2018
+2018-02-20 04:05:04,327 - DEBUG - In Position is  0
+2018-02-20 04:05:04,328 - DEBUG - In Position is  <class 'int'>
+2018-02-20 04:05:04,328 - DEBUG - curStopLossFlag is  0
+2018-02-20 04:05:04,328 - DEBUG - curStopLossFlag is  <class 'str'>
+2018-02-20 04:05:04,328 - DEBUG - Checking if Entry has been filled
+2018-02-20 04:05:04,329 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 04:05:04,330 - DEBUG - EntryPend is 1
+2018-02-20 04:05:04,330 - DEBUG - Try to Cancel Stop
+2018-02-20 04:05:04,331 - DEBUG - Stop API ID 0
+2018-02-20 04:05:04,331 - DEBUG - Profit API ID 0
+2018-02-20 04:05:04,331 - DEBUG - Stop API ID <class 'int'>
+2018-02-20 04:05:04,331 - DEBUG - Profit API ID <class 'int'>
+2018-02-20 04:05:04,332 - DEBUG - Pos is 0
+2018-02-20 04:05:04,332 - DEBUG - CurCount is 0
+2018-02-20 04:05:04,332 - DEBUG - In Pos 0
+2018-02-20 04:05:04,332 - DEBUG - Stop ID is 0
+2018-02-20 04:05:04,332 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 04:05:04,334 - DEBUG - EntryPend is 1
+2018-02-20 04:05:04,334 - DEBUG - CHECKING IF STOP LOSS FILLED
+2018-02-20 04:05:04,334 - DEBUG - Entry Date is 10
+2018-02-20 04:05:04,335 - DEBUG - confirming yesterday is 02/19/2018
+2018-02-20 04:05:04,335 - DEBUG - Order Profit ID is 0
+2018-02-20 04:05:04,335 - DEBUG - Order Entry ID is 213
+2018-02-20 04:05:04,335 - DEBUG - API ID is  0
+2018-02-20 04:05:04,335 - DEBUG - Current Position is 0
+2018-02-20 04:05:04,336 - DEBUG - Current Position is <class 'str'>
+2018-02-20 04:05:04,336 - DEBUG - Checking if Positions should be close at EOD
+2018-02-20 04:05:04,336 - DEBUG - Time is 4
+2018-02-20 04:05:04,336 - DEBUG - Time is <class 'int'>
+2018-02-20 04:05:04,337 - DEBUG - Disconnected from IBController
+2018-02-20 04:05:04,337 - DEBUG - END POS MGMT SCRIPT :-!
+2018-02-20 04:10:00,272 - DEBUG - ****************************************************
+2018-02-20 04:10:00,272 - DEBUG - Current Time is 04:10AM
+2018-02-20 04:10:00,273 - DEBUG - Starting Pos Mgmt E S
+2018-02-20 04:10:00,273 - DEBUG - Connecting to database
+2018-02-20 04:10:00,295 - DEBUG - Connected to database
+2018-02-20 04:10:00,295 - DEBUG - Query is SELECT BB_ProfitID FROM hasPosition where CCY = 'ES'
+2018-02-20 04:10:00,297 - DEBUG - Order Profit is 0
+2018-02-20 04:10:00,297 - DEBUG - Query is SELECT BB_StopID FROM hasPosition where CCY = 'ES'
+2018-02-20 04:10:00,298 - DEBUG - Stop ID is 0
+2018-02-20 04:10:00,299 - DEBUG - Query is SELECT BB_EntryID FROM hasPosition where CCY = 'ES'
+2018-02-20 04:10:00,300 - DEBUG - Entry ID is 213
+2018-02-20 04:10:00,300 - DEBUG - Query is select max(idOCAGroup) as OCA from OCAGroup
+2018-02-20 04:10:00,302 - DEBUG - OCA ID is 1
+2018-02-20 04:10:00,302 - DEBUG - Connecting to IBController
+2018-02-20 04:10:01,307 - DEBUG - Connected to IBController
+2018-02-20 04:10:01,307 - DEBUG - Position requested
+2018-02-20 04:10:01,310 - DEBUG - Pos Mgmt -12987
+2018-02-20 04:10:01,310 - DEBUG - Reply handler <position account=U1998629, contract=<ib.ext.Contract.Contract object at 0x000000000204DD30>, pos=-12987, avgCost=0.95368235>
+2018-02-20 04:10:01,311 - DEBUG - ccy1 Symbol with position is NZD
+2018-02-20 04:10:01,311 - DEBUG - ccy2 Currency with position is CAD
+2018-02-20 04:10:01,311 - DEBUG - Position is -12987
+2018-02-20 04:10:02,309 - DEBUG - Open Orders requested
+2018-02-20 04:10:02,321 - DEBUG - Reply Handler Orders is <openOrder orderId=213, contract=<ib.ext.Contract.Contract object at 0x000000000204DA58>, order=<ib.ext.Order.Order object at 0x000000000204DC88>, orderState=<ib.ext.OrderState.OrderState object at 0x00000000020E1048>>
+2018-02-20 04:10:02,321 - DEBUG - Order OrderID 213
+2018-02-20 04:10:02,322 - DEBUG - reply handler status <orderStatus orderId=213, status=PreSubmitted, filled=0, remaining=1, avgFillPrice=0.0, permId=1918128113, parentId=0, lastFillPrice=0.0, clientId=999, whyHeld=locate,trigger>
+2018-02-20 04:10:02,322 - DEBUG - Order status PreSubmitted
+2018-02-20 04:10:02,322 - DEBUG - Order Identification 213
+2018-02-20 04:10:02,323 - DEBUG - Order Identification <class 'int'>
+2018-02-20 04:10:02,323 - DEBUG - Profit ID from database is 0
+2018-02-20 04:10:02,323 - DEBUG - Profit ID from database is <class 'str'>
+2018-02-20 04:10:02,323 - DEBUG - Stop ID database is 0
+2018-02-20 04:10:02,324 - DEBUG - Entry ID database is 213
+2018-02-20 04:10:02,324 - DEBUG - Entry API ID is 213
+2018-02-20 04:10:04,317 - DEBUG - Connecting to database
+2018-02-20 04:10:04,325 - DEBUG - Connected to database
+2018-02-20 04:10:04,326 - DEBUG - Query is SELECT BB_StopLossVal FROM hasPosition where CCY = 'ES'
+2018-02-20 04:10:04,326 - DEBUG - Stop loss value is 2722.00
+2018-02-20 04:10:04,328 - DEBUG - Query is SELECT BB_ProfitPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 04:10:04,328 - DEBUG - Stop loss value is 2765.75
+2018-02-20 04:10:04,329 - DEBUG - Query is SELECT BB_EntryPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 04:10:04,330 - DEBUG - EntryPrice value is 2756.25
+2018-02-20 04:10:04,331 - DEBUG - Query is SELECT BB_StopQty FROM hasPosition where CCY = 'ES'
+2018-02-20 04:10:04,332 - DEBUG - Stop quantity 1
+2018-02-20 04:10:04,333 - DEBUG - Query is SELECT BB_direction FROM hasPosition where CCY = 'ES'
+2018-02-20 04:10:04,333 - DEBUG - Direction is Long
+2018-02-20 04:10:04,335 - DEBUG - Query is SELECT BB_Position FROM hasPosition where CCY = 'ES'
+2018-02-20 04:10:04,335 - DEBUG - Count is 0
+2018-02-20 04:10:04,336 - DEBUG - Query is SELECT BB_StopLossFlag FROM hasPosition where CCY = 'ES'
+2018-02-20 04:10:04,337 - DEBUG - Stop Loss Flag is 0
+2018-02-20 04:10:04,338 - DEBUG - Query is SELECT max(idOrder) FROM Orders
+2018-02-20 04:10:04,338 - DEBUG - Max ID Order is (213,)
+2018-02-20 04:10:04,339 - DEBUG - Today is 2018-02-20
+2018-02-20 04:10:04,339 - DEBUG - Day of the week 1
+2018-02-20 04:10:04,339 - DEBUG - Yesterday is 02/19/2018
+2018-02-20 04:10:04,340 - DEBUG - In Position is  0
+2018-02-20 04:10:04,340 - DEBUG - In Position is  <class 'int'>
+2018-02-20 04:10:04,340 - DEBUG - curStopLossFlag is  0
+2018-02-20 04:10:04,340 - DEBUG - curStopLossFlag is  <class 'str'>
+2018-02-20 04:10:04,341 - DEBUG - Checking if Entry has been filled
+2018-02-20 04:10:04,341 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 04:10:04,342 - DEBUG - EntryPend is 1
+2018-02-20 04:10:04,343 - DEBUG - Try to Cancel Stop
+2018-02-20 04:10:04,343 - DEBUG - Stop API ID 0
+2018-02-20 04:10:04,343 - DEBUG - Profit API ID 0
+2018-02-20 04:10:04,343 - DEBUG - Stop API ID <class 'int'>
+2018-02-20 04:10:04,343 - DEBUG - Profit API ID <class 'int'>
+2018-02-20 04:10:04,344 - DEBUG - Pos is 0
+2018-02-20 04:10:04,344 - DEBUG - CurCount is 0
+2018-02-20 04:10:04,344 - DEBUG - In Pos 0
+2018-02-20 04:10:04,344 - DEBUG - Stop ID is 0
+2018-02-20 04:10:04,345 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 04:10:04,346 - DEBUG - EntryPend is 1
+2018-02-20 04:10:04,346 - DEBUG - CHECKING IF STOP LOSS FILLED
+2018-02-20 04:10:04,347 - DEBUG - Entry Date is 10
+2018-02-20 04:10:04,347 - DEBUG - confirming yesterday is 02/19/2018
+2018-02-20 04:10:04,347 - DEBUG - Order Profit ID is 0
+2018-02-20 04:10:04,347 - DEBUG - Order Entry ID is 213
+2018-02-20 04:10:04,347 - DEBUG - API ID is  0
+2018-02-20 04:10:04,348 - DEBUG - Current Position is 0
+2018-02-20 04:10:04,348 - DEBUG - Current Position is <class 'str'>
+2018-02-20 04:10:04,348 - DEBUG - Checking if Positions should be close at EOD
+2018-02-20 04:10:04,348 - DEBUG - Time is 4
+2018-02-20 04:10:04,349 - DEBUG - Time is <class 'int'>
+2018-02-20 04:10:04,349 - DEBUG - Disconnected from IBController
+2018-02-20 04:10:04,349 - DEBUG - END POS MGMT SCRIPT :-!
+2018-02-20 04:15:00,275 - DEBUG - ****************************************************
+2018-02-20 04:15:00,276 - DEBUG - Current Time is 04:15AM
+2018-02-20 04:15:00,276 - DEBUG - Starting Pos Mgmt E S
+2018-02-20 04:15:00,276 - DEBUG - Connecting to database
+2018-02-20 04:15:00,306 - DEBUG - Connected to database
+2018-02-20 04:15:00,307 - DEBUG - Query is SELECT BB_ProfitID FROM hasPosition where CCY = 'ES'
+2018-02-20 04:15:00,308 - DEBUG - Order Profit is 0
+2018-02-20 04:15:00,308 - DEBUG - Query is SELECT BB_StopID FROM hasPosition where CCY = 'ES'
+2018-02-20 04:15:00,310 - DEBUG - Stop ID is 0
+2018-02-20 04:15:00,310 - DEBUG - Query is SELECT BB_EntryID FROM hasPosition where CCY = 'ES'
+2018-02-20 04:15:00,312 - DEBUG - Entry ID is 213
+2018-02-20 04:15:00,312 - DEBUG - Query is select max(idOCAGroup) as OCA from OCAGroup
+2018-02-20 04:15:00,313 - DEBUG - OCA ID is 1
+2018-02-20 04:15:00,314 - DEBUG - Connecting to IBController
+2018-02-20 04:15:01,318 - DEBUG - Connected to IBController
+2018-02-20 04:15:01,318 - DEBUG - Position requested
+2018-02-20 04:15:01,320 - DEBUG - Pos Mgmt -12987
+2018-02-20 04:15:01,320 - DEBUG - Reply handler <position account=U1998629, contract=<ib.ext.Contract.Contract object at 0x000000000203DCF8>, pos=-12987, avgCost=0.95368235>
+2018-02-20 04:15:01,321 - DEBUG - ccy1 Symbol with position is NZD
+2018-02-20 04:15:01,321 - DEBUG - ccy2 Currency with position is CAD
+2018-02-20 04:15:01,321 - DEBUG - Position is -12987
+2018-02-20 04:15:02,319 - DEBUG - Open Orders requested
+2018-02-20 04:15:02,321 - DEBUG - Reply Handler Orders is <openOrder orderId=213, contract=<ib.ext.Contract.Contract object at 0x000000000203DBE0>, order=<ib.ext.Order.Order object at 0x000000000203DA58>, orderState=<ib.ext.OrderState.OrderState object at 0x00000000020D2048>>
+2018-02-20 04:15:02,321 - DEBUG - Order OrderID 213
+2018-02-20 04:15:02,322 - DEBUG - reply handler status <orderStatus orderId=213, status=PreSubmitted, filled=0, remaining=1, avgFillPrice=0.0, permId=1918128113, parentId=0, lastFillPrice=0.0, clientId=999, whyHeld=locate,trigger>
+2018-02-20 04:15:02,322 - DEBUG - Order status PreSubmitted
+2018-02-20 04:15:02,323 - DEBUG - Order Identification 213
+2018-02-20 04:15:02,323 - DEBUG - Order Identification <class 'int'>
+2018-02-20 04:15:02,323 - DEBUG - Profit ID from database is 0
+2018-02-20 04:15:02,323 - DEBUG - Profit ID from database is <class 'str'>
+2018-02-20 04:15:02,324 - DEBUG - Stop ID database is 0
+2018-02-20 04:15:02,324 - DEBUG - Entry ID database is 213
+2018-02-20 04:15:02,324 - DEBUG - Entry API ID is 213
+2018-02-20 04:15:04,320 - DEBUG - Connecting to database
+2018-02-20 04:15:04,327 - DEBUG - Connected to database
+2018-02-20 04:15:04,328 - DEBUG - Query is SELECT BB_StopLossVal FROM hasPosition where CCY = 'ES'
+2018-02-20 04:15:04,329 - DEBUG - Stop loss value is 2722.00
+2018-02-20 04:15:04,330 - DEBUG - Query is SELECT BB_ProfitPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 04:15:04,331 - DEBUG - Stop loss value is 2765.75
+2018-02-20 04:15:04,332 - DEBUG - Query is SELECT BB_EntryPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 04:15:04,332 - DEBUG - EntryPrice value is 2756.25
+2018-02-20 04:15:04,334 - DEBUG - Query is SELECT BB_StopQty FROM hasPosition where CCY = 'ES'
+2018-02-20 04:15:04,334 - DEBUG - Stop quantity 1
+2018-02-20 04:15:04,335 - DEBUG - Query is SELECT BB_direction FROM hasPosition where CCY = 'ES'
+2018-02-20 04:15:04,336 - DEBUG - Direction is Long
+2018-02-20 04:15:04,337 - DEBUG - Query is SELECT BB_Position FROM hasPosition where CCY = 'ES'
+2018-02-20 04:15:04,337 - DEBUG - Count is 0
+2018-02-20 04:15:04,339 - DEBUG - Query is SELECT BB_StopLossFlag FROM hasPosition where CCY = 'ES'
+2018-02-20 04:15:04,339 - DEBUG - Stop Loss Flag is 0
+2018-02-20 04:15:04,340 - DEBUG - Query is SELECT max(idOrder) FROM Orders
+2018-02-20 04:15:04,341 - DEBUG - Max ID Order is (213,)
+2018-02-20 04:15:04,341 - DEBUG - Today is 2018-02-20
+2018-02-20 04:15:04,342 - DEBUG - Day of the week 1
+2018-02-20 04:15:04,342 - DEBUG - Yesterday is 02/19/2018
+2018-02-20 04:15:04,342 - DEBUG - In Position is  0
+2018-02-20 04:15:04,342 - DEBUG - In Position is  <class 'int'>
+2018-02-20 04:15:04,343 - DEBUG - curStopLossFlag is  0
+2018-02-20 04:15:04,343 - DEBUG - curStopLossFlag is  <class 'str'>
+2018-02-20 04:15:04,343 - DEBUG - Checking if Entry has been filled
+2018-02-20 04:15:04,343 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 04:15:04,345 - DEBUG - EntryPend is 1
+2018-02-20 04:15:04,345 - DEBUG - Try to Cancel Stop
+2018-02-20 04:15:04,345 - DEBUG - Stop API ID 0
+2018-02-20 04:15:04,345 - DEBUG - Profit API ID 0
+2018-02-20 04:15:04,345 - DEBUG - Stop API ID <class 'int'>
+2018-02-20 04:15:04,346 - DEBUG - Profit API ID <class 'int'>
+2018-02-20 04:15:04,346 - DEBUG - Pos is 0
+2018-02-20 04:15:04,346 - DEBUG - CurCount is 0
+2018-02-20 04:15:04,346 - DEBUG - In Pos 0
+2018-02-20 04:15:04,347 - DEBUG - Stop ID is 0
+2018-02-20 04:15:04,347 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 04:15:04,348 - DEBUG - EntryPend is 1
+2018-02-20 04:15:04,349 - DEBUG - CHECKING IF STOP LOSS FILLED
+2018-02-20 04:15:04,349 - DEBUG - Entry Date is 10
+2018-02-20 04:15:04,349 - DEBUG - confirming yesterday is 02/19/2018
+2018-02-20 04:15:04,349 - DEBUG - Order Profit ID is 0
+2018-02-20 04:15:04,350 - DEBUG - Order Entry ID is 213
+2018-02-20 04:15:04,350 - DEBUG - API ID is  0
+2018-02-20 04:15:04,350 - DEBUG - Current Position is 0
+2018-02-20 04:15:04,350 - DEBUG - Current Position is <class 'str'>
+2018-02-20 04:15:04,350 - DEBUG - Checking if Positions should be close at EOD
+2018-02-20 04:15:04,351 - DEBUG - Time is 4
+2018-02-20 04:15:04,351 - DEBUG - Time is <class 'int'>
+2018-02-20 04:15:04,351 - DEBUG - Disconnected from IBController
+2018-02-20 04:15:04,352 - DEBUG - END POS MGMT SCRIPT :-!
+2018-02-20 04:20:00,268 - DEBUG - ****************************************************
+2018-02-20 04:20:00,269 - DEBUG - Current Time is 04:20AM
+2018-02-20 04:20:00,269 - DEBUG - Starting Pos Mgmt E S
+2018-02-20 04:20:00,269 - DEBUG - Connecting to database
+2018-02-20 04:20:00,317 - DEBUG - Connected to database
+2018-02-20 04:20:00,318 - DEBUG - Query is SELECT BB_ProfitID FROM hasPosition where CCY = 'ES'
+2018-02-20 04:20:00,320 - DEBUG - Order Profit is 0
+2018-02-20 04:20:00,320 - DEBUG - Query is SELECT BB_StopID FROM hasPosition where CCY = 'ES'
+2018-02-20 04:20:00,321 - DEBUG - Stop ID is 0
+2018-02-20 04:20:00,322 - DEBUG - Query is SELECT BB_EntryID FROM hasPosition where CCY = 'ES'
+2018-02-20 04:20:00,323 - DEBUG - Entry ID is 213
+2018-02-20 04:20:00,323 - DEBUG - Query is select max(idOCAGroup) as OCA from OCAGroup
+2018-02-20 04:20:00,325 - DEBUG - OCA ID is 1
+2018-02-20 04:20:00,326 - DEBUG - Connecting to IBController
+2018-02-20 04:20:01,332 - DEBUG - Connected to IBController
+2018-02-20 04:20:01,332 - DEBUG - Position requested
+2018-02-20 04:20:01,334 - DEBUG - Pos Mgmt -12987
+2018-02-20 04:20:01,334 - DEBUG - Reply handler <position account=U1998629, contract=<ib.ext.Contract.Contract object at 0x000000000207DDA0>, pos=-12987, avgCost=0.95368235>
+2018-02-20 04:20:01,335 - DEBUG - ccy1 Symbol with position is NZD
+2018-02-20 04:20:01,335 - DEBUG - ccy2 Currency with position is CAD
+2018-02-20 04:20:01,335 - DEBUG - Position is -12987
+2018-02-20 04:20:02,333 - DEBUG - Open Orders requested
+2018-02-20 04:20:02,335 - DEBUG - Reply Handler Orders is <openOrder orderId=213, contract=<ib.ext.Contract.Contract object at 0x000000000207DA90>, order=<ib.ext.Order.Order object at 0x000000000207DC18>, orderState=<ib.ext.OrderState.OrderState object at 0x00000000021110B8>>
+2018-02-20 04:20:02,337 - DEBUG - Order OrderID 213
+2018-02-20 04:20:02,338 - DEBUG - reply handler status <orderStatus orderId=213, status=PreSubmitted, filled=0, remaining=1, avgFillPrice=0.0, permId=1918128113, parentId=0, lastFillPrice=0.0, clientId=999, whyHeld=locate,trigger>
+2018-02-20 04:20:02,338 - DEBUG - Order status PreSubmitted
+2018-02-20 04:20:02,338 - DEBUG - Order Identification 213
+2018-02-20 04:20:02,338 - DEBUG - Order Identification <class 'int'>
+2018-02-20 04:20:02,339 - DEBUG - Profit ID from database is 0
+2018-02-20 04:20:02,339 - DEBUG - Profit ID from database is <class 'str'>
+2018-02-20 04:20:02,339 - DEBUG - Stop ID database is 0
+2018-02-20 04:20:02,339 - DEBUG - Entry ID database is 213
+2018-02-20 04:20:02,340 - DEBUG - Entry API ID is 213
+2018-02-20 04:20:04,337 - DEBUG - Connecting to database
+2018-02-20 04:20:04,346 - DEBUG - Connected to database
+2018-02-20 04:20:04,348 - DEBUG - Query is SELECT BB_StopLossVal FROM hasPosition where CCY = 'ES'
+2018-02-20 04:20:04,348 - DEBUG - Stop loss value is 2722.00
+2018-02-20 04:20:04,349 - DEBUG - Query is SELECT BB_ProfitPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 04:20:04,350 - DEBUG - Stop loss value is 2765.75
+2018-02-20 04:20:04,351 - DEBUG - Query is SELECT BB_EntryPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 04:20:04,352 - DEBUG - EntryPrice value is 2756.25
+2018-02-20 04:20:04,353 - DEBUG - Query is SELECT BB_StopQty FROM hasPosition where CCY = 'ES'
+2018-02-20 04:20:04,353 - DEBUG - Stop quantity 1
+2018-02-20 04:20:04,355 - DEBUG - Query is SELECT BB_direction FROM hasPosition where CCY = 'ES'
+2018-02-20 04:20:04,355 - DEBUG - Direction is Long
+2018-02-20 04:20:04,356 - DEBUG - Query is SELECT BB_Position FROM hasPosition where CCY = 'ES'
+2018-02-20 04:20:04,356 - DEBUG - Count is 0
+2018-02-20 04:20:04,358 - DEBUG - Query is SELECT BB_StopLossFlag FROM hasPosition where CCY = 'ES'
+2018-02-20 04:20:04,358 - DEBUG - Stop Loss Flag is 0
+2018-02-20 04:20:04,359 - DEBUG - Query is SELECT max(idOrder) FROM Orders
+2018-02-20 04:20:04,360 - DEBUG - Max ID Order is (213,)
+2018-02-20 04:20:04,360 - DEBUG - Today is 2018-02-20
+2018-02-20 04:20:04,361 - DEBUG - Day of the week 1
+2018-02-20 04:20:04,361 - DEBUG - Yesterday is 02/19/2018
+2018-02-20 04:20:04,361 - DEBUG - In Position is  0
+2018-02-20 04:20:04,361 - DEBUG - In Position is  <class 'int'>
+2018-02-20 04:20:04,362 - DEBUG - curStopLossFlag is  0
+2018-02-20 04:20:04,362 - DEBUG - curStopLossFlag is  <class 'str'>
+2018-02-20 04:20:04,362 - DEBUG - Checking if Entry has been filled
+2018-02-20 04:20:04,362 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 04:20:04,364 - DEBUG - EntryPend is 1
+2018-02-20 04:20:04,364 - DEBUG - Try to Cancel Stop
+2018-02-20 04:20:04,364 - DEBUG - Stop API ID 0
+2018-02-20 04:20:04,365 - DEBUG - Profit API ID 0
+2018-02-20 04:20:04,365 - DEBUG - Stop API ID <class 'int'>
+2018-02-20 04:20:04,365 - DEBUG - Profit API ID <class 'int'>
+2018-02-20 04:20:04,365 - DEBUG - Pos is 0
+2018-02-20 04:20:04,365 - DEBUG - CurCount is 0
+2018-02-20 04:20:04,366 - DEBUG - In Pos 0
+2018-02-20 04:20:04,366 - DEBUG - Stop ID is 0
+2018-02-20 04:20:04,366 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 04:20:04,368 - DEBUG - EntryPend is 1
+2018-02-20 04:20:04,368 - DEBUG - CHECKING IF STOP LOSS FILLED
+2018-02-20 04:20:04,368 - DEBUG - Entry Date is 10
+2018-02-20 04:20:04,368 - DEBUG - confirming yesterday is 02/19/2018
+2018-02-20 04:20:04,368 - DEBUG - Order Profit ID is 0
+2018-02-20 04:20:04,369 - DEBUG - Order Entry ID is 213
+2018-02-20 04:20:04,369 - DEBUG - API ID is  0
+2018-02-20 04:20:04,369 - DEBUG - Current Position is 0
+2018-02-20 04:20:04,369 - DEBUG - Current Position is <class 'str'>
+2018-02-20 04:20:04,370 - DEBUG - Checking if Positions should be close at EOD
+2018-02-20 04:20:04,370 - DEBUG - Time is 4
+2018-02-20 04:20:04,370 - DEBUG - Time is <class 'int'>
+2018-02-20 04:20:04,370 - DEBUG - Disconnected from IBController
+2018-02-20 04:20:04,371 - DEBUG - END POS MGMT SCRIPT :-!
+2018-02-20 04:25:00,277 - DEBUG - ****************************************************
+2018-02-20 04:25:00,277 - DEBUG - Current Time is 04:25AM
+2018-02-20 04:25:00,278 - DEBUG - Starting Pos Mgmt E S
+2018-02-20 04:25:00,278 - DEBUG - Connecting to database
+2018-02-20 04:25:00,308 - DEBUG - Connected to database
+2018-02-20 04:25:00,308 - DEBUG - Query is SELECT BB_ProfitID FROM hasPosition where CCY = 'ES'
+2018-02-20 04:25:00,310 - DEBUG - Order Profit is 0
+2018-02-20 04:25:00,310 - DEBUG - Query is SELECT BB_StopID FROM hasPosition where CCY = 'ES'
+2018-02-20 04:25:00,311 - DEBUG - Stop ID is 0
+2018-02-20 04:25:00,311 - DEBUG - Query is SELECT BB_EntryID FROM hasPosition where CCY = 'ES'
+2018-02-20 04:25:00,313 - DEBUG - Entry ID is 213
+2018-02-20 04:25:00,313 - DEBUG - Query is select max(idOCAGroup) as OCA from OCAGroup
+2018-02-20 04:25:00,314 - DEBUG - OCA ID is 1
+2018-02-20 04:25:00,315 - DEBUG - Connecting to IBController
+2018-02-20 04:25:01,319 - DEBUG - Connected to IBController
+2018-02-20 04:25:01,319 - DEBUG - Position requested
+2018-02-20 04:25:01,321 - DEBUG - Pos Mgmt -12987
+2018-02-20 04:25:01,321 - DEBUG - Reply handler <position account=U1998629, contract=<ib.ext.Contract.Contract object at 0x000000000206DD30>, pos=-12987, avgCost=0.95368235>
+2018-02-20 04:25:01,322 - DEBUG - ccy1 Symbol with position is NZD
+2018-02-20 04:25:01,322 - DEBUG - ccy2 Currency with position is CAD
+2018-02-20 04:25:01,322 - DEBUG - Position is -12987
+2018-02-20 04:25:02,320 - DEBUG - Open Orders requested
+2018-02-20 04:25:02,322 - DEBUG - Reply Handler Orders is <openOrder orderId=213, contract=<ib.ext.Contract.Contract object at 0x000000000206DA58>, order=<ib.ext.Order.Order object at 0x000000000206DC18>, orderState=<ib.ext.OrderState.OrderState object at 0x0000000002101048>>
+2018-02-20 04:25:02,322 - DEBUG - Order OrderID 213
+2018-02-20 04:25:02,323 - DEBUG - reply handler status <orderStatus orderId=213, status=PreSubmitted, filled=0, remaining=1, avgFillPrice=0.0, permId=1918128113, parentId=0, lastFillPrice=0.0, clientId=999, whyHeld=locate,trigger>
+2018-02-20 04:25:02,323 - DEBUG - Order status PreSubmitted
+2018-02-20 04:25:02,324 - DEBUG - Order Identification 213
+2018-02-20 04:25:02,324 - DEBUG - Order Identification <class 'int'>
+2018-02-20 04:25:02,324 - DEBUG - Profit ID from database is 0
+2018-02-20 04:25:02,324 - DEBUG - Profit ID from database is <class 'str'>
+2018-02-20 04:25:02,325 - DEBUG - Stop ID database is 0
+2018-02-20 04:25:02,325 - DEBUG - Entry ID database is 213
+2018-02-20 04:25:02,325 - DEBUG - Entry API ID is 213
+2018-02-20 04:25:04,321 - DEBUG - Connecting to database
+2018-02-20 04:25:04,328 - DEBUG - Connected to database
+2018-02-20 04:25:04,330 - DEBUG - Query is SELECT BB_StopLossVal FROM hasPosition where CCY = 'ES'
+2018-02-20 04:25:04,330 - DEBUG - Stop loss value is 2722.00
+2018-02-20 04:25:04,332 - DEBUG - Query is SELECT BB_ProfitPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 04:25:04,332 - DEBUG - Stop loss value is 2765.75
+2018-02-20 04:25:04,333 - DEBUG - Query is SELECT BB_EntryPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 04:25:04,334 - DEBUG - EntryPrice value is 2756.25
+2018-02-20 04:25:04,335 - DEBUG - Query is SELECT BB_StopQty FROM hasPosition where CCY = 'ES'
+2018-02-20 04:25:04,335 - DEBUG - Stop quantity 1
+2018-02-20 04:25:04,337 - DEBUG - Query is SELECT BB_direction FROM hasPosition where CCY = 'ES'
+2018-02-20 04:25:04,337 - DEBUG - Direction is Long
+2018-02-20 04:25:04,338 - DEBUG - Query is SELECT BB_Position FROM hasPosition where CCY = 'ES'
+2018-02-20 04:25:04,339 - DEBUG - Count is 0
+2018-02-20 04:25:04,340 - DEBUG - Query is SELECT BB_StopLossFlag FROM hasPosition where CCY = 'ES'
+2018-02-20 04:25:04,340 - DEBUG - Stop Loss Flag is 0
+2018-02-20 04:25:04,341 - DEBUG - Query is SELECT max(idOrder) FROM Orders
+2018-02-20 04:25:04,342 - DEBUG - Max ID Order is (213,)
+2018-02-20 04:25:04,342 - DEBUG - Today is 2018-02-20
+2018-02-20 04:25:04,343 - DEBUG - Day of the week 1
+2018-02-20 04:25:04,343 - DEBUG - Yesterday is 02/19/2018
+2018-02-20 04:25:04,343 - DEBUG - In Position is  0
+2018-02-20 04:25:04,343 - DEBUG - In Position is  <class 'int'>
+2018-02-20 04:25:04,344 - DEBUG - curStopLossFlag is  0
+2018-02-20 04:25:04,344 - DEBUG - curStopLossFlag is  <class 'str'>
+2018-02-20 04:25:04,344 - DEBUG - Checking if Entry has been filled
+2018-02-20 04:25:04,344 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 04:25:04,346 - DEBUG - EntryPend is 1
+2018-02-20 04:25:04,346 - DEBUG - Try to Cancel Stop
+2018-02-20 04:25:04,346 - DEBUG - Stop API ID 0
+2018-02-20 04:25:04,346 - DEBUG - Profit API ID 0
+2018-02-20 04:25:04,347 - DEBUG - Stop API ID <class 'int'>
+2018-02-20 04:25:04,347 - DEBUG - Profit API ID <class 'int'>
+2018-02-20 04:25:04,347 - DEBUG - Pos is 0
+2018-02-20 04:25:04,347 - DEBUG - CurCount is 0
+2018-02-20 04:25:04,347 - DEBUG - In Pos 0
+2018-02-20 04:25:04,348 - DEBUG - Stop ID is 0
+2018-02-20 04:25:04,348 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 04:25:04,349 - DEBUG - EntryPend is 1
+2018-02-20 04:25:04,350 - DEBUG - CHECKING IF STOP LOSS FILLED
+2018-02-20 04:25:04,350 - DEBUG - Entry Date is 10
+2018-02-20 04:25:04,350 - DEBUG - confirming yesterday is 02/19/2018
+2018-02-20 04:25:04,350 - DEBUG - Order Profit ID is 0
+2018-02-20 04:25:04,351 - DEBUG - Order Entry ID is 213
+2018-02-20 04:25:04,351 - DEBUG - API ID is  0
+2018-02-20 04:25:04,351 - DEBUG - Current Position is 0
+2018-02-20 04:25:04,351 - DEBUG - Current Position is <class 'str'>
+2018-02-20 04:25:04,351 - DEBUG - Checking if Positions should be close at EOD
+2018-02-20 04:25:04,352 - DEBUG - Time is 4
+2018-02-20 04:25:04,352 - DEBUG - Time is <class 'int'>
+2018-02-20 04:25:04,352 - DEBUG - Disconnected from IBController
+2018-02-20 04:25:04,353 - DEBUG - END POS MGMT SCRIPT :-!
+2018-02-20 04:30:00,317 - DEBUG - ****************************************************
+2018-02-20 04:30:00,319 - DEBUG - Current Time is 04:30AM
+2018-02-20 04:30:00,319 - DEBUG - Starting Pos Mgmt E S
+2018-02-20 04:30:00,319 - DEBUG - Connecting to database
+2018-02-20 04:30:00,372 - DEBUG - Connected to database
+2018-02-20 04:30:00,372 - DEBUG - Query is SELECT BB_ProfitID FROM hasPosition where CCY = 'ES'
+2018-02-20 04:30:00,374 - DEBUG - Order Profit is 0
+2018-02-20 04:30:00,374 - DEBUG - Query is SELECT BB_StopID FROM hasPosition where CCY = 'ES'
+2018-02-20 04:30:00,376 - DEBUG - Stop ID is 0
+2018-02-20 04:30:00,376 - DEBUG - Query is SELECT BB_EntryID FROM hasPosition where CCY = 'ES'
+2018-02-20 04:30:00,377 - DEBUG - Entry ID is 213
+2018-02-20 04:30:00,378 - DEBUG - Query is select max(idOCAGroup) as OCA from OCAGroup
+2018-02-20 04:30:00,385 - DEBUG - OCA ID is 1
+2018-02-20 04:30:00,388 - DEBUG - Connecting to IBController
+2018-02-20 04:30:01,435 - DEBUG - Connected to IBController
+2018-02-20 04:30:01,435 - DEBUG - Position requested
+2018-02-20 04:30:01,437 - DEBUG - Pos Mgmt -12987
+2018-02-20 04:30:01,437 - DEBUG - Reply handler <position account=U1998629, contract=<ib.ext.Contract.Contract object at 0x000000000204DD68>, pos=-12987, avgCost=0.95368235>
+2018-02-20 04:30:01,438 - DEBUG - ccy1 Symbol with position is NZD
+2018-02-20 04:30:01,438 - DEBUG - ccy2 Currency with position is CAD
+2018-02-20 04:30:01,438 - DEBUG - Position is -12987
+2018-02-20 04:30:02,436 - DEBUG - Open Orders requested
+2018-02-20 04:30:02,438 - DEBUG - Reply Handler Orders is <openOrder orderId=213, contract=<ib.ext.Contract.Contract object at 0x000000000204DBE0>, order=<ib.ext.Order.Order object at 0x000000000204DA58>, orderState=<ib.ext.OrderState.OrderState object at 0x00000000020E1048>>
+2018-02-20 04:30:02,439 - DEBUG - Order OrderID 213
+2018-02-20 04:30:02,439 - DEBUG - reply handler status <orderStatus orderId=213, status=PreSubmitted, filled=0, remaining=1, avgFillPrice=0.0, permId=1918128113, parentId=0, lastFillPrice=0.0, clientId=999, whyHeld=locate,trigger>
+2018-02-20 04:30:02,440 - DEBUG - Order status PreSubmitted
+2018-02-20 04:30:02,440 - DEBUG - Order Identification 213
+2018-02-20 04:30:02,440 - DEBUG - Order Identification <class 'int'>
+2018-02-20 04:30:02,440 - DEBUG - Profit ID from database is 0
+2018-02-20 04:30:02,441 - DEBUG - Profit ID from database is <class 'str'>
+2018-02-20 04:30:02,441 - DEBUG - Stop ID database is 0
+2018-02-20 04:30:02,441 - DEBUG - Entry ID database is 213
+2018-02-20 04:30:02,441 - DEBUG - Entry API ID is 213
+2018-02-20 04:30:04,437 - DEBUG - Connecting to database
+2018-02-20 04:30:04,444 - DEBUG - Connected to database
+2018-02-20 04:30:04,446 - DEBUG - Query is SELECT BB_StopLossVal FROM hasPosition where CCY = 'ES'
+2018-02-20 04:30:04,446 - DEBUG - Stop loss value is 2722.00
+2018-02-20 04:30:04,448 - DEBUG - Query is SELECT BB_ProfitPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 04:30:04,448 - DEBUG - Stop loss value is 2765.75
+2018-02-20 04:30:04,449 - DEBUG - Query is SELECT BB_EntryPrice FROM hasPosition where CCY = 'ES'
+2018-02-20 04:30:04,450 - DEBUG - EntryPrice value is 2756.25
+2018-02-20 04:30:04,451 - DEBUG - Query is SELECT BB_StopQty FROM hasPosition where CCY = 'ES'
+2018-02-20 04:30:04,451 - DEBUG - Stop quantity 1
+2018-02-20 04:30:04,453 - DEBUG - Query is SELECT BB_direction FROM hasPosition where CCY = 'ES'
+2018-02-20 04:30:04,453 - DEBUG - Direction is Long
+2018-02-20 04:30:04,454 - DEBUG - Query is SELECT BB_Position FROM hasPosition where CCY = 'ES'
+2018-02-20 04:30:04,455 - DEBUG - Count is 0
+2018-02-20 04:30:04,456 - DEBUG - Query is SELECT BB_StopLossFlag FROM hasPosition where CCY = 'ES'
+2018-02-20 04:30:04,456 - DEBUG - Stop Loss Flag is 0
+2018-02-20 04:30:04,458 - DEBUG - Query is SELECT max(idOrder) FROM Orders
+2018-02-20 04:30:04,458 - DEBUG - Max ID Order is (213,)
+2018-02-20 04:30:04,459 - DEBUG - Today is 2018-02-20
+2018-02-20 04:30:04,459 - DEBUG - Day of the week 1
+2018-02-20 04:30:04,459 - DEBUG - Yesterday is 02/19/2018
+2018-02-20 04:30:04,460 - DEBUG - In Position is  0
+2018-02-20 04:30:04,460 - DEBUG - In Position is  <class 'int'>
+2018-02-20 04:30:04,460 - DEBUG - curStopLossFlag is  0
+2018-02-20 04:30:04,460 - DEBUG - curStopLossFlag is  <class 'str'>
+2018-02-20 04:30:04,461 - DEBUG - Checking if Entry has been filled
+2018-02-20 04:30:04,461 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 04:30:04,462 - DEBUG - EntryPend is 1
+2018-02-20 04:30:04,463 - DEBUG - Try to Cancel Stop
+2018-02-20 04:30:04,463 - DEBUG - Stop API ID 0
+2018-02-20 04:30:04,463 - DEBUG - Profit API ID 0
+2018-02-20 04:30:04,463 - DEBUG - Stop API ID <class 'int'>
+2018-02-20 04:30:04,463 - DEBUG - Profit API ID <class 'int'>
+2018-02-20 04:30:04,464 - DEBUG - Pos is 0
+2018-02-20 04:30:04,464 - DEBUG - CurCount is 0
+2018-02-20 04:30:04,464 - DEBUG - In Pos 0
+2018-02-20 04:30:04,464 - DEBUG - Stop ID is 0
+2018-02-20 04:30:04,465 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-02-20 04:30:04,466 - DEBUG - EntryPend is 1
+2018-02-20 04:30:04,466 - DEBUG - CHECKING IF STOP LOSS FILLED
+2018-02-20 04:30:04,467 - DEBUG - Entry Date is 10
+2018-02-20 04:30:04,467 - DEBUG - confirming yesterday is 02/19/2018
+2018-02-20 04:30:04,467 - DEBUG - Order Profit ID is 0
+2018-02-20 04:30:04,467 - DEBUG - Order Entry ID is 213
+2018-02-20 04:30:04,468 - DEBUG - API ID is  0
+2018-02-20 04:30:04,468 - DEBUG - Current Position is 0
+2018-02-20 04:30:04,468 - DEBUG - Current Position is <class 'str'>
+2018-02-20 04:30:04,468 - DEBUG - Checking if Positions should be close at EOD
+2018-02-20 04:30:

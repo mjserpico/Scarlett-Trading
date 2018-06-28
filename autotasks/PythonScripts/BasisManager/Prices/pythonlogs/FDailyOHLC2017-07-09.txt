@@ -1,0 +1,360 @@
+2017-07-09 16:42:47,120 - DEBUG - Starting FDailyOHLC
+2017-07-09 16:42:58,519 - DEBUG - Starting FDailyOHLC
+2017-07-09 16:43:17,906 - DEBUG - Starting FDailyOHLC
+2017-07-09 16:43:17,922 - DEBUG - Connecting to Server
+2017-07-09 16:43:18,941 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-09 16:43:19,955 - DEBUG - Product is ES
+2017-07-09 16:43:19,972 - DEBUG - Requesting historical data
+2017-07-09 16:43:20,006 - DEBUG - Returned from Reply Handler
+2017-07-09 16:43:20,099 - DEBUG - test5 -1
+2017-07-09 16:43:20,109 - DEBUG - In Reply Handler
+2017-07-09 16:43:20,117 - DEBUG - Valid Price Found (OPEN NOT -1)
+2017-07-09 16:43:20,691 - DEBUG - Connected to Database
+2017-07-09 16:43:20,726 - ERROR - Exception in message dispatch.  Handler 'reply_handler' for 'historicalData'
+Traceback (most recent call last):
+  File "C:\Program Files\Anaconda2\envs\python3.4\lib\site-packages\ib\opt\dispatcher.py", line 44, in __call__
+    results.append(listener(message))
+  File "C:/Users/Michael/Documents/GitHub/Autotasks/autotasks/PythonScripts/BasisManager/Prices/FdailyOHLC.py", line 57, in reply_handler
+    cur.execute("Insert Into "+ Table + """(Date, Product, Open, High, Low, Close) values(%s,%s,%s,%s,%s)""",(time.strftime("%m/%d/%Y"), Product[count], float(test),float(test2),float(test3),float(test4)))
+  File "C:\Program Files\Anaconda2\envs\python3.4\lib\site-packages\mysql\connector\cursor.py", line 498, in execute
+    "Not all parameters were used in the SQL statement")
+mysql.connector.errors.ProgrammingError: Not all parameters were used in the SQL statement
+2017-07-09 16:43:20,763 - DEBUG - test5 -1
+2017-07-09 16:43:20,773 - DEBUG - In Reply Handler
+2017-07-09 16:43:21,020 - DEBUG - Disconnecting from Server
+2017-07-09 16:43:21,067 - DEBUG - Connecting to Server
+2017-07-09 16:43:22,082 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-09 16:43:23,094 - DEBUG - Product is M6E
+2017-07-09 16:43:23,108 - DEBUG - Requesting historical data
+2017-07-09 16:43:23,127 - DEBUG - Returned from Reply Handler
+2017-07-09 16:43:23,210 - DEBUG - test5 -1
+2017-07-09 16:43:23,217 - DEBUG - In Reply Handler
+2017-07-09 16:43:23,222 - DEBUG - Valid Price Found (OPEN NOT -1)
+2017-07-09 16:43:23,367 - DEBUG - Connected to Database
+2017-07-09 16:43:23,402 - ERROR - Exception in message dispatch.  Handler 'reply_handler' for 'historicalData'
+Traceback (most recent call last):
+  File "C:\Program Files\Anaconda2\envs\python3.4\lib\site-packages\ib\opt\dispatcher.py", line 44, in __call__
+    results.append(listener(message))
+  File "C:/Users/Michael/Documents/GitHub/Autotasks/autotasks/PythonScripts/BasisManager/Prices/FdailyOHLC.py", line 57, in reply_handler
+    cur.execute("Insert Into "+ Table + """(Date, Product, Open, High, Low, Close) values(%s,%s,%s,%s,%s)""",(time.strftime("%m/%d/%Y"), Product[count], float(test),float(test2),float(test3),float(test4)))
+  File "C:\Program Files\Anaconda2\envs\python3.4\lib\site-packages\mysql\connector\cursor.py", line 498, in execute
+    "Not all parameters were used in the SQL statement")
+mysql.connector.errors.ProgrammingError: Not all parameters were used in the SQL statement
+2017-07-09 16:43:23,418 - DEBUG - test5 -1
+2017-07-09 16:43:23,431 - DEBUG - In Reply Handler
+2017-07-09 16:43:24,142 - DEBUG - Disconnecting from Server
+2017-07-09 16:43:24,173 - DEBUG - Connecting to Server
+2017-07-09 16:43:25,182 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-09 16:43:26,194 - DEBUG - Product is -1
+2017-07-09 16:43:26,210 - DEBUG - Requesting historical data
+2017-07-09 16:43:26,226 - DEBUG - Returned from Reply Handler
+2017-07-09 16:43:27,241 - DEBUG - Disconnecting from Server
+2017-07-09 16:43:27,278 - DEBUG - Connecting to Server
+2017-07-09 16:43:28,305 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-09 16:45:18,979 - DEBUG - Starting FDailyOHLC
+2017-07-09 16:45:19,006 - DEBUG - Connecting to Server
+2017-07-09 16:45:20,020 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-09 16:45:21,040 - DEBUG - Product is ES
+2017-07-09 16:45:21,060 - DEBUG - Requesting historical data
+2017-07-09 16:45:21,079 - DEBUG - Returned from Reply Handler
+2017-07-09 16:45:22,092 - DEBUG - Disconnecting from Server
+2017-07-09 16:45:22,120 - DEBUG - Connecting to Server
+2017-07-09 16:45:23,136 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-09 16:45:24,157 - DEBUG - Product is M6E
+2017-07-09 16:45:24,176 - DEBUG - Requesting historical data
+2017-07-09 16:45:24,193 - DEBUG - Returned from Reply Handler
+2017-07-09 16:45:25,209 - DEBUG - Disconnecting from Server
+2017-07-09 16:45:25,241 - DEBUG - Connecting to Server
+2017-07-09 16:45:26,257 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-09 16:45:27,275 - DEBUG - Product is -1
+2017-07-09 16:45:27,294 - DEBUG - Requesting historical data
+2017-07-09 16:45:27,307 - DEBUG - Returned from Reply Handler
+2017-07-09 16:45:28,320 - DEBUG - Disconnecting from Server
+2017-07-09 16:45:28,353 - DEBUG - Connecting to Server
+2017-07-09 16:45:29,363 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-09 16:47:10,432 - DEBUG - Starting FDailyOHLC
+2017-07-09 16:47:10,503 - DEBUG - Connecting to Server
+2017-07-09 16:47:11,515 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-09 16:47:12,526 - DEBUG - Product is ES
+2017-07-09 16:47:12,552 - DEBUG - Requesting historical data
+2017-07-09 16:47:12,569 - DEBUG - Returned from Reply Handler
+2017-07-09 16:47:13,627 - DEBUG - Disconnecting from Server
+2017-07-09 16:47:13,639 - DEBUG - Connecting to Server
+2017-07-09 16:47:14,658 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-09 16:47:14,931 - DEBUG - test5 -1
+2017-07-09 16:47:14,948 - DEBUG - In Reply Handler
+2017-07-09 16:47:14,962 - DEBUG - Valid Price Found (OPEN NOT -1)
+2017-07-09 16:47:15,399 - DEBUG - Connected to Database
+2017-07-09 16:47:15,494 - DEBUG - Ran Insert Script
+2017-07-09 16:47:15,513 - DEBUG - Yesterday2 was 07/08/2017
+2017-07-09 16:47:15,531 - DEBUG - Today is still  2017-07-09
+2017-07-09 16:47:15,544 - DEBUG - Date shifted back 10 is 2017-06-26
+2017-07-09 16:47:15,555 - DEBUG - First Date of BB Moving Average is 06/26/2017
+2017-07-09 16:47:15,565 - DEBUG - Flag set to 1
+2017-07-09 16:47:15,575 - DEBUG - test5 -1
+2017-07-09 16:47:15,585 - DEBUG - In Reply Handler
+2017-07-09 16:47:15,684 - DEBUG - Product is M6E
+2017-07-09 16:47:15,708 - DEBUG - Requesting historical data
+2017-07-09 16:47:15,725 - DEBUG - Returned from Reply Handler
+2017-07-09 16:47:15,812 - DEBUG - test5 -1
+2017-07-09 16:47:15,826 - DEBUG - In Reply Handler
+2017-07-09 16:47:15,838 - DEBUG - Valid Price Found (OPEN NOT -1)
+2017-07-09 16:47:16,230 - DEBUG - Connected to Database
+2017-07-09 16:47:16,304 - ERROR - Exception in message dispatch.  Handler 'reply_handler' for 'historicalData'
+Traceback (most recent call last):
+  File "C:\Program Files\Anaconda2\envs\python3.4\lib\site-packages\ib\opt\dispatcher.py", line 44, in __call__
+    results.append(listener(message))
+  File "C:/Users/Michael/Documents/GitHub/Autotasks/autotasks/PythonScripts/BasisManager/Prices/FdailyOHLC.py", line 57, in reply_handler
+    cur.execute("Insert Into "+ Table + """(Date, Product, Open, High, Low, Close) values(%s,%s,%s,%s,%s,%s)""",(time.strftime("%m/%d/%Y"), Product[count], float(test),float(test2),float(test3),float(test4)))
+  File "C:\Program Files\Anaconda2\envs\python3.4\lib\site-packages\mysql\connector\cursor.py", line 507, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "C:\Program Files\Anaconda2\envs\python3.4\lib\site-packages\mysql\connector\connection.py", line 722, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Program Files\Anaconda2\envs\python3.4\lib\site-packages\mysql\connector\connection.py", line 640, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.IntegrityError: 1062 (23000): Duplicate entry '0' for key 'PRIMARY'
+2017-07-09 16:47:16,378 - DEBUG - test5 -1
+2017-07-09 16:47:16,389 - DEBUG - In Reply Handler
+2017-07-09 16:47:16,750 - DEBUG - Disconnecting from Server
+2017-07-09 16:47:16,772 - DEBUG - Connecting to Server
+2017-07-09 16:47:17,796 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-09 16:47:18,818 - DEBUG - Product is -1
+2017-07-09 16:47:18,840 - DEBUG - Requesting historical data
+2017-07-09 16:47:18,873 - DEBUG - Returned from Reply Handler
+2017-07-09 16:47:19,888 - DEBUG - Disconnecting from Server
+2017-07-09 16:47:19,914 - DEBUG - Connecting to Server
+2017-07-09 16:47:20,925 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-09 16:49:14,055 - DEBUG - Starting FDailyOHLC
+2017-07-09 16:49:14,087 - DEBUG - Connecting to Server
+2017-07-09 16:49:15,106 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-09 16:49:16,120 - DEBUG - Product is ES
+2017-07-09 16:49:16,144 - DEBUG - Requesting historical data
+2017-07-09 16:49:16,169 - DEBUG - Returned from Reply Handler
+2017-07-09 16:49:17,183 - DEBUG - Disconnecting from Server
+2017-07-09 16:49:17,210 - DEBUG - Connecting to Server
+2017-07-09 16:49:18,225 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-09 16:49:19,258 - DEBUG - Product is M6E
+2017-07-09 16:49:19,285 - DEBUG - Requesting historical data
+2017-07-09 16:49:19,298 - DEBUG - Returned from Reply Handler
+2017-07-09 16:49:20,309 - DEBUG - Disconnecting from Server
+2017-07-09 16:49:20,336 - DEBUG - Connecting to Server
+2017-07-09 16:49:21,351 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-09 16:49:22,379 - DEBUG - Product is -1
+2017-07-09 16:49:22,406 - DEBUG - Requesting historical data
+2017-07-09 16:49:22,424 - DEBUG - Returned from Reply Handler
+2017-07-09 16:49:23,440 - DEBUG - Disconnecting from Server
+2017-07-09 16:49:23,479 - DEBUG - Connecting to Server
+2017-07-09 16:49:24,499 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-09 16:49:37,321 - DEBUG - Starting FDailyOHLC
+2017-07-09 16:49:37,358 - DEBUG - Connecting to Server
+2017-07-09 16:49:38,382 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-09 16:49:39,422 - DEBUG - Product is ES
+2017-07-09 16:49:39,449 - DEBUG - Requesting historical data
+2017-07-09 16:49:39,462 - DEBUG - Returned from Reply Handler
+2017-07-09 16:49:40,477 - DEBUG - Disconnecting from Server
+2017-07-09 16:49:40,503 - DEBUG - Connecting to Server
+2017-07-09 16:49:41,525 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-09 16:49:42,552 - DEBUG - Product is M6E
+2017-07-09 16:49:42,596 - DEBUG - Requesting historical data
+2017-07-09 16:49:42,616 - DEBUG - Returned from Reply Handler
+2017-07-09 16:49:43,637 - DEBUG - Disconnecting from Server
+2017-07-09 16:49:43,670 - DEBUG - Connecting to Server
+2017-07-09 16:49:44,691 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-09 16:49:45,726 - DEBUG - Product is -1
+2017-07-09 16:49:45,756 - DEBUG - Requesting historical data
+2017-07-09 16:49:45,779 - DEBUG - Returned from Reply Handler
+2017-07-09 16:49:46,794 - DEBUG - Disconnecting from Server
+2017-07-09 16:49:46,826 - DEBUG - Connecting to Server
+2017-07-09 16:49:47,877 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-09 16:50:43,929 - DEBUG - Starting FDailyOHLC
+2017-07-09 16:50:43,988 - DEBUG - Connecting to Server
+2017-07-09 16:50:45,021 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-09 16:50:46,058 - DEBUG - Product is ES
+2017-07-09 16:50:46,095 - DEBUG - Requesting historical data
+2017-07-09 16:50:46,119 - DEBUG - Returned from Reply Handler
+2017-07-09 16:50:47,193 - DEBUG - Disconnecting from Server
+2017-07-09 16:50:47,231 - DEBUG - Connecting to Server
+2017-07-09 16:50:47,803 - DEBUG - test5 -1
+2017-07-09 16:50:47,829 - DEBUG - In Reply Handler
+2017-07-09 16:50:47,847 - DEBUG - Valid Price Found (OPEN NOT -1)
+2017-07-09 16:50:48,264 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-09 16:50:48,273 - DEBUG - Connected to Database
+2017-07-09 16:50:48,384 - DEBUG - Ran Insert Script
+2017-07-09 16:50:48,416 - DEBUG - Yesterday2 was 07/08/2017
+2017-07-09 16:50:48,433 - DEBUG - Today is still  2017-07-09
+2017-07-09 16:50:48,451 - DEBUG - Date shifted back 10 is 2017-06-26
+2017-07-09 16:50:48,466 - DEBUG - First Date of BB Moving Average is 06/26/2017
+2017-07-09 16:50:48,483 - DEBUG - Flag set to 1
+2017-07-09 16:50:48,500 - DEBUG - test5 -1
+2017-07-09 16:50:48,513 - DEBUG - In Reply Handler
+2017-07-09 16:50:49,296 - DEBUG - Product is M6E
+2017-07-09 16:50:49,317 - DEBUG - Requesting historical data
+2017-07-09 16:50:49,341 - DEBUG - Returned from Reply Handler
+2017-07-09 16:50:49,422 - DEBUG - test5 -1
+2017-07-09 16:50:49,440 - DEBUG - In Reply Handler
+2017-07-09 16:50:49,456 - DEBUG - Valid Price Found (OPEN NOT -1)
+2017-07-09 16:50:49,599 - DEBUG - Connected to Database
+2017-07-09 16:50:49,720 - DEBUG - Ran Insert Script
+2017-07-09 16:50:49,749 - DEBUG - Yesterday2 was 07/08/2017
+2017-07-09 16:50:49,774 - DEBUG - Today is still  2017-07-09
+2017-07-09 16:50:49,789 - DEBUG - Date shifted back 10 is 2017-06-26
+2017-07-09 16:50:49,805 - DEBUG - First Date of BB Moving Average is 06/26/2017
+2017-07-09 16:50:49,820 - DEBUG - Flag set to 1
+2017-07-09 16:50:49,838 - DEBUG - test5 -1
+2017-07-09 16:50:49,852 - DEBUG - In Reply Handler
+2017-07-09 16:50:50,382 - DEBUG - Disconnecting from Server
+2017-07-09 16:50:50,423 - DEBUG - Connecting to Server
+2017-07-09 16:50:51,442 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-09 16:50:52,477 - DEBUG - Product is -1
+2017-07-09 16:50:52,513 - DEBUG - Requesting historical data
+2017-07-09 16:50:52,538 - DEBUG - Returned from Reply Handler
+2017-07-09 16:50:53,557 - DEBUG - Disconnecting from Server
+2017-07-09 16:50:53,593 - DEBUG - Connecting to Server
+2017-07-09 16:50:54,616 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-09 16:51:30,678 - DEBUG - Starting FDailyOHLC
+2017-07-09 16:51:30,712 - DEBUG - Connecting to Server
+2017-07-09 16:51:31,730 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-09 16:51:32,768 - DEBUG - Product is ES
+2017-07-09 16:51:32,799 - DEBUG - Requesting historical data
+2017-07-09 16:51:32,821 - DEBUG - Returned from Reply Handler
+2017-07-09 16:51:33,838 - DEBUG - Disconnecting from Server
+2017-07-09 16:51:33,872 - DEBUG - Connecting to Server
+2017-07-09 16:51:34,895 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-09 16:51:35,928 - DEBUG - Product is M6E
+2017-07-09 16:51:35,968 - DEBUG - Requesting historical data
+2017-07-09 16:51:35,986 - DEBUG - Returned from Reply Handler
+2017-07-09 16:51:37,004 - DEBUG - Disconnecting from Server
+2017-07-09 16:51:37,044 - DEBUG - Connecting to Server
+2017-07-09 16:51:38,062 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-09 16:51:39,099 - DEBUG - Product is -1
+2017-07-09 16:51:39,142 - DEBUG - Requesting historical data
+2017-07-09 16:51:39,163 - DEBUG - Returned from Reply Handler
+2017-07-09 16:51:40,181 - DEBUG - Disconnecting from Server
+2017-07-09 16:51:40,225 - DEBUG - Connecting to Server
+2017-07-09 16:51:41,243 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-09 16:52:57,005 - DEBUG - Starting FDailyOHLC
+2017-07-09 16:52:57,077 - DEBUG - Connecting to Server
+2017-07-09 16:52:58,116 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-09 16:52:59,152 - DEBUG - Product is ES
+2017-07-09 16:52:59,192 - DEBUG - Requesting historical data
+2017-07-09 16:52:59,219 - DEBUG - Returned from Reply Handler
+2017-07-09 16:53:00,272 - DEBUG - Disconnecting from Server
+2017-07-09 16:53:00,308 - DEBUG - Connecting to Server
+2017-07-09 16:53:01,332 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-09 16:53:02,374 - DEBUG - Product is M6E
+2017-07-09 16:53:02,409 - DEBUG - Requesting historical data
+2017-07-09 16:53:02,440 - DEBUG - Returned from Reply Handler
+2017-07-09 16:53:03,489 - DEBUG - Disconnecting from Server
+2017-07-09 16:53:03,537 - DEBUG - Connecting to Server
+2017-07-09 16:53:04,558 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-09 16:53:05,594 - DEBUG - Product is -1
+2017-07-09 16:53:05,636 - DEBUG - Requesting historical data
+2017-07-09 16:53:05,658 - DEBUG - Returned from Reply Handler
+2017-07-09 16:53:06,704 - DEBUG - Disconnecting from Server
+2017-07-09 16:53:06,735 - DEBUG - Connecting to Server
+2017-07-09 16:53:07,761 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-09 16:53:42,463 - DEBUG - Starting FDailyOHLC
+2017-07-09 16:53:42,505 - DEBUG - Connecting to Server
+2017-07-09 16:53:43,537 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-09 16:53:44,587 - DEBUG - Product is ES
+2017-07-09 16:53:44,612 - DEBUG - Requesting historical data
+2017-07-09 16:53:44,639 - DEBUG - Returned from Reply Handler
+2017-07-09 16:53:45,663 - DEBUG - Disconnecting from Server
+2017-07-09 16:53:45,703 - DEBUG - Connecting to Server
+2017-07-09 16:53:46,725 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-09 16:53:47,758 - DEBUG - Product is M6E
+2017-07-09 16:53:47,794 - DEBUG - Requesting historical data
+2017-07-09 16:53:47,829 - DEBUG - Returned from Reply Handler
+2017-07-09 16:53:48,857 - DEBUG - Disconnecting from Server
+2017-07-09 16:53:48,889 - DEBUG - Connecting to Server
+2017-07-09 16:53:49,913 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-09 16:53:50,952 - DEBUG - Product is -1
+2017-07-09 16:53:51,002 - DEBUG - Requesting historical data
+2017-07-09 16:53:51,029 - DEBUG - Returned from Reply Handler
+2017-07-09 16:53:52,052 - DEBUG - Disconnecting from Server
+2017-07-09 16:53:52,094 - DEBUG - Connecting to Server
+2017-07-09 16:53:53,118 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-09 16:55:29,693 - DEBUG - Starting FDailyOHLC
+2017-07-09 16:55:29,737 - DEBUG - Connecting to Server
+2017-07-09 16:55:30,776 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-09 16:55:31,817 - DEBUG - Product is ES
+2017-07-09 16:55:31,864 - DEBUG - Requesting historical data
+2017-07-09 16:55:31,889 - DEBUG - Returned from Reply Handler
+2017-07-09 16:55:32,915 - DEBUG - Disconnecting from Server
+2017-07-09 16:55:32,958 - DEBUG - Connecting to Server
+2017-07-09 16:55:33,986 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-09 16:55:35,028 - DEBUG - Product is M6E
+2017-07-09 16:55:35,075 - DEBUG - Requesting historical data
+2017-07-09 16:55:35,102 - DEBUG - Returned from Reply Handler
+2017-07-09 16:55:36,127 - DEBUG - Disconnecting from Server
+2017-07-09 16:55:36,167 - DEBUG - Connecting to Server
+2017-07-09 16:55:37,194 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-09 16:55:38,236 - DEBUG - Product is -1
+2017-07-09 16:55:38,283 - DEBUG - Requesting historical data
+2017-07-09 16:55:38,306 - DEBUG - Returned from Reply Handler
+2017-07-09 16:55:39,329 - DEBUG - Disconnecting from Server
+2017-07-09 16:55:39,368 - DEBUG - Connecting to Server
+2017-07-09 16:55:40,394 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-09 16:57:19,747 - DEBUG - Starting FDailyOHLC
+2017-07-09 16:57:19,840 - DEBUG - Connecting to Server
+2017-07-09 16:57:20,890 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-09 16:57:21,949 - DEBUG - Product is ES
+2017-07-09 16:57:22,000 - DEBUG - Requesting historical data
+2017-07-09 16:57:22,033 - DEBUG - Returned from Reply Handler
+2017-07-09 16:57:23,112 - DEBUG - Disconnecting from Server
+2017-07-09 16:57:23,162 - DEBUG - Connecting to Server
+2017-07-09 16:57:24,189 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-09 16:57:25,239 - DEBUG - Product is M6E
+2017-07-09 16:57:25,296 - DEBUG - Requesting historical data
+2017-07-09 16:57:25,324 - DEBUG - Returned from Reply Handler
+2017-07-09 16:57:26,395 - DEBUG - Disconnecting from Server
+2017-07-09 16:57:26,437 - DEBUG - Connecting to Server
+2017-07-09 16:57:27,462 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-09 16:57:28,511 - DEBUG - Product is -1
+2017-07-09 16:57:28,563 - DEBUG - Requesting historical data
+2017-07-09 16:57:28,597 - DEBUG - Returned from Reply Handler
+2017-07-09 16:57:29,645 - DEBUG - Disconnecting from Server
+2017-07-09 16:57:29,691 - DEBUG - Connecting to Server
+2017-07-09 16:57:30,719 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-09 16:58:08,191 - DEBUG - Starting FDailyOHLC
+2017-07-09 16:58:08,233 - DEBUG - Connecting to Server
+2017-07-09 16:58:09,266 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-09 16:58:10,314 - DEBUG - Product is ES
+2017-07-09 16:58:10,358 - DEBUG - Requesting historical data
+2017-07-09 16:58:10,385 - DEBUG - Returned from Reply Handler
+2017-07-09 16:58:11,413 - DEBUG - Disconnecting from Server
+2017-07-09 16:58:11,464 - DEBUG - Connecting to Server
+2017-07-09 16:58:12,493 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-09 16:58:13,549 - DEBUG - Product is M6E
+2017-07-09 16:58:13,600 - DEBUG - Requesting historical data
+2017-07-09 16:58:13,629 - DEBUG - Returned from Reply Handler
+2017-07-09 16:58:14,658 - DEBUG - Disconnecting from Server
+2017-07-09 16:58:14,709 - DEBUG - Connecting to Server
+2017-07-09 16:58:15,737 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-09 16:58:16,776 - DEBUG - Product is -1
+2017-07-09 16:58:16,839 - DEBUG - Requesting historical data
+2017-07-09 16:58:16,866 - DEBUG - Returned from Reply Handler
+2017-07-09 16:58:17,893 - DEBUG - Disconnecting from Server
+2017-07-09 16:58:17,950 - DEBUG - Connecting to Server
+2017-07-09 16:58:18,978 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-09 16:58:41,357 - DEBUG - Starting FDailyOHLC
+2017-07-09 16:58:41,408 - DEBUG - Connecting to Server
+2017-07-09 16:58:42,468 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-09 16:58:43,524 - DEBUG - Product is ES
+2017-07-09 16:58:43,576 - DEBUG - Requesting historical data
+2017-07-09 16:58:43,612 - DEBUG - Returned from Reply Handler
+2017-07-09 16:58:44,659 - DEBUG - Disconnecting from Server
+2017-07-09 16:58:44,716 - DEBUG - Connecting to Server
+2017-07-09 16:58:45,747 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-09 16:58:46,795 - DEBUG - Product is M6E
+2017-07-09 16:58:46,855 - DEBUG - Requesting historical data
+2017-07-09 16:58:46,899 - DEBUG - Returned from Reply Handler
+2017-07-09 16:58:47,947 - DEBUG - Disconnecting from Server
+2017-07-09 16:58:47,997 - DEBUG - Connecting to Server
+2017-07-09 16:58:49,025 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-09 16:58:50,073 - DEBUG - Product is -1
+2017-07-09 16:58:50,123 - DEBUG - Requesting historical data
+2017-07-09 16:58:50,156 - DEBUG - Returned from Reply Handler
+2017-07-09 16:58:51,195 - DEBUG - Disconnecting from Server
+2017-07-09 16:58:51,246 - DEBUG - Connecting to Server
+2017-07-09 16:58:52,275 - DEBUG - Registered HistoricalData Reply Handler

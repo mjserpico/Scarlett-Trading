@@ -1,0 +1,668 @@
+2017-07-11 20:20:20,161 - DEBUG - Starting FDailyOHLC
+2017-07-11 20:20:20,184 - DEBUG - Flag set to M6B
+2017-07-11 20:20:20,188 - DEBUG - Connecting to Server
+2017-07-11 20:20:21,190 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-11 20:20:22,194 - DEBUG - Product is M6E
+2017-07-11 20:20:22,197 - DEBUG - Requesting historical data
+2017-07-11 20:20:22,200 - DEBUG - Returned from Reply Handler
+2017-07-11 20:20:22,280 - DEBUG - test5 -1
+2017-07-11 20:20:22,282 - DEBUG - In Reply Handler
+2017-07-11 20:20:22,282 - DEBUG - Valid Price Found (OPEN NOT -1)
+2017-07-11 20:20:23,203 - DEBUG - Disconnecting from Server
+2017-07-11 20:20:23,203 - DEBUG - Flag set to M6E
+2017-07-11 20:20:23,204 - DEBUG - Connecting to Server
+2017-07-11 20:20:23,269 - DEBUG - Connected to Database
+2017-07-11 20:20:23,365 - DEBUG - Ran Insert Script
+2017-07-11 20:20:23,365 - DEBUG - test5 -1
+2017-07-11 20:20:23,367 - DEBUG - In Reply Handler
+2017-07-11 20:20:24,206 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-11 20:20:25,210 - DEBUG - Product is -1
+2017-07-11 20:20:25,210 - DEBUG - Requesting historical data
+2017-07-11 20:20:25,213 - DEBUG - Returned from Reply Handler
+2017-07-11 20:20:26,213 - DEBUG - Disconnecting from Server
+2017-07-11 20:20:26,216 - DEBUG - Finished F Daily OHLC
+2017-07-11 20:20:41,486 - DEBUG - Starting FDailyOHLC
+2017-07-11 20:20:41,513 - DEBUG - Flag set to M6B
+2017-07-11 20:20:41,517 - DEBUG - Connecting to Server
+2017-07-11 20:20:42,519 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-11 20:20:43,522 - DEBUG - Product is M6E
+2017-07-11 20:20:43,523 - DEBUG - Requesting historical data
+2017-07-11 20:20:43,529 - DEBUG - Returned from Reply Handler
+2017-07-11 20:20:43,607 - DEBUG - test5 -1
+2017-07-11 20:20:43,608 - DEBUG - In Reply Handler
+2017-07-11 20:20:43,614 - DEBUG - Valid Price Found (OPEN NOT -1)
+2017-07-11 20:20:44,029 - DEBUG - Connected to Database
+2017-07-11 20:20:44,119 - DEBUG - Ran Insert Script
+2017-07-11 20:20:44,122 - DEBUG - test5 -1
+2017-07-11 20:20:44,125 - DEBUG - In Reply Handler
+2017-07-11 20:20:44,530 - DEBUG - Disconnecting from Server
+2017-07-11 20:20:44,532 - DEBUG - Flag set to M6E
+2017-07-11 20:20:44,535 - DEBUG - Connecting to Server
+2017-07-11 20:20:45,538 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-11 20:20:46,539 - DEBUG - Product is -1
+2017-07-11 20:20:46,542 - DEBUG - Requesting historical data
+2017-07-11 20:20:46,543 - DEBUG - Returned from Reply Handler
+2017-07-11 20:20:47,546 - DEBUG - Disconnecting from Server
+2017-07-11 20:20:47,549 - DEBUG - Finished F Daily OHLC
+2017-07-11 20:21:04,698 - DEBUG - Starting FDailyOHLC
+2017-07-11 20:21:04,733 - DEBUG - Product set to M6B
+2017-07-11 20:21:04,740 - DEBUG - Connecting to Server
+2017-07-11 20:21:05,753 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-11 20:21:06,756 - DEBUG - Product is M6E
+2017-07-11 20:21:06,759 - DEBUG - Requesting historical data
+2017-07-11 20:21:06,767 - DEBUG - Returned from Reply Handler
+2017-07-11 20:21:07,081 - DEBUG - test5 -1
+2017-07-11 20:21:07,095 - DEBUG - In Reply Handler
+2017-07-11 20:21:07,102 - DEBUG - Valid Price Found (OPEN NOT -1)
+2017-07-11 20:21:07,523 - DEBUG - Connected to Database
+2017-07-11 20:21:07,619 - DEBUG - Ran Insert Script
+2017-07-11 20:21:07,624 - DEBUG - test5 -1
+2017-07-11 20:21:07,627 - DEBUG - In Reply Handler
+2017-07-11 20:21:07,772 - DEBUG - Disconnecting from Server
+2017-07-11 20:21:07,776 - DEBUG - Product set to M6E
+2017-07-11 20:21:07,782 - DEBUG - Connecting to Server
+2017-07-11 20:21:08,789 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-11 20:21:09,792 - DEBUG - Product is -1
+2017-07-11 20:21:09,796 - DEBUG - Requesting historical data
+2017-07-11 20:21:09,805 - DEBUG - Returned from Reply Handler
+2017-07-11 20:21:10,809 - DEBUG - Disconnecting from Server
+2017-07-11 20:21:10,812 - DEBUG - Finished F Daily OHLC
+2017-07-11 20:21:44,605 - DEBUG - Starting FDailyOHLC
+2017-07-11 20:21:44,621 - DEBUG - Product set to M6A
+2017-07-11 20:21:44,628 - DEBUG - Connecting to Server
+2017-07-11 20:21:45,631 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-11 20:21:46,634 - DEBUG - Product is M6B
+2017-07-11 20:21:46,640 - DEBUG - Requesting historical data
+2017-07-11 20:21:46,650 - DEBUG - Returned from Reply Handler
+2017-07-11 20:21:47,158 - DEBUG - test5 -1
+2017-07-11 20:21:47,163 - DEBUG - In Reply Handler
+2017-07-11 20:21:47,165 - DEBUG - Valid Price Found (OPEN NOT -1)
+2017-07-11 20:21:47,601 - DEBUG - Connected to Database
+2017-07-11 20:21:47,654 - DEBUG - Disconnecting from Server
+2017-07-11 20:21:47,661 - DEBUG - Product set to M6B
+2017-07-11 20:21:47,667 - DEBUG - Connecting to Server
+2017-07-11 20:21:47,701 - DEBUG - Ran Insert Script
+2017-07-11 20:21:47,704 - DEBUG - test5 -1
+2017-07-11 20:21:47,707 - DEBUG - In Reply Handler
+2017-07-11 20:21:48,670 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-11 20:21:49,674 - DEBUG - Product is M6E
+2017-07-11 20:21:49,677 - DEBUG - Requesting historical data
+2017-07-11 20:21:49,686 - DEBUG - Returned from Reply Handler
+2017-07-11 20:21:50,279 - DEBUG - test5 -1
+2017-07-11 20:21:50,282 - DEBUG - In Reply Handler
+2017-07-11 20:21:50,286 - DEBUG - Valid Price Found (OPEN NOT -1)
+2017-07-11 20:21:50,414 - DEBUG - Connected to Database
+2017-07-11 20:21:50,493 - DEBUG - Ran Insert Script
+2017-07-11 20:21:50,497 - DEBUG - test5 -1
+2017-07-11 20:21:50,500 - DEBUG - In Reply Handler
+2017-07-11 20:21:50,690 - DEBUG - Disconnecting from Server
+2017-07-11 20:21:50,696 - DEBUG - Product set to M6E
+2017-07-11 20:21:50,704 - DEBUG - Connecting to Server
+2017-07-11 20:21:51,707 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-11 20:21:52,710 - DEBUG - Product is -1
+2017-07-11 20:21:52,713 - DEBUG - Requesting historical data
+2017-07-11 20:21:52,721 - DEBUG - Returned from Reply Handler
+2017-07-11 20:21:53,726 - DEBUG - Disconnecting from Server
+2017-07-11 20:21:53,730 - DEBUG - Finished F Daily OHLC
+2017-07-11 20:31:53,190 - DEBUG - Starting FDailyOHLC
+2017-07-11 20:31:53,219 - DEBUG - Product set to M6A
+2017-07-11 20:31:53,232 - DEBUG - Connecting to Server
+2017-07-11 20:31:54,240 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-11 20:31:55,244 - DEBUG - Product is M6B
+2017-07-11 20:31:55,250 - DEBUG - Requesting historical data
+2017-07-11 20:31:55,256 - DEBUG - Product is M6B
+2017-07-11 20:31:55,259 - DEBUG - Requesting historical data
+2017-07-11 20:31:55,266 - DEBUG - Returned from Reply Handler
+2017-07-11 20:31:55,766 - DEBUG - test5 -1
+2017-07-11 20:31:55,783 - DEBUG - In Reply Handler
+2017-07-11 20:31:55,789 - DEBUG - Valid Price Found (OPEN NOT -1)
+2017-07-11 20:31:56,193 - DEBUG - Connected to Database
+2017-07-11 20:31:56,270 - DEBUG - Disconnecting from Server
+2017-07-11 20:31:56,275 - DEBUG - Product set to M6B
+2017-07-11 20:31:56,279 - DEBUG - Connecting to Server
+2017-07-11 20:31:56,296 - DEBUG - Ran Insert Script
+2017-07-11 20:31:56,302 - DEBUG - test5 -1
+2017-07-11 20:31:56,306 - DEBUG - In Reply Handler
+2017-07-11 20:31:57,282 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-11 20:31:58,288 - DEBUG - Product is M6E
+2017-07-11 20:31:58,293 - DEBUG - Requesting historical data
+2017-07-11 20:31:58,301 - DEBUG - Product is M6E
+2017-07-11 20:31:58,308 - DEBUG - Requesting historical data
+2017-07-11 20:31:58,315 - DEBUG - Returned from Reply Handler
+2017-07-11 20:31:58,403 - DEBUG - test5 -1
+2017-07-11 20:31:58,414 - DEBUG - In Reply Handler
+2017-07-11 20:31:58,420 - DEBUG - Valid Price Found (OPEN NOT -1)
+2017-07-11 20:31:58,558 - DEBUG - Connected to Database
+2017-07-11 20:31:58,635 - ERROR - Exception in message dispatch.  Handler 'reply_handler' for 'historicalData'
+Traceback (most recent call last):
+  File "C:\Program Files\Anaconda2\lib\site-packages\ib\opt\dispatcher.py", line 44, in __call__
+    results.append(listener(message))
+  File "C:/Users/Michael/Documents/GitHub/Autotasks/autotasks/PythonScripts/BasisManager/Prices/FdailyOHLC.py", line 56, in reply_handler
+    cur.execute("Insert Into "+ Table + """(Date, Product, Open, High, Low, Close) values(%s,%s,%s,%s,%s,%s)""",(time.strftime("%m/%d/%Y"), Product[count], float(test),float(test2),float(test3),float(test4)))
+  File "C:\Program Files\Anaconda2\lib\site-packages\mysql\connector\cursor.py", line 507, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "C:\Program Files\Anaconda2\lib\site-packages\mysql\connector\connection.py", line 722, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Program Files\Anaconda2\lib\site-packages\mysql\connector\connection.py", line 640, in _handle_result
+    raise errors.get_exception(packet)
+IntegrityError: 1062 (23000): Duplicate entry '0' for key 'PRIMARY'
+2017-07-11 20:31:58,644 - DEBUG - test5 -1
+2017-07-11 20:31:58,648 - DEBUG - In Reply Handler
+2017-07-11 20:31:59,321 - DEBUG - Disconnecting from Server
+2017-07-11 20:31:59,325 - DEBUG - Product set to M6E
+2017-07-11 20:31:59,332 - DEBUG - Connecting to Server
+2017-07-11 20:32:00,338 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-11 20:32:01,345 - DEBUG - Product is -1
+2017-07-11 20:32:01,349 - DEBUG - Requesting historical data
+2017-07-11 20:32:01,357 - DEBUG - Product is -1
+2017-07-11 20:32:01,361 - DEBUG - Requesting historical data
+2017-07-11 20:32:01,368 - DEBUG - Returned from Reply Handler
+2017-07-11 20:32:02,372 - DEBUG - Disconnecting from Server
+2017-07-11 20:32:02,378 - DEBUG - Finished F Daily OHLC
+2017-07-11 20:33:35,434 - DEBUG - Starting FDailyOHLC
+2017-07-11 20:33:35,453 - DEBUG - Product set to M6A
+2017-07-11 20:33:35,467 - DEBUG - Connecting to Server
+2017-07-11 20:33:36,476 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-11 20:33:37,482 - DEBUG - Product is M6B
+2017-07-11 20:33:37,487 - DEBUG - Requesting historical data
+2017-07-11 20:33:37,500 - DEBUG - Product is M6B
+2017-07-11 20:33:37,507 - DEBUG - Requesting historical data
+2017-07-11 20:33:37,519 - DEBUG - Returned from Reply Handler
+2017-07-11 20:33:37,598 - DEBUG - test5 -1
+2017-07-11 20:33:37,622 - DEBUG - In Reply Handler
+2017-07-11 20:33:37,630 - DEBUG - Valid Price Found (OPEN NOT -1)
+2017-07-11 20:33:38,029 - DEBUG - Connected to Database
+2017-07-11 20:33:38,088 - ERROR - Exception in message dispatch.  Handler 'reply_handler' for 'historicalData'
+Traceback (most recent call last):
+  File "C:\Program Files\Anaconda2\lib\site-packages\ib\opt\dispatcher.py", line 44, in __call__
+    results.append(listener(message))
+  File "C:/Users/Michael/Documents/GitHub/Autotasks/autotasks/PythonScripts/BasisManager/Prices/FdailyOHLC.py", line 56, in reply_handler
+    cur.execute("Insert Into "+ Table + """(Date, Product, Open, High, Low, Close) values(%s,%s,%s,%s,%s,%s)""",(time.strftime("%m/%d/%Y"), Product[count], float(test),float(test2),float(test3),float(test4)))
+  File "C:\Program Files\Anaconda2\lib\site-packages\mysql\connector\cursor.py", line 507, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "C:\Program Files\Anaconda2\lib\site-packages\mysql\connector\connection.py", line 722, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Program Files\Anaconda2\lib\site-packages\mysql\connector\connection.py", line 640, in _handle_result
+    raise errors.get_exception(packet)
+IntegrityError: 1062 (23000): Duplicate entry '0' for key 'PRIMARY'
+2017-07-11 20:33:38,099 - DEBUG - test5 -1
+2017-07-11 20:33:38,109 - DEBUG - In Reply Handler
+2017-07-11 20:33:38,555 - DEBUG - Disconnecting from Server
+2017-07-11 20:33:38,562 - DEBUG - Product set to M6B
+2017-07-11 20:33:38,569 - DEBUG - Connecting to Server
+2017-07-11 20:33:39,575 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-11 20:33:40,582 - DEBUG - Product is M6E
+2017-07-11 20:33:40,588 - DEBUG - Requesting historical data
+2017-07-11 20:33:40,601 - DEBUG - Product is M6E
+2017-07-11 20:33:40,608 - DEBUG - Requesting historical data
+2017-07-11 20:33:40,615 - DEBUG - Returned from Reply Handler
+2017-07-11 20:33:40,701 - DEBUG - test5 -1
+2017-07-11 20:33:40,717 - DEBUG - In Reply Handler
+2017-07-11 20:33:40,723 - DEBUG - Valid Price Found (OPEN NOT -1)
+2017-07-11 20:33:40,852 - DEBUG - Connected to Database
+2017-07-11 20:33:40,924 - ERROR - Exception in message dispatch.  Handler 'reply_handler' for 'historicalData'
+Traceback (most recent call last):
+  File "C:\Program Files\Anaconda2\lib\site-packages\ib\opt\dispatcher.py", line 44, in __call__
+    results.append(listener(message))
+  File "C:/Users/Michael/Documents/GitHub/Autotasks/autotasks/PythonScripts/BasisManager/Prices/FdailyOHLC.py", line 56, in reply_handler
+    cur.execute("Insert Into "+ Table + """(Date, Product, Open, High, Low, Close) values(%s,%s,%s,%s,%s,%s)""",(time.strftime("%m/%d/%Y"), Product[count], float(test),float(test2),float(test3),float(test4)))
+  File "C:\Program Files\Anaconda2\lib\site-packages\mysql\connector\cursor.py", line 507, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "C:\Program Files\Anaconda2\lib\site-packages\mysql\connector\connection.py", line 722, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Program Files\Anaconda2\lib\site-packages\mysql\connector\connection.py", line 640, in _handle_result
+    raise errors.get_exception(packet)
+IntegrityError: 1062 (23000): Duplicate entry '0' for key 'PRIMARY'
+2017-07-11 20:33:40,933 - DEBUG - test5 -1
+2017-07-11 20:33:40,937 - DEBUG - In Reply Handler
+2017-07-11 20:33:41,627 - DEBUG - Disconnecting from Server
+2017-07-11 20:33:41,634 - DEBUG - Product set to M6E
+2017-07-11 20:33:41,641 - DEBUG - Connecting to Server
+2017-07-11 20:33:42,650 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-11 20:33:43,658 - DEBUG - Product is -1
+2017-07-11 20:33:43,665 - DEBUG - Requesting historical data
+2017-07-11 20:33:43,686 - DEBUG - Product is -1
+2017-07-11 20:33:43,700 - DEBUG - Requesting historical data
+2017-07-11 20:33:43,713 - DEBUG - Returned from Reply Handler
+2017-07-11 20:33:44,727 - DEBUG - Disconnecting from Server
+2017-07-11 20:33:44,736 - DEBUG - Finished F Daily OHLC
+2017-07-11 21:17:57,236 - DEBUG - Starting FDailyOHLC
+2017-07-11 21:17:57,253 - DEBUG - Product set to M6A
+2017-07-11 21:17:57,266 - DEBUG - Connecting to Server
+2017-07-11 21:17:58,276 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-11 21:17:59,283 - DEBUG - Product is M6B
+2017-07-11 21:17:59,290 - DEBUG - Requesting historical data
+2017-07-11 21:17:59,301 - DEBUG - Product is M6B
+2017-07-11 21:17:59,308 - DEBUG - Requesting historical data
+2017-07-11 21:17:59,315 - DEBUG - Returned from Reply Handler
+2017-07-11 21:18:00,032 - DEBUG - test5 -1
+2017-07-11 21:18:00,046 - DEBUG - In Reply Handler
+2017-07-11 21:18:00,053 - DEBUG - Valid Price Found (OPEN NOT -1)
+2017-07-11 21:18:00,323 - DEBUG - Disconnecting from Server
+2017-07-11 21:18:00,328 - DEBUG - Product set to M6B
+2017-07-11 21:18:00,335 - DEBUG - Connecting to Server
+2017-07-11 21:18:00,516 - DEBUG - Connected to Database
+2017-07-11 21:18:00,585 - ERROR - Exception in message dispatch.  Handler 'reply_handler' for 'historicalData'
+Traceback (most recent call last):
+  File "C:\Program Files\Anaconda2\lib\site-packages\ib\opt\dispatcher.py", line 44, in __call__
+    results.append(listener(message))
+  File "C:/Users/Michael/Documents/GitHub/Autotasks/autotasks/PythonScripts/BasisManager/Prices/FdailyOHLC.py", line 56, in reply_handler
+    cur.execute("Insert Into "+ Table + """(Date, Product, Open, High, Low, Close) values(%s,%s,%s,%s,%s,%s)""",(time.strftime("%m/%d/%Y"), Product[count], float(test),float(test2),float(test3),float(test4)))
+  File "C:\Program Files\Anaconda2\lib\site-packages\mysql\connector\cursor.py", line 507, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "C:\Program Files\Anaconda2\lib\site-packages\mysql\connector\connection.py", line 722, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Program Files\Anaconda2\lib\site-packages\mysql\connector\connection.py", line 640, in _handle_result
+    raise errors.get_exception(packet)
+IntegrityError: 1062 (23000): Duplicate entry '0' for key 'PRIMARY'
+2017-07-11 21:18:00,595 - DEBUG - test5 -1
+2017-07-11 21:18:00,605 - DEBUG - In Reply Handler
+2017-07-11 21:18:01,341 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-11 21:18:02,348 - DEBUG - Product is ES
+2017-07-11 21:18:02,355 - DEBUG - Requesting historical data
+2017-07-11 21:18:02,362 - DEBUG - Product is ES
+2017-07-11 21:18:02,368 - DEBUG - Requesting historical data
+2017-07-11 21:18:02,375 - DEBUG - Returned from Reply Handler
+2017-07-11 21:18:02,459 - DEBUG - test5 -1
+2017-07-11 21:18:02,470 - DEBUG - In Reply Handler
+2017-07-11 21:18:02,476 - DEBUG - Valid Price Found (OPEN NOT -1)
+2017-07-11 21:18:02,615 - DEBUG - Connected to Database
+2017-07-11 21:18:03,381 - DEBUG - Disconnecting from Server
+2017-07-11 21:18:03,390 - DEBUG - Product set to ES
+2017-07-11 21:18:03,398 - DEBUG - Connecting to Server
+2017-07-11 21:18:03,489 - ERROR - Exception in message dispatch.  Handler 'reply_handler' for 'historicalData'
+Traceback (most recent call last):
+  File "C:\Program Files\Anaconda2\lib\site-packages\ib\opt\dispatcher.py", line 44, in __call__
+    results.append(listener(message))
+  File "C:/Users/Michael/Documents/GitHub/Autotasks/autotasks/PythonScripts/BasisManager/Prices/FdailyOHLC.py", line 56, in reply_handler
+    cur.execute("Insert Into "+ Table + """(Date, Product, Open, High, Low, Close) values(%s,%s,%s,%s,%s,%s)""",(time.strftime("%m/%d/%Y"), Product[count], float(test),float(test2),float(test3),float(test4)))
+  File "C:\Program Files\Anaconda2\lib\site-packages\mysql\connector\cursor.py", line 507, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "C:\Program Files\Anaconda2\lib\site-packages\mysql\connector\connection.py", line 722, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Program Files\Anaconda2\lib\site-packages\mysql\connector\connection.py", line 640, in _handle_result
+    raise errors.get_exception(packet)
+IntegrityError: 1062 (23000): Duplicate entry '0' for key 'PRIMARY'
+2017-07-11 21:18:03,496 - DEBUG - test5 -1
+2017-07-11 21:18:03,503 - DEBUG - In Reply Handler
+2017-07-11 21:18:04,405 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-11 21:18:05,414 - DEBUG - Product is M6E
+2017-07-11 21:18:05,423 - DEBUG - Requesting historical data
+2017-07-11 21:18:05,431 - DEBUG - Product is M6E
+2017-07-11 21:18:05,440 - DEBUG - Requesting historical data
+2017-07-11 21:18:05,450 - DEBUG - Returned from Reply Handler
+2017-07-11 21:18:05,536 - DEBUG - test5 -1
+2017-07-11 21:18:05,558 - DEBUG - In Reply Handler
+2017-07-11 21:18:05,568 - DEBUG - Valid Price Found (OPEN NOT -1)
+2017-07-11 21:18:06,003 - DEBUG - Connected to Database
+2017-07-11 21:18:06,069 - ERROR - Exception in message dispatch.  Handler 'reply_handler' for 'historicalData'
+Traceback (most recent call last):
+  File "C:\Program Files\Anaconda2\lib\site-packages\ib\opt\dispatcher.py", line 44, in __call__
+    results.append(listener(message))
+  File "C:/Users/Michael/Documents/GitHub/Autotasks/autotasks/PythonScripts/BasisManager/Prices/FdailyOHLC.py", line 56, in reply_handler
+    cur.execute("Insert Into "+ Table + """(Date, Product, Open, High, Low, Close) values(%s,%s,%s,%s,%s,%s)""",(time.strftime("%m/%d/%Y"), Product[count], float(test),float(test2),float(test3),float(test4)))
+  File "C:\Program Files\Anaconda2\lib\site-packages\mysql\connector\cursor.py", line 507, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "C:\Program Files\Anaconda2\lib\site-packages\mysql\connector\connection.py", line 722, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Program Files\Anaconda2\lib\site-packages\mysql\connector\connection.py", line 640, in _handle_result
+    raise errors.get_exception(packet)
+IntegrityError: 1062 (23000): Duplicate entry '0' for key 'PRIMARY'
+2017-07-11 21:18:06,076 - DEBUG - test5 -1
+2017-07-11 21:18:06,084 - DEBUG - In Reply Handler
+2017-07-11 21:18:06,457 - DEBUG - Disconnecting from Server
+2017-07-11 21:18:06,463 - DEBUG - Product set to M6E
+2017-07-11 21:18:06,470 - DEBUG - Connecting to Server
+2017-07-11 21:18:07,476 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-11 21:18:08,486 - DEBUG - Product is -1
+2017-07-11 21:18:08,496 - DEBUG - Requesting historical data
+2017-07-11 21:18:08,505 - DEBUG - Product is -1
+2017-07-11 21:18:08,512 - DEBUG - Requesting historical data
+2017-07-11 21:18:08,536 - DEBUG - Returned from Reply Handler
+2017-07-11 21:18:09,552 - DEBUG - Disconnecting from Server
+2017-07-11 21:18:09,566 - DEBUG - Finished F Daily OHLC
+2017-07-11 21:19:05,996 - DEBUG - Starting FDailyOHLC
+2017-07-11 21:19:06,016 - DEBUG - Product set to M6A
+2017-07-11 21:19:06,033 - DEBUG - Connecting to Server
+2017-07-11 21:19:07,042 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-11 21:19:08,049 - DEBUG - Product is M6B
+2017-07-11 21:19:08,059 - DEBUG - Requesting historical data
+2017-07-11 21:19:08,075 - DEBUG - Product is M6B
+2017-07-11 21:19:08,095 - DEBUG - Requesting historical data
+2017-07-11 21:19:08,108 - DEBUG - Returned from Reply Handler
+2017-07-11 21:19:09,131 - DEBUG - Disconnecting from Server
+2017-07-11 21:19:09,137 - DEBUG - Product set to M6B
+2017-07-11 21:19:09,144 - DEBUG - Connecting to Server
+2017-07-11 21:19:09,470 - DEBUG - test5 -1
+2017-07-11 21:19:09,483 - DEBUG - In Reply Handler
+2017-07-11 21:19:09,500 - DEBUG - Valid Price Found (OPEN NOT -1)
+2017-07-11 21:19:10,019 - DEBUG - Connected to Database
+2017-07-11 21:19:10,098 - ERROR - Exception in message dispatch.  Handler 'reply_handler' for 'historicalData'
+Traceback (most recent call last):
+  File "C:\Program Files\Anaconda2\lib\site-packages\ib\opt\dispatcher.py", line 44, in __call__
+    results.append(listener(message))
+  File "C:/Users/Michael/Documents/GitHub/Autotasks/autotasks/PythonScripts/BasisManager/Prices/FdailyOHLC.py", line 56, in reply_handler
+    cur.execute("Insert Into "+ Table + """(Date, Product, Open, High, Low, Close) values(%s,%s,%s,%s,%s,%s)""",(time.strftime("%m/%d/%Y"), Product[count], float(test),float(test2),float(test3),float(test4)))
+  File "C:\Program Files\Anaconda2\lib\site-packages\mysql\connector\cursor.py", line 507, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "C:\Program Files\Anaconda2\lib\site-packages\mysql\connector\connection.py", line 722, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Program Files\Anaconda2\lib\site-packages\mysql\connector\connection.py", line 640, in _handle_result
+    raise errors.get_exception(packet)
+IntegrityError: 1062 (23000): Duplicate entry '0' for key 'PRIMARY'
+2017-07-11 21:19:10,115 - DEBUG - test5 -1
+2017-07-11 21:19:10,131 - DEBUG - In Reply Handler
+2017-07-11 21:19:10,151 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-11 21:19:11,157 - DEBUG - Product is ES
+2017-07-11 21:19:11,164 - DEBUG - Requesting historical data
+2017-07-11 21:19:11,176 - DEBUG - Product is ES
+2017-07-11 21:19:11,184 - DEBUG - Requesting historical data
+2017-07-11 21:19:11,196 - DEBUG - Returned from Reply Handler
+2017-07-11 21:19:11,983 - DEBUG - test5 -1
+2017-07-11 21:19:12,003 - DEBUG - In Reply Handler
+2017-07-11 21:19:12,013 - DEBUG - Valid Price Found (OPEN NOT -1)
+2017-07-11 21:19:12,209 - DEBUG - Disconnecting from Server
+2017-07-11 21:19:12,217 - DEBUG - Product set to ES
+2017-07-11 21:19:12,226 - DEBUG - Connecting to Server
+2017-07-11 21:19:13,180 - DEBUG - Connected to Database
+2017-07-11 21:19:13,232 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-11 21:19:14,114 - ERROR - Exception in message dispatch.  Handler 'reply_handler' for 'historicalData'
+Traceback (most recent call last):
+  File "C:\Program Files\Anaconda2\lib\site-packages\ib\opt\dispatcher.py", line 44, in __call__
+    results.append(listener(message))
+  File "C:/Users/Michael/Documents/GitHub/Autotasks/autotasks/PythonScripts/BasisManager/Prices/FdailyOHLC.py", line 56, in reply_handler
+    cur.execute("Insert Into "+ Table + """(Date, Product, Open, High, Low, Close) values(%s,%s,%s,%s,%s,%s)""",(time.strftime("%m/%d/%Y"), Product[count], float(test),float(test2),float(test3),float(test4)))
+  File "C:\Program Files\Anaconda2\lib\site-packages\mysql\connector\cursor.py", line 507, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "C:\Program Files\Anaconda2\lib\site-packages\mysql\connector\connection.py", line 722, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Program Files\Anaconda2\lib\site-packages\mysql\connector\connection.py", line 640, in _handle_result
+    raise errors.get_exception(packet)
+IntegrityError: 1062 (23000): Duplicate entry '0' for key 'PRIMARY'
+2017-07-11 21:19:14,130 - DEBUG - test5 -1
+2017-07-11 21:19:14,138 - DEBUG - In Reply Handler
+2017-07-11 21:19:14,237 - DEBUG - Product is M6E
+2017-07-11 21:19:14,243 - DEBUG - Requesting historical data
+2017-07-11 21:19:14,253 - DEBUG - Product is M6E
+2017-07-11 21:19:14,263 - DEBUG - Requesting historical data
+2017-07-11 21:19:14,276 - DEBUG - Returned from Reply Handler
+2017-07-11 21:19:14,858 - DEBUG - test5 -1
+2017-07-11 21:19:14,888 - DEBUG - In Reply Handler
+2017-07-11 21:19:14,905 - DEBUG - Valid Price Found (OPEN NOT -1)
+2017-07-11 21:19:15,289 - DEBUG - Disconnecting from Server
+2017-07-11 21:19:15,298 - DEBUG - Product set to M6E
+2017-07-11 21:19:15,303 - DEBUG - Connecting to Server
+2017-07-11 21:19:16,006 - DEBUG - Connected to Database
+2017-07-11 21:19:16,098 - ERROR - Exception in message dispatch.  Handler 'reply_handler' for 'historicalData'
+Traceback (most recent call last):
+  File "C:\Program Files\Anaconda2\lib\site-packages\ib\opt\dispatcher.py", line 44, in __call__
+    results.append(listener(message))
+  File "C:/Users/Michael/Documents/GitHub/Autotasks/autotasks/PythonScripts/BasisManager/Prices/FdailyOHLC.py", line 56, in reply_handler
+    cur.execute("Insert Into "+ Table + """(Date, Product, Open, High, Low, Close) values(%s,%s,%s,%s,%s,%s)""",(time.strftime("%m/%d/%Y"), Product[count], float(test),float(test2),float(test3),float(test4)))
+  File "C:\Program Files\Anaconda2\lib\site-packages\mysql\connector\cursor.py", line 507, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "C:\Program Files\Anaconda2\lib\site-packages\mysql\connector\connection.py", line 722, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Program Files\Anaconda2\lib\site-packages\mysql\connector\connection.py", line 640, in _handle_result
+    raise errors.get_exception(packet)
+IntegrityError: 1062 (23000): Duplicate entry '0' for key 'PRIMARY'
+2017-07-11 21:19:16,109 - DEBUG - test5 -1
+2017-07-11 21:19:16,119 - DEBUG - In Reply Handler
+2017-07-11 21:19:16,311 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-11 21:19:17,325 - DEBUG - Product is -1
+2017-07-11 21:19:17,332 - DEBUG - Requesting historical data
+2017-07-11 21:19:17,342 - DEBUG - Product is -1
+2017-07-11 21:19:17,349 - DEBUG - Requesting historical data
+2017-07-11 21:19:17,358 - DEBUG - Returned from Reply Handler
+2017-07-11 21:19:18,369 - DEBUG - Disconnecting from Server
+2017-07-11 21:19:18,381 - DEBUG - Finished F Daily OHLC
+2017-07-11 21:25:08,474 - DEBUG - Starting FDailyOHLC
+2017-07-11 21:25:09,822 - DEBUG - Product set to M6A
+2017-07-11 21:25:09,846 - DEBUG - Connecting to Server
+2017-07-11 21:25:10,865 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-11 21:25:11,872 - DEBUG - Product is M6B
+2017-07-11 21:25:11,881 - DEBUG - Requesting historical data
+2017-07-11 21:25:11,907 - DEBUG - Product set to M6B
+2017-07-11 21:25:11,917 - DEBUG - Connecting to Server
+2017-07-11 21:25:12,931 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-11 21:25:13,963 - DEBUG - Product is ES
+2017-07-11 21:25:13,973 - DEBUG - Requesting historical data
+2017-07-11 21:25:13,983 - DEBUG - Product set to ES
+2017-07-11 21:25:13,992 - DEBUG - Connecting to Server
+2017-07-11 21:25:15,000 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-11 21:25:16,009 - DEBUG - Product is M6E
+2017-07-11 21:25:16,035 - DEBUG - Requesting historical data
+2017-07-11 21:25:16,048 - DEBUG - Product set to M6E
+2017-07-11 21:25:16,058 - DEBUG - Connecting to Server
+2017-07-11 21:25:17,069 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-11 21:25:18,076 - DEBUG - Product is -1
+2017-07-11 21:25:18,088 - DEBUG - Requesting historical data
+2017-07-11 21:25:18,101 - DEBUG - Finished F Daily OHLC
+2017-07-11 21:25:51,660 - DEBUG - Starting FDailyOHLC
+2017-07-11 21:25:52,823 - DEBUG - Product set to M6A
+2017-07-11 21:25:52,865 - DEBUG - Connecting to Server
+2017-07-11 21:25:53,882 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-11 21:25:54,900 - DEBUG - Product is M6B
+2017-07-11 21:25:54,911 - DEBUG - Requesting historical data
+2017-07-11 21:25:54,930 - DEBUG - Product set to M6B
+2017-07-11 21:25:54,946 - DEBUG - Connecting to Server
+2017-07-11 21:25:55,957 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-11 21:25:56,971 - DEBUG - Product is ES
+2017-07-11 21:25:56,982 - DEBUG - Requesting historical data
+2017-07-11 21:25:56,996 - DEBUG - Product set to ES
+2017-07-11 21:25:57,017 - DEBUG - Connecting to Server
+2017-07-11 21:25:58,033 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-11 21:25:59,045 - DEBUG - Product is M6E
+2017-07-11 21:25:59,053 - DEBUG - Requesting historical data
+2017-07-11 21:25:59,065 - DEBUG - Product set to M6E
+2017-07-11 21:25:59,073 - DEBUG - Connecting to Server
+2017-07-11 21:26:00,082 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-11 21:26:01,094 - DEBUG - Product is -1
+2017-07-11 21:26:01,101 - DEBUG - Requesting historical data
+2017-07-11 21:26:01,111 - DEBUG - Finished F Daily OHLC
+2017-07-11 21:26:21,948 - DEBUG - Starting FDailyOHLC
+2017-07-11 21:26:23,051 - DEBUG - Product set to M6A
+2017-07-11 21:26:23,078 - DEBUG - Connecting to Server
+2017-07-11 21:26:24,095 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-11 21:26:25,107 - DEBUG - Product is M6B
+2017-07-11 21:26:25,124 - DEBUG - Requesting historical data
+2017-07-11 21:26:25,144 - DEBUG - Product set to M6B
+2017-07-11 21:26:25,155 - DEBUG - Connecting to Server
+2017-07-11 21:26:26,165 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-11 21:26:26,496 - DEBUG - test5 -1
+2017-07-11 21:26:26,506 - DEBUG - In Reply Handler
+2017-07-11 21:26:26,513 - DEBUG - Valid Price Found (OPEN NOT -1)
+2017-07-11 21:26:27,178 - DEBUG - Product is ES
+2017-07-11 21:26:27,190 - DEBUG - Requesting historical data
+2017-07-11 21:26:27,200 - DEBUG - Product set to ES
+2017-07-11 21:26:27,214 - DEBUG - Connecting to Server
+2017-07-11 21:26:28,023 - DEBUG - Connected to Database
+2017-07-11 21:26:28,125 - DEBUG - Ran Insert Script
+2017-07-11 21:26:28,131 - DEBUG - test5 -1
+2017-07-11 21:26:28,140 - DEBUG - In Reply Handler
+2017-07-11 21:26:28,147 - DEBUG - test5 -1
+2017-07-11 21:26:28,154 - DEBUG - In Reply Handler
+2017-07-11 21:26:28,161 - DEBUG - Valid Price Found (OPEN NOT -1)
+2017-07-11 21:26:28,229 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-11 21:26:28,571 - DEBUG - Connected to Database
+2017-07-11 21:26:28,973 - DEBUG - Ran Insert Script
+2017-07-11 21:26:28,984 - DEBUG - test5 -1
+2017-07-11 21:26:28,996 - DEBUG - In Reply Handler
+2017-07-11 21:26:29,240 - DEBUG - Product is M6E
+2017-07-11 21:26:29,250 - DEBUG - Requesting historical data
+2017-07-11 21:26:29,263 - DEBUG - Product set to M6E
+2017-07-11 21:26:29,279 - DEBUG - Connecting to Server
+2017-07-11 21:26:29,769 - DEBUG - test5 -1
+2017-07-11 21:26:29,778 - DEBUG - In Reply Handler
+2017-07-11 21:26:29,786 - DEBUG - Valid Price Found (OPEN NOT -1)
+2017-07-11 21:26:30,302 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-11 21:26:31,313 - DEBUG - Product is -1
+2017-07-11 21:26:31,323 - DEBUG - Requesting historical data
+2017-07-11 21:26:31,335 - DEBUG - Finished F Daily OHLC
+2017-07-11 21:26:31,466 - DEBUG - Connected to Database
+2017-07-11 21:26:31,947 - DEBUG - Ran Insert Script
+2017-07-11 21:26:31,956 - DEBUG - test5 -1
+2017-07-11 21:26:31,964 - DEBUG - In Reply Handler
+2017-07-11 21:27:14,309 - DEBUG - Starting FDailyOHLC
+2017-07-11 21:27:15,346 - DEBUG - Product set to M6A
+2017-07-11 21:27:15,391 - DEBUG - Connecting to Server
+2017-07-11 21:27:16,417 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-11 21:27:17,428 - DEBUG - Product is M6B
+2017-07-11 21:27:17,441 - DEBUG - Requesting historical data
+2017-07-11 21:27:17,456 - DEBUG - Product set to M6B
+2017-07-11 21:27:17,467 - DEBUG - Connecting to Server
+2017-07-11 21:27:18,312 - DEBUG - test5 -1
+2017-07-11 21:27:18,329 - DEBUG - In Reply Handler
+2017-07-11 21:27:18,338 - DEBUG - Valid Price Found (OPEN NOT -1)
+2017-07-11 21:27:18,477 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-11 21:27:19,487 - DEBUG - Product is ES
+2017-07-11 21:27:19,500 - DEBUG - Requesting historical data
+2017-07-11 21:27:19,510 - DEBUG - Product set to ES
+2017-07-11 21:27:19,520 - DEBUG - Connecting to Server
+2017-07-11 21:27:20,532 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-11 21:27:20,693 - DEBUG - Connected to Database
+2017-07-11 21:27:20,966 - DEBUG - Ran Insert Script
+2017-07-11 21:27:20,979 - DEBUG - test5 -1
+2017-07-11 21:27:20,987 - DEBUG - In Reply Handler
+2017-07-11 21:27:21,002 - DEBUG - test5 -1
+2017-07-11 21:27:21,022 - DEBUG - In Reply Handler
+2017-07-11 21:27:21,042 - DEBUG - Valid Price Found (OPEN NOT -1)
+2017-07-11 21:27:21,555 - DEBUG - Product is M6E
+2017-07-11 21:27:21,565 - DEBUG - Requesting historical data
+2017-07-11 21:27:21,575 - DEBUG - Product set to M6E
+2017-07-11 21:27:21,608 - DEBUG - Connecting to Server
+2017-07-11 21:27:22,622 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-11 21:27:22,658 - DEBUG - Connected to Database
+2017-07-11 21:27:23,632 - DEBUG - Product is -1
+2017-07-11 21:27:23,644 - DEBUG - Requesting historical data
+2017-07-11 21:27:23,658 - DEBUG - Finished F Daily OHLC
+2017-07-11 21:27:24,714 - DEBUG - Ran Insert Script
+2017-07-11 21:27:24,760 - DEBUG - test5 -1
+2017-07-11 21:27:24,799 - DEBUG - In Reply Handler
+2017-07-11 21:29:25,867 - DEBUG - Starting FDailyOHLC
+2017-07-11 21:29:26,869 - DEBUG - Product set to M6A
+2017-07-11 21:29:26,904 - DEBUG - Connecting to Server
+2017-07-11 21:29:27,928 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-11 21:29:28,940 - DEBUG - Product is M6B
+2017-07-11 21:29:28,953 - DEBUG - Requesting historical data
+2017-07-11 21:29:28,967 - DEBUG - Product is M6B
+2017-07-11 21:29:28,996 - DEBUG - Requesting historical data
+2017-07-11 21:29:29,036 - DEBUG - Returned from Reply Handler
+2017-07-11 21:29:29,051 - DEBUG - test5 -1
+2017-07-11 21:29:29,078 - DEBUG - In Reply Handler
+2017-07-11 21:29:29,092 - DEBUG - Valid Price Found (OPEN NOT -1)
+2017-07-11 21:29:29,309 - DEBUG - Connected to Database
+2017-07-11 21:29:29,404 - DEBUG - Ran Insert Script
+2017-07-11 21:29:29,414 - DEBUG - test5 -1
+2017-07-11 21:29:29,421 - DEBUG - In Reply Handler
+2017-07-11 21:29:29,430 - DEBUG - Valid Price Found (OPEN NOT -1)
+2017-07-11 21:29:29,565 - DEBUG - Connected to Database
+2017-07-11 21:29:29,697 - DEBUG - Ran Insert Script
+2017-07-11 21:29:30,076 - DEBUG - Disconnecting from Server
+2017-07-11 21:29:30,092 - DEBUG - Product set to M6B
+2017-07-11 21:29:30,107 - DEBUG - Connecting to Server
+2017-07-11 21:29:31,124 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-11 21:29:32,135 - DEBUG - Product is ES
+2017-07-11 21:29:32,148 - DEBUG - Requesting historical data
+2017-07-11 21:29:32,164 - DEBUG - Product is ES
+2017-07-11 21:29:32,186 - DEBUG - Requesting historical data
+2017-07-11 21:29:32,207 - DEBUG - Returned from Reply Handler
+2017-07-11 21:29:32,259 - DEBUG - test5 -1
+2017-07-11 21:29:32,278 - DEBUG - In Reply Handler
+2017-07-11 21:29:32,293 - DEBUG - Valid Price Found (OPEN NOT -1)
+2017-07-11 21:29:32,443 - DEBUG - Connected to Database
+2017-07-11 21:29:32,578 - DEBUG - Ran Insert Script
+2017-07-11 21:29:32,594 - DEBUG - test5 -1
+2017-07-11 21:29:32,611 - DEBUG - In Reply Handler
+2017-07-11 21:29:32,628 - DEBUG - Valid Price Found (OPEN NOT -1)
+2017-07-11 21:29:32,767 - DEBUG - Connected to Database
+2017-07-11 21:29:32,871 - DEBUG - Ran Insert Script
+2017-07-11 21:29:33,224 - DEBUG - Disconnecting from Server
+2017-07-11 21:29:33,239 - DEBUG - Product set to ES
+2017-07-11 21:29:33,250 - DEBUG - Connecting to Server
+2017-07-11 21:29:34,260 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-11 21:29:35,280 - DEBUG - Product is M6E
+2017-07-11 21:29:35,292 - DEBUG - Requesting historical data
+2017-07-11 21:29:35,309 - DEBUG - Product is M6E
+2017-07-11 21:29:35,331 - DEBUG - Requesting historical data
+2017-07-11 21:29:35,349 - DEBUG - Returned from Reply Handler
+2017-07-11 21:29:35,388 - DEBUG - test5 -1
+2017-07-11 21:29:35,401 - DEBUG - In Reply Handler
+2017-07-11 21:29:35,415 - DEBUG - Valid Price Found (OPEN NOT -1)
+2017-07-11 21:29:35,852 - DEBUG - Connected to Database
+2017-07-11 21:29:35,990 - DEBUG - Ran Insert Script
+2017-07-11 21:29:36,000 - DEBUG - test5 -1
+2017-07-11 21:29:36,009 - DEBUG - In Reply Handler
+2017-07-11 21:29:36,016 - DEBUG - Valid Price Found (OPEN NOT -1)
+2017-07-11 21:29:36,160 - DEBUG - Connected to Database
+2017-07-11 21:29:36,276 - DEBUG - Ran Insert Script
+2017-07-11 21:29:36,378 - DEBUG - Disconnecting from Server
+2017-07-11 21:29:36,394 - DEBUG - Product set to M6E
+2017-07-11 21:29:36,408 - DEBUG - Connecting to Server
+2017-07-11 21:29:37,430 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-11 21:29:38,444 - DEBUG - Product is -1
+2017-07-11 21:29:38,460 - DEBUG - Requesting historical data
+2017-07-11 21:29:38,470 - DEBUG - Product is -1
+2017-07-11 21:29:38,486 - DEBUG - Requesting historical data
+2017-07-11 21:29:38,503 - DEBUG - Returned from Reply Handler
+2017-07-11 21:29:39,513 - DEBUG - Disconnecting from Server
+2017-07-11 21:29:39,523 - DEBUG - Finished F Daily OHLC
+2017-07-11 21:30:44,875 - DEBUG - Starting FDailyOHLC
+2017-07-11 21:30:46,174 - DEBUG - Product set to M6A
+2017-07-11 21:30:46,219 - DEBUG - Connecting to Server
+2017-07-11 21:30:47,246 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-11 21:30:48,263 - DEBUG - Product is M6B
+2017-07-11 21:30:48,290 - DEBUG - Requesting historical data
+2017-07-11 21:30:48,312 - DEBUG - Product is M6B
+2017-07-11 21:30:48,328 - DEBUG - Requesting historical data
+2017-07-11 21:30:48,344 - DEBUG - Returned from Reply Handler
+2017-07-11 21:30:48,403 - DEBUG - test5 -1
+2017-07-11 21:30:48,417 - DEBUG - In Reply Handler
+2017-07-11 21:30:48,430 - DEBUG - Valid Price Found (OPEN NOT -1)
+2017-07-11 21:30:48,871 - DEBUG - Connected to Database
+2017-07-11 21:30:48,979 - DEBUG - Ran Insert Script
+2017-07-11 21:30:48,990 - DEBUG - test5 -1
+2017-07-11 21:30:49,000 - DEBUG - In Reply Handler
+2017-07-11 21:30:49,361 - DEBUG - Disconnecting from Server
+2017-07-11 21:30:49,372 - DEBUG - Product set to M6B
+2017-07-11 21:30:49,384 - DEBUG - Connecting to Server
+2017-07-11 21:30:50,398 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-11 21:30:51,411 - DEBUG - Product is ES
+2017-07-11 21:30:51,423 - DEBUG - Requesting historical data
+2017-07-11 21:30:51,437 - DEBUG - Product is ES
+2017-07-11 21:30:51,456 - DEBUG - Requesting historical data
+2017-07-11 21:30:51,482 - DEBUG - Returned from Reply Handler
+2017-07-11 21:30:51,522 - DEBUG - test5 -1
+2017-07-11 21:30:51,539 - DEBUG - In Reply Handler
+2017-07-11 21:30:51,549 - DEBUG - Valid Price Found (OPEN NOT -1)
+2017-07-11 21:30:51,726 - DEBUG - Connected to Database
+2017-07-11 21:30:51,832 - DEBUG - Ran Insert Script
+2017-07-11 21:30:51,848 - DEBUG - test5 -1
+2017-07-11 21:30:51,861 - DEBUG - In Reply Handler
+2017-07-11 21:30:52,506 - DEBUG - Disconnecting from Server
+2017-07-11 21:30:52,519 - DEBUG - Product set to ES
+2017-07-11 21:30:52,532 - DEBUG - Connecting to Server
+2017-07-11 21:30:53,543 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-11 21:30:54,556 - DEBUG - Product is M6E
+2017-07-11 21:30:54,578 - DEBUG - Requesting historical data
+2017-07-11 21:30:54,598 - DEBUG - Product is M6E
+2017-07-11 21:30:54,615 - DEBUG - Requesting historical data
+2017-07-11 21:30:54,631 - DEBUG - Returned from Reply Handler
+2017-07-11 21:30:54,677 - DEBUG - test5 -1
+2017-07-11 21:30:54,694 - DEBUG - In Reply Handler
+2017-07-11 21:30:54,707 - DEBUG - Valid Price Found (OPEN NOT -1)
+2017-07-11 21:30:55,167 - DEBUG - Connected to Database
+2017-07-11 21:30:55,259 - DEBUG - Ran Insert Script
+2017-07-11 21:30:55,296 - DEBUG - test5 -1
+2017-07-11 21:30:55,319 - DEBUG - In Reply Handler
+2017-07-11 21:30:55,648 - DEBUG - Disconnecting from Server
+2017-07-11 21:30:55,660 - DEBUG - Product set to M6E
+2017-07-11 21:30:55,671 - DEBUG - Connecting to Server
+2017-07-11 21:30:56,693 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-11 21:30:57,703 - DEBUG - Product is -1
+2017-07-11 21:30:57,716 - DEBUG - Requesting historical data
+2017-07-11 21:30:57,730 - DEBUG - Product is -1
+2017-07-11 21:30:57,742 - DEBUG - Requesting historical data
+2017-07-11 21:30:57,766 - DEBUG - Returned from Reply Handler
+2017-07-11 21:30:58,789 - DEBUG - Disconnecting from Server
+2017-07-11 21:30:58,801 - DEBUG - Finished F Daily OHLC

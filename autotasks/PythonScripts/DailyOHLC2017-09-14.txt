@@ -1,0 +1,216 @@
+2017-09-14 21:33:12,660 - DEBUG - Starting E7DailyOHLC
+2017-09-14 21:33:12,683 - DEBUG - Connecting to Server
+2017-09-14 21:33:13,704 - DEBUG - Registered HistoricalData Reply Handler
+2017-09-14 21:33:14,730 - DEBUG - Requesting historical data
+2017-09-14 21:33:14,757 - DEBUG - Returned from Reply Handler
+2017-09-14 21:33:15,773 - DEBUG - Disconnecting from Server
+2017-09-14 21:33:15,829 - DEBUG - Connecting to Server
+2017-09-14 21:33:16,855 - DEBUG - Registered HistoricalData Reply Handler
+2017-09-14 21:33:17,881 - DEBUG - Requesting historical data
+2017-09-14 21:33:17,908 - DEBUG - Returned from Reply Handler
+2017-09-14 21:33:17,986 - DEBUG - test5 -1
+2017-09-14 21:33:17,999 - DEBUG - In Reply Handler
+2017-09-14 21:33:18,009 - DEBUG - Valid Price Found (OPEN NOT -1)
+2017-09-14 21:33:18,444 - DEBUG - Connected to Database
+2017-09-14 21:33:18,561 - DEBUG - Ran Insert Script
+2017-09-14 21:33:18,588 - DEBUG - Yesterday2 was 09/13/2017
+2017-09-14 21:33:18,602 - DEBUG - Today is still  2017-09-14
+2017-09-14 21:33:18,615 - DEBUG - Date shifted back 10 is 2017-09-01
+2017-09-14 21:33:18,628 - DEBUG - First Date of BB Moving Average is 09/01/2017
+2017-09-14 21:33:18,638 - DEBUG - Query is SELECT max(ID) from 6E
+2017-09-14 21:33:18,671 - DEBUG - BB ID1 is (89,)
+2017-09-14 21:33:18,683 - DEBUG - Query is SELECT (max(ID)-10) from 6E
+2017-09-14 21:33:18,941 - DEBUG - Disconnecting from Server
+2017-09-14 21:33:18,997 - DEBUG - Connecting to Server
+2017-09-14 21:33:19,562 - DEBUG - BB ID1 is (89,)
+2017-09-14 21:33:19,586 - DEBUG - BB ID2 is (79,)
+2017-09-14 21:33:19,604 - DEBUG - Query is SELECT round(Avg(Close),5) as Avg from 6E where ID BETWEEN 79 AND 89;
+2017-09-14 21:33:19,638 - DEBUG - BBMovAvg is (1.19553,)
+2017-09-14 21:33:19,651 - DEBUG - Query is UPDATE hasPosition SET BB_STRATMovingAvgValue = 1.19553 where CCY ='6E';
+2017-09-14 21:33:19,726 - DEBUG - Flag set to 1
+2017-09-14 21:33:19,753 - DEBUG - test5 -1
+2017-09-14 21:33:19,770 - DEBUG - In Reply Handler
+2017-09-14 21:33:20,019 - DEBUG - Registered HistoricalData Reply Handler
+2017-09-14 21:33:21,033 - DEBUG - Requesting historical data
+2017-09-14 21:33:21,065 - DEBUG - Returned from Reply Handler
+2017-09-14 21:33:21,147 - DEBUG - test5 -1
+2017-09-14 21:33:21,184 - DEBUG - In Reply Handler
+2017-09-14 21:33:21,203 - DEBUG - Valid Price Found (OPEN NOT -1)
+2017-09-14 21:33:21,322 - DEBUG - Connected to Database
+2017-09-14 21:33:21,464 - DEBUG - Ran Insert Script
+2017-09-14 21:33:21,483 - DEBUG - Yesterday2 was 09/13/2017
+2017-09-14 21:33:21,500 - DEBUG - Today is still  2017-09-14
+2017-09-14 21:33:21,510 - DEBUG - Date shifted back 10 is 2017-09-01
+2017-09-14 21:33:21,520 - DEBUG - First Date of BB Moving Average is 09/01/2017
+2017-09-14 21:33:21,533 - DEBUG - Query is SELECT max(ID) from 6E
+2017-09-14 21:33:21,576 - DEBUG - BB ID1 is (90,)
+2017-09-14 21:33:21,588 - DEBUG - Query is SELECT (max(ID)-10) from 6E
+2017-09-14 21:33:21,618 - DEBUG - BB ID1 is (90,)
+2017-09-14 21:33:21,631 - DEBUG - BB ID2 is (80,)
+2017-09-14 21:33:21,641 - DEBUG - Query is SELECT round(Avg(Close),5) as Avg from 6E where ID BETWEEN 80 AND 90;
+2017-09-14 21:33:21,673 - DEBUG - BBMovAvg is (1.19635,)
+2017-09-14 21:33:21,684 - DEBUG - Query is UPDATE hasPosition SET BB_STRATMovingAvgValue = 1.19635 where CCY ='6E';
+2017-09-14 21:33:21,752 - DEBUG - Flag set to 1
+2017-09-14 21:33:21,776 - DEBUG - test5 -1
+2017-09-14 21:33:21,795 - DEBUG - In Reply Handler
+2017-09-14 21:33:22,084 - DEBUG - Disconnecting from Server
+2017-09-14 21:33:22,107 - DEBUG - Finished E7 Daily OHLC
+2017-09-14 21:34:04,857 - DEBUG - Starting E7DailyOHLC
+2017-09-14 21:34:04,857 - DEBUG - Starting E7DailyOHLC
+2017-09-14 21:34:04,880 - DEBUG - Connecting to Server
+2017-09-14 21:34:04,880 - DEBUG - Connecting to Server
+2017-09-14 21:34:05,903 - DEBUG - Registered HistoricalData Reply Handler
+2017-09-14 21:34:05,903 - DEBUG - Registered HistoricalData Reply Handler
+2017-09-14 21:34:06,930 - DEBUG - Requesting historical data
+2017-09-14 21:34:06,930 - DEBUG - Requesting historical data
+2017-09-14 21:34:06,957 - DEBUG - Returned from Reply Handler
+2017-09-14 21:34:06,957 - DEBUG - Returned from Reply Handler
+2017-09-14 21:34:07,976 - DEBUG - Disconnecting from Server
+2017-09-14 21:34:07,976 - DEBUG - Disconnecting from Server
+2017-09-14 21:34:08,029 - DEBUG - Connecting to Server
+2017-09-14 21:34:08,029 - DEBUG - Connecting to Server
+2017-09-14 21:34:09,046 - DEBUG - Registered HistoricalData Reply Handler
+2017-09-14 21:34:09,046 - DEBUG - Registered HistoricalData Reply Handler
+2017-09-14 21:34:10,075 - DEBUG - Requesting historical data
+2017-09-14 21:34:10,075 - DEBUG - Requesting historical data
+2017-09-14 21:34:10,105 - DEBUG - Returned from Reply Handler
+2017-09-14 21:34:10,105 - DEBUG - Returned from Reply Handler
+2017-09-14 21:34:11,130 - DEBUG - Disconnecting from Server
+2017-09-14 21:34:11,130 - DEBUG - Disconnecting from Server
+2017-09-14 21:34:11,183 - DEBUG - Connecting to Server
+2017-09-14 21:34:11,183 - DEBUG - Connecting to Server
+2017-09-14 21:34:12,209 - DEBUG - Registered HistoricalData Reply Handler
+2017-09-14 21:34:12,209 - DEBUG - Registered HistoricalData Reply Handler
+2017-09-14 21:34:13,234 - DEBUG - Requesting historical data
+2017-09-14 21:34:13,234 - DEBUG - Requesting historical data
+2017-09-14 21:34:13,262 - DEBUG - Returned from Reply Handler
+2017-09-14 21:34:13,262 - DEBUG - Returned from Reply Handler
+2017-09-14 21:34:14,295 - DEBUG - Disconnecting from Server
+2017-09-14 21:34:14,295 - DEBUG - Disconnecting from Server
+2017-09-14 21:34:14,338 - DEBUG - Connecting to Server
+2017-09-14 21:34:14,338 - DEBUG - Connecting to Server
+2017-09-14 21:34:15,368 - DEBUG - Registered HistoricalData Reply Handler
+2017-09-14 21:34:15,368 - DEBUG - Registered HistoricalData Reply Handler
+2017-09-14 21:34:16,394 - DEBUG - Requesting historical data
+2017-09-14 21:34:16,394 - DEBUG - Requesting historical data
+2017-09-14 21:34:16,427 - DEBUG - Returned from Reply Handler
+2017-09-14 21:34:16,427 - DEBUG - Returned from Reply Handler
+2017-09-14 21:34:17,457 - DEBUG - Disconnecting from Server
+2017-09-14 21:34:17,457 - DEBUG - Disconnecting from Server
+2017-09-14 21:34:17,500 - DEBUG - Connecting to Server
+2017-09-14 21:34:17,500 - DEBUG - Connecting to Server
+2017-09-14 21:34:18,520 - DEBUG - Registered HistoricalData Reply Handler
+2017-09-14 21:34:18,520 - DEBUG - Registered HistoricalData Reply Handler
+2017-09-14 21:34:19,543 - DEBUG - Requesting historical data
+2017-09-14 21:34:19,543 - DEBUG - Requesting historical data
+2017-09-14 21:34:19,584 - DEBUG - Returned from Reply Handler
+2017-09-14 21:34:19,584 - DEBUG - Returned from Reply Handler
+2017-09-14 21:34:20,627 - DEBUG - Disconnecting from Server
+2017-09-14 21:34:20,627 - DEBUG - Disconnecting from Server
+2017-09-14 21:34:20,671 - DEBUG - Connecting to Server
+2017-09-14 21:34:20,671 - DEBUG - Connecting to Server
+2017-09-14 21:35:02,207 - DEBUG - Starting E7DailyOHLC
+2017-09-14 21:35:02,207 - DEBUG - Starting E7DailyOHLC
+2017-09-14 21:35:02,207 - DEBUG - Starting E7DailyOHLC
+2017-09-14 21:35:02,239 - DEBUG - Connecting to Server
+2017-09-14 21:35:02,239 - DEBUG - Connecting to Server
+2017-09-14 21:35:02,239 - DEBUG - Connecting to Server
+2017-09-14 21:35:03,276 - DEBUG - Registered HistoricalData Reply Handler
+2017-09-14 21:35:03,276 - DEBUG - Registered HistoricalData Reply Handler
+2017-09-14 21:35:03,276 - DEBUG - Registered HistoricalData Reply Handler
+2017-09-14 21:35:04,309 - DEBUG - Requesting historical data
+2017-09-14 21:35:04,309 - DEBUG - Requesting historical data
+2017-09-14 21:35:04,309 - DEBUG - Requesting historical data
+2017-09-14 21:35:04,335 - DEBUG - Returned from Reply Handler
+2017-09-14 21:35:04,335 - DEBUG - Returned from Reply Handler
+2017-09-14 21:35:04,335 - DEBUG - Returned from Reply Handler
+2017-09-14 21:35:05,352 - DEBUG - Disconnecting from Server
+2017-09-14 21:35:05,352 - DEBUG - Disconnecting from Server
+2017-09-14 21:35:05,352 - DEBUG - Disconnecting from Server
+2017-09-14 21:35:05,397 - DEBUG - Connecting to Server
+2017-09-14 21:35:05,397 - DEBUG - Connecting to Server
+2017-09-14 21:35:05,397 - DEBUG - Connecting to Server
+2017-09-14 21:35:06,417 - DEBUG - Registered HistoricalData Reply Handler
+2017-09-14 21:35:06,417 - DEBUG - Registered HistoricalData Reply Handler
+2017-09-14 21:35:06,417 - DEBUG - Registered HistoricalData Reply Handler
+2017-09-14 21:35:07,446 - DEBUG - Requesting historical data
+2017-09-14 21:35:07,446 - DEBUG - Requesting historical data
+2017-09-14 21:35:07,446 - DEBUG - Requesting historical data
+2017-09-14 21:35:07,473 - DEBUG - Returned from Reply Handler
+2017-09-14 21:35:07,473 - DEBUG - Returned from Reply Handler
+2017-09-14 21:35:07,473 - DEBUG - Returned from Reply Handler
+2017-09-14 21:35:08,496 - DEBUG - Disconnecting from Server
+2017-09-14 21:35:08,496 - DEBUG - Disconnecting from Server
+2017-09-14 21:35:08,496 - DEBUG - Disconnecting from Server
+2017-09-14 21:35:08,536 - DEBUG - Connecting to Server
+2017-09-14 21:35:08,536 - DEBUG - Connecting to Server
+2017-09-14 21:35:08,536 - DEBUG - Connecting to Server
+2017-09-14 21:35:09,559 - DEBUG - Registered HistoricalData Reply Handler
+2017-09-14 21:35:09,559 - DEBUG - Registered HistoricalData Reply Handler
+2017-09-14 21:35:09,559 - DEBUG - Registered HistoricalData Reply Handler
+2017-09-14 21:35:10,591 - DEBUG - Requesting historical data
+2017-09-14 21:35:10,591 - DEBUG - Requesting historical data
+2017-09-14 21:35:10,591 - DEBUG - Requesting historical data
+2017-09-14 21:35:10,617 - DEBUG - Returned from Reply Handler
+2017-09-14 21:35:10,617 - DEBUG - Returned from Reply Handler
+2017-09-14 21:35:10,617 - DEBUG - Returned from Reply Handler
+2017-09-14 21:35:11,632 - DEBUG - Disconnecting from Server
+2017-09-14 21:35:11,632 - DEBUG - Disconnecting from Server
+2017-09-14 21:35:11,632 - DEBUG - Disconnecting from Server
+2017-09-14 21:35:11,667 - DEBUG - Connecting to Server
+2017-09-14 21:35:11,667 - DEBUG - Connecting to Server
+2017-09-14 21:35:11,667 - DEBUG - Connecting to Server
+2017-09-14 21:35:12,690 - DEBUG - Registered HistoricalData Reply Handler
+2017-09-14 21:35:12,690 - DEBUG - Registered HistoricalData Reply Handler
+2017-09-14 21:35:12,690 - DEBUG - Registered HistoricalData Reply Handler
+2017-09-14 21:35:13,710 - DEBUG - Requesting historical data
+2017-09-14 21:35:13,710 - DEBUG - Requesting historical data
+2017-09-14 21:35:13,710 - DEBUG - Requesting historical data
+2017-09-14 21:35:13,736 - DEBUG - Returned from Reply Handler
+2017-09-14 21:35:13,736 - DEBUG - Returned from Reply Handler
+2017-09-14 21:35:13,736 - DEBUG - Returned from Reply Handler
+2017-09-14 21:35:14,753 - DEBUG - Disconnecting from Server
+2017-09-14 21:35:14,753 - DEBUG - Disconnecting from Server
+2017-09-14 21:35:14,753 - DEBUG - Disconnecting from Server
+2017-09-14 21:35:14,792 - DEBUG - Connecting to Server
+2017-09-14 21:35:14,792 - DEBUG - Connecting to Server
+2017-09-14 21:35:14,792 - DEBUG - Connecting to Server
+2017-09-14 21:35:15,808 - DEBUG - Registered HistoricalData Reply Handler
+2017-09-14 21:35:15,808 - DEBUG - Registered HistoricalData Reply Handler
+2017-09-14 21:35:15,808 - DEBUG - Registered HistoricalData Reply Handler
+2017-09-14 21:35:16,835 - DEBUG - Requesting historical data
+2017-09-14 21:35:16,835 - DEBUG - Requesting historical data
+2017-09-14 21:35:16,835 - DEBUG - Requesting historical data
+2017-09-14 21:35:16,865 - DEBUG - Returned from Reply Handler
+2017-09-14 21:35:16,865 - DEBUG - Returned from Reply Handler
+2017-09-14 21:35:16,865 - DEBUG - Returned from Reply Handler
+2017-09-14 21:35:17,888 - DEBUG - Disconnecting from Server
+2017-09-14 21:35:17,888 - DEBUG - Disconnecting from Server
+2017-09-14 21:35:17,888 - DEBUG - Disconnecting from Server
+2017-09-14 21:35:17,927 - DEBUG - Connecting to Server
+2017-09-14 21:35:17,927 - DEBUG - Connecting to Server
+2017-09-14 21:35:17,927 - DEBUG - Connecting to Server
+2017-09-14 21:35:18,944 - DEBUG - Registered HistoricalData Reply Handler
+2017-09-14 21:35:18,944 - DEBUG - Registered HistoricalData Reply Handler
+2017-09-14 21:35:18,944 - DEBUG - Registered HistoricalData Reply Handler
+2017-09-14 21:35:19,974 - DEBUG - Requesting historical data
+2017-09-14 21:35:19,974 - DEBUG - Requesting historical data
+2017-09-14 21:35:19,974 - DEBUG - Requesting historical data
+2017-09-14 21:35:20,005 - DEBUG - Returned from Reply Handler
+2017-09-14 21:35:20,005 - DEBUG - Returned from Reply Handler
+2017-09-14 21:35:20,005 - DEBUG - Returned from Reply Handler
+2017-09-14 21:35:21,019 - DEBUG - Disconnecting from Server
+2017-09-14 21:35:21,019 - DEBUG - Disconnecting from Server
+2017-09-14 21:35:21,019 - DEBUG - Disconnecting from Server
+2017-09-14 21:35:21,063 - DEBUG - Connecting to Server
+2017-09-14 21:35:21,063 - DEBUG - Connecting to Server
+2017-09-14 21:35:21,063 - DEBUG - Connecting to Server
+2017-09-14 21:35:22,085 - DEBUG - Registered HistoricalData Reply Handler
+2017-09-14 21:35:22,085 - DEBUG - Registered HistoricalData Reply Handler
+2017-09-14 21:35:22,085 - DEBUG - Registered HistoricalData Reply Handler
+2017-09-14 21:35:23,111 - DEBUG - Requesting historical data
+2017-09-14 21:35:23,111 - DEBUG - Requesting historical data
+2017-09-14 21:35:23,111 - DEBUG - Requesting historical data
+2017-09-14 21:35:23,138 - DEBUG - Returned from Reply Handler
+2017-09-14 21:35:23,138 - DEBUG - Returned from Reply Handler
+2017-09-14 21:35:23,138 - DEBUG - Returned from Reply Handler

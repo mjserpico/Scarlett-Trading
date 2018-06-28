@@ -1,0 +1,81 @@
+2017-12-18 03:00:04,029 - DEBUG - ****************************************************
+2017-12-18 03:00:04,042 - DEBUG - Balance is ('9284.65',)
+2017-12-18 03:00:04,043 - DEBUG - Subject: PROD Intraday Account Summary
+
+PROD Intraday Account Balance is  
+9284.65
+
+2017-12-18 03:00:05,698 - DEBUG - Email sent
+2017-12-18 03:00:05,698 - DEBUG - Email function called
+2017-12-18 05:00:01,475 - DEBUG - ****************************************************
+2017-12-18 05:00:01,489 - DEBUG - Balance is ('9420.11',)
+2017-12-18 05:00:01,489 - DEBUG - Subject: PROD Intraday Account Summary
+
+PROD Intraday Account Balance is  
+9420.11
+
+2017-12-18 05:00:02,793 - DEBUG - Email sent
+2017-12-18 05:00:02,794 - DEBUG - Email function called
+2017-12-18 07:00:01,483 - DEBUG - ****************************************************
+2017-12-18 07:00:01,498 - DEBUG - Balance is ('9382.61',)
+2017-12-18 07:00:01,498 - DEBUG - Subject: PROD Intraday Account Summary
+
+PROD Intraday Account Balance is  
+9382.61
+
+2017-12-18 07:00:03,579 - DEBUG - Email sent
+2017-12-18 07:00:03,579 - DEBUG - Email function called
+2017-12-18 09:00:01,479 - DEBUG - ****************************************************
+2017-12-18 09:00:01,538 - DEBUG - Balance is ('9445.11',)
+2017-12-18 09:00:01,539 - DEBUG - Subject: PROD Intraday Account Summary
+
+PROD Intraday Account Balance is  
+9445.11
+
+2017-12-18 09:00:03,105 - DEBUG - Email sent
+2017-12-18 09:00:03,105 - DEBUG - Email function called
+2017-12-18 11:00:01,472 - DEBUG - ****************************************************
+2017-12-18 11:00:01,486 - DEBUG - Balance is ('9610.63',)
+2017-12-18 11:00:01,486 - DEBUG - Subject: PROD Intraday Account Summary
+
+PROD Intraday Account Balance is  
+9610.63
+
+2017-12-18 11:00:04,427 - DEBUG - Email sent
+2017-12-18 11:00:04,427 - DEBUG - Email function called
+2017-12-18 13:00:01,472 - DEBUG - ****************************************************
+2017-12-18 13:00:01,486 - DEBUG - Balance is ('9639.74',)
+2017-12-18 13:00:01,486 - DEBUG - Subject: PROD Intraday Account Summary
+
+PROD Intraday Account Balance is  
+9639.74
+
+2017-12-18 13:00:03,079 - DEBUG - Email sent
+2017-12-18 13:00:03,079 - DEBUG - Email function called
+2017-12-18 15:00:01,454 - DEBUG - ****************************************************
+2017-12-18 15:00:01,468 - DEBUG - Balance is ('9625.92',)
+2017-12-18 15:00:01,468 - DEBUG - Subject: PROD Intraday Account Summary
+
+PROD Intraday Account Balance is  
+9625.92
+
+2017-12-18 15:00:03,219 - DEBUG - Email sent
+2017-12-18 15:00:03,219 - DEBUG - Email function called
+2017-12-18 16:15:01,436 - DEBUG - ****************************************************
+2017-12-18 16:15:01,463 - DEBUG - Balance is ('9480.57',)
+2017-12-18 16:15:01,463 - DEBUG - Subject: PROD Intraday Account Summary
+
+PROD Intraday Account Balance is  
+9480.57
+
+2017-12-18 16:15:02,999 - DEBUG - Email sent
+2017-12-18 16:15:02,999 - DEBUG - Email function called
+2017-12-18 16:55:26,338 - DEBUG - ****************************************************
+2017-12-18 16:55:26,373 - DEBUG - Balance is ('9480.57',)
+2017-12-18 16:55:26,373 - DEBUG - Subject: PROD Account Summary
+
+PROD Account Balance is  
+9480.57
+
+2017-12-18 16:55:27,697 - DEBUG - Email sent
+2017-12-18 16:55:27,698 - DEBUG - Email function called

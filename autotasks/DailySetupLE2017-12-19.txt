@@ -1,0 +1,45 @@
+2017-12-19 09:33:00,362 - DEBUG - ****************************************************
+2017-12-19 09:33:00,363 - DEBUG - Starting BB_STRAT L E
+2017-12-19 09:33:00,449 - DEBUG - Connecting To Database
+2017-12-19 09:33:00,451 - DEBUG - Has Position is ('0',)
+2017-12-19 09:33:00,451 - DEBUG - Query is SELECT BB_Position from hasPosition where CCY ='LE';
+2017-12-19 09:33:00,453 - DEBUG - count is 0
+2017-12-19 09:33:00,454 - DEBUG - Stop Loss pips is (10.0,)
+2017-12-19 09:33:00,455 - DEBUG - Profit Target Pips is (25.0,)
+2017-12-19 09:33:00,456 - DEBUG - Profit Target Pips type is <class 'tuple'>
+2017-12-19 09:33:00,457 - DEBUG - AcctBalanceBasis is (10000.0,)
+2017-12-19 09:33:00,458 - DEBUG - BB_SizeMultiplier is (0.0,)
+2017-12-19 09:33:00,460 - DEBUG - CurrentPositions is (0.0,)
+2017-12-19 09:33:00,461 - DEBUG - stopLoss is (10.0,)
+2017-12-19 09:33:00,462 - DEBUG - profitTarget is (25.0,)
+2017-12-19 09:33:00,464 - DEBUG - MovAvg is ('121.76842',)
+2017-12-19 09:33:00,464 - DEBUG - MAX ID Query is SELECT max(ID) from LE;
+2017-12-19 09:33:00,465 - DEBUG - ID for time period is (106,)
+2017-12-19 09:33:00,465 - DEBUG - query for time period is SELECT Open from LE where ID = 106;
+2017-12-19 09:33:00,467 - DEBUG - tOpen for time period is ('121.85',)
+2017-12-19 09:33:00,468 - DEBUG - tHigh for time period is ('121.95',)
+2017-12-19 09:33:00,469 - DEBUG - tLow for time period is ('120.125',)
+2017-12-19 09:33:00,471 - DEBUG - tClose for time period is ('120.7',)
+2017-12-19 09:33:00,472 - DEBUG - Master Fill is (0.0,)
+2017-12-19 09:33:00,472 - DEBUG - Today is 2017-12-19
+2017-12-19 09:33:00,473 - DEBUG - Previous trading day was 12/18/2017
+2017-12-19 09:33:00,473 - DEBUG - Max Id - 1 SELECT (max(ID)-1) from LE;
+2017-12-19 09:33:00,474 - DEBUG - ID for Last trading period--1 Day ago-- is (105,)
+2017-12-19 09:33:00,474 - DEBUG - query is SELECT Open from LE where ID = 105;
+2017-12-19 09:33:00,476 - DEBUG - yOpen for last time period was 0.0
+2017-12-19 09:33:00,476 - DEBUG - query is SELECT High from LE where ID = 105;
+2017-12-19 09:33:00,477 - DEBUG - yHigh for last time period was 0.0
+2017-12-19 09:33:00,478 - DEBUG - query is SELECT Low from LE where ID = 105;
+2017-12-19 09:33:00,479 - DEBUG - yLow for last time period was 0.0
+2017-12-19 09:33:00,479 - DEBUG - query is SELECT Close from LE where ID = 105;
+2017-12-19 09:33:00,480 - DEBUG - yClose for last time period was 0.0
+2017-12-19 09:33:00,481 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='LE';
+2017-12-19 09:33:00,482 - DEBUG - BBEntry Pending is ('0',)
+2017-12-19 09:33:00,482 - DEBUG - Max Order query is SELECT max(idOrder) from Orders;
+2017-12-19 09:33:00,484 - DEBUG - Order Id for next trade is 37
+2017-12-19 09:33:00,484 - DEBUG - Today High is ('121.95',)
+2017-12-19 09:33:00,484 - DEBUG - Today Low is ('120.125',)
+2017-12-19 09:33:00,484 - DEBUG - Position Size for trade is 1
+2017-12-19 09:33:00,485 - DEBUG - STRATEGY LOGIC !!!!!!
+2017-12-19 09:33:00,485 - DEBUG - Current Position is (0.0,)
+2017-12-19 09:33:00,485 - DEBUG - There is an available position slot for LE

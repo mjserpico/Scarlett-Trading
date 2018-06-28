@@ -1,0 +1,9 @@
+2018-01-30 16:55:30,426 - DEBUG - ****************************************************
+2018-01-30 16:55:30,440 - DEBUG - Balance is ('10977.87',)
+2018-01-30 16:55:30,440 - DEBUG - Subject: PROD Account Summary
+
+PROD Account Balance is  
+10977.87
+
+2018-01-30 16:55:31,650 - DEBUG - Email sent
+2018-01-30 16:55:31,651 - DEBUG - Email function called

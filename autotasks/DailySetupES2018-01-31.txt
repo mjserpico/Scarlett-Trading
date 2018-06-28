@@ -1,0 +1,121 @@
+2018-01-31 02:00:00,450 - DEBUG - ****************************************************
+2018-01-31 02:00:00,450 - DEBUG - Starting BB_STRAT E S
+2018-01-31 02:00:00,492 - DEBUG - Connecting To Database
+2018-01-31 02:00:00,493 - DEBUG - Has Position is ('0',)
+2018-01-31 02:00:00,493 - DEBUG - Query is SELECT BB_Position from hasPosition where CCY ='ES';
+2018-01-31 02:00:00,496 - DEBUG - count is 0
+2018-01-31 02:00:00,496 - DEBUG - Stop Loss pips is (10.0,)
+2018-01-31 02:00:00,499 - DEBUG - Profit Target Pips is (25.0,)
+2018-01-31 02:00:00,499 - DEBUG - Profit Target Pips type is <class 'tuple'>
+2018-01-31 02:00:00,500 - DEBUG - AcctBalanceBasis is (10000.0,)
+2018-01-31 02:00:00,502 - DEBUG - BB_SizeMultiplier is (0.0,)
+2018-01-31 02:00:00,503 - DEBUG - CurrentPositions is (0.0,)
+2018-01-31 02:00:00,505 - DEBUG - stopLoss is (10.0,)
+2018-01-31 02:00:00,506 - DEBUG - profitTarget is (25.0,)
+2018-01-31 02:00:00,507 - DEBUG - MovAvg is ('2779.38',)
+2018-01-31 02:00:00,507 - DEBUG - MAX ID Query is SELECT max(ID) from ES;
+2018-01-31 02:00:00,509 - DEBUG - ID for time period is (180,)
+2018-01-31 02:00:00,509 - DEBUG - query for time period is SELECT Open from ES where ID = 180;
+2018-01-31 02:00:00,510 - DEBUG - tOpen for time period is ('2853.25',)
+2018-01-31 02:00:00,513 - DEBUG - tHigh for time period is ('2858.0',)
+2018-01-31 02:00:00,515 - DEBUG - tLow for time period is ('2818.75',)
+2018-01-31 02:00:00,520 - DEBUG - tClose for time period is ('2822.75',)
+2018-01-31 02:00:00,523 - DEBUG - Master Fill is (0.0,)
+2018-01-31 02:00:00,523 - DEBUG - Today is 2018-01-31
+2018-01-31 02:00:00,523 - DEBUG - Previous trading day was 01/30/2018
+2018-01-31 02:00:00,523 - DEBUG - Max Id - 1 SELECT (max(ID)-1) from ES;
+2018-01-31 02:00:00,530 - DEBUG - ID for Last trading period--1 Day ago-- is (179,)
+2018-01-31 02:00:00,530 - DEBUG - query is SELECT Open from ES where ID = 179;
+2018-01-31 02:00:00,532 - DEBUG - yOpen for last time period was ('2874.25',)
+2018-01-31 02:00:00,532 - DEBUG - query is SELECT High from ES where ID = 179;
+2018-01-31 02:00:00,533 - DEBUG - yHigh for last time period was ('2878.5',)
+2018-01-31 02:00:00,535 - DEBUG - query is SELECT Low from ES where ID = 179;
+2018-01-31 02:00:00,536 - DEBUG - yLow for last time period was ('2851.75',)
+2018-01-31 02:00:00,536 - DEBUG - query is SELECT Close from ES where ID = 179;
+2018-01-31 02:00:00,538 - DEBUG - yClose for last time period was ('2852.75',)
+2018-01-31 02:00:00,538 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2018-01-31 02:00:00,539 - DEBUG - BBEntry Pending is ('0',)
+2018-01-31 02:00:00,539 - DEBUG - Max Order query is SELECT max(idOrder) from Orders;
+2018-01-31 02:00:00,540 - DEBUG - Order Id for next trade is 147
+2018-01-31 02:00:00,540 - DEBUG - Today High is ('2858.0',)
+2018-01-31 02:00:00,542 - DEBUG - Today Low is ('2818.75',)
+2018-01-31 02:00:00,542 - DEBUG - Position Size for trade is 1
+2018-01-31 02:00:00,542 - DEBUG - STRATEGY LOGIC !!!!!!
+2018-01-31 02:00:00,542 - DEBUG - Current Position is (0.0,)
+2018-01-31 02:00:00,542 - DEBUG - There is an available position slot for ES
+2018-01-31 02:00:00,542 - DEBUG - Checking for Longs
+2018-01-31 02:00:00,542 - DEBUG - tCLose is 2822.75
+2018-01-31 02:00:00,542 - DEBUG - MovAvg is 2779.38
+2018-01-31 02:00:00,542 - DEBUG - yClose is 2852.75
+2018-01-31 02:00:00,543 - DEBUG - yOpen is 2874.25
+2018-01-31 02:00:00,543 - DEBUG - yLow is 2851.75
+2018-01-31 02:00:00,543 - DEBUG - Current Position is (0.0,)
+2018-01-31 02:00:00,543 - DEBUG - Checking for Long trade entry
+2018-01-31 02:00:00,545 - DEBUG - Valid Long Entry Found
+2018-01-31 02:00:00,553 - DEBUG - Connected to Database
+2018-01-31 02:00:00,553 - DEBUG - Query is UPDATE hasPosition SET BBEntryPending = 1 where CCY ='ES';
+2018-01-31 02:00:00,555 - DEBUG - Reply: <openOrder orderId=146, contract=<ib.ext.Contract.Contract object at 0x00000000021789B0>, order=<ib.ext.Order.Order object at 0x0000000002178A20>, orderState=<ib.ext.OrderState.OrderState object at 0x0000000002178D30>>
+2018-01-31 02:00:00,556 - DEBUG - Reply: <orderStatus orderId=146, status=PreSubmitted, filled=0, remaining=5, avgFillPrice=0.0, permId=789491187, parentId=0, lastFillPrice=0.0, clientId=999, whyHeld=locate,trigger>
+2018-01-31 02:00:00,556 - DEBUG - Reply: <openOrderEnd>
+2018-01-31 02:00:00,558 - DEBUG - Reply: <managedAccounts accountsList=U1998629>
+2018-01-31 02:00:00,558 - DEBUG - Reply: <nextValidId orderId=147>
+2018-01-31 02:00:00,582 - DEBUG - Todays date is 01/31/2018
+2018-01-31 02:00:00,582 - DEBUG - time is 02:00AM
+2018-01-31 02:00:00,584 - DEBUG - Quantity 1 
+2018-01-31 02:00:00,584 - DEBUG - In Long Order Function
+2018-01-31 02:00:00,584 - DEBUG - Limit Value is 1
+2018-01-31 02:00:00,584 - DEBUG - In Long Order Function when Limit is 1
+2018-01-31 02:00:00,585 - DEBUG - Action is BUY
+2018-01-31 02:00:00,585 - DEBUG - In Buy action
+2018-01-31 02:00:00,585 - DEBUG - Buy Stop Limit"Limit" Price or better to buy 2859.50
+2018-01-31 02:00:00,585 - DEBUG - Buy Stop Limit"Stop" Price to fire a buy order 2859.00
+2018-01-31 02:00:00,585 - DEBUG - Buy Upper Limit Price 2859.50
+2018-01-31 02:00:00,585 - DEBUG - Buy Upper Limit Type <class 'str'>
+2018-01-31 02:00:00,585 - DEBUG - Stop Entry Trigger Price 2859.00 
+2018-01-31 02:00:00,585 - DEBUG - Stop Entry Trigger Type <class 'str'> 
+2018-01-31 02:00:00,585 - DEBUG - Parent ID None
+2018-01-31 02:00:00,586 - DEBUG - Account is U1998629
+2018-01-31 02:00:00,588 - DEBUG - Contract Created
+2018-01-31 02:00:00,588 - DEBUG - idOrder 147 
+2018-01-31 02:00:00,588 - DEBUG - Date 01/31/2018 
+2018-01-31 02:00:00,589 - DEBUG - Price 2859.5 
+2018-01-31 02:00:00,591 - DEBUG - time 02:00AM 
+2018-01-31 02:00:00,591 - DEBUG - currency ES 
+2018-01-31 02:00:00,591 - DEBUG - TriggerID 147 
+2018-01-31 02:00:00,591 - DEBUG - idOrder <class 'int'> 
+2018-01-31 02:00:00,592 - DEBUG - Date <class 'str'> 
+2018-01-31 02:00:00,592 - DEBUG - Price <class 'float'> 
+2018-01-31 02:00:00,592 - DEBUG - time <class 'str'> 
+2018-01-31 02:00:00,592 - DEBUG - currency <class 'str'> 
+2018-01-31 02:00:00,592 - DEBUG - TriggerID <class 'int'> 
+2018-01-31 02:00:00,594 - DEBUG - Order query is UPDATE hasPosition SET BBEntryPending = 1 where CCY ='ES';
+2018-01-31 02:00:00,638 - DEBUG - Order added to database
+2018-01-31 02:00:00,640 - DEBUG - hasPosition query is UPDATE hasPosition SET BB_EntryID = 147 WHERE CCY ='ES';
+2018-01-31 02:00:00,644 - DEBUG - Reply: <openOrder orderId=147, contract=<ib.ext.Contract.Contract object at 0x0000000002178AC8>, order=<ib.ext.Order.Order object at 0x0000000002178BA8>, orderState=<ib.ext.OrderState.OrderState object at 0x0000000002178F60>>
+2018-01-31 02:00:00,644 - DEBUG - Reply: <orderStatus orderId=147, status=PreSubmitted, filled=0, remaining=1, avgFillPrice=0.0, permId=789491188, parentId=0, lastFillPrice=0.0, clientId=999, whyHeld=locate,trigger>
+2018-01-31 02:00:00,667 - DEBUG - hasPosition Entry ID set to 147 
+2018-01-31 02:00:00,667 - DEBUG - hasPosition query is UPDATE hasPosition SET BB_EntryPrice = 2859.5 WHERE CCY ='ES';
+2018-01-31 02:00:00,707 - DEBUG - hasPosition Entry Price set to 2859.5 
+2018-01-31 02:00:00,707 - DEBUG - profitTarget PIPS 25.0 
+2018-01-31 02:00:00,707 - DEBUG - query is UPDATE hasPosition SET BB_ProfitPrice = 2869.0 WHERE CCY ='ES'; 
+2018-01-31 02:00:00,732 - DEBUG - HasPosition table set ProfitPrice to 2869.0
+2018-01-31 02:00:00,766 - DEBUG - RiskParameters set to 1.0
+2018-01-31 02:00:00,766 - DEBUG - hasPosition query is UPDATE hasPosition SET BB_StopLossVal = 2818.50 WHERE CCY ='ES';
+2018-01-31 02:00:00,812 - DEBUG - Stop Loss Value set to 2818.50
+2018-01-31 02:00:00,813 - DEBUG - hasPosition query is UPDATE hasPosition SET BB_StopQty = 1 WHERE CCY ='ES';
+2018-01-31 02:00:00,859 - DEBUG - Stop Loss Quantity set to 1
+2018-01-31 02:00:00,862 - DEBUG - hasPosition query is UPDATE hasPosition SET BB_direction = 'Long' WHERE CCY ='ES';
+2018-01-31 02:00:00,892 - DEBUG - Direction set to Long
+2018-01-31 02:00:00,894 - DEBUG - Database disconnected
+2018-01-31 02:00:00,894 - DEBUG - Past Long Function
+2018-01-31 02:00:00,894 - DEBUG - time is 02:00AM
+2018-01-31 02:00:00,895 - DEBUG - Checking Short value
+2018-01-31 02:00:00,895 - DEBUG - tCLose is 2822.75
+2018-01-31 02:00:00,895 - DEBUG - MovAvg is 2779.38
+2018-01-31 02:00:00,895 - DEBUG - yClose is 2852.75
+2018-01-31 02:00:00,895 - DEBUG - yOpen is 2874.25
+2018-01-31 02:00:00,897 - DEBUG - yLow is 2851.75
+2018-01-31 02:00:00,897 - DEBUG - Current Position is (0.0,)
+2018-01-31 02:00:00,897 - DEBUG - Checking for SHORT trade entry
+2018-01-31 02:00:00,897 - DEBUG - Past Short function
+2018-01-31 02:00:00,897 - DEBUG - %%%%%%% END STRATEGY ES

@@ -1,0 +1,1051 @@
+2017-07-04 17:57:55,169 - DEBUG - ****************************************************
+2017-07-04 17:57:55,176 - DEBUG - Starting BB_STRAT E 7
+2017-07-04 17:57:56,472 - DEBUG - Connecting To Database
+2017-07-04 17:57:56,506 - DEBUG - Has Position is (None,)
+2017-07-04 17:57:56,510 - DEBUG - Query is SELECT BB_Position from hasPosition where CCY ='E7';
+2017-07-04 17:57:56,542 - DEBUG - count is None
+2017-07-04 17:57:56,574 - DEBUG - Stop Loss pips is (10.0,)
+2017-07-04 17:57:56,608 - DEBUG - Profit Target Pips is (25.0,)
+2017-07-04 17:57:56,615 - DEBUG - Profit Target Pips type is <class 'tuple'>
+2017-07-04 17:57:56,656 - DEBUG - Risk Per Position is (0.01,)
+2017-07-04 17:57:56,689 - DEBUG - AcctBalanceBasis is (10000.0,)
+2017-07-04 17:57:56,722 - DEBUG - BB_SizeMultiplier is (5.0,)
+2017-07-04 17:57:56,756 - DEBUG - CurrentPositions is (0.0,)
+2017-07-04 17:57:56,789 - DEBUG - RiskRewardRatio is (2.0,)
+2017-07-04 17:57:56,822 - DEBUG - stopLoss is (10.0,)
+2017-07-04 17:57:56,856 - DEBUG - profitTarget is (25.0,)
+2017-07-04 17:57:56,890 - DEBUG - MovAvg is ('1.13596',)
+2017-07-04 17:57:56,897 - DEBUG - MAX ID Query is SELECT max(ID) from FUT_BB_E7;
+2017-07-04 17:57:56,926 - DEBUG - ID for time period is (132,)
+2017-07-04 17:57:56,931 - DEBUG - query for time period is SELECT Open from FUT_BB_E7 where ID = 132;
+2017-07-04 17:57:56,960 - DEBUG - tOpen for time period is ('1.13',)
+2017-07-04 17:57:56,993 - DEBUG - tHigh for time period is ('1.14',)
+2017-07-04 17:57:57,027 - DEBUG - tLow for time period is ('1.13',)
+2017-07-04 17:57:57,060 - DEBUG - tClose for time period is ('1.14',)
+2017-07-04 17:57:57,094 - DEBUG - tUpperBand for time period is ('1.1400',)
+2017-07-04 17:57:57,129 - DEBUG - tLowerBand for time period is ('1.1400',)
+2017-07-04 17:57:57,160 - DEBUG - tMidLine for time period is ('1.1400',)
+2017-07-04 17:57:57,164 - DEBUG - Today is 2017-07-04
+2017-07-04 17:57:57,171 - DEBUG - Previous trading day was 07/03/2017
+2017-07-04 17:57:57,176 - DEBUG - Max Id - 1 SELECT (max(ID)-1) from FUT_BB_E7;
+2017-07-04 17:57:57,210 - DEBUG - ID for Last trading period--5 minutes ago-- was (131,)
+2017-07-04 17:57:57,214 - DEBUG - query is SELECT Open from FUT_BB_E7 where ID = 131;
+2017-07-04 17:57:57,243 - DEBUG - yOpen for last time period was ('1.13',)
+2017-07-04 17:57:57,247 - DEBUG - query is SELECT High from FUT_BB_E7 where ID = 131;
+2017-07-04 17:57:57,280 - DEBUG - yHigh for last time period was ('1.14',)
+2017-07-04 17:57:57,283 - DEBUG - query is SELECT Low from FUT_BB_E7 where ID = 131;
+2017-07-04 17:57:57,314 - DEBUG - yLow for last time period was ('1.13',)
+2017-07-04 17:57:57,318 - DEBUG - query is SELECT Close from FUT_BB_E7 where ID = 131;
+2017-07-04 17:57:57,346 - DEBUG - yClose for last time period was ('1.14',)
+2017-07-04 17:57:57,350 - DEBUG - query is SELECT UpperBand from FUT_BB_E7 where ID = 131;
+2017-07-04 17:57:57,380 - DEBUG - yUpperBand for last time period was ('1.1400',)
+2017-07-04 17:57:57,386 - DEBUG - query is SELECT LowerBand from FUT_BB_E7 where ID = 131;
+2017-07-04 17:57:57,414 - DEBUG - yLowerBand for last time period was ('1.1400',)
+2017-07-04 17:57:57,419 - DEBUG - query is SELECT MidLine from FUT_BB_E7 where ID = 131;
+2017-07-04 17:57:57,445 - DEBUG - yMidLine for last time period was ('1.1400',)
+2017-07-04 17:57:57,451 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='E7';
+2017-07-04 17:57:57,479 - DEBUG - BBEntry Pending is ('0',)
+2017-07-04 17:57:57,487 - DEBUG - Max Order query is SELECT max(idOrder) from Orders;
+2017-07-04 17:57:57,523 - DEBUG - Order Id for next trade is 10
+2017-07-04 17:57:57,528 - DEBUG - $$$ Position Size Calculation $$$
+2017-07-04 17:57:57,533 - DEBUG - Dollar Loss permitted is is 100.0
+2017-07-04 17:57:57,537 - DEBUG - Today High is ('1.14',)
+2017-07-04 17:57:57,542 - DEBUG - Today Low is ('1.13',)
+2017-07-04 17:57:57,546 - DEBUG - Stop Loss Pips is 100
+2017-07-04 17:57:57,552 - DEBUG - Position Size for trade is 1
+2017-07-04 17:57:57,557 - DEBUG - Profit Pips is 200
+2017-07-04 17:57:57,562 - DEBUG - STRATEGY LOGIC !!!!!!
+2017-07-04 17:57:57,566 - DEBUG - Current Position is (0.0,)
+2017-07-04 17:57:57,570 - DEBUG - There is an available position slot for E7
+2017-07-04 17:57:57,574 - DEBUG - Checking for Longs
+2017-07-04 17:57:57,577 - DEBUG - tCLose is 1.14
+2017-07-04 17:57:57,581 - DEBUG - MovAvg is 1.13596
+2017-07-04 17:57:57,585 - DEBUG - yClose is 1.14
+2017-07-04 17:57:57,591 - DEBUG - yOpen is 1.13
+2017-07-04 17:57:57,595 - DEBUG - tOpen is 1.13
+2017-07-04 17:57:57,599 - DEBUG - yLow is 1.13
+2017-07-04 17:57:57,604 - DEBUG - yLowerBand is 1.1400
+2017-07-04 17:57:57,608 - DEBUG - Current Position is (0.0,)
+2017-07-04 17:57:57,612 - DEBUG - Checking for Long trade entry
+2017-07-04 17:57:57,615 - DEBUG - Past Long Function
+2017-07-04 17:57:57,620 - DEBUG - time is 05:57PM
+2017-07-04 17:57:57,624 - DEBUG - Checking Short value
+2017-07-04 17:57:57,628 - DEBUG - tCLose is 1.14
+2017-07-04 17:57:57,632 - DEBUG - MovAvg is 1.13596
+2017-07-04 17:57:57,636 - DEBUG - yClose is 1.14
+2017-07-04 17:57:57,641 - DEBUG - yOpen is 1.13
+2017-07-04 17:57:57,645 - DEBUG - tOpen is 1.13
+2017-07-04 17:57:57,650 - DEBUG - yLow is 1.13
+2017-07-04 17:57:57,655 - DEBUG - yUpperBand is 1.1400
+2017-07-04 17:57:57,659 - DEBUG - Current Position is (0.0,)
+2017-07-04 17:57:57,663 - DEBUG - Checking for SHORT trade entry
+2017-07-04 17:57:57,667 - DEBUG - Past Short function
+2017-07-04 17:57:57,671 - DEBUG - end E7
+2017-07-04 18:00:09,140 - DEBUG - Starting E7DailyOHLC
+2017-07-04 18:00:10,439 - DEBUG - Connecting to Server
+2017-07-04 18:00:11,452 - DEBUG - Registered HistoricalData Reply Handler
+2017-07-04 18:00:12,459 - DEBUG - Requesting historical data
+2017-07-04 18:00:12,475 - DEBUG - Returned from Reply Handler
+2017-07-04 18:00:12,586 - DEBUG - In Reply Handler
+2017-07-04 18:00:12,595 - DEBUG - Valid Price Found (OPEN NOT -1)
+2017-07-04 18:00:13,051 - DEBUG - Connected to Database
+2017-07-04 18:00:13,164 - DEBUG - Ran Insert Script
+2017-07-04 18:00:13,180 - DEBUG - Yesterday2 was 07/03/2017
+2017-07-04 18:00:13,189 - DEBUG - Today is still  2017-07-04
+2017-07-04 18:00:13,206 - DEBUG - Date shifted back 10 is 2017-06-21
+2017-07-04 18:00:13,214 - DEBUG - First Date of BB Moving Average is 06/21/2017
+2017-07-04 18:00:13,223 - DEBUG - Query is SELECT ID from E7 where Date = "07/03/2017"
+2017-07-04 18:00:13,257 - DEBUG - BB ID1 is (69,)
+2017-07-04 18:00:13,264 - DEBUG - BB ID1 is (70,)
+2017-07-04 18:00:13,273 - DEBUG - BB ID1 is (71,)
+2017-07-04 18:00:13,282 - DEBUG - Query is SELECT ID from E7 where Date = "06/21/2017"
+2017-07-04 18:00:13,322 - DEBUG - BB ID1 is (71,)
+2017-07-04 18:00:13,330 - DEBUG - BB ID2 is (50,)
+2017-07-04 18:00:13,339 - DEBUG - Query is SELECT round(Avg(Close),5) as Avg from E7 where ID BETWEEN 50 AND 71;
+2017-07-04 18:00:13,380 - DEBUG - BBMovAvg is (1.13596,)
+2017-07-04 18:00:13,393 - DEBUG - Query is UPDATE hasPosition SET BB_STRATMovingAvgValue = 1.13596 where CCY ='E7';
+2017-07-04 18:00:13,460 - DEBUG - Flag set to 1
+2017-07-04 18:00:13,474 - DEBUG - In Reply Handler
+2017-07-04 18:00:13,486 - DEBUG - Disconnecting from Server
+2017-07-04 18:00:13,496 - DEBUG - Finished E7 Daily OHLC
+2017-07-04 18:01:44,533 - DEBUG - ****************************************************
+2017-07-04 18:01:44,533 - DEBUG - ****************************************************
+2017-07-04 18:01:44,545 - DEBUG - Starting BB_STRAT E 7
+2017-07-04 18:01:44,545 - DEBUG - Starting BB_STRAT E 7
+2017-07-04 18:01:45,030 - DEBUG - Connecting To Database
+2017-07-04 18:01:45,030 - DEBUG - Connecting To Database
+2017-07-04 18:01:45,081 - DEBUG - Has Position is (None,)
+2017-07-04 18:01:45,081 - DEBUG - Has Position is (None,)
+2017-07-04 18:01:45,100 - DEBUG - Query is SELECT BB_Position from hasPosition where CCY ='E7';
+2017-07-04 18:01:45,100 - DEBUG - Query is SELECT BB_Position from hasPosition where CCY ='E7';
+2017-07-04 18:01:45,135 - DEBUG - count is None
+2017-07-04 18:01:45,135 - DEBUG - count is None
+2017-07-04 18:01:45,180 - DEBUG - Stop Loss pips is (10.0,)
+2017-07-04 18:01:45,180 - DEBUG - Stop Loss pips is (10.0,)
+2017-07-04 18:01:45,217 - DEBUG - Profit Target Pips is (25.0,)
+2017-07-04 18:01:45,217 - DEBUG - Profit Target Pips is (25.0,)
+2017-07-04 18:01:45,225 - DEBUG - Profit Target Pips type is <class 'tuple'>
+2017-07-04 18:01:45,225 - DEBUG - Profit Target Pips type is <class 'tuple'>
+2017-07-04 18:01:45,258 - DEBUG - Risk Per Position is (0.01,)
+2017-07-04 18:01:45,258 - DEBUG - Risk Per Position is (0.01,)
+2017-07-04 18:01:45,314 - DEBUG - AcctBalanceBasis is (10000.0,)
+2017-07-04 18:01:45,314 - DEBUG - AcctBalanceBasis is (10000.0,)
+2017-07-04 18:01:45,355 - DEBUG - BB_SizeMultiplier is (5.0,)
+2017-07-04 18:01:45,355 - DEBUG - BB_SizeMultiplier is (5.0,)
+2017-07-04 18:01:45,388 - DEBUG - CurrentPositions is (0.0,)
+2017-07-04 18:01:45,388 - DEBUG - CurrentPositions is (0.0,)
+2017-07-04 18:01:45,426 - DEBUG - RiskRewardRatio is (2.0,)
+2017-07-04 18:01:45,426 - DEBUG - RiskRewardRatio is (2.0,)
+2017-07-04 18:01:45,463 - DEBUG - stopLoss is (10.0,)
+2017-07-04 18:01:45,463 - DEBUG - stopLoss is (10.0,)
+2017-07-04 18:01:45,498 - DEBUG - profitTarget is (25.0,)
+2017-07-04 18:01:45,498 - DEBUG - profitTarget is (25.0,)
+2017-07-04 18:01:45,536 - DEBUG - MovAvg is ('1.13596',)
+2017-07-04 18:01:45,536 - DEBUG - MovAvg is ('1.13596',)
+2017-07-04 18:01:45,547 - DEBUG - MAX ID Query is SELECT max(ID) from FUT_BB_E7;
+2017-07-04 18:01:45,547 - DEBUG - MAX ID Query is SELECT max(ID) from FUT_BB_E7;
+2017-07-04 18:01:45,579 - DEBUG - ID for time period is (132,)
+2017-07-04 18:01:45,579 - DEBUG - ID for time period is (132,)
+2017-07-04 18:01:45,587 - DEBUG - query for time period is SELECT Open from FUT_BB_E7 where ID = 132;
+2017-07-04 18:01:45,587 - DEBUG - query for time period is SELECT Open from FUT_BB_E7 where ID = 132;
+2017-07-04 18:01:45,620 - DEBUG - tOpen for time period is ('1.13',)
+2017-07-04 18:01:45,620 - DEBUG - tOpen for time period is ('1.13',)
+2017-07-04 18:01:45,650 - DEBUG - tHigh for time period is ('1.14',)
+2017-07-04 18:01:45,650 - DEBUG - tHigh for time period is ('1.14',)
+2017-07-04 18:01:45,687 - DEBUG - tLow for time period is ('1.13',)
+2017-07-04 18:01:45,687 - DEBUG - tLow for time period is ('1.13',)
+2017-07-04 18:01:45,717 - DEBUG - tClose for time period is ('1.14',)
+2017-07-04 18:01:45,717 - DEBUG - tClose for time period is ('1.14',)
+2017-07-04 18:01:46,599 - DEBUG - tUpperBand for time period is ('1.1400',)
+2017-07-04 18:01:46,599 - DEBUG - tUpperBand for time period is ('1.1400',)
+2017-07-04 18:01:46,644 - DEBUG - tLowerBand for time period is ('1.1400',)
+2017-07-04 18:01:46,644 - DEBUG - tLowerBand for time period is ('1.1400',)
+2017-07-04 18:01:46,678 - DEBUG - tMidLine for time period is ('1.1400',)
+2017-07-04 18:01:46,678 - DEBUG - tMidLine for time period is ('1.1400',)
+2017-07-04 18:01:46,685 - DEBUG - Today is 2017-07-04
+2017-07-04 18:01:46,685 - DEBUG - Today is 2017-07-04
+2017-07-04 18:01:46,694 - DEBUG - Previous trading day was 07/03/2017
+2017-07-04 18:01:46,694 - DEBUG - Previous trading day was 07/03/2017
+2017-07-04 18:01:46,702 - DEBUG - Max Id - 1 SELECT (max(ID)-1) from FUT_BB_E7;
+2017-07-04 18:01:46,702 - DEBUG - Max Id - 1 SELECT (max(ID)-1) from FUT_BB_E7;
+2017-07-04 18:01:46,736 - DEBUG - ID for Last trading period--5 minutes ago-- was (131,)
+2017-07-04 18:01:46,736 - DEBUG - ID for Last trading period--5 minutes ago-- was (131,)
+2017-07-04 18:01:46,744 - DEBUG - query is SELECT Open from FUT_BB_E7 where ID = 131;
+2017-07-04 18:01:46,744 - DEBUG - query is SELECT Open from FUT_BB_E7 where ID = 131;
+2017-07-04 18:01:46,774 - DEBUG - yOpen for last time period was ('1.1390',)
+2017-07-04 18:01:46,774 - DEBUG - yOpen for last time period was ('1.1390',)
+2017-07-04 18:01:46,781 - DEBUG - query is SELECT High from FUT_BB_E7 where ID = 131;
+2017-07-04 18:01:46,781 - DEBUG - query is SELECT High from FUT_BB_E7 where ID = 131;
+2017-07-04 18:01:46,814 - DEBUG - yHigh for last time period was ('1.1400',)
+2017-07-04 18:01:46,814 - DEBUG - yHigh for last time period was ('1.1400',)
+2017-07-04 18:01:46,825 - DEBUG - query is SELECT Low from FUT_BB_E7 where ID = 131;
+2017-07-04 18:01:46,825 - DEBUG - query is SELECT Low from FUT_BB_E7 where ID = 131;
+2017-07-04 18:01:46,870 - DEBUG - yLow for last time period was ('1.1380',)
+2017-07-04 18:01:46,870 - DEBUG - yLow for last time period was ('1.1380',)
+2017-07-04 18:01:46,877 - DEBUG - query is SELECT Close from FUT_BB_E7 where ID = 131;
+2017-07-04 18:01:46,877 - DEBUG - query is SELECT Close from FUT_BB_E7 where ID = 131;
+2017-07-04 18:01:46,910 - DEBUG - yClose for last time period was ('1.1385',)
+2017-07-04 18:01:46,910 - DEBUG - yClose for last time period was ('1.1385',)
+2017-07-04 18:01:46,919 - DEBUG - query is SELECT UpperBand from FUT_BB_E7 where ID = 131;
+2017-07-04 18:01:46,919 - DEBUG - query is SELECT UpperBand from FUT_BB_E7 where ID = 131;
+2017-07-04 18:01:46,951 - DEBUG - yUpperBand for last time period was ('1.1400',)
+2017-07-04 18:01:46,951 - DEBUG - yUpperBand for last time period was ('1.1400',)
+2017-07-04 18:01:46,960 - DEBUG - query is SELECT LowerBand from FUT_BB_E7 where ID = 131;
+2017-07-04 18:01:46,960 - DEBUG - query is SELECT LowerBand from FUT_BB_E7 where ID = 131;
+2017-07-04 18:01:46,996 - DEBUG - yLowerBand for last time period was ('1.1400',)
+2017-07-04 18:01:46,996 - DEBUG - yLowerBand for last time period was ('1.1400',)
+2017-07-04 18:01:47,004 - DEBUG - query is SELECT MidLine from FUT_BB_E7 where ID = 131;
+2017-07-04 18:01:47,004 - DEBUG - query is SELECT MidLine from FUT_BB_E7 where ID = 131;
+2017-07-04 18:01:47,038 - DEBUG - yMidLine for last time period was ('1.1400',)
+2017-07-04 18:01:47,038 - DEBUG - yMidLine for last time period was ('1.1400',)
+2017-07-04 18:01:47,048 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='E7';
+2017-07-04 18:01:47,048 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='E7';
+2017-07-04 18:01:47,082 - DEBUG - BBEntry Pending is ('0',)
+2017-07-04 18:01:47,082 - DEBUG - BBEntry Pending is ('0',)
+2017-07-04 18:01:47,091 - DEBUG - Max Order query is SELECT max(idOrder) from Orders;
+2017-07-04 18:01:47,091 - DEBUG - Max Order query is SELECT max(idOrder) from Orders;
+2017-07-04 18:01:47,124 - DEBUG - Order Id for next trade is 10
+2017-07-04 18:01:47,124 - DEBUG - Order Id for next trade is 10
+2017-07-04 18:01:47,134 - DEBUG - $$$ Position Size Calculation $$$
+2017-07-04 18:01:47,134 - DEBUG - $$$ Position Size Calculation $$$
+2017-07-04 18:01:47,143 - DEBUG - Dollar Loss permitted is is 100.0
+2017-07-04 18:01:47,143 - DEBUG - Dollar Loss permitted is is 100.0
+2017-07-04 18:01:47,151 - DEBUG - Today High is ('1.14',)
+2017-07-04 18:01:47,151 - DEBUG - Today High is ('1.14',)
+2017-07-04 18:01:47,161 - DEBUG - Today Low is ('1.13',)
+2017-07-04 18:01:47,161 - DEBUG - Today Low is ('1.13',)
+2017-07-04 18:01:47,169 - DEBUG - Stop Loss Pips is 100
+2017-07-04 18:01:47,169 - DEBUG - Stop Loss Pips is 100
+2017-07-04 18:01:47,178 - DEBUG - Position Size for trade is 1
+2017-07-04 18:01:47,178 - DEBUG - Position Size for trade is 1
+2017-07-04 18:01:47,187 - DEBUG - Profit Pips is 200
+2017-07-04 18:01:47,187 - DEBUG - Profit Pips is 200
+2017-07-04 18:01:47,195 - DEBUG - STRATEGY LOGIC !!!!!!
+2017-07-04 18:01:47,195 - DEBUG - STRATEGY LOGIC !!!!!!
+2017-07-04 18:01:47,204 - DEBUG - Current Position is (0.0,)
+2017-07-04 18:01:47,204 - DEBUG - Current Position is (0.0,)
+2017-07-04 18:01:47,213 - DEBUG - There is an available position slot for E7
+2017-07-04 18:01:47,213 - DEBUG - There is an available position slot for E7
+2017-07-04 18:01:47,222 - DEBUG - Checking for Longs
+2017-07-04 18:01:47,222 - DEBUG - Checking for Longs
+2017-07-04 18:01:47,232 - DEBUG - tCLose is 1.14
+2017-07-04 18:01:47,232 - DEBUG - tCLose is 1.14
+2017-07-04 18:01:47,243 - DEBUG - MovAvg is 1.13596
+2017-07-04 18:01:47,243 - DEBUG - MovAvg is 1.13596
+2017-07-04 18:01:47,256 - DEBUG - yClose is 1.1385
+2017-07-04 18:01:47,256 - DEBUG - yClose is 1.1385
+2017-07-04 18:01:47,265 - DEBUG - yOpen is 1.139
+2017-07-04 18:01:47,265 - DEBUG - yOpen is 1.139
+2017-07-04 18:01:47,274 - DEBUG - tOpen is 1.13
+2017-07-04 18:01:47,274 - DEBUG - tOpen is 1.13
+2017-07-04 18:01:47,286 - DEBUG - yLow is 1.138
+2017-07-04 18:01:47,286 - DEBUG - yLow is 1.138
+2017-07-04 18:01:47,298 - DEBUG - yLowerBand is 1.1400
+2017-07-04 18:01:47,298 - DEBUG - yLowerBand is 1.1400
+2017-07-04 18:01:47,306 - DEBUG - Current Position is (0.0,)
+2017-07-04 18:01:47,306 - DEBUG - Current Position is (0.0,)
+2017-07-04 18:01:47,314 - DEBUG - Checking for Long trade entry
+2017-07-04 18:01:47,314 - DEBUG - Checking for Long trade entry
+2017-07-04 18:01:47,322 - DEBUG - Valid Long Entry Found
+2017-07-04 18:01:47,322 - DEBUG - Valid Long Entry Found
+2017-07-04 18:01:48,800 - DEBUG - Reply: <managedAccounts accountsList=DU599852>
+2017-07-04 18:01:48,800 - DEBUG - Reply: <managedAccounts accountsList=DU599852>
+2017-07-04 18:01:48,810 - DEBUG - Reply: <nextValidId orderId=9>
+2017-07-04 18:01:48,810 - DEBUG - Reply: <nextValidId orderId=9>
+2017-07-04 18:01:48,818 - DEBUG - Reply: <error id=-1, errorCode=2104, errorMsg=Market data farm connection is OK:usfuture>
+2017-07-04 18:01:48,824 - DEBUG - Connected to Database
+2017-07-04 18:01:48,818 - DEBUG - Reply: <error id=-1, errorCode=2104, errorMsg=Market data farm connection is OK:usfuture>
+2017-07-04 18:01:48,824 - DEBUG - Connected to Database
+2017-07-04 18:01:48,852 - DEBUG - Query is UPDATE hasPosition SET BBEntryPending = 1 where CCY ='E7';
+2017-07-04 18:01:48,853 - DEBUG - Reply: <error id=-1, errorCode=2104, errorMsg=Market data farm connection is OK:cashfarm>
+2017-07-04 18:01:48,852 - DEBUG - Query is UPDATE hasPosition SET BBEntryPending = 1 where CCY ='E7';
+2017-07-04 18:01:48,853 - DEBUG - Reply: <error id=-1, errorCode=2104, errorMsg=Market data farm connection is OK:cashfarm>
+2017-07-04 18:01:48,877 - DEBUG - Reply: <error id=-1, errorCode=2104, errorMsg=Market data farm connection is OK:usfarm.us>
+2017-07-04 18:01:48,877 - DEBUG - Reply: <error id=-1, errorCode=2104, errorMsg=Market data farm connection is OK:usfarm.us>
+2017-07-04 18:01:48,891 - DEBUG - Reply: <error id=-1, errorCode=2104, errorMsg=Market data farm connection is OK:usfarm>
+2017-07-04 18:01:48,891 - DEBUG - Reply: <error id=-1, errorCode=2104, errorMsg=Market data farm connection is OK:usfarm>
+2017-07-04 18:01:48,905 - DEBUG - Reply: <error id=-1, errorCode=2106, errorMsg=HMDS data farm connection is OK:ilhmds>
+2017-07-04 18:01:48,905 - DEBUG - Reply: <error id=-1, errorCode=2106, errorMsg=HMDS data farm connection is OK:ilhmds>
+2017-07-04 18:01:48,923 - DEBUG - Reply: <error id=-1, errorCode=2106, errorMsg=HMDS data farm connection is OK:euhmds>
+2017-07-04 18:01:48,926 - DEBUG - Todays date is 07/04/2017
+2017-07-04 18:01:48,923 - DEBUG - Reply: <error id=-1, errorCode=2106, errorMsg=HMDS data farm connection is OK:euhmds>
+2017-07-04 18:01:48,926 - DEBUG - Todays date is 07/04/2017
+2017-07-04 18:01:48,939 - DEBUG - Reply: <error id=-1, errorCode=2106, errorMsg=HMDS data farm connection is OK:fundfarm>
+2017-07-04 18:01:48,943 - DEBUG - time is 06:01PM
+2017-07-04 18:01:48,939 - DEBUG - Reply: <error id=-1, errorCode=2106, errorMsg=HMDS data farm connection is OK:fundfarm>
+2017-07-04 18:01:48,943 - DEBUG - time is 06:01PM
+2017-07-04 18:01:48,960 - DEBUG - Reply: <error id=-1, errorCode=2106, errorMsg=HMDS data farm connection is OK:ushmds>
+2017-07-04 18:01:48,964 - DEBUG - Quantity 1 
+2017-07-04 18:01:48,960 - DEBUG - Reply: <error id=-1, errorCode=2106, errorMsg=HMDS data farm connection is OK:ushmds>
+2017-07-04 18:01:48,964 - DEBUG - Quantity 1 
+2017-07-04 18:01:48,979 - DEBUG - In Long Order Function
+2017-07-04 18:01:48,979 - DEBUG - In Long Order Function
+2017-07-04 18:01:48,991 - DEBUG - Limit Value is 1
+2017-07-04 18:01:48,991 - DEBUG - Limit Value is 1
+2017-07-04 18:01:49,000 - DEBUG - In Long Order Function when Limit is 1
+2017-07-04 18:01:49,000 - DEBUG - In Long Order Function when Limit is 1
+2017-07-04 18:01:49,012 - DEBUG - Action is BUY
+2017-07-04 18:01:49,012 - DEBUG - Action is BUY
+2017-07-04 18:01:49,026 - DEBUG - In Buy action
+2017-07-04 18:01:49,026 - DEBUG - In Buy action
+2017-07-04 18:01:49,036 - DEBUG - Buy Entry Price 1.1401
+2017-07-04 18:01:49,036 - DEBUG - Buy Entry Price 1.1401
+2017-07-04 18:01:49,050 - DEBUG - Buy Entry Price 1.1401
+2017-07-04 18:01:49,050 - DEBUG - Buy Entry Price 1.1401
+2017-07-04 18:01:49,061 - DEBUG - Buy Entry Price Type <class 'str'>
+2017-07-04 18:01:49,061 - DEBUG - Buy Entry Price Type <class 'str'>
+2017-07-04 18:01:49,072 - DEBUG - Stop Loss Price 1.1401 
+2017-07-04 18:01:49,072 - DEBUG - Stop Loss Price 1.1401 
+2017-07-04 18:01:49,085 - DEBUG - Stop Loss Type <class 'str'> 
+2017-07-04 18:01:49,085 - DEBUG - Stop Loss Type <class 'str'> 
+2017-07-04 18:01:49,096 - DEBUG - Parent ID None
+2017-07-04 18:01:49,096 - DEBUG - Parent ID None
+2017-07-04 18:01:49,107 - DEBUG - Account is DU501213
+2017-07-04 18:01:49,107 - DEBUG - Account is DU501213
+2017-07-04 18:01:49,123 - DEBUG - Contract Created
+2017-07-04 18:01:49,123 - DEBUG - Contract Created
+2017-07-04 18:01:49,133 - DEBUG - idOrder 10 
+2017-07-04 18:01:49,133 - DEBUG - idOrder 10 
+2017-07-04 18:01:49,142 - DEBUG - Date 07/04/2017 
+2017-07-04 18:01:49,142 - DEBUG - Date 07/04/2017 
+2017-07-04 18:01:49,151 - DEBUG - Price 1.1402 
+2017-07-04 18:01:49,151 - DEBUG - Price 1.1402 
+2017-07-04 18:01:49,161 - DEBUG - time 06:01PM 
+2017-07-04 18:01:49,161 - DEBUG - time 06:01PM 
+2017-07-04 18:01:49,171 - DEBUG - currency E7 
+2017-07-04 18:01:49,171 - DEBUG - currency E7 
+2017-07-04 18:01:49,182 - DEBUG - TriggerID 10 
+2017-07-04 18:01:49,182 - DEBUG - TriggerID 10 
+2017-07-04 18:01:49,193 - DEBUG - idOrder <class 'int'> 
+2017-07-04 18:01:49,193 - DEBUG - idOrder <class 'int'> 
+2017-07-04 18:01:49,204 - DEBUG - Date <class 'str'> 
+2017-07-04 18:01:49,204 - DEBUG - Date <class 'str'> 
+2017-07-04 18:01:49,217 - DEBUG - Price <class 'float'> 
+2017-07-04 18:01:49,217 - DEBUG - Price <class 'float'> 
+2017-07-04 18:01:49,231 - DEBUG - time <class 'str'> 
+2017-07-04 18:01:49,231 - DEBUG - time <class 'str'> 
+2017-07-04 18:01:49,243 - DEBUG - currency <class 'str'> 
+2017-07-04 18:01:49,243 - DEBUG - currency <class 'str'> 
+2017-07-04 18:01:49,251 - DEBUG - TriggerID <class 'int'> 
+2017-07-04 18:01:49,251 - DEBUG - TriggerID <class 'int'> 
+2017-07-04 18:01:49,283 - DEBUG - Order query is UPDATE hasPosition SET BBEntryPending = 1 where CCY ='E7';
+2017-07-04 18:01:49,283 - DEBUG - Order query is UPDATE hasPosition SET BBEntryPending = 1 where CCY ='E7';
+2017-07-04 18:01:49,332 - DEBUG - Order added to database
+2017-07-04 18:01:49,332 - DEBUG - Order added to database
+2017-07-04 18:01:49,347 - DEBUG - hasPosition query is UPDATE hasPosition SET BB_EntryID = 10 WHERE CCY ='E7';
+2017-07-04 18:01:49,347 - DEBUG - hasPosition query is UPDATE hasPosition SET BB_EntryID = 10 WHERE CCY ='E7';
+2017-07-04 18:01:49,390 - DEBUG - Reply: <openOrder orderId=10, contract=<ib.ext.Contract.Contract object at 0x000000000A605E48>, order=<ib.ext.Order.Order object at 0x000000000A605D30>, orderState=<ib.ext.OrderState.OrderState object at 0x000000000A5D1080>>
+2017-07-04 18:01:49,390 - DEBUG - Reply: <openOrder orderId=10, contract=<ib.ext.Contract.Contract object at 0x000000000A605E48>, order=<ib.ext.Order.Order object at 0x000000000A605D30>, orderState=<ib.ext.OrderState.OrderState object at 0x000000000A5D1080>>
+2017-07-04 18:01:49,404 - DEBUG - Reply: <orderStatus orderId=10, status=PreSubmitted, filled=0, remaining=1, avgFillPrice=0.0, permId=1357116122, parentId=0, lastFillPrice=0.0, clientId=999, whyHeld=locate,trigger>
+2017-07-04 18:01:49,404 - DEBUG - Reply: <orderStatus orderId=10, status=PreSubmitted, filled=0, remaining=1, avgFillPrice=0.0, permId=1357116122, parentId=0, lastFillPrice=0.0, clientId=999, whyHeld=locate,trigger>
+2017-07-04 18:01:49,429 - DEBUG - hasPosition Entry ID set to 10 
+2017-07-04 18:01:49,429 - DEBUG - hasPosition Entry ID set to 10 
+2017-07-04 18:01:49,443 - DEBUG - profitTarget PIPS 25.0 
+2017-07-04 18:01:49,443 - DEBUG - profitTarget PIPS 25.0 
+2017-07-04 18:01:49,454 - DEBUG - idOrder is 11 
+2017-07-04 18:01:49,454 - DEBUG - idOrder is 11 
+2017-07-04 18:01:49,537 - DEBUG - RiskParameters set to 1.0
+2017-07-04 18:01:49,537 - DEBUG - RiskParameters set to 1.0
+2017-07-04 18:01:49,551 - DEBUG - hasPosition query is UPDATE hasPosition SET BB_StopLossVal = 1.1298 WHERE CCY ='E7';
+2017-07-04 18:01:49,551 - DEBUG - hasPosition query is UPDATE hasPosition SET BB_StopLossVal = 1.1298 WHERE CCY ='E7';
+2017-07-04 18:01:49,644 - DEBUG - Stop Loss Value set to 1.1298
+2017-07-04 18:01:49,644 - DEBUG - Stop Loss Value set to 1.1298
+2017-07-04 18:01:49,690 - DEBUG - hasPosition query is UPDATE hasPosition SET BB_StopQty = 1 WHERE CCY ='E7';
+2017-07-04 18:01:49,690 - DEBUG - hasPosition query is UPDATE hasPosition SET BB_StopQty = 1 WHERE CCY ='E7';
+2017-07-04 18:01:49,761 - DEBUG - Stop Loss Quantity set to 1
+2017-07-04 18:01:49,761 - DEBUG - Stop Loss Quantity set to 1
+2017-07-04 18:01:49,804 - DEBUG - hasPosition query is UPDATE hasPosition SET BB_direction = 'Long' WHERE CCY ='E7';
+2017-07-04 18:01:49,804 - DEBUG - hasPosition query is UPDATE hasPosition SET BB_direction = 'Long' WHERE CCY ='E7';
+2017-07-04 18:01:49,880 - DEBUG - Direction set to Long
+2017-07-04 18:01:49,880 - DEBUG - Direction set to Long
+2017-07-04 18:01:49,909 - DEBUG - Database disconnected
+2017-07-04 18:01:49,909 - DEBUG - Database disconnected
+2017-07-04 18:01:49,921 - DEBUG - Past Long Function
+2017-07-04 18:01:49,921 - DEBUG - Past Long Function
+2017-07-04 18:01:49,932 - DEBUG - time is 06:01PM
+2017-07-04 18:01:49,932 - DEBUG - time is 06:01PM
+2017-07-04 18:01:49,940 - DEBUG - Checking Short value
+2017-07-04 18:01:49,940 - DEBUG - Checking Short value
+2017-07-04 18:01:49,952 - DEBUG - tCLose is 1.14
+2017-07-04 18:01:49,952 - DEBUG - tCLose is 1.14
+2017-07-04 18:01:49,967 - DEBUG - MovAvg is 1.13596
+2017-07-04 18:01:49,967 - DEBUG - MovAvg is 1.13596
+2017-07-04 18:01:49,983 - DEBUG - yClose is 1.1385
+2017-07-04 18:01:49,983 - DEBUG - yClose is 1.1385
+2017-07-04 18:01:49,995 - DEBUG - yOpen is 1.139
+2017-07-04 18:01:49,995 - DEBUG - yOpen is 1.139
+2017-07-04 18:01:50,009 - DEBUG - tOpen is 1.13
+2017-07-04 18:01:50,009 - DEBUG - tOpen is 1.13
+2017-07-04 18:01:50,019 - DEBUG - yLow is 1.138
+2017-07-04 18:01:50,019 - DEBUG - yLow is 1.138
+2017-07-04 18:01:50,031 - DEBUG - yUpperBand is 1.1400
+2017-07-04 18:01:50,031 - DEBUG - yUpperBand is 1.1400
+2017-07-04 18:01:50,042 - DEBUG - Current Position is (0.0,)
+2017-07-04 18:01:50,042 - DEBUG - Current Position is (0.0,)
+2017-07-04 18:01:50,053 - DEBUG - Checking for SHORT trade entry
+2017-07-04 18:01:50,053 - DEBUG - Checking for SHORT trade entry
+2017-07-04 18:01:50,066 - DEBUG - Past Short function
+2017-07-04 18:01:50,066 - DEBUG - Past Short function
+2017-07-04 18:01:50,082 - DEBUG - end E7
+2017-07-04 18:01:50,082 - DEBUG - end E7
+2017-07-04 19:02:19,502 - DEBUG - ****************************************************
+2017-07-04 19:02:19,502 - DEBUG - ****************************************************
+2017-07-04 19:02:19,520 - DEBUG - Current Time is 2017-07-04 19:02:19.520103
+2017-07-04 19:02:19,520 - DEBUG - Current Time is 2017-07-04 19:02:19.520103
+2017-07-04 19:02:19,537 - DEBUG - Starting Pos Mgmt E 7
+2017-07-04 19:02:19,537 - DEBUG - Starting Pos Mgmt E 7
+2017-07-04 19:02:19,553 - DEBUG - Connecting to database
+2017-07-04 19:02:19,553 - DEBUG - Connecting to database
+2017-07-04 19:02:20,178 - DEBUG - Connected to database
+2017-07-04 19:02:20,178 - DEBUG - Connected to database
+2017-07-04 19:02:20,204 - DEBUG - Query is SELECT BB_ProfitID FROM hasPosition where CCY = 'E7'
+2017-07-04 19:02:20,204 - DEBUG - Query is SELECT BB_ProfitID FROM hasPosition where CCY = 'E7'
+2017-07-04 19:02:20,243 - DEBUG - Order Profit is None
+2017-07-04 19:02:20,243 - DEBUG - Order Profit is None
+2017-07-04 19:02:20,256 - DEBUG - Query is SELECT BB_StopID FROM hasPosition where CCY = 'E7'
+2017-07-04 19:02:20,256 - DEBUG - Query is SELECT BB_StopID FROM hasPosition where CCY = 'E7'
+2017-07-04 19:02:20,291 - DEBUG - Stop ID is None
+2017-07-04 19:02:20,291 - DEBUG - Stop ID is None
+2017-07-04 19:02:20,325 - DEBUG - Query is SELECT BB_EntryID FROM hasPosition where CCY = 'E7'
+2017-07-04 19:02:20,325 - DEBUG - Query is SELECT BB_EntryID FROM hasPosition where CCY = 'E7'
+2017-07-04 19:02:20,336 - DEBUG - Order Entry is 10
+2017-07-04 19:02:20,336 - DEBUG - Order Entry is 10
+2017-07-04 19:02:20,346 - DEBUG - Connecting to IBController
+2017-07-04 19:02:20,346 - DEBUG - Connecting to IBController
+2017-07-04 19:02:23,375 - DEBUG - Connected to IBController
+2017-07-04 19:02:23,375 - DEBUG - Connected to IBController
+2017-07-04 19:02:23,402 - DEBUG - Position requested
+2017-07-04 19:02:23,402 - DEBUG - Position requested
+2017-07-04 19:02:23,425 - DEBUG - Pos Mgmt 1
+2017-07-04 19:02:23,425 - DEBUG - Pos Mgmt 1
+2017-07-04 19:02:24,425 - DEBUG - Open Orders requested
+2017-07-04 19:02:24,425 - DEBUG - Open Orders requested
+2017-07-04 19:02:26,453 - DEBUG - Connecting to database
+2017-07-04 19:02:26,453 - DEBUG - Connecting to database
+2017-07-04 19:02:26,923 - DEBUG - Connected to database
+2017-07-04 19:02:26,923 - DEBUG - Connected to database
+2017-07-04 19:02:26,964 - DEBUG - Query is SELECT BB_StopLossVal FROM hasPosition where CCY = 'E7'
+2017-07-04 19:02:26,964 - DEBUG - Query is SELECT BB_StopLossVal FROM hasPosition where CCY = 'E7'
+2017-07-04 19:02:26,975 - DEBUG - Stop loss value is 1.1298
+2017-07-04 19:02:26,975 - DEBUG - Stop loss value is 1.1298
+2017-07-04 19:02:27,020 - DEBUG - Query is SELECT BB_StopQty FROM hasPosition where CCY = 'E7'
+2017-07-04 19:02:27,020 - DEBUG - Query is SELECT BB_StopQty FROM hasPosition where CCY = 'E7'
+2017-07-04 19:02:27,040 - DEBUG - Stop quantity 1
+2017-07-04 19:02:27,040 - DEBUG - Stop quantity 1
+2017-07-04 19:02:27,082 - DEBUG - Query is SELECT BB_direction FROM hasPosition where CCY = 'E7'
+2017-07-04 19:02:27,082 - DEBUG - Query is SELECT BB_direction FROM hasPosition where CCY = 'E7'
+2017-07-04 19:02:27,092 - DEBUG - Direction is Long
+2017-07-04 19:02:27,092 - DEBUG - Direction is Long
+2017-07-04 19:02:27,131 - DEBUG - Query is SELECT BB_Position FROM hasPosition where CCY = 'E7'
+2017-07-04 19:02:27,131 - DEBUG - Query is SELECT BB_Position FROM hasPosition where CCY = 'E7'
+2017-07-04 19:02:27,142 - DEBUG - Count is None
+2017-07-04 19:02:27,142 - DEBUG - Count is None
+2017-07-04 19:02:27,175 - DEBUG - Query is SELECT BB_StopLossFlag FROM hasPosition where CCY = 'E7'
+2017-07-04 19:02:27,175 - DEBUG - Query is SELECT BB_StopLossFlag FROM hasPosition where CCY = 'E7'
+2017-07-04 19:02:27,186 - DEBUG - Stop Loss Flag is None
+2017-07-04 19:02:27,186 - DEBUG - Stop Loss Flag is None
+2017-07-04 19:02:27,219 - DEBUG - Query is SELECT max(idOrder) FROM Orders
+2017-07-04 19:02:27,219 - DEBUG - Query is SELECT max(idOrder) FROM Orders
+2017-07-04 19:02:27,229 - DEBUG - Max ID Order is (10,)
+2017-07-04 19:02:27,229 - DEBUG - Max ID Order is (10,)
+2017-07-04 19:02:27,239 - DEBUG - Today is 2017-07-04
+2017-07-04 19:02:27,239 - DEBUG - Today is 2017-07-04
+2017-07-04 19:02:27,251 - DEBUG - Day of the week 1
+2017-07-04 19:02:27,251 - DEBUG - Day of the week 1
+2017-07-04 19:02:27,262 - DEBUG - Yesterday is 07/03/2017
+2017-07-04 19:02:27,262 - DEBUG - Yesterday is 07/03/2017
+2017-07-04 19:02:27,271 - DEBUG - In Position is  0
+2017-07-04 19:02:27,271 - DEBUG - In Position is  0
+2017-07-04 19:02:27,282 - DEBUG - In Position is  <class 'int'>
+2017-07-04 19:02:27,282 - DEBUG - In Position is  <class 'int'>
+2017-07-04 19:02:27,293 - DEBUG - curStopLossFlag is  None
+2017-07-04 19:02:27,293 - DEBUG - curStopLossFlag is  None
+2017-07-04 19:02:27,303 - DEBUG - curStopLossFlag is  <class 'NoneType'>
+2017-07-04 19:02:27,303 - DEBUG - curStopLossFlag is  <class 'NoneType'>
+2017-07-04 19:02:27,312 - DEBUG - Checking if Entry has been filled
+2017-07-04 19:02:27,312 - DEBUG - Checking if Entry has been filled
+2017-07-04 19:02:27,322 - DEBUG - Try to Cancel Stop
+2017-07-04 19:02:27,322 - DEBUG - Try to Cancel Stop
+2017-07-04 19:02:27,332 - DEBUG - Stop API ID 0
+2017-07-04 19:02:27,332 - DEBUG - Stop API ID 0
+2017-07-04 19:02:27,345 - DEBUG - Profit API ID 0
+2017-07-04 19:02:27,345 - DEBUG - Profit API ID 0
+2017-07-04 19:02:27,358 - DEBUG - Pos is 0
+2017-07-04 19:02:27,358 - DEBUG - Pos is 0
+2017-07-04 19:02:27,368 - DEBUG - CurCount is None
+2017-07-04 19:02:27,368 - DEBUG - CurCount is None
+2017-07-04 19:02:27,377 - DEBUG - In Pos 0
+2017-07-04 19:02:27,377 - DEBUG - In Pos 0
+2017-07-04 19:02:27,389 - DEBUG - Stop ID is None
+2017-07-04 19:02:27,389 - DEBUG - Stop ID is None
+2017-07-04 19:02:27,401 - DEBUG - Stop API ID 0
+2017-07-04 19:02:27,401 - DEBUG - Stop API ID 0
+2017-07-04 19:02:27,411 - DEBUG - Profit API ID 0
+2017-07-04 19:02:27,411 - DEBUG - Profit API ID 0
+2017-07-04 19:02:27,422 - DEBUG - Pos is 0
+2017-07-04 19:02:27,422 - DEBUG - Pos is 0
+2017-07-04 19:02:27,433 - DEBUG - CurCount is None
+2017-07-04 19:02:27,433 - DEBUG - CurCount is None
+2017-07-04 19:02:27,448 - DEBUG - In Pos 0
+2017-07-04 19:02:27,448 - DEBUG - In Pos 0
+2017-07-04 19:02:27,463 - DEBUG - profitID is None
+2017-07-04 19:02:27,463 - DEBUG - profitID is None
+2017-07-04 19:02:27,477 - DEBUG - stopID is None
+2017-07-04 19:02:27,477 - DEBUG - stopID is None
+2017-07-04 19:06:00,121 - DEBUG - Pos Mgmt 1
+2017-07-04 19:06:00,121 - DEBUG - Pos Mgmt 1
+2017-07-04 19:14:20,489 - DEBUG - ****************************************************
+2017-07-04 19:14:20,489 - DEBUG - ****************************************************
+2017-07-04 19:14:20,510 - DEBUG - Current Time is 2017-07-04 19:14:20.510341
+2017-07-04 19:14:20,510 - DEBUG - Current Time is 2017-07-04 19:14:20.510341
+2017-07-04 19:14:20,523 - DEBUG - Starting Pos Mgmt E 7
+2017-07-04 19:14:20,523 - DEBUG - Starting Pos Mgmt E 7
+2017-07-04 19:14:20,535 - DEBUG - Connecting to database
+2017-07-04 19:14:20,535 - DEBUG - Connecting to database
+2017-07-04 19:14:20,974 - DEBUG - Connected to database
+2017-07-04 19:14:20,974 - DEBUG - Connected to database
+2017-07-04 19:14:21,002 - DEBUG - Query is SELECT BB_ProfitID FROM hasPosition where CCY = 'E7'
+2017-07-04 19:14:21,002 - DEBUG - Query is SELECT BB_ProfitID FROM hasPosition where CCY = 'E7'
+2017-07-04 19:14:21,045 - DEBUG - Order Profit is None
+2017-07-04 19:14:21,045 - DEBUG - Order Profit is None
+2017-07-04 19:14:21,058 - DEBUG - Query is SELECT BB_StopID FROM hasPosition where CCY = 'E7'
+2017-07-04 19:14:21,058 - DEBUG - Query is SELECT BB_StopID FROM hasPosition where CCY = 'E7'
+2017-07-04 19:14:21,094 - DEBUG - Stop ID is None
+2017-07-04 19:14:21,094 - DEBUG - Stop ID is None
+2017-07-04 19:14:21,129 - DEBUG - Query is SELECT BB_EntryID FROM hasPosition where CCY = 'E7'
+2017-07-04 19:14:21,129 - DEBUG - Query is SELECT BB_EntryID FROM hasPosition where CCY = 'E7'
+2017-07-04 19:14:21,141 - DEBUG - Order Entry is 10
+2017-07-04 19:14:21,141 - DEBUG - Order Entry is 10
+2017-07-04 19:14:21,153 - DEBUG - Connecting to IBController
+2017-07-04 19:14:21,153 - DEBUG - Connecting to IBController
+2017-07-04 19:14:24,328 - DEBUG - Connected to IBController
+2017-07-04 19:14:24,328 - DEBUG - Connected to IBController
+2017-07-04 19:14:24,348 - DEBUG - Position requested
+2017-07-04 19:14:24,348 - DEBUG - Position requested
+2017-07-04 19:14:25,369 - DEBUG - Open Orders requested
+2017-07-04 19:14:25,369 - DEBUG - Open Orders requested
+2017-07-04 19:14:27,398 - DEBUG - Connecting to database
+2017-07-04 19:14:27,398 - DEBUG - Connecting to database
+2017-07-04 19:14:27,823 - DEBUG - Connected to database
+2017-07-04 19:14:27,823 - DEBUG - Connected to database
+2017-07-04 19:14:27,873 - DEBUG - Query is SELECT BB_StopLossVal FROM hasPosition where CCY = 'E7'
+2017-07-04 19:14:27,873 - DEBUG - Query is SELECT BB_StopLossVal FROM hasPosition where CCY = 'E7'
+2017-07-04 19:14:27,890 - DEBUG - Stop loss value is 1.1298
+2017-07-04 19:14:27,890 - DEBUG - Stop loss value is 1.1298
+2017-07-04 19:14:27,932 - DEBUG - Query is SELECT BB_StopQty FROM hasPosition where CCY = 'E7'
+2017-07-04 19:14:27,932 - DEBUG - Query is SELECT BB_StopQty FROM hasPosition where CCY = 'E7'
+2017-07-04 19:14:27,947 - DEBUG - Stop quantity 1
+2017-07-04 19:14:27,947 - DEBUG - Stop quantity 1
+2017-07-04 19:14:27,982 - DEBUG - Query is SELECT BB_direction FROM hasPosition where CCY = 'E7'
+2017-07-04 19:14:27,982 - DEBUG - Query is SELECT BB_direction FROM hasPosition where CCY = 'E7'
+2017-07-04 19:14:27,994 - DEBUG - Direction is Long
+2017-07-04 19:14:27,994 - DEBUG - Direction is Long
+2017-07-04 19:14:28,028 - DEBUG - Query is SELECT BB_Position FROM hasPosition where CCY = 'E7'
+2017-07-04 19:14:28,028 - DEBUG - Query is SELECT BB_Position FROM hasPosition where CCY = 'E7'
+2017-07-04 19:14:28,057 - DEBUG - Count is None
+2017-07-04 19:14:28,057 - DEBUG - Count is None
+2017-07-04 19:14:28,090 - DEBUG - Query is SELECT BB_StopLossFlag FROM hasPosition where CCY = 'E7'
+2017-07-04 19:14:28,090 - DEBUG - Query is SELECT BB_StopLossFlag FROM hasPosition where CCY = 'E7'
+2017-07-04 19:14:28,104 - DEBUG - Stop Loss Flag is None
+2017-07-04 19:14:28,104 - DEBUG - Stop Loss Flag is None
+2017-07-04 19:14:28,142 - DEBUG - Query is SELECT max(idOrder) FROM Orders
+2017-07-04 19:14:28,142 - DEBUG - Query is SELECT max(idOrder) FROM Orders
+2017-07-04 19:14:28,159 - DEBUG - Max ID Order is (10,)
+2017-07-04 19:14:28,159 - DEBUG - Max ID Order is (10,)
+2017-07-04 19:14:28,170 - DEBUG - Today is 2017-07-04
+2017-07-04 19:14:28,170 - DEBUG - Today is 2017-07-04
+2017-07-04 19:14:28,182 - DEBUG - Day of the week 1
+2017-07-04 19:14:28,182 - DEBUG - Day of the week 1
+2017-07-04 19:14:28,195 - DEBUG - Yesterday is 07/03/2017
+2017-07-04 19:14:28,195 - DEBUG - Yesterday is 07/03/2017
+2017-07-04 19:14:28,207 - DEBUG - In Position is  0
+2017-07-04 19:14:28,207 - DEBUG - In Position is  0
+2017-07-04 19:14:28,218 - DEBUG - In Position is  <class 'int'>
+2017-07-04 19:14:28,218 - DEBUG - In Position is  <class 'int'>
+2017-07-04 19:14:28,230 - DEBUG - curStopLossFlag is  None
+2017-07-04 19:14:28,230 - DEBUG - curStopLossFlag is  None
+2017-07-04 19:14:28,242 - DEBUG - curStopLossFlag is  <class 'NoneType'>
+2017-07-04 19:14:28,242 - DEBUG - curStopLossFlag is  <class 'NoneType'>
+2017-07-04 19:14:28,254 - DEBUG - Checking if Entry has been filled
+2017-07-04 19:14:28,254 - DEBUG - Checking if Entry has been filled
+2017-07-04 19:14:28,265 - DEBUG - Try to Cancel Stop
+2017-07-04 19:14:28,265 - DEBUG - Try to Cancel Stop
+2017-07-04 19:14:28,277 - DEBUG - Stop API ID 0
+2017-07-04 19:14:28,277 - DEBUG - Stop API ID 0
+2017-07-04 19:14:28,290 - DEBUG - Profit API ID 0
+2017-07-04 19:14:28,290 - DEBUG - Profit API ID 0
+2017-07-04 19:14:28,302 - DEBUG - Pos is 0
+2017-07-04 19:14:28,302 - DEBUG - Pos is 0
+2017-07-04 19:14:28,314 - DEBUG - CurCount is None
+2017-07-04 19:14:28,314 - DEBUG - CurCount is None
+2017-07-04 19:14:28,325 - DEBUG - In Pos 0
+2017-07-04 19:14:28,325 - DEBUG - In Pos 0
+2017-07-04 19:14:28,337 - DEBUG - Stop ID is None
+2017-07-04 19:14:28,337 - DEBUG - Stop ID is None
+2017-07-04 19:14:28,350 - DEBUG - Stop API ID 0
+2017-07-04 19:14:28,350 - DEBUG - Stop API ID 0
+2017-07-04 19:14:28,363 - DEBUG - Profit API ID 0
+2017-07-04 19:14:28,363 - DEBUG - Profit API ID 0
+2017-07-04 19:14:28,375 - DEBUG - Pos is 0
+2017-07-04 19:14:28,375 - DEBUG - Pos is 0
+2017-07-04 19:14:28,388 - DEBUG - CurCount is None
+2017-07-04 19:14:28,388 - DEBUG - CurCount is None
+2017-07-04 19:14:28,400 - DEBUG - In Pos 0
+2017-07-04 19:14:28,400 - DEBUG - In Pos 0
+2017-07-04 19:14:28,414 - DEBUG - profitID is None
+2017-07-04 19:14:28,414 - DEBUG - profitID is None
+2017-07-04 19:14:28,427 - DEBUG - stopID is None
+2017-07-04 19:14:28,427 - DEBUG - stopID is None
+2017-07-04 19:16:45,634 - DEBUG - ****************************************************
+2017-07-04 19:16:45,634 - DEBUG - ****************************************************
+2017-07-04 19:16:45,652 - DEBUG - Current Time is 2017-07-04 19:16:45.652642
+2017-07-04 19:16:45,652 - DEBUG - Current Time is 2017-07-04 19:16:45.652642
+2017-07-04 19:16:45,670 - DEBUG - Starting Pos Mgmt E 7
+2017-07-04 19:16:45,670 - DEBUG - Starting Pos Mgmt E 7
+2017-07-04 19:16:45,685 - DEBUG - Connecting to database
+2017-07-04 19:16:45,685 - DEBUG - Connecting to database
+2017-07-04 19:16:46,168 - DEBUG - Connected to database
+2017-07-04 19:16:46,168 - DEBUG - Connected to database
+2017-07-04 19:16:46,195 - DEBUG - Query is SELECT BB_ProfitID FROM hasPosition where CCY = 'E7'
+2017-07-04 19:16:46,195 - DEBUG - Query is SELECT BB_ProfitID FROM hasPosition where CCY = 'E7'
+2017-07-04 19:16:46,247 - DEBUG - Order Profit is None
+2017-07-04 19:16:46,247 - DEBUG - Order Profit is None
+2017-07-04 19:16:46,263 - DEBUG - Query is SELECT BB_StopID FROM hasPosition where CCY = 'E7'
+2017-07-04 19:16:46,263 - DEBUG - Query is SELECT BB_StopID FROM hasPosition where CCY = 'E7'
+2017-07-04 19:16:46,305 - DEBUG - Stop ID is None
+2017-07-04 19:16:46,305 - DEBUG - Stop ID is None
+2017-07-04 19:16:46,352 - DEBUG - Query is SELECT BB_EntryID FROM hasPosition where CCY = 'E7'
+2017-07-04 19:16:46,352 - DEBUG - Query is SELECT BB_EntryID FROM hasPosition where CCY = 'E7'
+2017-07-04 19:16:46,370 - DEBUG - Order Entry is 10
+2017-07-04 19:16:46,370 - DEBUG - Order Entry is 10
+2017-07-04 19:16:46,390 - DEBUG - Connecting to IBController
+2017-07-04 19:16:46,390 - DEBUG - Connecting to IBController
+2017-07-04 19:16:48,718 - DEBUG - Connected to IBController
+2017-07-04 19:16:48,718 - DEBUG - Connected to IBController
+2017-07-04 19:16:48,742 - DEBUG - Position requested
+2017-07-04 19:16:48,742 - DEBUG - Position requested
+2017-07-04 19:16:49,762 - DEBUG - Open Orders requested
+2017-07-04 19:16:49,762 - DEBUG - Open Orders requested
+2017-07-04 19:16:51,790 - DEBUG - Connecting to database
+2017-07-04 19:16:51,790 - DEBUG - Connecting to database
+2017-07-04 19:16:55,251 - DEBUG - Connected to database
+2017-07-04 19:16:55,251 - DEBUG - Connected to database
+2017-07-04 19:16:55,301 - DEBUG - Query is SELECT BB_StopLossVal FROM hasPosition where CCY = 'E7'
+2017-07-04 19:16:55,301 - DEBUG - Query is SELECT BB_StopLossVal FROM hasPosition where CCY = 'E7'
+2017-07-04 19:16:55,318 - DEBUG - Stop loss value is 1.1298
+2017-07-04 19:16:55,318 - DEBUG - Stop loss value is 1.1298
+2017-07-04 19:16:55,356 - DEBUG - Query is SELECT BB_StopQty FROM hasPosition where CCY = 'E7'
+2017-07-04 19:16:55,356 - DEBUG - Query is SELECT BB_StopQty FROM hasPosition where CCY = 'E7'
+2017-07-04 19:16:55,370 - DEBUG - Stop quantity 1
+2017-07-04 19:16:55,370 - DEBUG - Stop quantity 1
+2017-07-04 19:16:55,407 - DEBUG - Query is SELECT BB_direction FROM hasPosition where CCY = 'E7'
+2017-07-04 19:16:55,407 - DEBUG - Query is SELECT BB_direction FROM hasPosition where CCY = 'E7'
+2017-07-04 19:16:55,420 - DEBUG - Direction is Long
+2017-07-04 19:16:55,420 - DEBUG - Direction is Long
+2017-07-04 19:16:55,457 - DEBUG - Query is SELECT BB_Position FROM hasPosition where CCY = 'E7'
+2017-07-04 19:16:55,457 - DEBUG - Query is SELECT BB_Position FROM hasPosition where CCY = 'E7'
+2017-07-04 19:16:55,472 - DEBUG - Count is None
+2017-07-04 19:16:55,472 - DEBUG - Count is None
+2017-07-04 19:16:55,508 - DEBUG - Query is SELECT BB_StopLossFlag FROM hasPosition where CCY = 'E7'
+2017-07-04 19:16:55,508 - DEBUG - Query is SELECT BB_StopLossFlag FROM hasPosition where CCY = 'E7'
+2017-07-04 19:16:55,523 - DEBUG - Stop Loss Flag is None
+2017-07-04 19:16:55,523 - DEBUG - Stop Loss Flag is None
+2017-07-04 19:16:55,563 - DEBUG - Query is SELECT max(idOrder) FROM Orders
+2017-07-04 19:16:55,563 - DEBUG - Query is SELECT max(idOrder) FROM Orders
+2017-07-04 19:16:55,582 - DEBUG - Max ID Order is (10,)
+2017-07-04 19:16:55,582 - DEBUG - Max ID Order is (10,)
+2017-07-04 19:16:55,597 - DEBUG - Today is 2017-07-04
+2017-07-04 19:16:55,597 - DEBUG - Today is 2017-07-04
+2017-07-04 19:16:55,611 - DEBUG - Day of the week 1
+2017-07-04 19:16:55,611 - DEBUG - Day of the week 1
+2017-07-04 19:16:55,627 - DEBUG - Yesterday is 07/03/2017
+2017-07-04 19:16:55,627 - DEBUG - Yesterday is 07/03/2017
+2017-07-04 19:16:55,642 - DEBUG - In Position is  0
+2017-07-04 19:16:55,642 - DEBUG - In Position is  0
+2017-07-04 19:16:55,656 - DEBUG - In Position is  <class 'int'>
+2017-07-04 19:16:55,656 - DEBUG - In Position is  <class 'int'>
+2017-07-04 19:16:55,669 - DEBUG - curStopLossFlag is  None
+2017-07-04 19:16:55,669 - DEBUG - curStopLossFlag is  None
+2017-07-04 19:16:55,684 - DEBUG - curStopLossFlag is  <class 'NoneType'>
+2017-07-04 19:16:55,684 - DEBUG - curStopLossFlag is  <class 'NoneType'>
+2017-07-04 19:16:55,698 - DEBUG - Checking if Entry has been filled
+2017-07-04 19:16:55,698 - DEBUG - Checking if Entry has been filled
+2017-07-04 19:16:55,711 - DEBUG - Try to Cancel Stop
+2017-07-04 19:16:55,711 - DEBUG - Try to Cancel Stop
+2017-07-04 19:16:55,729 - DEBUG - Stop API ID 0
+2017-07-04 19:16:55,729 - DEBUG - Stop API ID 0
+2017-07-04 19:16:55,742 - DEBUG - Profit API ID 0
+2017-07-04 19:16:55,742 - DEBUG - Profit API ID 0
+2017-07-04 19:16:55,757 - DEBUG - Pos is 0
+2017-07-04 19:16:55,757 - DEBUG - Pos is 0
+2017-07-04 19:16:55,772 - DEBUG - CurCount is None
+2017-07-04 19:16:55,772 - DEBUG - CurCount is None
+2017-07-04 19:16:55,787 - DEBUG - In Pos 0
+2017-07-04 19:16:55,787 - DEBUG - In Pos 0
+2017-07-04 19:16:55,801 - DEBUG - Stop ID is None
+2017-07-04 19:16:55,801 - DEBUG - Stop ID is None
+2017-07-04 19:16:55,815 - DEBUG - Stop API ID 0
+2017-07-04 19:16:55,815 - DEBUG - Stop API ID 0
+2017-07-04 19:16:55,830 - DEBUG - Profit API ID 0
+2017-07-04 19:16:55,830 - DEBUG - Profit API ID 0
+2017-07-04 19:16:55,845 - DEBUG - Pos is 0
+2017-07-04 19:16:55,845 - DEBUG - Pos is 0
+2017-07-04 19:16:55,860 - DEBUG - CurCount is None
+2017-07-04 19:16:55,860 - DEBUG - CurCount is None
+2017-07-04 19:16:55,877 - DEBUG - In Pos 0
+2017-07-04 19:16:55,877 - DEBUG - In Pos 0
+2017-07-04 19:16:55,891 - DEBUG - profitID is None
+2017-07-04 19:16:55,891 - DEBUG - profitID is None
+2017-07-04 19:16:55,904 - DEBUG - stopID is None
+2017-07-04 19:16:55,904 - DEBUG - stopID is None
+2017-07-04 19:19:52,997 - DEBUG - ****************************************************
+2017-07-04 19:19:52,997 - DEBUG - ****************************************************
+2017-07-04 19:19:53,025 - DEBUG - Current Time is 2017-07-04 19:19:53.025360
+2017-07-04 19:19:53,025 - DEBUG - Current Time is 2017-07-04 19:19:53.025360
+2017-07-04 19:19:53,042 - DEBUG - Starting Pos Mgmt E 7
+2017-07-04 19:19:53,042 - DEBUG - Starting Pos Mgmt E 7
+2017-07-04 19:19:53,057 - DEBUG - Connecting to database
+2017-07-04 19:19:53,057 - DEBUG - Connecting to database
+2017-07-04 19:19:56,495 - DEBUG - Connected to database
+2017-07-04 19:19:56,495 - DEBUG - Connected to database
+2017-07-04 19:19:56,515 - DEBUG - Query is SELECT BB_ProfitID FROM hasPosition where CCY = 'E7'
+2017-07-04 19:19:56,515 - DEBUG - Query is SELECT BB_ProfitID FROM hasPosition where CCY = 'E7'
+2017-07-04 19:19:56,561 - DEBUG - Order Profit is None
+2017-07-04 19:19:56,561 - DEBUG - Order Profit is None
+2017-07-04 19:19:56,577 - DEBUG - Query is SELECT BB_StopID FROM hasPosition where CCY = 'E7'
+2017-07-04 19:19:56,577 - DEBUG - Query is SELECT BB_StopID FROM hasPosition where CCY = 'E7'
+2017-07-04 19:19:56,624 - DEBUG - Stop ID is None
+2017-07-04 19:19:56,624 - DEBUG - Stop ID is None
+2017-07-04 19:19:56,663 - DEBUG - Query is SELECT BB_EntryID FROM hasPosition where CCY = 'E7'
+2017-07-04 19:19:56,663 - DEBUG - Query is SELECT BB_EntryID FROM hasPosition where CCY = 'E7'
+2017-07-04 19:19:56,679 - DEBUG - Order Entry is 10
+2017-07-04 19:19:56,679 - DEBUG - Order Entry is 10
+2017-07-04 19:19:56,695 - DEBUG - Connecting to IBController
+2017-07-04 19:19:56,695 - DEBUG - Connecting to IBController
+2017-07-04 19:19:59,475 - DEBUG - Connected to IBController
+2017-07-04 19:19:59,475 - DEBUG - Connected to IBController
+2017-07-04 19:19:59,495 - DEBUG - Position requested
+2017-07-04 19:19:59,495 - DEBUG - Position requested
+2017-07-04 19:20:00,512 - DEBUG - Open Orders requested
+2017-07-04 19:20:00,512 - DEBUG - Open Orders requested
+2017-07-04 19:20:02,558 - DEBUG - Connecting to database
+2017-07-04 19:20:02,558 - DEBUG - Connecting to database
+2017-07-04 19:20:03,051 - DEBUG - Connected to database
+2017-07-04 19:20:03,051 - DEBUG - Connected to database
+2017-07-04 19:20:03,103 - DEBUG - Query is SELECT BB_StopLossVal FROM hasPosition where CCY = 'E7'
+2017-07-04 19:20:03,103 - DEBUG - Query is SELECT BB_StopLossVal FROM hasPosition where CCY = 'E7'
+2017-07-04 19:20:03,121 - DEBUG - Stop loss value is 1.1298
+2017-07-04 19:20:03,121 - DEBUG - Stop loss value is 1.1298
+2017-07-04 19:20:03,180 - DEBUG - Query is SELECT BB_StopQty FROM hasPosition where CCY = 'E7'
+2017-07-04 19:20:03,180 - DEBUG - Query is SELECT BB_StopQty FROM hasPosition where CCY = 'E7'
+2017-07-04 19:20:03,195 - DEBUG - Stop quantity 1
+2017-07-04 19:20:03,195 - DEBUG - Stop quantity 1
+2017-07-04 19:20:03,245 - DEBUG - Query is SELECT BB_direction FROM hasPosition where CCY = 'E7'
+2017-07-04 19:20:03,245 - DEBUG - Query is SELECT BB_direction FROM hasPosition where CCY = 'E7'
+2017-07-04 19:20:03,260 - DEBUG - Direction is Long
+2017-07-04 19:20:03,260 - DEBUG - Direction is Long
+2017-07-04 19:20:03,299 - DEBUG - Query is SELECT BB_Position FROM hasPosition where CCY = 'E7'
+2017-07-04 19:20:03,299 - DEBUG - Query is SELECT BB_Position FROM hasPosition where CCY = 'E7'
+2017-07-04 19:20:03,314 - DEBUG - Count is None
+2017-07-04 19:20:03,314 - DEBUG - Count is None
+2017-07-04 19:20:03,369 - DEBUG - Query is SELECT BB_StopLossFlag FROM hasPosition where CCY = 'E7'
+2017-07-04 19:20:03,369 - DEBUG - Query is SELECT BB_StopLossFlag FROM hasPosition where CCY = 'E7'
+2017-07-04 19:20:03,386 - DEBUG - Stop Loss Flag is None
+2017-07-04 19:20:03,386 - DEBUG - Stop Loss Flag is None
+2017-07-04 19:20:03,427 - DEBUG - Query is SELECT max(idOrder) FROM Orders
+2017-07-04 19:20:03,427 - DEBUG - Query is SELECT max(idOrder) FROM Orders
+2017-07-04 19:20:03,443 - DEBUG - Max ID Order is (10,)
+2017-07-04 19:20:03,443 - DEBUG - Max ID Order is (10,)
+2017-07-04 19:20:03,466 - DEBUG - Today is 2017-07-04
+2017-07-04 19:20:03,466 - DEBUG - Today is 2017-07-04
+2017-07-04 19:20:03,483 - DEBUG - Day of the week 1
+2017-07-04 19:20:03,483 - DEBUG - Day of the week 1
+2017-07-04 19:20:03,498 - DEBUG - Yesterday is 07/03/2017
+2017-07-04 19:20:03,498 - DEBUG - Yesterday is 07/03/2017
+2017-07-04 19:20:03,515 - DEBUG - In Position is  0
+2017-07-04 19:20:03,515 - DEBUG - In Position is  0
+2017-07-04 19:20:03,532 - DEBUG - In Position is  <class 'int'>
+2017-07-04 19:20:03,532 - DEBUG - In Position is  <class 'int'>
+2017-07-04 19:20:03,549 - DEBUG - curStopLossFlag is  None
+2017-07-04 19:20:03,549 - DEBUG - curStopLossFlag is  None
+2017-07-04 19:20:03,565 - DEBUG - curStopLossFlag is  <class 'NoneType'>
+2017-07-04 19:20:03,565 - DEBUG - curStopLossFlag is  <class 'NoneType'>
+2017-07-04 19:20:03,582 - DEBUG - Checking if Entry has been filled
+2017-07-04 19:20:03,582 - DEBUG - Checking if Entry has been filled
+2017-07-04 19:20:03,599 - DEBUG - Try to Cancel Stop
+2017-07-04 19:20:03,599 - DEBUG - Try to Cancel Stop
+2017-07-04 19:20:03,616 - DEBUG - Stop API ID 0
+2017-07-04 19:20:03,616 - DEBUG - Stop API ID 0
+2017-07-04 19:20:03,633 - DEBUG - Profit API ID 0
+2017-07-04 19:20:03,633 - DEBUG - Profit API ID 0
+2017-07-04 19:20:03,652 - DEBUG - Pos is 0
+2017-07-04 19:20:03,652 - DEBUG - Pos is 0
+2017-07-04 19:20:03,669 - DEBUG - CurCount is None
+2017-07-04 19:20:03,669 - DEBUG - CurCount is None
+2017-07-04 19:20:03,687 - DEBUG - In Pos 0
+2017-07-04 19:20:03,687 - DEBUG - In Pos 0
+2017-07-04 19:20:03,703 - DEBUG - Stop ID is None
+2017-07-04 19:20:03,703 - DEBUG - Stop ID is None
+2017-07-04 19:20:03,719 - DEBUG - Stop API ID 0
+2017-07-04 19:20:03,719 - DEBUG - Stop API ID 0
+2017-07-04 19:20:03,734 - DEBUG - Profit API ID 0
+2017-07-04 19:20:03,734 - DEBUG - Profit API ID 0
+2017-07-04 19:20:03,756 - DEBUG - Pos is 0
+2017-07-04 19:20:03,756 - DEBUG - Pos is 0
+2017-07-04 19:20:03,777 - DEBUG - CurCount is None
+2017-07-04 19:20:03,777 - DEBUG - CurCount is None
+2017-07-04 19:20:03,794 - DEBUG - In Pos 0
+2017-07-04 19:20:03,794 - DEBUG - In Pos 0
+2017-07-04 19:20:03,812 - DEBUG - profitID is None
+2017-07-04 19:20:03,812 - DEBUG - profitID is None
+2017-07-04 19:20:03,832 - DEBUG - stopID is None
+2017-07-04 19:20:03,832 - DEBUG - stopID is None
+2017-07-04 19:20:55,131 - DEBUG - ****************************************************
+2017-07-04 19:20:55,131 - DEBUG - ****************************************************
+2017-07-04 19:20:55,131 - DEBUG - ****************************************************
+2017-07-04 19:20:55,155 - DEBUG - Starting BB_STRAT E 7
+2017-07-04 19:20:55,155 - DEBUG - Starting BB_STRAT E 7
+2017-07-04 19:20:55,155 - DEBUG - Starting BB_STRAT E 7
+2017-07-04 19:20:55,580 - DEBUG - Connecting To Database
+2017-07-04 19:20:55,580 - DEBUG - Connecting To Database
+2017-07-04 19:20:55,580 - DEBUG - Connecting To Database
+2017-07-04 19:20:55,635 - DEBUG - Has Position is (None,)
+2017-07-04 19:20:55,635 - DEBUG - Has Position is (None,)
+2017-07-04 19:20:55,635 - DEBUG - Has Position is (None,)
+2017-07-04 19:20:55,657 - DEBUG - Query is SELECT BB_Position from hasPosition where CCY ='E7';
+2017-07-04 19:20:55,657 - DEBUG - Query is SELECT BB_Position from hasPosition where CCY ='E7';
+2017-07-04 19:20:55,657 - DEBUG - Query is SELECT BB_Position from hasPosition where CCY ='E7';
+2017-07-04 19:20:55,715 - DEBUG - count is None
+2017-07-04 19:20:55,715 - DEBUG - count is None
+2017-07-04 19:20:55,715 - DEBUG - count is None
+2017-07-04 19:20:55,762 - DEBUG - Stop Loss pips is (10.0,)
+2017-07-04 19:20:55,762 - DEBUG - Stop Loss pips is (10.0,)
+2017-07-04 19:20:55,762 - DEBUG - Stop Loss pips is (10.0,)
+2017-07-04 19:20:55,807 - DEBUG - Profit Target Pips is (25.0,)
+2017-07-04 19:20:55,807 - DEBUG - Profit Target Pips is (25.0,)
+2017-07-04 19:20:55,807 - DEBUG - Profit Target Pips is (25.0,)
+2017-07-04 19:20:55,829 - DEBUG - Profit Target Pips type is <class 'tuple'>
+2017-07-04 19:20:55,829 - DEBUG - Profit Target Pips type is <class 'tuple'>
+2017-07-04 19:20:55,829 - DEBUG - Profit Target Pips type is <class 'tuple'>
+2017-07-04 19:20:55,880 - DEBUG - Risk Per Position is (0.01,)
+2017-07-04 19:20:55,880 - DEBUG - Risk Per Position is (0.01,)
+2017-07-04 19:20:55,880 - DEBUG - Risk Per Position is (0.01,)
+2017-07-04 19:20:55,933 - DEBUG - AcctBalanceBasis is (10000.0,)
+2017-07-04 19:20:55,933 - DEBUG - AcctBalanceBasis is (10000.0,)
+2017-07-04 19:20:55,933 - DEBUG - AcctBalanceBasis is (10000.0,)
+2017-07-04 19:20:55,980 - DEBUG - BB_SizeMultiplier is (5.0,)
+2017-07-04 19:20:55,980 - DEBUG - BB_SizeMultiplier is (5.0,)
+2017-07-04 19:20:55,980 - DEBUG - BB_SizeMultiplier is (5.0,)
+2017-07-04 19:20:56,023 - DEBUG - CurrentPositions is (0.0,)
+2017-07-04 19:20:56,023 - DEBUG - CurrentPositions is (0.0,)
+2017-07-04 19:20:56,023 - DEBUG - CurrentPositions is (0.0,)
+2017-07-04 19:20:56,077 - DEBUG - RiskRewardRatio is (2.0,)
+2017-07-04 19:20:56,077 - DEBUG - RiskRewardRatio is (2.0,)
+2017-07-04 19:20:56,077 - DEBUG - RiskRewardRatio is (2.0,)
+2017-07-04 19:20:56,134 - DEBUG - stopLoss is (10.0,)
+2017-07-04 19:20:56,134 - DEBUG - stopLoss is (10.0,)
+2017-07-04 19:20:56,134 - DEBUG - stopLoss is (10.0,)
+2017-07-04 19:20:56,225 - DEBUG - profitTarget is (25.0,)
+2017-07-04 19:20:56,225 - DEBUG - profitTarget is (25.0,)
+2017-07-04 19:20:56,225 - DEBUG - profitTarget is (25.0,)
+2017-07-04 19:20:56,282 - DEBUG - MovAvg is ('1.13596',)
+2017-07-04 19:20:56,282 - DEBUG - MovAvg is ('1.13596',)
+2017-07-04 19:20:56,282 - DEBUG - MovAvg is ('1.13596',)
+2017-07-04 19:20:56,304 - DEBUG - MAX ID Query is SELECT max(ID) from FUT_BB_E7;
+2017-07-04 19:20:56,304 - DEBUG - MAX ID Query is SELECT max(ID) from FUT_BB_E7;
+2017-07-04 19:20:56,304 - DEBUG - MAX ID Query is SELECT max(ID) from FUT_BB_E7;
+2017-07-04 19:20:56,352 - DEBUG - ID for time period is (132,)
+2017-07-04 19:20:56,352 - DEBUG - ID for time period is (132,)
+2017-07-04 19:20:56,352 - DEBUG - ID for time period is (132,)
+2017-07-04 19:20:56,374 - DEBUG - query for time period is SELECT Open from FUT_BB_E7 where ID = 132;
+2017-07-04 19:20:56,374 - DEBUG - query for time period is SELECT Open from FUT_BB_E7 where ID = 132;
+2017-07-04 19:20:56,374 - DEBUG - query for time period is SELECT Open from FUT_BB_E7 where ID = 132;
+2017-07-04 19:20:56,423 - DEBUG - tOpen for time period is ('1.13',)
+2017-07-04 19:20:56,423 - DEBUG - tOpen for time period is ('1.13',)
+2017-07-04 19:20:56,423 - DEBUG - tOpen for time period is ('1.13',)
+2017-07-04 19:20:56,471 - DEBUG - tHigh for time period is ('1.14',)
+2017-07-04 19:20:56,471 - DEBUG - tHigh for time period is ('1.14',)
+2017-07-04 19:20:56,471 - DEBUG - tHigh for time period is ('1.14',)
+2017-07-04 19:20:56,521 - DEBUG - tLow for time period is ('1.13',)
+2017-07-04 19:20:56,521 - DEBUG - tLow for time period is ('1.13',)
+2017-07-04 19:20:56,521 - DEBUG - tLow for time period is ('1.13',)
+2017-07-04 19:20:56,574 - DEBUG - tClose for time period is ('1.14',)
+2017-07-04 19:20:56,574 - DEBUG - tClose for time period is ('1.14',)
+2017-07-04 19:20:56,574 - DEBUG - tClose for time period is ('1.14',)
+2017-07-04 19:20:56,627 - DEBUG - tUpperBand for time period is ('1.1400',)
+2017-07-04 19:20:56,627 - DEBUG - tUpperBand for time period is ('1.1400',)
+2017-07-04 19:20:56,627 - DEBUG - tUpperBand for time period is ('1.1400',)
+2017-07-04 19:20:56,677 - DEBUG - tLowerBand for time period is ('1.1400',)
+2017-07-04 19:20:56,677 - DEBUG - tLowerBand for time period is ('1.1400',)
+2017-07-04 19:20:56,677 - DEBUG - tLowerBand for time period is ('1.1400',)
+2017-07-04 19:20:56,724 - DEBUG - tMidLine for time period is ('1.1400',)
+2017-07-04 19:20:56,724 - DEBUG - tMidLine for time period is ('1.1400',)
+2017-07-04 19:20:56,724 - DEBUG - tMidLine for time period is ('1.1400',)
+2017-07-04 19:20:56,746 - DEBUG - Today is 2017-07-04
+2017-07-04 19:20:56,746 - DEBUG - Today is 2017-07-04
+2017-07-04 19:20:56,746 - DEBUG - Today is 2017-07-04
+2017-07-04 19:20:56,769 - DEBUG - Previous trading day was 07/03/2017
+2017-07-04 19:20:56,769 - DEBUG - Previous trading day was 07/03/2017
+2017-07-04 19:20:56,769 - DEBUG - Previous trading day was 07/03/2017
+2017-07-04 19:20:56,796 - DEBUG - Max Id - 1 SELECT (max(ID)-1) from FUT_BB_E7;
+2017-07-04 19:20:56,796 - DEBUG - Max Id - 1 SELECT (max(ID)-1) from FUT_BB_E7;
+2017-07-04 19:20:56,796 - DEBUG - Max Id - 1 SELECT (max(ID)-1) from FUT_BB_E7;
+2017-07-04 19:20:56,841 - DEBUG - ID for Last trading period--5 minutes ago-- was (131,)
+2017-07-04 19:20:56,841 - DEBUG - ID for Last trading period--5 minutes ago-- was (131,)
+2017-07-04 19:20:56,841 - DEBUG - ID for Last trading period--5 minutes ago-- was (131,)
+2017-07-04 19:20:56,863 - DEBUG - query is SELECT Open from FUT_BB_E7 where ID = 131;
+2017-07-04 19:20:56,863 - DEBUG - query is SELECT Open from FUT_BB_E7 where ID = 131;
+2017-07-04 19:20:56,863 - DEBUG - query is SELECT Open from FUT_BB_E7 where ID = 131;
+2017-07-04 19:20:56,912 - DEBUG - yOpen for last time period was ('1.1390',)
+2017-07-04 19:20:56,912 - DEBUG - yOpen for last time period was ('1.1390',)
+2017-07-04 19:20:56,912 - DEBUG - yOpen for last time period was ('1.1390',)
+2017-07-04 19:20:56,933 - DEBUG - query is SELECT High from FUT_BB_E7 where ID = 131;
+2017-07-04 19:20:56,933 - DEBUG - query is SELECT High from FUT_BB_E7 where ID = 131;
+2017-07-04 19:20:56,933 - DEBUG - query is SELECT High from FUT_BB_E7 where ID = 131;
+2017-07-04 19:20:57,004 - DEBUG - yHigh for last time period was ('1.1400',)
+2017-07-04 19:20:57,004 - DEBUG - yHigh for last time period was ('1.1400',)
+2017-07-04 19:20:57,004 - DEBUG - yHigh for last time period was ('1.1400',)
+2017-07-04 19:20:57,033 - DEBUG - query is SELECT Low from FUT_BB_E7 where ID = 131;
+2017-07-04 19:20:57,033 - DEBUG - query is SELECT Low from FUT_BB_E7 where ID = 131;
+2017-07-04 19:20:57,033 - DEBUG - query is SELECT Low from FUT_BB_E7 where ID = 131;
+2017-07-04 19:20:57,080 - DEBUG - yLow for last time period was ('1.1380',)
+2017-07-04 19:20:57,080 - DEBUG - yLow for last time period was ('1.1380',)
+2017-07-04 19:20:57,080 - DEBUG - yLow for last time period was ('1.1380',)
+2017-07-04 19:20:57,112 - DEBUG - query is SELECT Close from FUT_BB_E7 where ID = 131;
+2017-07-04 19:20:57,112 - DEBUG - query is SELECT Close from FUT_BB_E7 where ID = 131;
+2017-07-04 19:20:57,112 - DEBUG - query is SELECT Close from FUT_BB_E7 where ID = 131;
+2017-07-04 19:20:57,163 - DEBUG - yClose for last time period was ('1.1385',)
+2017-07-04 19:20:57,163 - DEBUG - yClose for last time period was ('1.1385',)
+2017-07-04 19:20:57,163 - DEBUG - yClose for last time period was ('1.1385',)
+2017-07-04 19:20:57,187 - DEBUG - query is SELECT UpperBand from FUT_BB_E7 where ID = 131;
+2017-07-04 19:20:57,187 - DEBUG - query is SELECT UpperBand from FUT_BB_E7 where ID = 131;
+2017-07-04 19:20:57,187 - DEBUG - query is SELECT UpperBand from FUT_BB_E7 where ID = 131;
+2017-07-04 19:20:57,242 - DEBUG - yUpperBand for last time period was ('1.1400',)
+2017-07-04 19:20:57,242 - DEBUG - yUpperBand for last time period was ('1.1400',)
+2017-07-04 19:20:57,242 - DEBUG - yUpperBand for last time period was ('1.1400',)
+2017-07-04 19:20:57,266 - DEBUG - query is SELECT LowerBand from FUT_BB_E7 where ID = 131;
+2017-07-04 19:20:57,266 - DEBUG - query is SELECT LowerBand from FUT_BB_E7 where ID = 131;
+2017-07-04 19:20:57,266 - DEBUG - query is SELECT LowerBand from FUT_BB_E7 where ID = 131;
+2017-07-04 19:20:57,310 - DEBUG - yLowerBand for last time period was ('1.1400',)
+2017-07-04 19:20:57,310 - DEBUG - yLowerBand for last time period was ('1.1400',)
+2017-07-04 19:20:57,310 - DEBUG - yLowerBand for last time period was ('1.1400',)
+2017-07-04 19:20:57,334 - DEBUG - query is SELECT MidLine from FUT_BB_E7 where ID = 131;
+2017-07-04 19:20:57,334 - DEBUG - query is SELECT MidLine from FUT_BB_E7 where ID = 131;
+2017-07-04 19:20:57,334 - DEBUG - query is SELECT MidLine from FUT_BB_E7 where ID = 131;
+2017-07-04 19:20:57,378 - DEBUG - yMidLine for last time period was ('1.1400',)
+2017-07-04 19:20:57,378 - DEBUG - yMidLine for last time period was ('1.1400',)
+2017-07-04 19:20:57,378 - DEBUG - yMidLine for last time period was ('1.1400',)
+2017-07-04 19:20:57,401 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='E7';
+2017-07-04 19:20:57,401 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='E7';
+2017-07-04 19:20:57,401 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='E7';
+2017-07-04 19:20:57,446 - DEBUG - BBEntry Pending is ('1',)
+2017-07-04 19:20:57,446 - DEBUG - BBEntry Pending is ('1',)
+2017-07-04 19:20:57,446 - DEBUG - BBEntry Pending is ('1',)
+2017-07-04 19:20:57,469 - DEBUG - Max Order query is SELECT max(idOrder) from Orders;
+2017-07-04 19:20:57,469 - DEBUG - Max Order query is SELECT max(idOrder) from Orders;
+2017-07-04 19:20:57,469 - DEBUG - Max Order query is SELECT max(idOrder) from Orders;
+2017-07-04 19:20:57,514 - DEBUG - Order Id for next trade is 11
+2017-07-04 19:20:57,514 - DEBUG - Order Id for next trade is 11
+2017-07-04 19:20:57,514 - DEBUG - Order Id for next trade is 11
+2017-07-04 19:20:57,536 - DEBUG - $$$ Position Size Calculation $$$
+2017-07-04 19:20:57,536 - DEBUG - $$$ Position Size Calculation $$$
+2017-07-04 19:20:57,536 - DEBUG - $$$ Position Size Calculation $$$
+2017-07-04 19:20:57,559 - DEBUG - Dollar Loss permitted is is 100.0
+2017-07-04 19:20:57,559 - DEBUG - Dollar Loss permitted is is 100.0
+2017-07-04 19:20:57,559 - DEBUG - Dollar Loss permitted is is 100.0
+2017-07-04 19:20:57,579 - DEBUG - Today High is ('1.14',)
+2017-07-04 19:20:57,579 - DEBUG - Today High is ('1.14',)
+2017-07-04 19:20:57,579 - DEBUG - Today High is ('1.14',)
+2017-07-04 19:20:57,603 - DEBUG - Today Low is ('1.13',)
+2017-07-04 19:20:57,603 - DEBUG - Today Low is ('1.13',)
+2017-07-04 19:20:57,603 - DEBUG - Today Low is ('1.13',)
+2017-07-04 19:20:57,626 - DEBUG - Stop Loss Pips is 100
+2017-07-04 19:20:57,626 - DEBUG - Stop Loss Pips is 100
+2017-07-04 19:20:57,626 - DEBUG - Stop Loss Pips is 100
+2017-07-04 19:20:57,647 - DEBUG - Position Size for trade is 1
+2017-07-04 19:20:57,647 - DEBUG - Position Size for trade is 1
+2017-07-04 19:20:57,647 - DEBUG - Position Size for trade is 1
+2017-07-04 19:20:57,670 - DEBUG - Profit Pips is 200
+2017-07-04 19:20:57,670 - DEBUG - Profit Pips is 200
+2017-07-04 19:20:57,670 - DEBUG - Profit Pips is 200
+2017-07-04 19:20:57,695 - DEBUG - STRATEGY LOGIC !!!!!!
+2017-07-04 19:20:57,695 - DEBUG - STRATEGY LOGIC !!!!!!
+2017-07-04 19:20:57,695 - DEBUG - STRATEGY LOGIC !!!!!!
+2017-07-04 19:20:57,716 - DEBUG - Current Position is (0.0,)
+2017-07-04 19:20:57,716 - DEBUG - Current Position is (0.0,)
+2017-07-04 19:20:57,716 - DEBUG - Current Position is (0.0,)
+2017-07-04 19:20:57,737 - DEBUG - There is an available position slot for E7
+2017-07-04 19:20:57,737 - DEBUG - There is an available position slot for E7
+2017-07-04 19:20:57,737 - DEBUG - There is an available position slot for E7
+2017-07-04 19:20:57,762 - DEBUG - Checking for Longs
+2017-07-04 19:20:57,762 - DEBUG - Checking for Longs
+2017-07-04 19:20:57,762 - DEBUG - Checking for Longs
+2017-07-04 19:20:57,794 - DEBUG - tCLose is 1.14
+2017-07-04 19:20:57,794 - DEBUG - tCLose is 1.14
+2017-07-04 19:20:57,794 - DEBUG - tCLose is 1.14
+2017-07-04 19:20:57,816 - DEBUG - MovAvg is 1.13596
+2017-07-04 19:20:57,816 - DEBUG - MovAvg is 1.13596
+2017-07-04 19:20:57,816 - DEBUG - MovAvg is 1.13596
+2017-07-04 19:20:57,839 - DEBUG - yClose is 1.1385
+2017-07-04 19:20:57,839 - DEBUG - yClose is 1.1385
+2017-07-04 19:20:57,839 - DEBUG - yClose is 1.1385
+2017-07-04 19:20:57,864 - DEBUG - yOpen is 1.139
+2017-07-04 19:20:57,864 - DEBUG - yOpen is 1.139
+2017-07-04 19:20:57,864 - DEBUG - yOpen is 1.139
+2017-07-04 19:20:57,886 - DEBUG - tOpen is 1.13
+2017-07-04 19:20:57,886 - DEBUG - tOpen is 1.13
+2017-07-04 19:20:57,886 - DEBUG - tOpen is 1.13
+2017-07-04 19:20:57,907 - DEBUG - yLow is 1.138
+2017-07-04 19:20:57,907 - DEBUG - yLow is 1.138
+2017-07-04 19:20:57,907 - DEBUG - yLow is 1.138
+2017-07-04 19:20:57,929 - DEBUG - yLowerBand is 1.1400
+2017-07-04 19:20:57,929 - DEBUG - yLowerBand is 1.1400
+2017-07-04 19:20:57,929 - DEBUG - yLowerBand is 1.1400
+2017-07-04 19:20:57,956 - DEBUG - Current Position is (0.0,)
+2017-07-04 19:20:57,956 - DEBUG - Current Position is (0.0,)
+2017-07-04 19:20:57,956 - DEBUG - Current Position is (0.0,)
+2017-07-04 19:20:57,979 - DEBUG - Checking for Long trade entry
+2017-07-04 19:20:57,979 - DEBUG - Checking for Long trade entry
+2017-07-04 19:20:57,979 - DEBUG - Checking for Long trade entry
+2017-07-04 19:20:58,003 - DEBUG - Past Long Function
+2017-07-04 19:20:58,003 - DEBUG - Past Long Function
+2017-07-04 19:20:58,003 - DEBUG - Past Long Function
+2017-07-04 19:20:58,028 - DEBUG - time is 07:20PM
+2017-07-04 19:20:58,028 - DEBUG - time is 07:20PM
+2017-07-04 19:20:58,028 - DEBUG - time is 07:20PM
+2017-07-04 19:20:58,049 - DEBUG - Checking Short value
+2017-07-04 19:20:58,049 - DEBUG - Checking Short value
+2017-07-04 19:20:58,049 - DEBUG - Checking Short value
+2017-07-04 19:20:58,075 - DEBUG - tCLose is 1.14
+2017-07-04 19:20:58,075 - DEBUG - tCLose is 1.14
+2017-07-04 19:20:58,075 - DEBUG - tCLose is 1.14
+2017-07-04 19:20:58,097 - DEBUG - MovAvg is 1.13596
+2017-07-04 19:20:58,097 - DEBUG - MovAvg is 1.13596
+2017-07-04 19:20:58,097 - DEBUG - MovAvg is 1.13596
+2017-07-04 19:20:58,122 - DEBUG - yClose is 1.1385
+2017-07-04 19:20:58,122 - DEBUG - yClose is 1.1385
+2017-07-04 19:20:58,122 - DEBUG - yClose is 1.1385
+2017-07-04 19:20:58,146 - DEBUG - yOpen is 1.139
+2017-07-04 19:20:58,146 - DEBUG - yOpen is 1.139
+2017-07-04 19:20:58,146 - DEBUG - yOpen is 1.139
+2017-07-04 19:20:58,171 - DEBUG - tOpen is 1.13
+2017-07-04 19:20:58,171 - DEBUG - tOpen is 1.13
+2017-07-04 19:20:58,171 - DEBUG - tOpen is 1.13
+2017-07-04 19:20:58,194 - DEBUG - yLow is 1.138
+2017-07-04 19:20:58,194 - DEBUG - yLow is 1.138
+2017-07-04 19:20:58,194 - DEBUG - yLow is 1.138
+2017-07-04 19:20:58,218 - DEBUG - yUpperBand is 1.1400
+2017-07-04 19:20:58,218 - DEBUG - yUpperBand is 1.1400
+2017-07-04 19:20:58,218 - DEBUG - yUpperBand is 1.1400
+2017-07-04 19:20:58,240 - DEBUG - Current Position is (0.0,)
+2017-07-04 19:20:58,240 - DEBUG - Current Position is (0.0,)
+2017-07-04 19:20:58,240 - DEBUG - Current Position is (0.0,)
+2017-07-04 19:20:58,262 - DEBUG - Checking for SHORT trade entry
+2017-07-04 19:20:58,262 - DEBUG - Checking for SHORT trade entry
+2017-07-04 19:20:58,262 - DEBUG - Checking for SHORT trade entry
+2017-07-04 19:20:58,288 - DEBUG - Past Short function
+2017-07-04 19:20:58,288 - DEBUG - Past Short function
+2017-07-04 19:20:58,288 - DEBUG - Past Short function
+2017-07-04 19:20:58,310 - DEBUG - end E7
+2017-07-04 19:20:58,310 - DEBUG - end E7
+2017-07-04 19:20:58,310 - DEBUG - end E7

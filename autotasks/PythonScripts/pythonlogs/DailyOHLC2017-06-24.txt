@@ -1,0 +1,191 @@
+2017-06-24 12:33:02,063 - DEBUG - Starting EURUSDDailyOHLC
+2017-06-24 12:33:03,863 - DEBUG - Connecting to Server
+2017-06-24 12:33:04,871 - DEBUG - Registered HistoricalData Reply Handler
+2017-06-24 12:33:05,874 - DEBUG - Requesting historical data
+2017-06-24 12:33:05,885 - DEBUG - Returned from Reply Handler
+2017-06-24 12:33:06,199 - DEBUG - In Reply Handler
+2017-06-24 12:33:06,202 - DEBUG - Valid Price Found (OPEN NOT -1)
+2017-06-24 12:33:06,773 - DEBUG - Connected to Database
+2017-06-24 12:33:06,873 - DEBUG - Ran Insert Script
+2017-06-24 12:33:06,877 - DEBUG - Yesterday2 was 06/23/2017
+2017-06-24 12:33:06,883 - DEBUG - Today is still  2017-06-24
+2017-06-24 12:33:06,889 - DEBUG - Disconnecting from Server
+2017-06-24 12:33:06,891 - DEBUG - Date shifted back 10 is 2017-06-14
+2017-06-24 12:33:06,903 - DEBUG - First Date of BB Moving Average is 06/14/2017
+2017-06-24 12:33:06,908 - DEBUG - Query is SELECT ID from EURUSD where Date = "06/23/2017"
+2017-06-24 12:33:06,938 - DEBUG - Query is SELECT ID from EURUSD where Date = "06/14/2017"
+2017-06-24 12:33:06,963 - ERROR - Exception in message dispatch.  Handler 'reply_handler' for 'historicalData'
+Traceback (most recent call last):
+  File "C:\Program Files\Anaconda2\envs\python3.4\lib\site-packages\ib\opt\dispatcher.py", line 44, in __call__
+    results.append(listener(message))
+  File "C:/Users/Michael/Desktop/autotasks - UAT/PythonScripts/EURUSDdailyOHLC.py", line 107, in reply_handler
+    logger.debug('BB ID1 is %s', ID1)
+UnboundLocalError: local variable 'ID1' referenced before assignment
+2017-06-24 12:33:06,986 - DEBUG - In Reply Handler
+2017-06-24 12:33:13,429 - DEBUG - Connecting to Server
+2017-06-24 12:33:14,431 - DEBUG - Registered HistoricalData Reply Handler
+2017-06-24 12:33:15,434 - DEBUG - Requesting historical data
+2017-06-24 12:33:15,447 - DEBUG - Returned from Reply Handler
+2017-06-24 12:33:15,503 - DEBUG - In Reply Handler
+2017-06-24 12:33:15,505 - DEBUG - Valid Price Found (OPEN NOT -1)
+2017-06-24 12:33:15,914 - DEBUG - Connected to Database
+2017-06-24 12:33:16,020 - DEBUG - Ran Insert Script
+2017-06-24 12:33:16,024 - DEBUG - Yesterday2 was 06/23/2017
+2017-06-24 12:33:16,029 - DEBUG - Today is still  2017-06-24
+2017-06-24 12:33:16,034 - DEBUG - Date shifted back 10 is 2017-06-14
+2017-06-24 12:33:16,040 - DEBUG - First Date of BB Moving Average is 06/14/2017
+2017-06-24 12:33:16,044 - DEBUG - Query is SELECT ID from EURUSD where Date = "06/23/2017"
+2017-06-24 12:33:16,071 - DEBUG - Query is SELECT ID from EURUSD where Date = "06/14/2017"
+2017-06-24 12:33:16,103 - ERROR - Exception in message dispatch.  Handler 'reply_handler' for 'historicalData'
+Traceback (most recent call last):
+  File "C:\Program Files\Anaconda2\envs\python3.4\lib\site-packages\ib\opt\dispatcher.py", line 44, in __call__
+    results.append(listener(message))
+  File "C:/Users/Michael/Desktop/autotasks - UAT/PythonScripts/EURUSDdailyOHLC.py", line 107, in reply_handler
+    logger.debug('BB ID1 is %s', ID1)
+UnboundLocalError: local variable 'ID1' referenced before assignment
+2017-06-24 12:33:16,108 - DEBUG - In Reply Handler
+2017-06-24 12:33:16,456 - DEBUG - Disconnecting from Server
+2017-06-24 12:35:18,936 - DEBUG - Connecting to Server
+2017-06-24 12:35:19,941 - DEBUG - Registered HistoricalData Reply Handler
+2017-06-24 12:35:20,944 - DEBUG - Requesting historical data
+2017-06-24 12:35:20,947 - DEBUG - Returned from Reply Handler
+2017-06-24 12:35:21,955 - DEBUG - Disconnecting from Server
+2017-06-24 12:35:24,086 - DEBUG - Connecting to Server
+2017-06-24 12:35:25,110 - DEBUG - Registered HistoricalData Reply Handler
+2017-06-24 12:35:26,113 - DEBUG - Requesting historical data
+2017-06-24 12:35:26,120 - DEBUG - Returned from Reply Handler
+2017-06-24 12:35:26,180 - DEBUG - In Reply Handler
+2017-06-24 12:35:26,183 - DEBUG - Valid Price Found (OPEN NOT -1)
+2017-06-24 12:35:26,582 - DEBUG - Connected to Database
+2017-06-24 12:35:26,677 - DEBUG - Ran Insert Script
+2017-06-24 12:35:26,681 - DEBUG - Yesterday2 was 06/23/2017
+2017-06-24 12:35:26,686 - DEBUG - Today is still  2017-06-24
+2017-06-24 12:35:26,690 - DEBUG - Date shifted back 10 is 2017-06-14
+2017-06-24 12:35:26,694 - DEBUG - First Date of BB Moving Average is 06/14/2017
+2017-06-24 12:35:26,698 - DEBUG - Query is SELECT ID from EURUSD where Date = "06/23/2017"
+2017-06-24 12:35:26,729 - DEBUG - Query is SELECT ID from EURUSD where Date = "06/14/2017"
+2017-06-24 12:35:26,755 - ERROR - Exception in message dispatch.  Handler 'reply_handler' for 'historicalData'
+Traceback (most recent call last):
+  File "C:\Program Files\Anaconda2\envs\python3.4\lib\site-packages\ib\opt\dispatcher.py", line 44, in __call__
+    results.append(listener(message))
+  File "C:/Users/Michael/Desktop/autotasks - UAT/PythonScripts/EURUSDdailyOHLC.py", line 107, in reply_handler
+    ID2 = ID
+UnboundLocalError: local variable 'ID1' referenced before assignment
+2017-06-24 12:35:26,760 - DEBUG - In Reply Handler
+2017-06-24 12:35:27,125 - DEBUG - Disconnecting from Server
+2017-06-24 12:35:47,171 - DEBUG - Connecting to Server
+2017-06-24 12:35:48,175 - DEBUG - Registered HistoricalData Reply Handler
+2017-06-24 12:35:49,179 - DEBUG - Requesting historical data
+2017-06-24 12:35:49,182 - DEBUG - Returned from Reply Handler
+2017-06-24 12:35:50,186 - DEBUG - Disconnecting from Server
+2017-06-24 12:36:03,413 - DEBUG - Connecting to Server
+2017-06-24 12:36:04,417 - DEBUG - Registered HistoricalData Reply Handler
+2017-06-24 12:36:05,420 - DEBUG - Requesting historical data
+2017-06-24 12:36:05,423 - DEBUG - Returned from Reply Handler
+2017-06-24 12:36:06,429 - DEBUG - Disconnecting from Server
+2017-06-24 12:36:09,995 - DEBUG - Connecting to Server
+2017-06-24 12:36:10,998 - DEBUG - Registered HistoricalData Reply Handler
+2017-06-24 12:36:12,001 - DEBUG - Requesting historical data
+2017-06-24 12:36:12,004 - DEBUG - Returned from Reply Handler
+2017-06-24 12:37:39,268 - DEBUG - Starting EURUSDDailyOHLC
+2017-06-24 12:37:40,868 - DEBUG - Connecting to Server
+2017-06-24 12:37:41,892 - DEBUG - Registered HistoricalData Reply Handler
+2017-06-24 12:37:42,901 - DEBUG - Requesting historical data
+2017-06-24 12:37:42,912 - DEBUG - Returned from Reply Handler
+2017-06-24 12:37:43,000 - DEBUG - In Reply Handler
+2017-06-24 12:37:43,009 - DEBUG - Valid Price Found (OPEN NOT -1)
+2017-06-24 12:37:43,412 - DEBUG - Connected to Database
+2017-06-24 12:37:43,507 - DEBUG - Ran Insert Script
+2017-06-24 12:37:43,514 - DEBUG - Yesterday2 was 06/23/2017
+2017-06-24 12:37:43,526 - DEBUG - Today is still  2017-06-24
+2017-06-24 12:37:43,534 - DEBUG - Date shifted back 10 is 2017-06-14
+2017-06-24 12:37:43,541 - DEBUG - First Date of BB Moving Average is 06/14/2017
+2017-06-24 12:37:43,549 - DEBUG - Query is SELECT ID from EURUSD where Date = "06/23/2017"
+2017-06-24 12:37:43,579 - DEBUG - Query is SELECT ID from EURUSD where Date = "06/14/2017"
+2017-06-24 12:37:43,608 - ERROR - Exception in message dispatch.  Handler 'reply_handler' for 'historicalData'
+Traceback (most recent call last):
+  File "C:\Program Files\Anaconda2\envs\python3.4\lib\site-packages\ib\opt\dispatcher.py", line 44, in __call__
+    results.append(listener(message))
+  File "C:/Users/Michael/Desktop/autotasks - UAT/PythonScripts/EURUSDdailyOHLC.py", line 108, in reply_handler
+    logger.debug('BB ID1 is %s', ID1)
+UnboundLocalError: local variable 'ID1' referenced before assignment
+2017-06-24 12:37:43,616 - DEBUG - In Reply Handler
+2017-06-24 12:37:43,927 - DEBUG - Disconnecting from Server
+2017-06-24 12:38:03,221 - DEBUG - Connecting to Server
+2017-06-24 12:38:04,231 - DEBUG - Registered HistoricalData Reply Handler
+2017-06-24 12:38:05,243 - DEBUG - Requesting historical data
+2017-06-24 12:38:05,250 - DEBUG - Returned from Reply Handler
+2017-06-24 12:38:06,262 - DEBUG - Disconnecting from Server
+2017-06-24 12:38:48,729 - DEBUG - Starting EURUSDDailyOHLC
+2017-06-24 12:38:50,064 - DEBUG - Connecting to Server
+2017-06-24 12:38:51,083 - DEBUG - Registered HistoricalData Reply Handler
+2017-06-24 12:38:52,102 - DEBUG - Requesting historical data
+2017-06-24 12:38:52,117 - DEBUG - Returned from Reply Handler
+2017-06-24 12:38:52,175 - DEBUG - In Reply Handler
+2017-06-24 12:38:52,180 - DEBUG - Valid Price Found (OPEN NOT -1)
+2017-06-24 12:38:52,583 - DEBUG - Connected to Database
+2017-06-24 12:38:52,679 - DEBUG - Ran Insert Script
+2017-06-24 12:38:52,695 - DEBUG - Yesterday2 was 06/23/2017
+2017-06-24 12:38:52,707 - DEBUG - Today is still  2017-06-24
+2017-06-24 12:38:52,719 - DEBUG - Date shifted back 10 is 2017-06-14
+2017-06-24 12:38:52,730 - DEBUG - First Date of BB Moving Average is 06/14/2017
+2017-06-24 12:38:52,735 - DEBUG - Query is SELECT ID from EURUSD where Date = "06/23/2017"
+2017-06-24 12:38:52,774 - DEBUG - BB ID1 is (4011,)
+2017-06-24 12:38:52,780 - DEBUG - Query is SELECT ID from EURUSD where Date = "06/14/2017"
+2017-06-24 12:38:52,815 - DEBUG - BB ID1 is (4011,)
+2017-06-24 12:38:52,823 - DEBUG - BB ID2 is (4006,)
+2017-06-24 12:38:52,835 - DEBUG - Query is SELECT round(Avg(Close),5) as Avg from EURUSD where ID BETWEEN 4006 AND 4011;
+2017-06-24 12:38:52,912 - DEBUG - BBMovAvg is (1.11664,)
+2017-06-24 12:38:52,924 - DEBUG - Query is UPDATE hasPosition SET BB_STRATMovingAvgValue = 1.11664 where CCY ='EURUSD';
+2017-06-24 12:38:53,001 - DEBUG - Flag set to 1
+2017-06-24 12:38:53,010 - DEBUG - In Reply Handler
+2017-06-24 12:38:53,136 - DEBUG - Disconnecting from Server
+2017-06-24 12:38:53,152 - DEBUG - Finished EURUSD Daily OHLC
+2017-06-24 13:33:47,028 - DEBUG - ****************************************************
+2017-06-24 13:33:47,044 - DEBUG - Starting EURUSD
+2017-06-24 13:33:49,369 - DEBUG - Connecting to Server
+2017-06-24 13:33:50,378 - DEBUG - Registered HistoricalData Reply Handler
+2017-06-24 13:33:51,394 - DEBUG - Requesting historical data
+2017-06-24 13:33:51,440 - DEBUG - Returned from Reply Handler
+2017-06-24 13:33:52,451 - DEBUG - Disconnecting from Server
+2017-06-24 13:33:53,471 - DEBUG - Start Bollinger Band Calculation
+2017-06-24 13:33:53,492 - DEBUG - Connecting to Database again
+2017-06-24 13:33:54,662 - DEBUG - ran select statement to get prices for calc
+2017-06-24 13:33:54,682 - DEBUG - Got StdDev. (None,)
+2017-06-24 13:33:54,752 - DEBUG - Got Max ID. (None,)
+2017-06-24 13:37:19,541 - DEBUG - Starting E7DailyOHLC
+2017-06-24 13:37:22,706 - DEBUG - Connecting to Server
+2017-06-24 13:37:23,719 - DEBUG - Registered HistoricalData Reply Handler
+2017-06-24 13:37:24,747 - DEBUG - Requesting historical data
+2017-06-24 13:37:24,773 - DEBUG - Returned from Reply Handler
+2017-06-24 13:37:25,788 - DEBUG - Disconnecting from Server
+2017-06-24 13:39:59,457 - DEBUG - Connecting to Server
+2017-06-24 13:40:00,470 - DEBUG - Registered HistoricalData Reply Handler
+2017-06-24 13:40:01,487 - DEBUG - Requesting historical data
+2017-06-24 13:40:01,510 - DEBUG - Returned from Reply Handler
+2017-06-24 13:40:02,525 - DEBUG - Disconnecting from Server
+2017-06-24 13:40:05,192 - DEBUG - Connecting to Server
+2017-06-24 13:40:06,204 - DEBUG - Registered HistoricalData Reply Handler
+2017-06-24 13:40:07,228 - DEBUG - Requesting historical data
+2017-06-24 13:40:07,255 - DEBUG - Returned from Reply Handler
+2017-06-24 13:40:08,270 - DEBUG - Disconnecting from Server
+2017-06-24 13:40:10,807 - DEBUG - Connecting to Server
+2017-06-24 13:40:11,820 - DEBUG - Registered HistoricalData Reply Handler
+2017-06-24 13:40:12,853 - DEBUG - Requesting historical data
+2017-06-24 13:40:12,887 - DEBUG - Returned from Reply Handler
+2017-06-24 13:40:13,906 - DEBUG - Disconnecting from Server
+2017-06-24 13:40:15,538 - DEBUG - Connecting to Server
+2017-06-24 13:40:16,565 - DEBUG - Registered HistoricalData Reply Handler
+2017-06-24 13:40:17,586 - DEBUG - Requesting historical data
+2017-06-24 13:40:17,602 - DEBUG - Returned from Reply Handler
+2017-06-25 16:17:15,865 - DEBUG - Starting MBE DailyOHLC
+2017-06-25 16:17:18,231 - DEBUG - Connecting to Server
+2017-06-25 16:17:19,249 - DEBUG - Registered HistoricalData Reply Handler
+2017-06-25 16:17:20,281 - DEBUG - Requesting historical data
+2017-06-25 16:17:20,316 - DEBUG - Returned from Reply Handler
+2017-06-25 16:17:21,360 - DEBUG - Disconnecting from Server
+2017-06-25 16:17:23,953 - DEBUG - Connecting to Server
+2017-06-25 16:17:24,993 - DEBUG - Registered HistoricalData Reply Handler
+2017-06-25 16:17:26,017 - DEBUG - Requesting historical data
+2017-06-25 16:17:26,040 - DEBUG - Returned from Reply Handler
+2017-06-25 16:17:27,063 - DEBUG - Disconnecting from Server

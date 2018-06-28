@@ -1,0 +1,284 @@
+2017-09-12 21:13:40,918 - DEBUG - ****************************************************
+2017-09-12 21:13:40,921 - DEBUG - Current Time is 09:13PM
+2017-09-12 21:13:40,921 - DEBUG - Starting Pos Mgmt E S
+2017-09-12 21:13:40,924 - DEBUG - Connecting to database
+2017-09-12 21:13:41,497 - DEBUG - Connected to database
+2017-09-12 21:13:41,500 - DEBUG - Query is SELECT BB_ProfitID FROM hasPosition where CCY = 'ES'
+2017-09-12 21:13:41,530 - DEBUG - Order Profit is 572
+2017-09-12 21:13:41,532 - DEBUG - Query is SELECT BB_StopID FROM hasPosition where CCY = 'ES'
+2017-09-12 21:13:41,563 - DEBUG - Stop ID is 571
+2017-09-12 21:13:41,588 - DEBUG - Query is SELECT BB_EntryID FROM hasPosition where CCY = 'ES'
+2017-09-12 21:13:41,589 - DEBUG - Order Entry is 570
+2017-09-12 21:13:41,589 - DEBUG - Connecting to IBController
+2017-09-12 21:13:44,112 - DEBUG - Connected to IBController
+2017-09-12 21:13:44,127 - DEBUG - Position requested
+2017-09-12 21:13:44,140 - DEBUG - Pos Mgmt 0
+2017-09-12 21:13:44,141 - DEBUG - Reply handler <position account=DU599852, contract=<ib.ext.Contract.Contract object at 0x0000000016E73630>, pos=0, avgCost=0.0>
+2017-09-12 21:13:44,141 - DEBUG - ccy1 Symbol with position is ES
+2017-09-12 21:13:44,144 - DEBUG - ccy2 Currency with position is USD
+2017-09-12 21:13:44,147 - DEBUG - Position is 0
+2017-09-12 21:13:44,148 - DEBUG - Pos Mgmt 0
+2017-09-12 21:13:44,148 - DEBUG - Reply handler <position account=DU599852, contract=<ib.ext.Contract.Contract object at 0x0000000016E735F8>, pos=0, avgCost=0.0>
+2017-09-12 21:13:44,151 - DEBUG - ccy1 Symbol with position is E7
+2017-09-12 21:13:44,153 - DEBUG - ccy2 Currency with position is USD
+2017-09-12 21:13:44,154 - DEBUG - Position is 0
+2017-09-12 21:13:44,155 - DEBUG - Pos Mgmt 0
+2017-09-12 21:13:44,157 - DEBUG - Reply handler <position account=DU599852, contract=<ib.ext.Contract.Contract object at 0x0000000016E73668>, pos=0, avgCost=0.0>
+2017-09-12 21:13:44,158 - DEBUG - ccy1 Symbol with position is LE
+2017-09-12 21:13:44,160 - DEBUG - ccy2 Currency with position is USD
+2017-09-12 21:13:44,161 - DEBUG - Position is 0
+2017-09-12 21:13:45,134 - DEBUG - Open Orders requested
+2017-09-12 21:13:47,140 - DEBUG - Connecting to database
+2017-09-12 21:13:56,653 - DEBUG - Connected to database
+2017-09-12 21:13:56,687 - DEBUG - Query is SELECT BB_StopLossVal FROM hasPosition where CCY = 'ES'
+2017-09-12 21:13:56,690 - DEBUG - Stop loss value is 2488.00
+2017-09-12 21:13:56,717 - DEBUG - Query is SELECT BB_ProfitPrice FROM hasPosition where CCY = 'ES'
+2017-09-12 21:13:56,719 - DEBUG - Stop loss value is 2495.25
+2017-09-12 21:13:56,743 - DEBUG - Query is SELECT BB_EntryPrice FROM hasPosition where CCY = 'ES'
+2017-09-12 21:13:56,746 - DEBUG - EntryPrice value is 2489.75
+2017-09-12 21:13:56,773 - DEBUG - Query is SELECT BB_StopQty FROM hasPosition where CCY = 'ES'
+2017-09-12 21:13:56,776 - DEBUG - Stop quantity 1
+2017-09-12 21:13:56,803 - DEBUG - Query is SELECT BB_direction FROM hasPosition where CCY = 'ES'
+2017-09-12 21:13:56,805 - DEBUG - Direction is Long
+2017-09-12 21:13:56,832 - DEBUG - Query is SELECT BB_Position FROM hasPosition where CCY = 'ES'
+2017-09-12 21:13:56,835 - DEBUG - Count is 1
+2017-09-12 21:13:56,859 - DEBUG - Query is SELECT BB_StopLossFlag FROM hasPosition where CCY = 'ES'
+2017-09-12 21:13:56,861 - DEBUG - Stop Loss Flag is 1
+2017-09-12 21:13:56,908 - DEBUG - Query is SELECT max(idOrder) FROM Orders
+2017-09-12 21:13:56,911 - DEBUG - Max ID Order is (572,)
+2017-09-12 21:13:56,913 - DEBUG - Today is 2017-09-12
+2017-09-12 21:13:56,915 - DEBUG - Day of the week 1
+2017-09-12 21:13:56,917 - DEBUG - Yesterday is 09/11/2017
+2017-09-12 21:13:56,920 - DEBUG - In Position is  0
+2017-09-12 21:13:56,921 - DEBUG - In Position is  <type 'int'>
+2017-09-12 21:13:56,924 - DEBUG - curStopLossFlag is  1
+2017-09-12 21:13:56,927 - DEBUG - curStopLossFlag is  <type 'unicode'>
+2017-09-12 21:13:56,930 - DEBUG - Checking if Entry has been filled
+2017-09-12 21:13:56,931 - DEBUG - Try to Cancel Stop
+2017-09-12 21:13:56,934 - DEBUG - Stop API ID 0
+2017-09-12 21:13:56,937 - DEBUG - Profit API ID 0
+2017-09-12 21:13:56,938 - DEBUG - Stop API ID <type 'int'>
+2017-09-12 21:13:56,940 - DEBUG - Profit API ID <type 'int'>
+2017-09-12 21:13:56,943 - DEBUG - Pos is 0
+2017-09-12 21:13:56,944 - DEBUG - CurCount is 1
+2017-09-12 21:13:56,944 - DEBUG - In Pos 0
+2017-09-12 21:13:56,946 - DEBUG - Stop ID is 571
+2017-09-12 21:13:56,947 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2017-09-12 21:13:56,973 - DEBUG - EntryPend is 0
+2017-09-12 21:13:56,974 - ERROR - Profit Target Hit! Clearing Position information
+2017-09-12 21:13:56,976 - DEBUG - Query is UPDATE Orders SET Status = 'Filled' where idOrder = 572;
+2017-09-12 21:13:57,029 - DEBUG - Query is UPDATE Orders SET Status = 'Canceled' where idOrder = 571;
+2017-09-12 21:13:57,099 - DEBUG - Query is UPDATE hasPosition SET BB_Position = 0 where CCY ='ES';
+2017-09-12 21:13:57,164 - DEBUG - Query is UPDATE hasPosition SET BB_StopLossVal = 0 where CCY ='ES';
+2017-09-12 21:13:57,246 - DEBUG - Query is UPDATE hasPosition SET BB_StopQty = 0 where CCY ='ES';
+2017-09-12 21:13:57,313 - DEBUG - Query is UPDATE hasPosition SET BB_direction = 0 where CCY ='ES';
+2017-09-12 21:13:57,375 - DEBUG - Query is UPDATE hasPosition SET BB_StopLossFlag = 0 where CCY = 'ES'
+2017-09-12 21:13:57,440 - DEBUG - Query is UPDATE hasPosition SET BB_EntryID = 0 where CCY = 'ES'
+2017-09-12 21:13:58,344 - DEBUG - Query is UPDATE hasPosition SET BB_ProfitID = 0 where CCY = 'ES'
+2017-09-12 21:13:58,430 - DEBUG - Query is UPDATE hasPosition SET BB_StopID = 0 where CCY = 'ES'
+2017-09-12 21:13:58,585 - DEBUG - Query is UPDATE hasPosition SET Count = 0 where CCY = 'ES'
+2017-09-12 21:13:58,665 - DEBUG - Query is UPDATE hasPosition SET BB_EntryPrice = 0 where CCY = 'ES'
+2017-09-12 21:13:58,723 - DEBUG - Query is UPDATE hasPosition SET BB_ProfitPrice = 0 where CCY = 'ES'
+2017-09-12 21:13:58,809 - DEBUG - Max Positions is (33.0,)
+2017-09-12 21:13:58,811 - DEBUG - Max Positions is 33.0
+2017-09-12 21:13:58,813 - DEBUG - Query is UPDATE RiskParameters SET RiskParametersValue = 32.0 where idRiskParameters = 15
+2017-09-12 21:13:58,953 - DEBUG - Stop API ID 0
+2017-09-12 21:13:58,954 - DEBUG - Profit API ID 0
+2017-09-12 21:13:58,957 - DEBUG - Stop API ID <type 'int'>
+2017-09-12 21:13:58,960 - DEBUG - Profit API ID <type 'int'>
+2017-09-12 21:13:58,961 - DEBUG - Pos is 0
+2017-09-12 21:13:58,964 - DEBUG - CurCount is 1
+2017-09-12 21:13:58,967 - DEBUG - In Pos 0
+2017-09-12 21:13:58,969 - DEBUG - profitID is 572
+2017-09-12 21:13:58,970 - DEBUG - stopID is 571
+2017-09-12 21:13:58,973 - DEBUG - CHECKING IF STOP LOSS FILLED
+2017-09-12 21:13:58,976 - DEBUG - Stop Loss Hit! Clearing Position information
+2017-09-12 21:13:58,979 - DEBUG - Query is UPDATE Orders SET Status = 'Filled' where idOrder = 571;
+2017-09-12 21:13:59,040 - DEBUG - Query is UPDATE Orders SET Status = 'Canceled' where idOrder = 572;
+2017-09-12 21:13:59,105 - DEBUG - Query is UPDATE hasPosition SET BB_Position = 0 where CCY ='ES';
+2017-09-12 21:13:59,247 - DEBUG - Query is UPDATE hasPosition SET BB_StopLossVal = 0 where CCY ='ES';
+2017-09-12 21:13:59,318 - DEBUG - Query is UPDATE hasPosition SET BB_StopQty = 0 where CCY ='ES';
+2017-09-12 21:13:59,390 - DEBUG - Query is UPDATE hasPosition SET BB_direction = 0 where CCY ='ES';
+2017-09-12 21:13:59,503 - DEBUG - Query is UPDATE hasPosition SET BB_StopLossFlag = 0 where CCY = 'ES'
+2017-09-12 21:13:59,584 - DEBUG - Query is UPDATE hasPosition SET BB_EntryID = 0 where CCY = 'ES'
+2017-09-12 21:13:59,678 - DEBUG - Query is UPDATE hasPosition SET BB_ProfitID = 0 where CCY = 'ES'
+2017-09-12 21:13:59,769 - DEBUG - Query is UPDATE hasPosition SET BB_StopID = 0 where CCY = 'ES'
+2017-09-12 21:14:00,071 - DEBUG - Query is UPDATE hasPosition SET Count = 0 where CCY = 'ES'
+2017-09-12 21:14:00,135 - DEBUG - Query is UPDATE hasPosition SET BB_EntryPrice = 0 where CCY = 'ES'
+2017-09-12 21:14:00,217 - DEBUG - Query is UPDATE hasPosition SET BB_Profit Price = 0 where CCY = 'ES'
+2017-09-12 21:15:11,513 - DEBUG - ****************************************************
+2017-09-12 21:15:11,513 - DEBUG - ****************************************************
+2017-09-12 21:15:11,513 - DEBUG - Current Time is 09:15PM
+2017-09-12 21:15:11,513 - DEBUG - Current Time is 09:15PM
+2017-09-12 21:15:11,516 - DEBUG - Starting Pos Mgmt E S
+2017-09-12 21:15:11,516 - DEBUG - Starting Pos Mgmt E S
+2017-09-12 21:15:11,517 - DEBUG - Connecting to database
+2017-09-12 21:15:11,517 - DEBUG - Connecting to database
+2017-09-12 21:15:11,937 - DEBUG - Connected to database
+2017-09-12 21:15:11,937 - DEBUG - Connected to database
+2017-09-12 21:15:11,941 - DEBUG - Query is SELECT BB_ProfitID FROM hasPosition where CCY = 'ES'
+2017-09-12 21:15:11,941 - DEBUG - Query is SELECT BB_ProfitID FROM hasPosition where CCY = 'ES'
+2017-09-12 21:15:11,970 - DEBUG - Order Profit is 0
+2017-09-12 21:15:11,970 - DEBUG - Order Profit is 0
+2017-09-12 21:15:11,973 - DEBUG - Query is SELECT BB_StopID FROM hasPosition where CCY = 'ES'
+2017-09-12 21:15:11,973 - DEBUG - Query is SELECT BB_StopID FROM hasPosition where CCY = 'ES'
+2017-09-12 21:15:12,003 - DEBUG - Stop ID is 0
+2017-09-12 21:15:12,003 - DEBUG - Stop ID is 0
+2017-09-12 21:15:12,029 - DEBUG - Query is SELECT BB_EntryID FROM hasPosition where CCY = 'ES'
+2017-09-12 21:15:12,029 - DEBUG - Query is SELECT BB_EntryID FROM hasPosition where CCY = 'ES'
+2017-09-12 21:15:12,032 - DEBUG - Order Entry is 0
+2017-09-12 21:15:12,032 - DEBUG - Order Entry is 0
+2017-09-12 21:15:12,035 - DEBUG - Connecting to IBController
+2017-09-12 21:15:12,035 - DEBUG - Connecting to IBController
+2017-09-12 21:15:14,595 - DEBUG - Connected to IBController
+2017-09-12 21:15:14,595 - DEBUG - Connected to IBController
+2017-09-12 21:15:14,598 - DEBUG - Position requested
+2017-09-12 21:15:14,598 - DEBUG - Position requested
+2017-09-12 21:15:15,602 - DEBUG - Open Orders requested
+2017-09-12 21:15:15,602 - DEBUG - Open Orders requested
+2017-09-12 21:15:17,607 - DEBUG - Connecting to database
+2017-09-12 21:15:17,607 - DEBUG - Connecting to database
+2017-09-12 21:15:17,789 - DEBUG - Connected to database
+2017-09-12 21:15:17,789 - DEBUG - Connected to database
+2017-09-12 21:15:17,818 - DEBUG - Query is SELECT BB_StopLossVal FROM hasPosition where CCY = 'ES'
+2017-09-12 21:15:17,818 - DEBUG - Query is SELECT BB_StopLossVal FROM hasPosition where CCY = 'ES'
+2017-09-12 21:15:17,822 - DEBUG - Stop loss value is 0
+2017-09-12 21:15:17,822 - DEBUG - Stop loss value is 0
+2017-09-12 21:15:17,855 - DEBUG - Query is SELECT BB_ProfitPrice FROM hasPosition where CCY = 'ES'
+2017-09-12 21:15:17,855 - DEBUG - Query is SELECT BB_ProfitPrice FROM hasPosition where CCY = 'ES'
+2017-09-12 21:15:17,859 - DEBUG - Stop loss value is 0
+2017-09-12 21:15:17,859 - DEBUG - Stop loss value is 0
+2017-09-12 21:15:17,887 - DEBUG - Query is SELECT BB_EntryPrice FROM hasPosition where CCY = 'ES'
+2017-09-12 21:15:17,887 - DEBUG - Query is SELECT BB_EntryPrice FROM hasPosition where CCY = 'ES'
+2017-09-12 21:15:17,891 - DEBUG - EntryPrice value is 0
+2017-09-12 21:15:17,891 - DEBUG - EntryPrice value is 0
+2017-09-12 21:15:17,926 - DEBUG - Query is SELECT BB_StopQty FROM hasPosition where CCY = 'ES'
+2017-09-12 21:15:17,926 - DEBUG - Query is SELECT BB_StopQty FROM hasPosition where CCY = 'ES'
+2017-09-12 21:15:17,930 - DEBUG - Stop quantity 0
+2017-09-12 21:15:17,930 - DEBUG - Stop quantity 0
+2017-09-12 21:15:17,957 - DEBUG - Query is SELECT BB_direction FROM hasPosition where CCY = 'ES'
+2017-09-12 21:15:17,957 - DEBUG - Query is SELECT BB_direction FROM hasPosition where CCY = 'ES'
+2017-09-12 21:15:17,960 - DEBUG - Direction is 0
+2017-09-12 21:15:17,960 - DEBUG - Direction is 0
+2017-09-12 21:15:17,990 - DEBUG - Query is SELECT BB_Position FROM hasPosition where CCY = 'ES'
+2017-09-12 21:15:17,990 - DEBUG - Query is SELECT BB_Position FROM hasPosition where CCY = 'ES'
+2017-09-12 21:15:17,993 - DEBUG - Count is 0
+2017-09-12 21:15:17,993 - DEBUG - Count is 0
+2017-09-12 21:15:18,020 - DEBUG - Query is SELECT BB_StopLossFlag FROM hasPosition where CCY = 'ES'
+2017-09-12 21:15:18,020 - DEBUG - Query is SELECT BB_StopLossFlag FROM hasPosition where CCY = 'ES'
+2017-09-12 21:15:18,023 - DEBUG - Stop Loss Flag is 0
+2017-09-12 21:15:18,023 - DEBUG - Stop Loss Flag is 0
+2017-09-12 21:15:18,051 - DEBUG - Query is SELECT max(idOrder) FROM Orders
+2017-09-12 21:15:18,051 - DEBUG - Query is SELECT max(idOrder) FROM Orders
+2017-09-12 21:15:18,052 - DEBUG - Max ID Order is (572,)
+2017-09-12 21:15:18,052 - DEBUG - Max ID Order is (572,)
+2017-09-12 21:15:18,055 - DEBUG - Today is 2017-09-12
+2017-09-12 21:15:18,055 - DEBUG - Today is 2017-09-12
+2017-09-12 21:15:18,059 - DEBUG - Day of the week 1
+2017-09-12 21:15:18,059 - DEBUG - Day of the week 1
+2017-09-12 21:15:18,061 - DEBUG - Yesterday is 09/11/2017
+2017-09-12 21:15:18,061 - DEBUG - Yesterday is 09/11/2017
+2017-09-12 21:15:18,063 - DEBUG - In Position is  0
+2017-09-12 21:15:18,063 - DEBUG - In Position is  0
+2017-09-12 21:15:18,065 - DEBUG - In Position is  <type 'int'>
+2017-09-12 21:15:18,065 - DEBUG - In Position is  <type 'int'>
+2017-09-12 21:15:18,068 - DEBUG - curStopLossFlag is  0
+2017-09-12 21:15:18,068 - DEBUG - curStopLossFlag is  0
+2017-09-12 21:15:18,069 - DEBUG - curStopLossFlag is  <type 'unicode'>
+2017-09-12 21:15:18,069 - DEBUG - curStopLossFlag is  <type 'unicode'>
+2017-09-12 21:15:18,072 - DEBUG - Checking if Entry has been filled
+2017-09-12 21:15:18,072 - DEBUG - Checking if Entry has been filled
+2017-09-12 21:15:18,072 - DEBUG - Try to Cancel Stop
+2017-09-12 21:15:18,072 - DEBUG - Try to Cancel Stop
+2017-09-12 21:15:18,076 - DEBUG - Stop API ID 0
+2017-09-12 21:15:18,076 - DEBUG - Stop API ID 0
+2017-09-12 21:15:18,078 - DEBUG - Profit API ID 0
+2017-09-12 21:15:18,078 - DEBUG - Profit API ID 0
+2017-09-12 21:15:18,081 - DEBUG - Stop API ID <type 'int'>
+2017-09-12 21:15:18,081 - DEBUG - Stop API ID <type 'int'>
+2017-09-12 21:15:18,082 - DEBUG - Profit API ID <type 'int'>
+2017-09-12 21:15:18,082 - DEBUG - Profit API ID <type 'int'>
+2017-09-12 21:15:18,085 - DEBUG - Pos is 0
+2017-09-12 21:15:18,085 - DEBUG - Pos is 0
+2017-09-12 21:15:18,086 - DEBUG - CurCount is 0
+2017-09-12 21:15:18,086 - DEBUG - CurCount is 0
+2017-09-12 21:15:18,089 - DEBUG - In Pos 0
+2017-09-12 21:15:18,089 - DEBUG - In Pos 0
+2017-09-12 21:15:18,092 - DEBUG - Stop ID is 0
+2017-09-12 21:15:18,092 - DEBUG - Stop ID is 0
+2017-09-12 21:15:18,094 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2017-09-12 21:15:18,094 - DEBUG - query is SELECT BBEntryPending from hasPosition where CCY ='ES';
+2017-09-12 21:15:18,130 - DEBUG - EntryPend is 0
+2017-09-12 21:15:18,130 - DEBUG - EntryPend is 0
+2017-09-12 21:15:18,134 - DEBUG - Stop API ID 0
+2017-09-12 21:15:18,134 - DEBUG - Stop API ID 0
+2017-09-12 21:15:18,138 - DEBUG - Profit API ID 0
+2017-09-12 21:15:18,138 - DEBUG - Profit API ID 0
+2017-09-12 21:15:18,141 - DEBUG - Stop API ID <type 'int'>
+2017-09-12 21:15:18,141 - DEBUG - Stop API ID <type 'int'>
+2017-09-12 21:15:18,145 - DEBUG - Profit API ID <type 'int'>
+2017-09-12 21:15:18,145 - DEBUG - Profit API ID <type 'int'>
+2017-09-12 21:15:18,150 - DEBUG - Pos is 0
+2017-09-12 21:15:18,150 - DEBUG - Pos is 0
+2017-09-12 21:15:18,153 - DEBUG - CurCount is 0
+2017-09-12 21:15:18,153 - DEBUG - CurCount is 0
+2017-09-12 21:15:18,154 - DEBUG - In Pos 0
+2017-09-12 21:15:18,154 - DEBUG - In Pos 0
+2017-09-12 21:15:18,157 - DEBUG - profitID is 0
+2017-09-12 21:15:18,157 - DEBUG - profitID is 0
+2017-09-12 21:15:18,160 - DEBUG - stopID is 0
+2017-09-12 21:15:18,160 - DEBUG - stopID is 0
+2017-09-12 21:15:18,163 - DEBUG - CHECKING IF STOP LOSS FILLED
+2017-09-12 21:15:18,163 - DEBUG - CHECKING IF STOP LOSS FILLED
+2017-09-12 21:15:18,165 - DEBUG - Entry Date is 10
+2017-09-12 21:15:18,165 - DEBUG - Entry Date is 10
+2017-09-12 21:15:18,168 - DEBUG - confirming yesterday is 09/11/2017
+2017-09-12 21:15:18,168 - DEBUG - confirming yesterday is 09/11/2017
+2017-09-12 21:15:18,171 - DEBUG - Order Profit ID is 0
+2017-09-12 21:15:18,171 - DEBUG - Order Profit ID is 0
+2017-09-12 21:15:18,174 - DEBUG - Order Entry ID is 0
+2017-09-12 21:15:18,174 - DEBUG - Order Entry ID is 0
+2017-09-12 21:15:18,177 - DEBUG - API ID is  0
+2017-09-12 21:15:18,177 - DEBUG - API ID is  0
+2017-09-12 21:15:18,178 - DEBUG - Current Position is 0
+2017-09-12 21:15:18,178 - DEBUG - Current Position is 0
+2017-09-12 21:15:18,181 - DEBUG - Current Position is <type 'unicode'>
+2017-09-12 21:15:18,181 - DEBUG - Current Position is <type 'unicode'>
+2017-09-12 21:15:18,184 - DEBUG - Checking if Positions should be close at EOD
+2017-09-12 21:15:18,184 - DEBUG - Checking if Positions should be close at EOD
+2017-09-12 21:15:18,184 - DEBUG - Time is 21
+2017-09-12 21:15:18,184 - DEBUG - Time is 21
+2017-09-12 21:15:18,187 - DEBUG - Time is <type 'int'>
+2017-09-12 21:15:18,187 - DEBUG - Time is <type 'int'>
+2017-09-12 21:15:18,188 - ERROR - Setup Never Executed. Clearing Position information and Orders
+2017-09-12 21:15:18,188 - ERROR - Setup Never Executed. Clearing Position information and Orders
+2017-09-12 21:15:18,190 - ERROR - Canceled Order 0
+2017-09-12 21:15:18,190 - ERROR - Canceled Order 0
+2017-09-12 21:15:18,193 - DEBUG - Query is UPDATE Orders SET Status = 'Canceled' where idOrder = 0;
+2017-09-12 21:15:18,193 - DEBUG - Query is UPDATE Orders SET Status = 'Canceled' where idOrder = 0;
+2017-09-12 21:15:18,265 - DEBUG - Query is UPDATE hasPosition SET BB_StopLossVal = 0 where CCY ='ES';
+2017-09-12 21:15:18,265 - DEBUG - Query is UPDATE hasPosition SET BB_StopLossVal = 0 where CCY ='ES';
+2017-09-12 21:15:18,332 - DEBUG - Query is UPDATE hasPosition SET BB_StopQty = 0 where CCY ='ES';
+2017-09-12 21:15:18,332 - DEBUG - Query is UPDATE hasPosition SET BB_StopQty = 0 where CCY ='ES';
+2017-09-12 21:15:18,388 - DEBUG - Query is UPDATE hasPosition SET BB_direction = 0 where CCY ='ES';
+2017-09-12 21:15:18,388 - DEBUG - Query is UPDATE hasPosition SET BB_direction = 0 where CCY ='ES';
+2017-09-12 21:15:18,471 - DEBUG - Query is UPDATE hasPosition SET BB_EntryID = 0 where CCY = 'ES'
+2017-09-12 21:15:18,471 - DEBUG - Query is UPDATE hasPosition SET BB_EntryID = 0 where CCY = 'ES'
+2017-09-12 21:15:18,549 - DEBUG - Query is UPDATE hasPosition SET BB_Position = 0 where CCY = 'ES'
+2017-09-12 21:15:18,549 - DEBUG - Query is UPDATE hasPosition SET BB_Position = 0 where CCY = 'ES'
+2017-09-12 21:15:18,607 - DEBUG - Query is UPDATE hasPosition SET BB_ProfitID = 0 where CCY = 'ES'
+2017-09-12 21:15:18,607 - DEBUG - Query is UPDATE hasPosition SET BB_ProfitID = 0 where CCY = 'ES'
+2017-09-12 21:15:18,671 - DEBUG - Query is UPDATE hasPosition SET BB_StopID = 0 where CCY = 'ES'
+2017-09-12 21:15:18,671 - DEBUG - Query is UPDATE hasPosition SET BB_StopID = 0 where CCY = 'ES'
+2017-09-12 21:15:18,757 - DEBUG - Query is UPDATE hasPosition SET BBEntryPending = 0 where CCY = 'ES'
+2017-09-12 21:15:18,757 - DEBUG - Query is UPDATE hasPosition SET BBEntryPending = 0 where CCY = 'ES'
+2017-09-12 21:15:18,818 - DEBUG - Query is UPDATE hasPosition SET Count = 0 where CCY = 'ES'
+2017-09-12 21:15:18,818 - DEBUG - Query is UPDATE hasPosition SET Count = 0 where CCY = 'ES'
+2017-09-12 21:15:18,885 - DEBUG - Query is UPDATE hasPosition SET BB_EntryPrice = 0 where CCY = 'ES'
+2017-09-12 21:15:18,885 - DEBUG - Query is UPDATE hasPosition SET BB_EntryPrice = 0 where CCY = 'ES'
+2017-09-12 21:15:18,943 - DEBUG - Query is UPDATE hasPosition SET BB_ProfitPrice = 0 where CCY = 'ES'
+2017-09-12 21:15:18,943 - DEBUG - Query is UPDATE hasPosition SET BB_ProfitPrice = 0 where CCY = 'ES'
+2017-09-12 21:15:19,016 - DEBUG - Disconnected from IBController
+2017-09-12 21:15:19,016 - DEBUG - Disconnected from IBController
+2017-09-12 21:15:19,019 - DEBUG - END POS MGMT SCRIPT :-!
+2017-09-12 21:15:19,019 - DEBUG - END POS MGMT SCRIPT :-!

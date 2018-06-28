@@ -1,0 +1,93 @@
+2017-04-13 06:50:31,578 ERROR Starting EURUSDPosMgmt
+2017-04-13 06:51:46,361 ERROR Starting EURUSDPosMgmt
+2017-04-13 06:51:52,909 ERROR Identified Entry Order Has Been Filled: In Stop Loss creation
+2017-04-13 06:51:52,917 ERROR In Stop Order Function
+2017-04-13 06:59:18,694 ERROR Starting EURUSDPosMgmt
+2017-04-13 06:59:26,013 ERROR Identified Entry Order Has Been Filled: In Stop Loss creation
+2017-04-13 06:59:26,020 ERROR In Stop Order Function
+2017-04-13 07:03:58,204 ERROR Starting EURUSDPosMgmt
+2017-04-13 07:04:04,327 ERROR Identified Entry Order Has Been Filled: In Stop Loss creation
+2017-04-13 07:04:04,335 ERROR In Stop Order Function
+2017-04-13 07:06:12,931 ERROR Starting EURUSDBullBear
+2017-04-13 07:06:13,337 ERROR Connecting To Database
+2017-04-13 07:06:13,972 ERROR There is an available position slot for EURUSD
+2017-04-13 07:06:13,984 ERROR Valid ShortEntry Found
+2017-04-13 07:06:15,185 ERROR In Short Order Function
+2017-04-13 07:06:16,159 ERROR In Short Order Function
+2017-04-13 07:07:17,119 ERROR Starting EURUSDBullBear
+2017-04-13 07:07:17,535 ERROR Connecting To Database
+2017-04-13 07:07:18,117 ERROR There is an available position slot for EURUSD
+2017-04-13 07:07:18,121 ERROR Valid ShortEntry Found
+2017-04-13 07:07:19,477 ERROR In Short Order Function
+2017-04-13 07:07:19,672 ERROR In Short Order Function
+2017-04-13 07:07:32,278 ERROR Starting EURUSDPosMgmt
+2017-04-13 07:07:32,278 ERROR Starting EURUSDPosMgmt
+2017-04-13 07:07:38,512 ERROR Identified Entry Order Has Been Filled: In Stop Loss creation
+2017-04-13 07:07:38,512 ERROR Identified Entry Order Has Been Filled: In Stop Loss creation
+2017-04-13 07:07:38,520 ERROR In Stop Order Function
+2017-04-13 07:07:38,520 ERROR In Stop Order Function
+2017-04-13 07:12:59,639 ERROR Starting EURUSDPosMgmt
+2017-04-13 07:13:06,750 ERROR Identified Entry Order Has Been Filled: In Stop Loss creation
+2017-04-13 07:13:06,760 ERROR In Stop Order Function
+2017-04-13 07:16:58,643 ERROR Starting EURUSDBullBear
+2017-04-13 07:16:59,459 ERROR Connecting To Database
+2017-04-13 07:17:02,450 ERROR There is an available position slot for EURUSD
+2017-04-13 07:17:02,457 ERROR Valid ShortEntry Found
+2017-04-13 07:17:03,910 ERROR In Short Order Function
+2017-04-13 07:17:04,105 ERROR In Short Order Function
+2017-04-13 07:18:40,859 ERROR Starting EURUSDPosMgmt
+2017-04-13 07:18:50,130 ERROR Identified Entry Order Has Been Filled: In Stop Loss creation
+2017-04-13 07:18:50,138 ERROR In Stop Order Function
+2017-04-13 07:22:58,049 ERROR Starting EURUSDPosMgmt
+2017-04-13 16:18:22,680 ERROR Starting EURUSDPosMgmt
+2017-04-13 16:22:20,848 ERROR Starting EURUSDPosMgmt
+2017-04-13 16:23:26,457 ERROR Starting EURUSDPosMgmt
+2017-04-13 16:24:05,068 ERROR Starting EURUSDPosMgmt
+2017-04-13 16:25:04,170 ERROR Starting EURUSDPosMgmt
+2017-04-13 16:25:04,170 ERROR Starting EURUSDPosMgmt
+2017-04-13 16:27:01,805 ERROR Starting EURUSDPosMgmt
+2017-04-13 16:27:01,805 ERROR Starting EURUSDPosMgmt
+2017-04-13 16:28:04,257 ERROR Starting EURUSDPosMgmt
+2017-04-13 16:28:04,257 ERROR Starting EURUSDPosMgmt
+2017-04-13 16:29:17,390 ERROR Starting EURUSDPosMgmt
+2017-04-13 16:29:17,390 ERROR Starting EURUSDPosMgmt
+2017-04-13 16:30:34,656 ERROR Starting EURUSDPosMgmt
+2017-04-13 16:30:34,656 ERROR Starting EURUSDPosMgmt
+2017-04-13 16:31:24,959 ERROR Starting EURUSDPosMgmt
+2017-04-13 16:31:24,959 ERROR Starting EURUSDPosMgmt
+2017-04-13 16:31:55,738 ERROR Starting EURUSDPosMgmt
+2017-04-13 16:31:55,738 ERROR Starting EURUSDPosMgmt
+2017-04-13 17:20:48,376 ERROR Starting EURUSDPosMgmt
+2017-04-13 17:20:48,376 ERROR Starting EURUSDPosMgmt
+2017-04-14 12:35:38,537 ERROR Starting EURUSDBullBear
+2017-04-14 12:35:41,081 ERROR Connecting To Database
+2017-04-14 12:35:43,036 ERROR There is an available position slot for EURUSD
+2017-04-14 12:35:43,047 ERROR Valid ShortEntry Found
+2017-04-14 12:35:44,408 ERROR In Short Order Function
+2017-04-14 12:35:45,709 ERROR In Short Order Function
+2017-04-14 12:36:03,309 ERROR Starting EURUSDBullBear
+2017-04-14 12:36:05,391 ERROR Connecting To Database
+2017-04-14 12:36:15,655 ERROR There is an available position slot for EURUSD
+2017-04-14 12:36:15,662 ERROR Valid ShortEntry Found
+2017-04-14 12:36:16,672 ERROR In Short Order Function
+2017-04-14 12:36:17,800 ERROR In Short Order Function
+2017-04-14 12:38:08,880 ERROR Starting EURUSDBullBear
+2017-04-14 12:38:09,331 ERROR Connecting To Database
+2017-04-14 12:38:10,712 ERROR There is an available position slot for EURUSD
+2017-04-14 12:38:10,718 ERROR Valid ShortEntry Found
+2017-04-14 12:38:11,733 ERROR In Short Order Function
+2017-04-14 12:38:12,990 ERROR In Short Order Function
+2017-04-14 12:39:06,693 ERROR Starting EURUSDBullBear
+2017-04-14 12:39:07,174 ERROR Connecting To Database
+2017-04-14 12:39:08,280 ERROR There is an available position slot for EURUSD
+2017-04-14 12:39:08,286 ERROR Valid ShortEntry Found
+2017-04-14 12:39:09,536 ERROR In Short Order Function
+2017-04-14 12:39:09,771 ERROR In Short Order Function
+2017-04-14 12:39:21,029 ERROR Starting EURUSDPosMgmt
+2017-04-14 12:49:10,243 ERROR Starting EURUSDPosMgmt
+2017-04-14 12:49:18,669 ERROR Identified Entry Order Has Been Filled: In Stop Loss creation
+2017-04-14 12:49:18,676 ERROR In Stop Order Function
+2017-04-14 12:49:51,431 ERROR Starting EURUSDPosMgmt
+2017-04-14 12:50:29,527 ERROR Starting EURUSDPosMgmt
+2017-04-14 12:51:59,038 ERROR Starting EURUSDPosMgmt
+2017-04-14 12:54:16,534 ERROR Starting EURUSDPosMgmt

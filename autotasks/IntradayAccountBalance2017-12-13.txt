@@ -1,0 +1,72 @@
+2017-12-13 03:00:01,891 - DEBUG - ****************************************************
+2017-12-13 03:00:01,891 - DEBUG - Connecting to Database
+2017-12-13 03:00:01,940 - DEBUG - Connected to Database
+2017-12-13 03:00:01,941 - DEBUG - Requested Account Summary
+2017-12-13 03:00:01,967 - DEBUG - Message Value is <accountSummary reqId=1, account=U1998629, tag=TotalCashValue, value=10149.21, currency=USD>
+2017-12-13 03:00:01,968 - DEBUG - Account Value to be entered into database. 10149.21
+2017-12-13 03:00:02,080 - DEBUG - Ran insert statement
+2017-12-13 03:00:02,080 - DEBUG - Flag set to 1
+2017-12-13 03:00:02,941 - DEBUG - disconnected from IBController
+2017-12-13 05:00:00,449 - DEBUG - ****************************************************
+2017-12-13 05:00:00,451 - DEBUG - Connecting to Database
+2017-12-13 05:00:00,461 - DEBUG - Connected to Database
+2017-12-13 05:00:00,462 - DEBUG - Requested Account Summary
+2017-12-13 05:00:00,483 - DEBUG - Message Value is <accountSummary reqId=1, account=U1998629, tag=TotalCashValue, value=10149.21, currency=USD>
+2017-12-13 05:00:00,484 - DEBUG - Account Value to be entered into database. 10149.21
+2017-12-13 05:00:00,507 - DEBUG - Ran insert statement
+2017-12-13 05:00:00,507 - DEBUG - Flag set to 1
+2017-12-13 05:00:01,465 - DEBUG - disconnected from IBController
+2017-12-13 07:00:00,242 - DEBUG - ****************************************************
+2017-12-13 07:00:00,243 - DEBUG - Connecting to Database
+2017-12-13 07:00:00,264 - DEBUG - Connected to Database
+2017-12-13 07:00:00,265 - DEBUG - Requested Account Summary
+2017-12-13 07:00:00,280 - DEBUG - Message Value is <accountSummary reqId=1, account=U1998629, tag=TotalCashValue, value=10149.21, currency=USD>
+2017-12-13 07:00:00,281 - DEBUG - Account Value to be entered into database. 10149.21
+2017-12-13 07:00:00,306 - DEBUG - Ran insert statement
+2017-12-13 07:00:00,306 - DEBUG - Flag set to 1
+2017-12-13 07:00:01,266 - DEBUG - disconnected from IBController
+2017-12-13 09:00:00,252 - DEBUG - ****************************************************
+2017-12-13 09:00:00,253 - DEBUG - Connecting to Database
+2017-12-13 09:00:00,296 - DEBUG - Connected to Database
+2017-12-13 09:00:00,296 - DEBUG - Requested Account Summary
+2017-12-13 09:00:00,315 - DEBUG - Message Value is <accountSummary reqId=1, account=U1998629, tag=TotalCashValue, value=10149.21, currency=USD>
+2017-12-13 09:00:00,316 - DEBUG - Account Value to be entered into database. 10149.21
+2017-12-13 09:00:00,362 - DEBUG - Ran insert statement
+2017-12-13 09:00:00,362 - DEBUG - Flag set to 1
+2017-12-13 09:00:01,296 - DEBUG - disconnected from IBController
+2017-12-13 11:00:00,242 - DEBUG - ****************************************************
+2017-12-13 11:00:00,242 - DEBUG - Connecting to Database
+2017-12-13 11:00:00,285 - DEBUG - Connected to Database
+2017-12-13 11:00:00,286 - DEBUG - Requested Account Summary
+2017-12-13 11:00:00,306 - DEBUG - Message Value is <accountSummary reqId=1, account=U1998629, tag=TotalCashValue, value=10120.20, currency=USD>
+2017-12-13 11:00:00,306 - DEBUG - Account Value to be entered into database. 10120.20
+2017-12-13 11:00:00,329 - DEBUG - Ran insert statement
+2017-12-13 11:00:00,330 - DEBUG - Flag set to 1
+2017-12-13 11:00:01,287 - DEBUG - disconnected from IBController
+2017-12-13 13:00:00,240 - DEBUG - ****************************************************
+2017-12-13 13:00:00,241 - DEBUG - Connecting to Database
+2017-12-13 13:00:00,266 - DEBUG - Connected to Database
+2017-12-13 13:00:00,267 - DEBUG - Requested Account Summary
+2017-12-13 13:00:00,280 - DEBUG - Message Value is <accountSummary reqId=1, account=U1998629, tag=TotalCashValue, value=9920.13, currency=USD>
+2017-12-13 13:00:00,281 - DEBUG - Account Value to be entered into database. 9920.13
+2017-12-13 13:00:00,303 - DEBUG - Ran insert statement
+2017-12-13 13:00:00,303 - DEBUG - Flag set to 1
+2017-12-13 13:00:01,267 - DEBUG - disconnected from IBController
+2017-12-13 15:00:00,241 - DEBUG - ****************************************************
+2017-12-13 15:00:00,241 - DEBUG - Connecting to Database
+2017-12-13 15:00:00,286 - DEBUG - Connected to Database
+2017-12-13 15:00:00,287 - DEBUG - Requested Account Summary
+2017-12-13 15:00:00,302 - DEBUG - Message Value is <accountSummary reqId=1, account=U1998629, tag=TotalCashValue, value=9920.13, currency=USD>
+2017-12-13 15:00:00,303 - DEBUG - Account Value to be entered into database. 9920.13
+2017-12-13 15:00:00,342 - DEBUG - Ran insert statement
+2017-12-13 15:00:00,342 - DEBUG - Flag set to 1
+2017-12-13 15:00:01,291 - DEBUG - disconnected from IBController
+2017-12-13 16:15:00,242 - DEBUG - ****************************************************
+2017-12-13 16:15:00,242 - DEBUG - Connecting to Database
+2017-12-13 16:15:00,251 - DEBUG - Connected to Database
+2017-12-13 16:15:00,252 - DEBUG - Requested Account Summary
+2017-12-13 16:15:00,266 - DEBUG - Message Value is <accountSummary reqId=1, account=U1998629, tag=TotalCashValue, value=9920.13, currency=USD>
+2017-12-13 16:15:00,267 - DEBUG - Account Value to be entered into database. 9920.13
+2017-12-13 16:15:00,316 - DEBUG - Ran insert statement
+2017-12-13 16:15:00,316 - DEBUG - Flag set to 1
+2017-12-13 16:15:01,254 - DEBUG - disconnected from IBController
