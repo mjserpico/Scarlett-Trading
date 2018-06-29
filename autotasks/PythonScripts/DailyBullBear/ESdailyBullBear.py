@@ -12,7 +12,7 @@ import logging
 import sys
 import datalink  #universal logins for environment
 import time
-
+# test test test
 logging.basicConfig(filename='pythonlogs\DailySetupES' + str(datetime.date.today()) + '.txt', level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger()
 logger.setLevel(logging.DEBUG)
