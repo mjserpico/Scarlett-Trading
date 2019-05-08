@@ -1,0 +1,42 @@
+2019-01-14 22:51:44,255 - DEBUG - ****************************************************
+2019-01-14 22:51:44,819 - DEBUG - Balance is (0.0,)
+2019-01-14 22:51:54,739 - DEBUG - ****************************************************
+2019-01-14 22:51:54,739 - DEBUG - ****************************************************
+2019-01-14 22:51:54,971 - DEBUG - Balance is (0.0,)
+2019-01-14 22:51:54,971 - DEBUG - Balance is (0.0,)
+2019-01-14 22:52:13,678 - DEBUG - ****************************************************
+2019-01-14 22:52:13,678 - DEBUG - ****************************************************
+2019-01-14 22:52:13,678 - DEBUG - ****************************************************
+2019-01-14 22:52:14,171 - DEBUG - Balance is (0.0,)
+2019-01-14 22:52:14,171 - DEBUG - Balance is (0.0,)
+2019-01-14 22:52:14,171 - DEBUG - Balance is (0.0,)
+2019-01-14 22:52:14,193 - DEBUG - Subject: Connection Status
+
+Connection Status 
+0.0
+
+2019-01-14 22:52:14,193 - DEBUG - Subject: Connection Status
+
+Connection Status 
+0.0
+
+2019-01-14 22:52:14,193 - DEBUG - Subject: Connection Status
+
+Connection Status 
+0.0
+
+2019-01-14 22:52:18,788 - DEBUG - Email sent
+2019-01-14 22:52:18,788 - DEBUG - Email sent
+2019-01-14 22:52:18,788 - DEBUG - Email sent
+2019-01-14 22:52:18,817 - DEBUG - Email function called
+2019-01-14 22:52:18,817 - DEBUG - Email function called
+2019-01-14 22:52:18,817 - DEBUG - Email function called
+2019-01-15 21:57:55,811 - DEBUG - ****************************************************
+2019-01-15 21:57:55,811 - DEBUG - ****************************************************
+2019-01-15 21:57:55,811 - DEBUG - ****************************************************
+2019-01-15 21:57:55,843 - DEBUG - Starting Close Relative Strength Bull
+2019-01-15 21:57:55,843 - DEBUG - Starting Close Relative Strength Bull
+2019-01-15 21:57:55,843 - DEBUG - Starting Close Relative Strength Bull
+2019-01-15 21:57:56,226 - DEBUG - Connecting To Database
+2019-01-15 21:57:56,226 - DEBUG - Connecting To Database
+2019-01-15 21:57:56,226 - DEBUG - Connecting To Database

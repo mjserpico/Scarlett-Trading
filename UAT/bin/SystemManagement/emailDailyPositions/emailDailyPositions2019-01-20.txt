@@ -1,0 +1,1018 @@
+2019-01-20 14:11:54,166 - DEBUG - ****************************************************
+2019-01-20 14:14:18,310 - DEBUG - ****************************************************
+2019-01-20 14:14:18,310 - DEBUG - ****************************************************
+2019-01-20 14:14:18,379 - DEBUG - Connecting to Database
+2019-01-20 14:14:18,379 - DEBUG - Connecting to Database
+2019-01-20 14:14:20,724 - DEBUG - Connected to Database
+2019-01-20 14:14:20,724 - DEBUG - Connected to Database
+2019-01-20 14:14:20,767 - DEBUG - Requested Account Summary
+2019-01-20 14:14:20,767 - DEBUG - Requested Account Summary
+2019-01-20 14:14:20,875 - ERROR - Exception in message dispatch.  Handler 'reply_handler_Orders' for 'openOrder'
+Traceback (most recent call last):
+  File "C:\Users\Michael\Anaconda3\lib\site-packages\ib\opt\dispatcher.py", line 44, in __call__
+    results.append(listener(message))
+  File "C:/Users/Michael/Google Drive/ScarlettTradingCodebase/UAT/bin/SystemManagement/emailDailyPositions/MorningPositions.py", line 42, in reply_handler_Orders
+    test = msg.value
+AttributeError: 'OpenOrder' object has no attribute 'value'
+2019-01-20 14:14:20,875 - ERROR - Exception in message dispatch.  Handler 'reply_handler_Orders' for 'openOrder'
+Traceback (most recent call last):
+  File "C:\Users\Michael\Anaconda3\lib\site-packages\ib\opt\dispatcher.py", line 44, in __call__
+    results.append(listener(message))
+  File "C:/Users/Michael/Google Drive/ScarlettTradingCodebase/UAT/bin/SystemManagement/emailDailyPositions/MorningPositions.py", line 42, in reply_handler_Orders
+    test = msg.value
+AttributeError: 'OpenOrder' object has no attribute 'value'
+2019-01-20 14:14:21,889 - DEBUG - Connecting to Database
+2019-01-20 14:14:21,889 - DEBUG - Connecting to Database
+2019-01-20 14:14:24,049 - DEBUG - Connected to Database
+2019-01-20 14:14:24,049 - DEBUG - Connected to Database
+2019-01-20 14:14:24,098 - DEBUG - Requested Account Summary
+2019-01-20 14:14:24,098 - DEBUG - Requested Account Summary
+2019-01-20 14:14:25,114 - DEBUG - Connecting to Database
+2019-01-20 14:14:25,114 - DEBUG - Connecting to Database
+2019-01-20 14:14:27,352 - DEBUG - Connected to Database
+2019-01-20 14:14:27,352 - DEBUG - Connected to Database
+2019-01-20 14:14:27,390 - DEBUG - Requested Account Summary
+2019-01-20 14:14:27,390 - DEBUG - Requested Account Summary
+2019-01-20 14:14:28,571 - DEBUG - Connecting to Database
+2019-01-20 14:14:28,571 - DEBUG - Connecting to Database
+2019-01-20 14:14:30,072 - DEBUG - Connected to Database
+2019-01-20 14:14:30,072 - DEBUG - Connected to Database
+2019-01-20 14:14:30,123 - DEBUG - Requested Account Summary
+2019-01-20 14:14:30,123 - DEBUG - Requested Account Summary
+2019-01-20 14:14:31,410 - DEBUG - Connecting to Database
+2019-01-20 14:14:31,410 - DEBUG - Connecting to Database
+2019-01-20 14:15:29,597 - DEBUG - ****************************************************
+2019-01-20 14:15:29,597 - DEBUG - ****************************************************
+2019-01-20 14:15:29,651 - DEBUG - Connecting to Database
+2019-01-20 14:15:29,651 - DEBUG - Connecting to Database
+2019-01-20 14:15:31,437 - DEBUG - Connected to Database
+2019-01-20 14:15:31,437 - DEBUG - Connected to Database
+2019-01-20 14:15:31,453 - DEBUG - Requested Account Summary
+2019-01-20 14:15:31,453 - DEBUG - Requested Account Summary
+2019-01-20 14:15:31,496 - DEBUG - Message Value is <openOrder orderId=0, contract=<ib.ext.Contract.Contract object at 0x0000025D4105C208>, order=<ib.ext.Order.Order object at 0x0000025D4105C1D0>, orderState=<ib.ext.OrderState.OrderState object at 0x0000025D4105C3C8>>
+2019-01-20 14:15:31,496 - DEBUG - Message Value is <openOrder orderId=0, contract=<ib.ext.Contract.Contract object at 0x0000025D4105C208>, order=<ib.ext.Order.Order object at 0x0000025D4105C1D0>, orderState=<ib.ext.OrderState.OrderState object at 0x0000025D4105C3C8>>
+2019-01-20 14:15:31,660 - ERROR - Exception in message dispatch.  Handler 'reply_handler_Orders' for 'openOrder'
+Traceback (most recent call last):
+  File "C:\Users\Michael\Anaconda3\lib\site-packages\ib\opt\dispatcher.py", line 44, in __call__
+    results.append(listener(message))
+  File "C:/Users/Michael/Google Drive/ScarlettTradingCodebase/UAT/bin/SystemManagement/emailDailyPositions/MorningPositions.py", line 44, in reply_handler_Orders
+    if float(test) < 5000000:
+TypeError: float() argument must be a string or a number, not 'OpenOrder'
+2019-01-20 14:15:31,660 - ERROR - Exception in message dispatch.  Handler 'reply_handler_Orders' for 'openOrder'
+Traceback (most recent call last):
+  File "C:\Users\Michael\Anaconda3\lib\site-packages\ib\opt\dispatcher.py", line 44, in __call__
+    results.append(listener(message))
+  File "C:/Users/Michael/Google Drive/ScarlettTradingCodebase/UAT/bin/SystemManagement/emailDailyPositions/MorningPositions.py", line 44, in reply_handler_Orders
+    if float(test) < 5000000:
+TypeError: float() argument must be a string or a number, not 'OpenOrder'
+2019-01-20 14:15:32,517 - DEBUG - Connecting to Database
+2019-01-20 14:15:32,517 - DEBUG - Connecting to Database
+2019-01-20 14:16:07,321 - DEBUG - Connected to Database
+2019-01-20 14:16:07,321 - DEBUG - Connected to Database
+2019-01-20 14:16:07,390 - DEBUG - Requested Account Summary
+2019-01-20 14:16:07,390 - DEBUG - Requested Account Summary
+2019-01-20 14:16:08,419 - DEBUG - Connecting to Database
+2019-01-20 14:16:08,419 - DEBUG - Connecting to Database
+2019-01-20 14:18:51,593 - DEBUG - ****************************************************
+2019-01-20 14:18:51,593 - DEBUG - ****************************************************
+2019-01-20 14:18:51,593 - DEBUG - ****************************************************
+2019-01-20 14:18:51,603 - DEBUG - Connecting to Database
+2019-01-20 14:18:51,603 - DEBUG - Connecting to Database
+2019-01-20 14:18:51,603 - DEBUG - Connecting to Database
+2019-01-20 14:18:53,111 - DEBUG - Connected to Database
+2019-01-20 14:18:53,111 - DEBUG - Connected to Database
+2019-01-20 14:18:53,111 - DEBUG - Connected to Database
+2019-01-20 14:18:53,128 - DEBUG - Requested Account Summary
+2019-01-20 14:18:53,128 - DEBUG - Requested Account Summary
+2019-01-20 14:18:53,128 - DEBUG - Requested Account Summary
+2019-01-20 14:18:54,216 - DEBUG - Connecting to Database
+2019-01-20 14:18:54,216 - DEBUG - Connecting to Database
+2019-01-20 14:18:54,216 - DEBUG - Connecting to Database
+2019-01-20 14:18:55,650 - DEBUG - Connected to Database
+2019-01-20 14:18:55,650 - DEBUG - Connected to Database
+2019-01-20 14:18:55,650 - DEBUG - Connected to Database
+2019-01-20 14:18:55,676 - DEBUG - Requested Account Summary
+2019-01-20 14:18:55,676 - DEBUG - Requested Account Summary
+2019-01-20 14:18:55,676 - DEBUG - Requested Account Summary
+2019-01-20 14:18:56,702 - DEBUG - Connecting to Database
+2019-01-20 14:18:56,702 - DEBUG - Connecting to Database
+2019-01-20 14:18:56,702 - DEBUG - Connecting to Database
+2019-01-20 14:18:58,309 - DEBUG - Connected to Database
+2019-01-20 14:18:58,309 - DEBUG - Connected to Database
+2019-01-20 14:18:58,309 - DEBUG - Connected to Database
+2019-01-20 14:18:58,334 - DEBUG - Requested Account Summary
+2019-01-20 14:18:58,334 - DEBUG - Requested Account Summary
+2019-01-20 14:18:58,334 - DEBUG - Requested Account Summary
+2019-01-20 14:18:59,362 - DEBUG - Connecting to Database
+2019-01-20 14:18:59,362 - DEBUG - Connecting to Database
+2019-01-20 14:18:59,362 - DEBUG - Connecting to Database
+2019-01-20 14:19:06,650 - DEBUG - Connected to Database
+2019-01-20 14:19:06,650 - DEBUG - Connected to Database
+2019-01-20 14:19:06,650 - DEBUG - Connected to Database
+2019-01-20 14:19:06,680 - DEBUG - Requested Account Summary
+2019-01-20 14:19:06,680 - DEBUG - Requested Account Summary
+2019-01-20 14:19:06,680 - DEBUG - Requested Account Summary
+2019-01-20 14:19:07,707 - DEBUG - Connecting to Database
+2019-01-20 14:19:07,707 - DEBUG - Connecting to Database
+2019-01-20 14:19:07,707 - DEBUG - Connecting to Database
+2019-01-20 14:19:33,347 - DEBUG - ****************************************************
+2019-01-20 14:19:33,347 - DEBUG - ****************************************************
+2019-01-20 14:19:33,417 - DEBUG - Connecting to Database
+2019-01-20 14:19:33,417 - DEBUG - Connecting to Database
+2019-01-20 14:19:35,142 - DEBUG - Connected to Database
+2019-01-20 14:19:35,142 - DEBUG - Connected to Database
+2019-01-20 14:19:35,151 - DEBUG - Requested Account Summary
+2019-01-20 14:19:35,151 - DEBUG - Requested Account Summary
+2019-01-20 14:19:35,189 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000001DF5400B6D8>
+2019-01-20 14:19:35,189 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000001DF5400B6D8>
+2019-01-20 14:19:35,221 - DEBUG - Flag set to 1
+2019-01-20 14:19:35,221 - DEBUG - Flag set to 1
+2019-01-20 14:19:35,227 - ERROR - Exception in message dispatch.  Handler 'reply_handler_Orders' for 'openOrder'
+Traceback (most recent call last):
+  File "C:\Users\Michael\Anaconda3\lib\site-packages\ib\opt\dispatcher.py", line 44, in __call__
+    results.append(listener(message))
+  File "C:/Users/Michael/Google Drive/ScarlettTradingCodebase/UAT/bin/SystemManagement/emailDailyPositions/MorningPositions.py", line 68, in reply_handler_Orders
+    messagetext = "Morning Orders \n" + str(test[0])
+TypeError: 'int' object is not subscriptable
+2019-01-20 14:19:35,227 - ERROR - Exception in message dispatch.  Handler 'reply_handler_Orders' for 'openOrder'
+Traceback (most recent call last):
+  File "C:\Users\Michael\Anaconda3\lib\site-packages\ib\opt\dispatcher.py", line 44, in __call__
+    results.append(listener(message))
+  File "C:/Users/Michael/Google Drive/ScarlettTradingCodebase/UAT/bin/SystemManagement/emailDailyPositions/MorningPositions.py", line 68, in reply_handler_Orders
+    messagetext = "Morning Orders \n" + str(test[0])
+TypeError: 'int' object is not subscriptable
+2019-01-20 14:19:36,173 - DEBUG - disconnected from IBController
+2019-01-20 14:19:36,173 - DEBUG - disconnected from IBController
+2019-01-20 14:24:01,497 - DEBUG - ****************************************************
+2019-01-20 14:24:01,497 - DEBUG - ****************************************************
+2019-01-20 14:24:01,497 - DEBUG - ****************************************************
+2019-01-20 14:24:01,510 - DEBUG - Connecting to Database
+2019-01-20 14:24:01,510 - DEBUG - Connecting to Database
+2019-01-20 14:24:01,510 - DEBUG - Connecting to Database
+2019-01-20 14:24:05,867 - DEBUG - Connected to Database
+2019-01-20 14:24:05,867 - DEBUG - Connected to Database
+2019-01-20 14:24:05,867 - DEBUG - Connected to Database
+2019-01-20 14:24:05,949 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000001DF54160358>
+2019-01-20 14:24:05,949 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000001DF54160358>
+2019-01-20 14:24:06,015 - DEBUG - Requested Account Summary
+2019-01-20 14:24:06,015 - DEBUG - Requested Account Summary
+2019-01-20 14:24:05,949 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000001DF54160358>
+2019-01-20 14:24:06,036 - DEBUG - Message Value is <ib.ext.Contract.Contract object at 0x000001DF541604A8>
+2019-01-20 14:24:06,036 - DEBUG - Message Value is <ib.ext.Contract.Contract object at 0x000001DF541604A8>
+2019-01-20 14:24:06,015 - DEBUG - Requested Account Summary
+2019-01-20 14:24:06,036 - DEBUG - Message Value is <ib.ext.Contract.Contract object at 0x000001DF541604A8>
+2019-01-20 14:24:06,092 - DEBUG - Flag set to 1
+2019-01-20 14:24:06,092 - DEBUG - Flag set to 1
+2019-01-20 14:24:06,092 - DEBUG - Flag set to 1
+2019-01-20 14:24:06,116 - DEBUG - Subject: Morning Orders
+
+Morning Orders 
+
+
+2019-01-20 14:24:06,116 - DEBUG - Subject: Morning Orders
+
+Morning Orders 
+
+
+2019-01-20 14:24:06,116 - DEBUG - Subject: Morning Orders
+
+Morning Orders 
+
+
+2019-01-20 14:24:06,149 - ERROR - Exception in message dispatch.  Handler 'reply_handler_Orders' for 'openOrder'
+Traceback (most recent call last):
+  File "C:\Users\Michael\Anaconda3\lib\site-packages\ib\opt\dispatcher.py", line 44, in __call__
+    results.append(listener(message))
+  File "C:/Users/Michael/Google Drive/ScarlettTradingCodebase/UAT/bin/SystemManagement/emailDailyPositions/MorningPositions.py", line 73, in reply_handler_Orders
+    sendemail(from_addr    = ['michael.serpico@scarletttrading.com'], to_addr_list = ['michael.serpico@scarletttrading.com'], cc_addr_list = ['michael.serpico@scarletttrading.com'], subject = subjecttext, message = message, login = 'michael.serpico@scarletttrading.com', password = '@99Mz6SayF')
+  File "C:/Users/Michael/Google Drive/ScarlettTradingCodebase/UAT/bin/SystemManagement/emailDailyPositions/MorningPositions.py", line 81, in sendemail
+    server = smtplib.SMTP(smtpserver)
+NameError: name 'smtplib' is not defined
+2019-01-20 14:24:06,149 - ERROR - Exception in message dispatch.  Handler 'reply_handler_Orders' for 'openOrder'
+Traceback (most recent call last):
+  File "C:\Users\Michael\Anaconda3\lib\site-packages\ib\opt\dispatcher.py", line 44, in __call__
+    results.append(listener(message))
+  File "C:/Users/Michael/Google Drive/ScarlettTradingCodebase/UAT/bin/SystemManagement/emailDailyPositions/MorningPositions.py", line 73, in reply_handler_Orders
+    sendemail(from_addr    = ['michael.serpico@scarletttrading.com'], to_addr_list = ['michael.serpico@scarletttrading.com'], cc_addr_list = ['michael.serpico@scarletttrading.com'], subject = subjecttext, message = message, login = 'michael.serpico@scarletttrading.com', password = '@99Mz6SayF')
+  File "C:/Users/Michael/Google Drive/ScarlettTradingCodebase/UAT/bin/SystemManagement/emailDailyPositions/MorningPositions.py", line 81, in sendemail
+    server = smtplib.SMTP(smtpserver)
+NameError: name 'smtplib' is not defined
+2019-01-20 14:24:06,149 - ERROR - Exception in message dispatch.  Handler 'reply_handler_Orders' for 'openOrder'
+Traceback (most recent call last):
+  File "C:\Users\Michael\Anaconda3\lib\site-packages\ib\opt\dispatcher.py", line 44, in __call__
+    results.append(listener(message))
+  File "C:/Users/Michael/Google Drive/ScarlettTradingCodebase/UAT/bin/SystemManagement/emailDailyPositions/MorningPositions.py", line 73, in reply_handler_Orders
+    sendemail(from_addr    = ['michael.serpico@scarletttrading.com'], to_addr_list = ['michael.serpico@scarletttrading.com'], cc_addr_list = ['michael.serpico@scarletttrading.com'], subject = subjecttext, message = message, login = 'michael.serpico@scarletttrading.com', password = '@99Mz6SayF')
+  File "C:/Users/Michael/Google Drive/ScarlettTradingCodebase/UAT/bin/SystemManagement/emailDailyPositions/MorningPositions.py", line 81, in sendemail
+    server = smtplib.SMTP(smtpserver)
+NameError: name 'smtplib' is not defined
+2019-01-20 14:24:07,071 - DEBUG - disconnected from IBController
+2019-01-20 14:24:07,071 - DEBUG - disconnected from IBController
+2019-01-20 14:24:07,071 - DEBUG - disconnected from IBController
+2019-01-20 14:27:21,843 - DEBUG - ****************************************************
+2019-01-20 14:27:21,843 - DEBUG - ****************************************************
+2019-01-20 14:27:21,906 - DEBUG - Connecting to Database
+2019-01-20 14:27:21,906 - DEBUG - Connecting to Database
+2019-01-20 14:27:23,154 - DEBUG - Connected to Database
+2019-01-20 14:27:23,154 - DEBUG - Connected to Database
+2019-01-20 14:27:23,172 - DEBUG - Requested Account Summary
+2019-01-20 14:27:23,172 - DEBUG - Requested Account Summary
+2019-01-20 14:27:23,188 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000001AAE5DF6320>
+2019-01-20 14:27:23,188 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000001AAE5DF6320>
+2019-01-20 14:27:23,239 - DEBUG - Message Value is <ib.ext.Contract.Contract object at 0x000001AAE5DF6358>
+2019-01-20 14:27:23,239 - DEBUG - Message Value is <ib.ext.Contract.Contract object at 0x000001AAE5DF6358>
+2019-01-20 14:27:23,250 - DEBUG - Flag set to 1
+2019-01-20 14:27:23,250 - DEBUG - Flag set to 1
+2019-01-20 14:27:23,263 - DEBUG - Subject: Morning Orders
+
+Morning Orders 
+
+
+2019-01-20 14:27:23,263 - DEBUG - Subject: Morning Orders
+
+Morning Orders 
+
+
+2019-01-20 14:27:24,188 - DEBUG - disconnected from IBController
+2019-01-20 14:27:24,188 - DEBUG - disconnected from IBController
+2019-01-20 14:27:28,114 - DEBUG - Email sent
+2019-01-20 14:27:28,114 - DEBUG - Email sent
+2019-01-20 14:27:28,123 - DEBUG - Email function called
+2019-01-20 14:27:28,123 - DEBUG - Email function called
+2019-01-20 14:29:11,088 - DEBUG - ****************************************************
+2019-01-20 14:29:11,088 - DEBUG - ****************************************************
+2019-01-20 14:29:11,088 - DEBUG - ****************************************************
+2019-01-20 14:29:11,107 - DEBUG - Connecting to Database
+2019-01-20 14:29:11,107 - DEBUG - Connecting to Database
+2019-01-20 14:29:11,107 - DEBUG - Connecting to Database
+2019-01-20 14:29:13,801 - DEBUG - Connected to Database
+2019-01-20 14:29:13,801 - DEBUG - Connected to Database
+2019-01-20 14:29:13,801 - DEBUG - Connected to Database
+2019-01-20 14:29:13,835 - DEBUG - Requested Account Summary
+2019-01-20 14:29:13,835 - DEBUG - Requested Account Summary
+2019-01-20 14:29:13,835 - DEBUG - Requested Account Summary
+2019-01-20 14:29:14,002 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000001AAE5DF64E0>
+2019-01-20 14:29:14,002 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000001AAE5DF64E0>
+2019-01-20 14:29:14,002 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000001AAE5DF64E0>
+2019-01-20 14:29:14,152 - DEBUG - Message Value is <ib.ext.Contract.Contract object at 0x000001AAE5DF65C0>
+2019-01-20 14:29:14,152 - DEBUG - Message Value is <ib.ext.Contract.Contract object at 0x000001AAE5DF65C0>
+2019-01-20 14:29:14,152 - DEBUG - Message Value is <ib.ext.Contract.Contract object at 0x000001AAE5DF65C0>
+2019-01-20 14:29:14,184 - DEBUG - Flag set to 1
+2019-01-20 14:29:14,184 - DEBUG - Flag set to 1
+2019-01-20 14:29:14,184 - DEBUG - Flag set to 1
+2019-01-20 14:29:14,215 - DEBUG - Subject: Morning Orders01/20/2019
+
+Morning Orders 
+
+
+2019-01-20 14:29:14,215 - DEBUG - Subject: Morning Orders01/20/2019
+
+Morning Orders 
+
+
+2019-01-20 14:29:14,215 - DEBUG - Subject: Morning Orders01/20/2019
+
+Morning Orders 
+
+
+2019-01-20 14:29:14,986 - DEBUG - disconnected from IBController
+2019-01-20 14:29:14,986 - DEBUG - disconnected from IBController
+2019-01-20 14:29:14,986 - DEBUG - disconnected from IBController
+2019-01-20 14:29:16,086 - DEBUG - Email sent
+2019-01-20 14:29:16,086 - DEBUG - Email sent
+2019-01-20 14:29:16,086 - DEBUG - Email sent
+2019-01-20 14:29:16,096 - DEBUG - Email function called
+2019-01-20 14:29:16,096 - DEBUG - Email function called
+2019-01-20 14:29:16,096 - DEBUG - Email function called
+2019-01-20 14:33:18,787 - DEBUG - ****************************************************
+2019-01-20 14:33:18,787 - DEBUG - ****************************************************
+2019-01-20 14:33:18,787 - DEBUG - ****************************************************
+2019-01-20 14:33:18,787 - DEBUG - ****************************************************
+2019-01-20 14:33:18,810 - DEBUG - Connecting to Database
+2019-01-20 14:33:18,810 - DEBUG - Connecting to Database
+2019-01-20 14:33:18,810 - DEBUG - Connecting to Database
+2019-01-20 14:33:18,810 - DEBUG - Connecting to Database
+2019-01-20 14:33:20,236 - DEBUG - Connected to Database
+2019-01-20 14:33:20,236 - DEBUG - Connected to Database
+2019-01-20 14:33:20,236 - DEBUG - Connected to Database
+2019-01-20 14:33:20,236 - DEBUG - Connected to Database
+2019-01-20 14:33:20,277 - DEBUG - Requested Account Summary
+2019-01-20 14:33:20,277 - DEBUG - Requested Account Summary
+2019-01-20 14:33:20,277 - DEBUG - Requested Account Summary
+2019-01-20 14:33:20,277 - DEBUG - Requested Account Summary
+2019-01-20 14:33:20,351 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000001AAE5E059B0>
+2019-01-20 14:33:20,351 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000001AAE5E059B0>
+2019-01-20 14:33:20,351 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000001AAE5E059B0>
+2019-01-20 14:33:20,351 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000001AAE5E059B0>
+2019-01-20 14:33:20,402 - DEBUG - Message Value is <ib.ext.Contract.Contract object at 0x000001AAE5E055C0>
+2019-01-20 14:33:20,402 - DEBUG - Message Value is <ib.ext.Contract.Contract object at 0x000001AAE5E055C0>
+2019-01-20 14:33:20,402 - DEBUG - Message Value is <ib.ext.Contract.Contract object at 0x000001AAE5E055C0>
+2019-01-20 14:33:20,402 - DEBUG - Message Value is <ib.ext.Contract.Contract object at 0x000001AAE5E055C0>
+2019-01-20 14:33:20,430 - DEBUG - Flag set to 1
+2019-01-20 14:33:20,430 - DEBUG - Flag set to 1
+2019-01-20 14:33:20,430 - DEBUG - Flag set to 1
+2019-01-20 14:33:20,430 - DEBUG - Flag set to 1
+2019-01-20 14:33:20,466 - ERROR - Exception in message dispatch.  Handler 'reply_handler_Orders' for 'openOrder'
+Traceback (most recent call last):
+  File "C:\Users\Michael\Anaconda3\lib\site-packages\ib\opt\dispatcher.py", line 44, in __call__
+    results.append(listener(message))
+  File "C:/Users/Michael/Google Drive/ScarlettTradingCodebase/UAT/bin/SystemManagement/emailDailyPositions/MorningPositions.py", line 71, in reply_handler_Orders
+    messagetext = "Morning Orders \n"+ con.m_symbol + " " + con.totalQuantity
+AttributeError: 'Contract' object has no attribute 'totalQuantity'
+2019-01-20 14:33:20,466 - ERROR - Exception in message dispatch.  Handler 'reply_handler_Orders' for 'openOrder'
+Traceback (most recent call last):
+  File "C:\Users\Michael\Anaconda3\lib\site-packages\ib\opt\dispatcher.py", line 44, in __call__
+    results.append(listener(message))
+  File "C:/Users/Michael/Google Drive/ScarlettTradingCodebase/UAT/bin/SystemManagement/emailDailyPositions/MorningPositions.py", line 71, in reply_handler_Orders
+    messagetext = "Morning Orders \n"+ con.m_symbol + " " + con.totalQuantity
+AttributeError: 'Contract' object has no attribute 'totalQuantity'
+2019-01-20 14:33:20,466 - ERROR - Exception in message dispatch.  Handler 'reply_handler_Orders' for 'openOrder'
+Traceback (most recent call last):
+  File "C:\Users\Michael\Anaconda3\lib\site-packages\ib\opt\dispatcher.py", line 44, in __call__
+    results.append(listener(message))
+  File "C:/Users/Michael/Google Drive/ScarlettTradingCodebase/UAT/bin/SystemManagement/emailDailyPositions/MorningPositions.py", line 71, in reply_handler_Orders
+    messagetext = "Morning Orders \n"+ con.m_symbol + " " + con.totalQuantity
+AttributeError: 'Contract' object has no attribute 'totalQuantity'
+2019-01-20 14:33:20,466 - ERROR - Exception in message dispatch.  Handler 'reply_handler_Orders' for 'openOrder'
+Traceback (most recent call last):
+  File "C:\Users\Michael\Anaconda3\lib\site-packages\ib\opt\dispatcher.py", line 44, in __call__
+    results.append(listener(message))
+  File "C:/Users/Michael/Google Drive/ScarlettTradingCodebase/UAT/bin/SystemManagement/emailDailyPositions/MorningPositions.py", line 71, in reply_handler_Orders
+    messagetext = "Morning Orders \n"+ con.m_symbol + " " + con.totalQuantity
+AttributeError: 'Contract' object has no attribute 'totalQuantity'
+2019-01-20 14:33:21,327 - DEBUG - disconnected from IBController
+2019-01-20 14:33:21,327 - DEBUG - disconnected from IBController
+2019-01-20 14:33:21,327 - DEBUG - disconnected from IBController
+2019-01-20 14:33:21,327 - DEBUG - disconnected from IBController
+2019-01-20 14:33:56,678 - DEBUG - ****************************************************
+2019-01-20 14:33:56,678 - DEBUG - ****************************************************
+2019-01-20 14:33:56,736 - DEBUG - Connecting to Database
+2019-01-20 14:33:56,736 - DEBUG - Connecting to Database
+2019-01-20 14:33:58,734 - DEBUG - Connected to Database
+2019-01-20 14:33:58,734 - DEBUG - Connected to Database
+2019-01-20 14:33:58,753 - DEBUG - Requested Account Summary
+2019-01-20 14:33:58,753 - DEBUG - Requested Account Summary
+2019-01-20 14:33:58,785 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x00000224FDFB81D0>
+2019-01-20 14:33:58,785 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x00000224FDFB81D0>
+2019-01-20 14:33:58,855 - DEBUG - Message Value is <ib.ext.Contract.Contract object at 0x00000224FDFB8080>
+2019-01-20 14:33:58,855 - DEBUG - Message Value is <ib.ext.Contract.Contract object at 0x00000224FDFB8080>
+2019-01-20 14:33:58,869 - DEBUG - Flag set to 1
+2019-01-20 14:33:58,869 - DEBUG - Flag set to 1
+2019-01-20 14:33:58,879 - ERROR - Exception in message dispatch.  Handler 'reply_handler_Orders' for 'openOrder'
+Traceback (most recent call last):
+  File "C:\Users\Michael\Anaconda3\lib\site-packages\ib\opt\dispatcher.py", line 44, in __call__
+    results.append(listener(message))
+  File "C:/Users/Michael/Google Drive/ScarlettTradingCodebase/UAT/bin/SystemManagement/emailDailyPositions/MorningPositions.py", line 71, in reply_handler_Orders
+    messagetext = "Morning Orders \n"+ con.m_symbol + " " + orderinfo.totalQuantity
+AttributeError: 'Order' object has no attribute 'totalQuantity'
+2019-01-20 14:33:58,879 - ERROR - Exception in message dispatch.  Handler 'reply_handler_Orders' for 'openOrder'
+Traceback (most recent call last):
+  File "C:\Users\Michael\Anaconda3\lib\site-packages\ib\opt\dispatcher.py", line 44, in __call__
+    results.append(listener(message))
+  File "C:/Users/Michael/Google Drive/ScarlettTradingCodebase/UAT/bin/SystemManagement/emailDailyPositions/MorningPositions.py", line 71, in reply_handler_Orders
+    messagetext = "Morning Orders \n"+ con.m_symbol + " " + orderinfo.totalQuantity
+AttributeError: 'Order' object has no attribute 'totalQuantity'
+2019-01-20 14:33:59,769 - DEBUG - disconnected from IBController
+2019-01-20 14:33:59,769 - DEBUG - disconnected from IBController
+2019-01-20 14:35:58,694 - DEBUG - ****************************************************
+2019-01-20 14:35:58,694 - DEBUG - ****************************************************
+2019-01-20 14:35:58,765 - DEBUG - Connecting to Database
+2019-01-20 14:35:58,765 - DEBUG - Connecting to Database
+2019-01-20 14:35:59,937 - DEBUG - Connected to Database
+2019-01-20 14:35:59,937 - DEBUG - Connected to Database
+2019-01-20 14:35:59,956 - DEBUG - Requested Account Summary
+2019-01-20 14:35:59,956 - DEBUG - Requested Account Summary
+2019-01-20 14:36:00,044 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000001BBD68F7FD0>
+2019-01-20 14:36:00,044 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000001BBD68F7FD0>
+2019-01-20 14:36:00,174 - DEBUG - Message Value is <ib.ext.Contract.Contract object at 0x000001BBD6908128>
+2019-01-20 14:36:00,174 - DEBUG - Message Value is <ib.ext.Contract.Contract object at 0x000001BBD6908128>
+2019-01-20 14:36:00,205 - DEBUG - Flag set to 1
+2019-01-20 14:36:00,205 - DEBUG - Flag set to 1
+2019-01-20 14:36:00,226 - ERROR - Exception in message dispatch.  Handler 'reply_handler_Orders' for 'openOrder'
+Traceback (most recent call last):
+  File "C:\Users\Michael\Anaconda3\lib\site-packages\ib\opt\dispatcher.py", line 44, in __call__
+    results.append(listener(message))
+  File "C:/Users/Michael/Google Drive/ScarlettTradingCodebase/UAT/bin/SystemManagement/emailDailyPositions/MorningPositions.py", line 71, in reply_handler_Orders
+    messagetext = "Morning Orders \n"+ con.m_symbol + " " + orderinfo.m_totalQuantity
+TypeError: must be str, not int
+2019-01-20 14:36:00,226 - ERROR - Exception in message dispatch.  Handler 'reply_handler_Orders' for 'openOrder'
+Traceback (most recent call last):
+  File "C:\Users\Michael\Anaconda3\lib\site-packages\ib\opt\dispatcher.py", line 44, in __call__
+    results.append(listener(message))
+  File "C:/Users/Michael/Google Drive/ScarlettTradingCodebase/UAT/bin/SystemManagement/emailDailyPositions/MorningPositions.py", line 71, in reply_handler_Orders
+    messagetext = "Morning Orders \n"+ con.m_symbol + " " + orderinfo.m_totalQuantity
+TypeError: must be str, not int
+2019-01-20 14:36:00,973 - DEBUG - disconnected from IBController
+2019-01-20 14:36:00,973 - DEBUG - disconnected from IBController
+2019-01-20 14:36:51,274 - DEBUG - ****************************************************
+2019-01-20 14:36:51,274 - DEBUG - ****************************************************
+2019-01-20 14:36:51,314 - DEBUG - Connecting to Database
+2019-01-20 14:36:51,314 - DEBUG - Connecting to Database
+2019-01-20 14:36:52,770 - DEBUG - Connected to Database
+2019-01-20 14:36:52,770 - DEBUG - Connected to Database
+2019-01-20 14:36:52,844 - DEBUG - Requested Account Summary
+2019-01-20 14:36:52,844 - DEBUG - Requested Account Summary
+2019-01-20 14:36:52,884 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000001EDCD8B90F0>
+2019-01-20 14:36:52,884 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000001EDCD8B90F0>
+2019-01-20 14:36:52,951 - DEBUG - Message Value is <ib.ext.Contract.Contract object at 0x000001EDCD8B9198>
+2019-01-20 14:36:52,951 - DEBUG - Message Value is <ib.ext.Contract.Contract object at 0x000001EDCD8B9198>
+2019-01-20 14:36:52,965 - DEBUG - Flag set to 1
+2019-01-20 14:36:52,965 - DEBUG - Flag set to 1
+2019-01-20 14:36:52,976 - DEBUG - Subject: Morning Orders 01/20/2019
+
+Morning Orders 
+GS 100
+
+2019-01-20 14:36:52,976 - DEBUG - Subject: Morning Orders 01/20/2019
+
+Morning Orders 
+GS 100
+
+2019-01-20 14:36:53,923 - DEBUG - disconnected from IBController
+2019-01-20 14:36:53,923 - DEBUG - disconnected from IBController
+2019-01-20 14:36:56,362 - DEBUG - Email sent
+2019-01-20 14:36:56,362 - DEBUG - Email sent
+2019-01-20 14:36:56,366 - DEBUG - Email function called
+2019-01-20 14:36:56,366 - DEBUG - Email function called
+2019-01-20 14:37:48,041 - DEBUG - ****************************************************
+2019-01-20 14:37:48,041 - DEBUG - ****************************************************
+2019-01-20 14:37:48,101 - DEBUG - Connecting to Database
+2019-01-20 14:37:48,101 - DEBUG - Connecting to Database
+2019-01-20 14:37:49,603 - DEBUG - Connected to Database
+2019-01-20 14:37:49,603 - DEBUG - Connected to Database
+2019-01-20 14:37:49,616 - DEBUG - Requested Account Summary
+2019-01-20 14:37:49,616 - DEBUG - Requested Account Summary
+2019-01-20 14:37:49,671 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000002D76069A160>
+2019-01-20 14:37:49,671 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000002D76069A160>
+2019-01-20 14:37:49,760 - DEBUG - Message Value is <ib.ext.Contract.Contract object at 0x000002D76069A198>
+2019-01-20 14:37:49,760 - DEBUG - Message Value is <ib.ext.Contract.Contract object at 0x000002D76069A198>
+2019-01-20 14:37:49,775 - DEBUG - Flag set to 1
+2019-01-20 14:37:49,775 - DEBUG - Flag set to 1
+2019-01-20 14:37:49,785 - DEBUG - Subject: Morning Orders 01/20/2019
+
+Morning Orders 
+NKE 300
+
+2019-01-20 14:37:49,785 - DEBUG - Subject: Morning Orders 01/20/2019
+
+Morning Orders 
+NKE 300
+
+2019-01-20 14:37:50,751 - DEBUG - disconnected from IBController
+2019-01-20 14:37:50,751 - DEBUG - disconnected from IBController
+2019-01-20 14:37:52,966 - DEBUG - Email sent
+2019-01-20 14:37:52,966 - DEBUG - Email sent
+2019-01-20 14:37:52,971 - DEBUG - Email function called
+2019-01-20 14:37:52,971 - DEBUG - Email function called
+2019-01-20 14:52:30,633 - DEBUG - ****************************************************
+2019-01-20 14:52:30,633 - DEBUG - ****************************************************
+2019-01-20 14:52:30,633 - DEBUG - ****************************************************
+2019-01-20 14:52:30,668 - DEBUG - Connecting to Database
+2019-01-20 14:52:30,668 - DEBUG - Connecting to Database
+2019-01-20 14:52:30,668 - DEBUG - Connecting to Database
+2019-01-20 14:52:32,364 - DEBUG - Connected to Database
+2019-01-20 14:52:32,364 - DEBUG - Connected to Database
+2019-01-20 14:52:32,364 - DEBUG - Connected to Database
+2019-01-20 14:52:32,394 - DEBUG - Requested Account Summary
+2019-01-20 14:52:32,394 - DEBUG - Requested Account Summary
+2019-01-20 14:52:32,394 - DEBUG - Requested Account Summary
+2019-01-20 14:52:32,467 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000002D7606A9710>
+2019-01-20 14:52:32,467 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000002D7606A9710>
+2019-01-20 14:52:32,467 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000002D7606A9710>
+2019-01-20 14:52:32,561 - DEBUG - Message Value is <ib.ext.Contract.Contract object at 0x000002D7606A95F8>
+2019-01-20 14:52:32,561 - DEBUG - Message Value is <ib.ext.Contract.Contract object at 0x000002D7606A95F8>
+2019-01-20 14:52:32,561 - DEBUG - Message Value is <ib.ext.Contract.Contract object at 0x000002D7606A95F8>
+2019-01-20 14:52:32,577 - DEBUG - Flag set to 1
+2019-01-20 14:52:32,577 - DEBUG - Flag set to 1
+2019-01-20 14:52:32,577 - DEBUG - Flag set to 1
+2019-01-20 14:52:32,613 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000002D7606A9E10>
+2019-01-20 14:52:32,613 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000002D7606A9E10>
+2019-01-20 14:52:32,613 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000002D7606A9E10>
+2019-01-20 14:52:32,634 - DEBUG - Message Value is <ib.ext.Contract.Contract object at 0x000002D7606A9CC0>
+2019-01-20 14:52:32,634 - DEBUG - Message Value is <ib.ext.Contract.Contract object at 0x000002D7606A9CC0>
+2019-01-20 14:52:32,634 - DEBUG - Message Value is <ib.ext.Contract.Contract object at 0x000002D7606A9CC0>
+2019-01-20 14:52:32,666 - DEBUG - Flag set to 1
+2019-01-20 14:52:32,666 - DEBUG - Flag set to 1
+2019-01-20 14:52:32,666 - DEBUG - Flag set to 1
+2019-01-20 14:52:33,411 - DEBUG - Subject: Morning Orders 01/20/2019
+
+Morning Orders 
+GS 100
+
+2019-01-20 14:52:33,411 - DEBUG - Subject: Morning Orders 01/20/2019
+
+Morning Orders 
+GS 100
+
+2019-01-20 14:52:33,411 - DEBUG - Subject: Morning Orders 01/20/2019
+
+Morning Orders 
+GS 100
+
+2019-01-20 14:52:36,367 - DEBUG - Email sent
+2019-01-20 14:52:36,367 - DEBUG - Email sent
+2019-01-20 14:52:36,367 - DEBUG - Email sent
+2019-01-20 14:52:36,379 - DEBUG - Email function called
+2019-01-20 14:52:36,379 - DEBUG - Email function called
+2019-01-20 14:52:36,379 - DEBUG - Email function called
+2019-01-20 14:52:36,394 - DEBUG - disconnected from IBController
+2019-01-20 14:52:36,394 - DEBUG - disconnected from IBController
+2019-01-20 14:52:36,394 - DEBUG - disconnected from IBController
+2019-01-20 14:53:34,096 - DEBUG - ****************************************************
+2019-01-20 14:53:34,096 - DEBUG - ****************************************************
+2019-01-20 14:53:34,155 - DEBUG - Connecting to Database
+2019-01-20 14:53:34,155 - DEBUG - Connecting to Database
+2019-01-20 14:53:36,041 - DEBUG - Connected to Database
+2019-01-20 14:53:36,041 - DEBUG - Connected to Database
+2019-01-20 14:53:36,085 - DEBUG - Requested Account Summary
+2019-01-20 14:53:36,085 - DEBUG - Requested Account Summary
+2019-01-20 14:53:36,114 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000002A7E86A7240>
+2019-01-20 14:53:36,114 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000002A7E86A7240>
+2019-01-20 14:53:36,208 - DEBUG - Message Value is <ib.ext.Contract.Contract object at 0x000002A7E86A7208>
+2019-01-20 14:53:36,208 - DEBUG - Message Value is <ib.ext.Contract.Contract object at 0x000002A7E86A7208>
+2019-01-20 14:53:36,224 - DEBUG - Flag set to 1
+2019-01-20 14:53:36,224 - DEBUG - Flag set to 1
+2019-01-20 14:53:36,242 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000002A7E86A7438>
+2019-01-20 14:53:36,242 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000002A7E86A7438>
+2019-01-20 14:53:36,250 - DEBUG - Message Value is <ib.ext.Contract.Contract object at 0x000002A7E86A7240>
+2019-01-20 14:53:36,250 - DEBUG - Message Value is <ib.ext.Contract.Contract object at 0x000002A7E86A7240>
+2019-01-20 14:53:36,259 - DEBUG - Flag set to 1
+2019-01-20 14:53:36,259 - DEBUG - Flag set to 1
+2019-01-20 14:53:37,096 - DEBUG - Subject: Morning Orders 01/20/2019
+
+Morning Orders 
+GS 100
+
+2019-01-20 14:53:37,096 - DEBUG - Subject: Morning Orders 01/20/2019
+
+Morning Orders 
+GS 100
+
+2019-01-20 14:53:40,878 - DEBUG - Email sent
+2019-01-20 14:53:40,878 - DEBUG - Email sent
+2019-01-20 14:53:40,882 - DEBUG - Email function called
+2019-01-20 14:53:40,882 - DEBUG - Email function called
+2019-01-20 14:53:40,886 - DEBUG - disconnected from IBController
+2019-01-20 14:53:40,886 - DEBUG - disconnected from IBController
+2019-01-20 14:55:58,368 - DEBUG - ****************************************************
+2019-01-20 14:55:58,368 - DEBUG - ****************************************************
+2019-01-20 14:55:58,368 - DEBUG - ****************************************************
+2019-01-20 14:55:58,386 - DEBUG - Connecting to Database
+2019-01-20 14:55:58,386 - DEBUG - Connecting to Database
+2019-01-20 14:55:58,386 - DEBUG - Connecting to Database
+2019-01-20 14:55:59,953 - DEBUG - Connected to Database
+2019-01-20 14:55:59,953 - DEBUG - Connected to Database
+2019-01-20 14:55:59,953 - DEBUG - Connected to Database
+2019-01-20 14:55:59,977 - DEBUG - Requested Account Summary
+2019-01-20 14:55:59,977 - DEBUG - Requested Account Summary
+2019-01-20 14:55:59,977 - DEBUG - Requested Account Summary
+2019-01-20 14:56:00,018 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000002A7E86B84A8>
+2019-01-20 14:56:00,018 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000002A7E86B84A8>
+2019-01-20 14:56:00,018 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000002A7E86B84A8>
+2019-01-20 14:56:00,179 - DEBUG - Message con is <ib.ext.Contract.Contract object at 0x000002A7E86B8470>
+2019-01-20 14:56:00,179 - DEBUG - Message con is <ib.ext.Contract.Contract object at 0x000002A7E86B8470>
+2019-01-20 14:56:00,179 - DEBUG - Message con is <ib.ext.Contract.Contract object at 0x000002A7E86B8470>
+2019-01-20 14:56:00,197 - DEBUG - Flag set to 1
+2019-01-20 14:56:00,197 - DEBUG - Flag set to 1
+2019-01-20 14:56:00,197 - DEBUG - Flag set to 1
+2019-01-20 14:56:00,223 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000002A7E86B8908>
+2019-01-20 14:56:00,223 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000002A7E86B8908>
+2019-01-20 14:56:00,223 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000002A7E86B8908>
+2019-01-20 14:56:00,241 - DEBUG - Message con is <ib.ext.Contract.Contract object at 0x000002A7E86B8940>
+2019-01-20 14:56:00,241 - DEBUG - Message con is <ib.ext.Contract.Contract object at 0x000002A7E86B8940>
+2019-01-20 14:56:00,241 - DEBUG - Message con is <ib.ext.Contract.Contract object at 0x000002A7E86B8940>
+2019-01-20 14:56:00,258 - DEBUG - Flag set to 1
+2019-01-20 14:56:00,258 - DEBUG - Flag set to 1
+2019-01-20 14:56:00,258 - DEBUG - Flag set to 1
+2019-01-20 14:56:01,006 - DEBUG - Subject: Morning Orders 01/20/2019
+
+Morning Orders 
+GS 100
+
+2019-01-20 14:56:01,006 - DEBUG - Subject: Morning Orders 01/20/2019
+
+Morning Orders 
+GS 100
+
+2019-01-20 14:56:01,006 - DEBUG - Subject: Morning Orders 01/20/2019
+
+Morning Orders 
+GS 100
+
+2019-01-20 14:56:02,817 - DEBUG - Email sent
+2019-01-20 14:56:02,817 - DEBUG - Email sent
+2019-01-20 14:56:02,817 - DEBUG - Email sent
+2019-01-20 14:56:02,828 - DEBUG - Email function called
+2019-01-20 14:56:02,828 - DEBUG - Email function called
+2019-01-20 14:56:02,828 - DEBUG - Email function called
+2019-01-20 14:56:02,845 - DEBUG - disconnected from IBController
+2019-01-20 14:56:02,845 - DEBUG - disconnected from IBController
+2019-01-20 14:56:02,845 - DEBUG - disconnected from IBController
+2019-01-20 14:58:53,603 - DEBUG - ****************************************************
+2019-01-20 14:58:53,603 - DEBUG - ****************************************************
+2019-01-20 14:58:53,666 - DEBUG - Connecting to Database
+2019-01-20 14:58:53,666 - DEBUG - Connecting to Database
+2019-01-20 14:58:56,883 - DEBUG - Connected to Database
+2019-01-20 14:58:56,883 - DEBUG - Connected to Database
+2019-01-20 14:58:56,895 - DEBUG - Requested Account Summary
+2019-01-20 14:58:56,895 - DEBUG - Requested Account Summary
+2019-01-20 14:58:56,915 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x0000026AD23970B8>
+2019-01-20 14:58:56,915 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x0000026AD23970B8>
+2019-01-20 14:58:56,987 - DEBUG - Message con is <ib.ext.Contract.Contract object at 0x0000026AD2397198>
+2019-01-20 14:58:56,987 - DEBUG - Message con is <ib.ext.Contract.Contract object at 0x0000026AD2397198>
+2019-01-20 14:58:56,999 - DEBUG - Flag set to 1
+2019-01-20 14:58:56,999 - DEBUG - Flag set to 1
+2019-01-20 14:58:57,007 - ERROR - Exception in message dispatch.  Handler 'reply_handler_Orders' for 'openOrder'
+Traceback (most recent call last):
+  File "C:\Users\Michael\Anaconda3\lib\site-packages\ib\opt\dispatcher.py", line 44, in __call__
+    results.append(listener(message))
+  File "C:/Users/Michael/Google Drive/ScarlettTradingCodebase/UAT/bin/SystemManagement/emailDailyPositions/MorningPositions.py", line 72, in reply_handler_Orders
+    messagetext2 += messagetext
+NameError: name 'messagetext2' is not defined
+2019-01-20 14:58:57,007 - ERROR - Exception in message dispatch.  Handler 'reply_handler_Orders' for 'openOrder'
+Traceback (most recent call last):
+  File "C:\Users\Michael\Anaconda3\lib\site-packages\ib\opt\dispatcher.py", line 44, in __call__
+    results.append(listener(message))
+  File "C:/Users/Michael/Google Drive/ScarlettTradingCodebase/UAT/bin/SystemManagement/emailDailyPositions/MorningPositions.py", line 72, in reply_handler_Orders
+    messagetext2 += messagetext
+NameError: name 'messagetext2' is not defined
+2019-01-20 14:58:57,029 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x0000026AD2386DA0>
+2019-01-20 14:58:57,029 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x0000026AD2386DA0>
+2019-01-20 14:58:57,037 - DEBUG - Message con is <ib.ext.Contract.Contract object at 0x0000026AD2397470>
+2019-01-20 14:58:57,037 - DEBUG - Message con is <ib.ext.Contract.Contract object at 0x0000026AD2397470>
+2019-01-20 14:58:57,046 - DEBUG - Flag set to 1
+2019-01-20 14:58:57,046 - DEBUG - Flag set to 1
+2019-01-20 14:58:57,053 - ERROR - Exception in message dispatch.  Handler 'reply_handler_Orders' for 'openOrder'
+Traceback (most recent call last):
+  File "C:\Users\Michael\Anaconda3\lib\site-packages\ib\opt\dispatcher.py", line 44, in __call__
+    results.append(listener(message))
+  File "C:/Users/Michael/Google Drive/ScarlettTradingCodebase/UAT/bin/SystemManagement/emailDailyPositions/MorningPositions.py", line 72, in reply_handler_Orders
+    messagetext2 += messagetext
+NameError: name 'messagetext2' is not defined
+2019-01-20 14:58:57,053 - ERROR - Exception in message dispatch.  Handler 'reply_handler_Orders' for 'openOrder'
+Traceback (most recent call last):
+  File "C:\Users\Michael\Anaconda3\lib\site-packages\ib\opt\dispatcher.py", line 44, in __call__
+    results.append(listener(message))
+  File "C:/Users/Michael/Google Drive/ScarlettTradingCodebase/UAT/bin/SystemManagement/emailDailyPositions/MorningPositions.py", line 72, in reply_handler_Orders
+    messagetext2 += messagetext
+NameError: name 'messagetext2' is not defined
+2019-01-20 14:59:39,848 - DEBUG - ****************************************************
+2019-01-20 14:59:39,848 - DEBUG - ****************************************************
+2019-01-20 14:59:39,886 - DEBUG - Connecting to Database
+2019-01-20 14:59:39,886 - DEBUG - Connecting to Database
+2019-01-20 14:59:40,922 - DEBUG - Connected to Database
+2019-01-20 14:59:40,922 - DEBUG - Connected to Database
+2019-01-20 14:59:40,938 - DEBUG - Requested Account Summary
+2019-01-20 14:59:40,938 - DEBUG - Requested Account Summary
+2019-01-20 14:59:40,949 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000001CC689B82E8>
+2019-01-20 14:59:40,949 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000001CC689B82E8>
+2019-01-20 14:59:40,976 - DEBUG - Message con is <ib.ext.Contract.Contract object at 0x000001CC689B8320>
+2019-01-20 14:59:40,976 - DEBUG - Message con is <ib.ext.Contract.Contract object at 0x000001CC689B8320>
+2019-01-20 14:59:40,982 - DEBUG - Flag set to 1
+2019-01-20 14:59:40,982 - DEBUG - Flag set to 1
+2019-01-20 14:59:40,986 - ERROR - Exception in message dispatch.  Handler 'reply_handler_Orders' for 'openOrder'
+Traceback (most recent call last):
+  File "C:\Users\Michael\Anaconda3\lib\site-packages\ib\opt\dispatcher.py", line 44, in __call__
+    results.append(listener(message))
+  File "C:/Users/Michael/Google Drive/ScarlettTradingCodebase/UAT/bin/SystemManagement/emailDailyPositions/MorningPositions.py", line 72, in reply_handler_Orders
+    messagetext2 += messagetext
+NameError: name 'messagetext2' is not defined
+2019-01-20 14:59:40,986 - ERROR - Exception in message dispatch.  Handler 'reply_handler_Orders' for 'openOrder'
+Traceback (most recent call last):
+  File "C:\Users\Michael\Anaconda3\lib\site-packages\ib\opt\dispatcher.py", line 44, in __call__
+    results.append(listener(message))
+  File "C:/Users/Michael/Google Drive/ScarlettTradingCodebase/UAT/bin/SystemManagement/emailDailyPositions/MorningPositions.py", line 72, in reply_handler_Orders
+    messagetext2 += messagetext
+NameError: name 'messagetext2' is not defined
+2019-01-20 14:59:40,998 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000001CC689B80B8>
+2019-01-20 14:59:40,998 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000001CC689B80B8>
+2019-01-20 14:59:41,001 - DEBUG - Message con is <ib.ext.Contract.Contract object at 0x000001CC689B82E8>
+2019-01-20 14:59:41,001 - DEBUG - Message con is <ib.ext.Contract.Contract object at 0x000001CC689B82E8>
+2019-01-20 14:59:41,007 - DEBUG - Flag set to 1
+2019-01-20 14:59:41,007 - DEBUG - Flag set to 1
+2019-01-20 14:59:41,010 - ERROR - Exception in message dispatch.  Handler 'reply_handler_Orders' for 'openOrder'
+Traceback (most recent call last):
+  File "C:\Users\Michael\Anaconda3\lib\site-packages\ib\opt\dispatcher.py", line 44, in __call__
+    results.append(listener(message))
+  File "C:/Users/Michael/Google Drive/ScarlettTradingCodebase/UAT/bin/SystemManagement/emailDailyPositions/MorningPositions.py", line 72, in reply_handler_Orders
+    messagetext2 += messagetext
+NameError: name 'messagetext2' is not defined
+2019-01-20 14:59:41,010 - ERROR - Exception in message dispatch.  Handler 'reply_handler_Orders' for 'openOrder'
+Traceback (most recent call last):
+  File "C:\Users\Michael\Anaconda3\lib\site-packages\ib\opt\dispatcher.py", line 44, in __call__
+    results.append(listener(message))
+  File "C:/Users/Michael/Google Drive/ScarlettTradingCodebase/UAT/bin/SystemManagement/emailDailyPositions/MorningPositions.py", line 72, in reply_handler_Orders
+    messagetext2 += messagetext
+NameError: name 'messagetext2' is not defined
+2019-01-20 14:59:41,946 - DEBUG - Subject: Morning Orders 01/20/2019
+
+
+
+2019-01-20 14:59:41,946 - DEBUG - Subject: Morning Orders 01/20/2019
+
+
+
+2019-01-20 14:59:45,413 - DEBUG - Email sent
+2019-01-20 14:59:45,413 - DEBUG - Email sent
+2019-01-20 14:59:45,418 - DEBUG - Email function called
+2019-01-20 14:59:45,418 - DEBUG - Email function called
+2019-01-20 14:59:45,424 - DEBUG - disconnected from IBController
+2019-01-20 14:59:45,424 - DEBUG - disconnected from IBController
+2019-01-20 15:00:45,976 - DEBUG - ****************************************************
+2019-01-20 15:00:45,976 - DEBUG - ****************************************************
+2019-01-20 15:00:46,041 - DEBUG - Connecting to Database
+2019-01-20 15:00:46,041 - DEBUG - Connecting to Database
+2019-01-20 15:00:47,164 - DEBUG - Connected to Database
+2019-01-20 15:00:47,164 - DEBUG - Connected to Database
+2019-01-20 15:00:47,180 - DEBUG - Requested Account Summary
+2019-01-20 15:00:47,180 - DEBUG - Requested Account Summary
+2019-01-20 15:00:47,247 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000002481A2F7128>
+2019-01-20 15:00:47,247 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000002481A2F7128>
+2019-01-20 15:00:47,371 - DEBUG - Message con is <ib.ext.Contract.Contract object at 0x000002481A2F71D0>
+2019-01-20 15:00:47,371 - DEBUG - Message con is <ib.ext.Contract.Contract object at 0x000002481A2F71D0>
+2019-01-20 15:00:47,393 - DEBUG - Flag set to 1
+2019-01-20 15:00:47,393 - DEBUG - Flag set to 1
+2019-01-20 15:00:47,421 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000002481A2F74A8>
+2019-01-20 15:00:47,421 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000002481A2F74A8>
+2019-01-20 15:00:47,430 - DEBUG - Message con is <ib.ext.Contract.Contract object at 0x000002481A2F7128>
+2019-01-20 15:00:47,430 - DEBUG - Message con is <ib.ext.Contract.Contract object at 0x000002481A2F7128>
+2019-01-20 15:00:47,438 - DEBUG - Flag set to 1
+2019-01-20 15:00:47,438 - DEBUG - Flag set to 1
+2019-01-20 15:00:48,190 - DEBUG - Subject: Morning Orders 01/20/2019
+
+
+
+2019-01-20 15:00:48,190 - DEBUG - Subject: Morning Orders 01/20/2019
+
+
+
+2019-01-20 15:00:51,419 - DEBUG - Email sent
+2019-01-20 15:00:51,419 - DEBUG - Email sent
+2019-01-20 15:00:51,425 - DEBUG - Email function called
+2019-01-20 15:00:51,425 - DEBUG - Email function called
+2019-01-20 15:00:51,432 - DEBUG - disconnected from IBController
+2019-01-20 15:00:51,432 - DEBUG - disconnected from IBController
+2019-01-20 15:02:28,882 - DEBUG - ****************************************************
+2019-01-20 15:02:28,882 - DEBUG - ****************************************************
+2019-01-20 15:02:28,882 - DEBUG - ****************************************************
+2019-01-20 15:02:28,889 - DEBUG - Connecting to Database
+2019-01-20 15:02:28,889 - DEBUG - Connecting to Database
+2019-01-20 15:02:28,889 - DEBUG - Connecting to Database
+2019-01-20 15:02:30,254 - DEBUG - Connected to Database
+2019-01-20 15:02:30,254 - DEBUG - Connected to Database
+2019-01-20 15:02:30,254 - DEBUG - Connected to Database
+2019-01-20 15:02:30,294 - DEBUG - Requested Account Summary
+2019-01-20 15:02:30,294 - DEBUG - Requested Account Summary
+2019-01-20 15:02:30,314 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000002481A307748>
+2019-01-20 15:02:30,314 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000002481A307748>
+2019-01-20 15:02:30,294 - DEBUG - Requested Account Summary
+2019-01-20 15:02:30,314 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000002481A307748>
+2019-01-20 15:02:30,469 - DEBUG - Message con is <ib.ext.Contract.Contract object at 0x000002481A3075C0>
+2019-01-20 15:02:30,469 - DEBUG - Message con is <ib.ext.Contract.Contract object at 0x000002481A3075C0>
+2019-01-20 15:02:30,469 - DEBUG - Message con is <ib.ext.Contract.Contract object at 0x000002481A3075C0>
+2019-01-20 15:02:30,488 - DEBUG - Flag set to 1
+2019-01-20 15:02:30,488 - DEBUG - Flag set to 1
+2019-01-20 15:02:30,488 - DEBUG - Flag set to 1
+2019-01-20 15:02:30,520 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000002481A3079B0>
+2019-01-20 15:02:30,520 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000002481A3079B0>
+2019-01-20 15:02:30,520 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000002481A3079B0>
+2019-01-20 15:02:30,537 - DEBUG - Message con is <ib.ext.Contract.Contract object at 0x000002481A307748>
+2019-01-20 15:02:30,537 - DEBUG - Message con is <ib.ext.Contract.Contract object at 0x000002481A307748>
+2019-01-20 15:02:30,537 - DEBUG - Message con is <ib.ext.Contract.Contract object at 0x000002481A307748>
+2019-01-20 15:02:30,551 - DEBUG - Flag set to 1
+2019-01-20 15:02:30,551 - DEBUG - Flag set to 1
+2019-01-20 15:02:30,551 - DEBUG - Flag set to 1
+2019-01-20 15:02:31,458 - DEBUG - Subject: Morning Orders 01/20/2019
+
+Morning Orders 
+NKE 300GS 100
+
+2019-01-20 15:02:31,458 - DEBUG - Subject: Morning Orders 01/20/2019
+
+Morning Orders 
+NKE 300GS 100
+
+2019-01-20 15:02:31,458 - DEBUG - Subject: Morning Orders 01/20/2019
+
+Morning Orders 
+NKE 300GS 100
+
+2019-01-20 15:02:33,470 - DEBUG - Email sent
+2019-01-20 15:02:33,470 - DEBUG - Email sent
+2019-01-20 15:02:33,470 - DEBUG - Email sent
+2019-01-20 15:02:33,480 - DEBUG - Email function called
+2019-01-20 15:02:33,480 - DEBUG - Email function called
+2019-01-20 15:02:33,480 - DEBUG - Email function called
+2019-01-20 15:02:33,494 - DEBUG - disconnected from IBController
+2019-01-20 15:02:33,494 - DEBUG - disconnected from IBController
+2019-01-20 15:02:33,494 - DEBUG - disconnected from IBController
+2019-01-20 15:03:20,864 - DEBUG - ****************************************************
+2019-01-20 15:03:20,864 - DEBUG - ****************************************************
+2019-01-20 15:03:20,932 - DEBUG - Connecting to Database
+2019-01-20 15:03:20,932 - DEBUG - Connecting to Database
+2019-01-20 15:03:25,034 - DEBUG - Connected to Database
+2019-01-20 15:03:25,034 - DEBUG - Connected to Database
+2019-01-20 15:03:25,099 - DEBUG - Requested Account Summary
+2019-01-20 15:03:25,099 - DEBUG - Requested Account Summary
+2019-01-20 15:03:25,177 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000002381BED6240>
+2019-01-20 15:03:25,177 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000002381BED6240>
+2019-01-20 15:03:25,249 - DEBUG - Message con is <ib.ext.Contract.Contract object at 0x000002381BED6208>
+2019-01-20 15:03:25,249 - DEBUG - Message con is <ib.ext.Contract.Contract object at 0x000002381BED6208>
+2019-01-20 15:03:25,260 - DEBUG - Flag set to 1
+2019-01-20 15:03:25,260 - DEBUG - Flag set to 1
+2019-01-20 15:03:25,281 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000002381BED6470>
+2019-01-20 15:03:25,281 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000002381BED6470>
+2019-01-20 15:03:25,287 - DEBUG - Message con is <ib.ext.Contract.Contract object at 0x000002381BED6240>
+2019-01-20 15:03:25,287 - DEBUG - Message con is <ib.ext.Contract.Contract object at 0x000002381BED6240>
+2019-01-20 15:03:25,297 - DEBUG - Flag set to 1
+2019-01-20 15:03:25,297 - DEBUG - Flag set to 1
+2019-01-20 15:03:26,120 - DEBUG - Subject: Morning Orders 01/20/2019
+
+Morning Orders 
+NKE 300
+GS 100
+
+
+2019-01-20 15:03:26,120 - DEBUG - Subject: Morning Orders 01/20/2019
+
+Morning Orders 
+NKE 300
+GS 100
+
+
+2019-01-20 15:03:29,553 - DEBUG - Email sent
+2019-01-20 15:03:29,553 - DEBUG - Email sent
+2019-01-20 15:03:29,560 - DEBUG - Email function called
+2019-01-20 15:03:29,560 - DEBUG - Email function called
+2019-01-20 15:03:29,568 - DEBUG - disconnected from IBController
+2019-01-20 15:03:29,568 - DEBUG - disconnected from IBController
+2019-01-20 15:12:06,397 - DEBUG - ****************************************************
+2019-01-20 15:12:06,397 - DEBUG - ****************************************************
+2019-01-20 15:12:06,441 - DEBUG - Connecting to Database
+2019-01-20 15:12:06,441 - DEBUG - Connecting to Database
+2019-01-20 15:12:08,041 - DEBUG - Connected to Database
+2019-01-20 15:12:08,041 - DEBUG - Connected to Database
+2019-01-20 15:12:08,085 - DEBUG - Requested Account Summary
+2019-01-20 15:12:08,101 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000001AA929D4240>
+2019-01-20 15:12:08,085 - DEBUG - Requested Account Summary
+2019-01-20 15:12:08,101 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000001AA929D4240>
+2019-01-20 15:12:08,180 - DEBUG - Message con is <ib.ext.Contract.Contract object at 0x000001AA929D4160>
+2019-01-20 15:12:08,180 - DEBUG - Message con is <ib.ext.Contract.Contract object at 0x000001AA929D4160>
+2019-01-20 15:12:08,201 - DEBUG - Flag set to 1
+2019-01-20 15:12:08,201 - DEBUG - Flag set to 1
+2019-01-20 15:12:08,264 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000001AA929C6DA0>
+2019-01-20 15:12:08,264 - DEBUG - Message Value is <ib.ext.Order.Order object at 0x000001AA929C6DA0>
+2019-01-20 15:12:08,275 - DEBUG - Message con is <ib.ext.Contract.Contract object at 0x000001AA929D4470>
+2019-01-20 15:12:08,275 - DEBUG - Message con is <ib.ext.Contract.Contract object at 0x000001AA929D4470>
+2019-01-20 15:12:08,306 - DEBUG - Flag set to 1
+2019-01-20 15:12:08,306 - DEBUG - Flag set to 1
+2019-01-20 15:12:09,122 - DEBUG - Subject: Morning Orders 01/20/2019
+
+Morning Orders 
+NKE 300 80.6
+GS 100 202.59
+
+
+2019-01-20 15:12:09,122 - DEBUG - Subject: Morning Orders 01/20/2019
+
+Morning Orders 
+NKE 300 80.6
+GS 100 202.59
+
+
+2019-01-20 15:12:13,029 - DEBUG - Email sent
+2019-01-20 15:12:13,029 - DEBUG - Email sent
+2019-01-20 15:12:13,035 - DEBUG - Email function called
+2019-01-20 15:12:13,035 - DEBUG - Email function called
+2019-01-20 15:12:13,042 - DEBUG - disconnected from IBController
+2019-01-20 15:12:13,042 - DEBUG - disconnected from IBController
+2019-01-20 21:52:19,203 - DEBUG - ****************************************************
+2019-01-20 21:52:19,203 - DEBUG - ****************************************************
+2019-01-20 21:52:19,640 - DEBUG - EUC-JP Japanese prober hit error at byte 161
+2019-01-20 21:52:19,640 - DEBUG - EUC-JP Japanese prober hit error at byte 161
+2019-01-20 21:52:19,651 - DEBUG - GB2312 Chinese prober hit error at byte 162
+2019-01-20 21:52:19,651 - DEBUG - GB2312 Chinese prober hit error at byte 162
+2019-01-20 21:52:19,663 - DEBUG - EUC-KR Korean prober hit error at byte 161
+2019-01-20 21:52:19,663 - DEBUG - EUC-KR Korean prober hit error at byte 161
+2019-01-20 21:52:19,674 - DEBUG - CP949 Korean prober hit error at byte 162
+2019-01-20 21:52:19,674 - DEBUG - CP949 Korean prober hit error at byte 162
+2019-01-20 21:52:19,686 - DEBUG - Big5 Chinese prober hit error at byte 161
+2019-01-20 21:52:19,686 - DEBUG - Big5 Chinese prober hit error at byte 161
+2019-01-20 21:52:19,699 - DEBUG - EUC-TW Taiwan prober hit error at byte 161
+2019-01-20 21:52:19,699 - DEBUG - EUC-TW Taiwan prober hit error at byte 161
+2019-01-20 21:52:19,845 - DEBUG - utf-8 not active
+2019-01-20 21:52:19,845 - DEBUG - utf-8 not active
+2019-01-20 21:52:19,859 - DEBUG - SHIFT_JIS Japanese confidence = 0.01
+2019-01-20 21:52:19,859 - DEBUG - SHIFT_JIS Japanese confidence = 0.01
+2019-01-20 21:52:19,867 - DEBUG - EUC-JP not active
+2019-01-20 21:52:19,867 - DEBUG - EUC-JP not active
+2019-01-20 21:52:19,875 - DEBUG - GB2312 not active
+2019-01-20 21:52:19,875 - DEBUG - GB2312 not active
+2019-01-20 21:52:19,886 - DEBUG - EUC-KR not active
+2019-01-20 21:52:19,886 - DEBUG - EUC-KR not active
+2019-01-20 21:52:19,894 - DEBUG - CP949 not active
+2019-01-20 21:52:19,894 - DEBUG - CP949 not active
+2019-01-20 21:52:19,903 - DEBUG - Big5 not active
+2019-01-20 21:52:19,903 - DEBUG - Big5 not active
+2019-01-20 21:52:19,911 - DEBUG - EUC-TW not active
+2019-01-20 21:52:19,911 - DEBUG - EUC-TW not active
+2019-01-20 21:52:19,919 - DEBUG - windows-1251 Russian confidence = 0.01
+2019-01-20 21:52:19,919 - DEBUG - windows-1251 Russian confidence = 0.01
+2019-01-20 21:52:19,927 - DEBUG - KOI8-R Russian confidence = 0.01
+2019-01-20 21:52:19,927 - DEBUG - KOI8-R Russian confidence = 0.01
+2019-01-20 21:52:19,935 - DEBUG - ISO-8859-5 Russian confidence = 0.01
+2019-01-20 21:52:19,935 - DEBUG - ISO-8859-5 Russian confidence = 0.01
+2019-01-20 21:52:19,943 - DEBUG - MacCyrillic Russian confidence = 0.01
+2019-01-20 21:52:19,943 - DEBUG - MacCyrillic Russian confidence = 0.01
+2019-01-20 21:52:19,952 - DEBUG - IBM866 Russian confidence = 0.0
+2019-01-20 21:52:19,952 - DEBUG - IBM866 Russian confidence = 0.0
+2019-01-20 21:52:19,959 - DEBUG - IBM855 Russian confidence = 0.0
+2019-01-20 21:52:19,959 - DEBUG - IBM855 Russian confidence = 0.0
+2019-01-20 21:52:19,968 - DEBUG - ISO-8859-7 Greek confidence = 0.01
+2019-01-20 21:52:19,968 - DEBUG - ISO-8859-7 Greek confidence = 0.01
+2019-01-20 21:52:19,978 - DEBUG - windows-1253 Greek confidence = 0.01
+2019-01-20 21:52:19,978 - DEBUG - windows-1253 Greek confidence = 0.01
+2019-01-20 21:52:19,986 - DEBUG - ISO-8859-5 Bulgairan confidence = 0.01
+2019-01-20 21:52:19,986 - DEBUG - ISO-8859-5 Bulgairan confidence = 0.01
+2019-01-20 21:52:19,993 - DEBUG - windows-1251 Bulgarian confidence = 0.01
+2019-01-20 21:52:19,993 - DEBUG - windows-1251 Bulgarian confidence = 0.01
+2019-01-20 21:52:20,001 - DEBUG - TIS-620 Thai confidence = 0.01
+2019-01-20 21:52:20,001 - DEBUG - TIS-620 Thai confidence = 0.01
+2019-01-20 21:52:20,009 - DEBUG - ISO-8859-9 Turkish confidence = 0.5259327461000193
+2019-01-20 21:52:20,009 - DEBUG - ISO-8859-9 Turkish confidence = 0.5259327461000193
+2019-01-20 21:52:20,017 - DEBUG - windows-1255 Hebrew confidence = 0.0
+2019-01-20 21:52:20,017 - DEBUG - windows-1255 Hebrew confidence = 0.0
+2019-01-20 21:52:20,026 - DEBUG - windows-1255 Hebrew confidence = 0.0
+2019-01-20 21:52:20,026 - DEBUG - windows-1255 Hebrew confidence = 0.0
+2019-01-20 21:52:20,034 - DEBUG - windows-1255 Hebrew confidence = 0.0
+2019-01-20 21:52:20,034 - DEBUG - windows-1255 Hebrew confidence = 0.0
+2019-01-20 21:52:23,346 - DEBUG - Connected to Database
+2019-01-20 21:52:23,346 - DEBUG - Connected to Database
+2019-01-20 21:52:23,359 - DEBUG - Run Calc
+2019-01-20 21:52:23,359 - DEBUG - Run Calc
+2019-01-20 21:52:23,429 - DEBUG - Date is 2019-01-20
+2019-01-20 21:52:23,429 - DEBUG - Date is 2019-01-20
+2019-01-20 21:52:23,705 - DEBUG - Balance is ('29115.99',)
+2019-01-20 21:52:23,705 - DEBUG - Balance is ('29115.99',)
+2019-01-20 21:52:23,721 - DEBUG - Query is Select Balance from AccountBalance t inner join (SELECT (MAX(ID)-1) as max_date FROM AccountBalance) a on a.max_date = t.ID
+2019-01-20 21:52:23,721 - DEBUG - Query is Select Balance from AccountBalance t inner join (SELECT (MAX(ID)-1) as max_date FROM AccountBalance) a on a.max_date = t.ID
+2019-01-20 22:10:43,947 - DEBUG - Starting DailyOHLC
+2019-01-20 22:10:43,947 - DEBUG - Starting DailyOHLC
+2019-01-20 22:10:43,976 - DEBUG - Ticker is ['AAPL', 'ISLAND']
+2019-01-20 22:10:43,976 - DEBUG - Ticker is ['AAPL', 'ISLAND']
+2019-01-20 22:10:43,986 - DEBUG - exchange is ISLAND
+2019-01-20 22:10:43,986 - DEBUG - exchange is ISLAND
+2019-01-20 22:10:43,996 - DEBUG - Flag set to 0
+2019-01-20 22:10:43,996 - DEBUG - Flag set to 0
+2019-01-20 22:10:45,017 - DEBUG - Connecting to Server
+2019-01-20 22:10:45,017 - DEBUG - Connecting to Server
+2019-01-20 22:10:46,027 - DEBUG - Registered HistoricalData Reply Handler
+2019-01-20 22:10:46,027 - DEBUG - Registered HistoricalData Reply Handler
+2019-01-20 22:10:47,045 - DEBUG - Requesting historical data
+2019-01-20 22:10:47,045 - DEBUG - Requesting historical data
+2019-01-20 22:10:47,070 - DEBUG - Returned from Reply Handler
+2019-01-20 22:10:47,070 - DEBUG - Returned from Reply Handler
+2019-01-20 22:10:48,091 - DEBUG - Disconnecting from Server
+2019-01-20 22:10:48,091 - DEBUG - Disconnecting from Server
+2019-01-20 22:10:48,109 - DEBUG - Ticker is ['AAPL', 'ISLAND']
+2019-01-20 22:10:48,109 - DEBUG - Ticker is ['AAPL', 'ISLAND']
+2019-01-20 22:10:48,130 - DEBUG - exchange is ISLAND
+2019-01-20 22:10:48,130 - DEBUG - exchange is ISLAND
+2019-01-20 22:10:48,149 - DEBUG - Flag set to 0
+2019-01-20 22:10:48,149 - DEBUG - Flag set to 0
+2019-01-20 22:10:49,192 - DEBUG - Connecting to Server
+2019-01-20 22:10:49,192 - DEBUG - Connecting to Server
+2019-01-20 22:10:50,204 - DEBUG - Registered HistoricalData Reply Handler
+2019-01-20 22:10:50,204 - DEBUG - Registered HistoricalData Reply Handler
+2019-01-20 22:10:51,215 - DEBUG - Requesting historical data
+2019-01-20 22:10:51,215 - DEBUG - Requesting historical data
+2019-01-20 22:10:51,223 - DEBUG - Returned from Reply Handler
+2019-01-20 22:10:51,223 - DEBUG - Returned from Reply Handler
+2019-01-20 22:10:52,233 - DEBUG - Disconnecting from Server
+2019-01-20 22:10:52,233 - DEBUG - Disconnecting from Server
+2019-01-20 22:10:52,262 - DEBUG - Ticker is ['AAPL', 'ISLAND']
+2019-01-20 22:10:52,262 - DEBUG - Ticker is ['AAPL', 'ISLAND']
+2019-01-20 22:10:52,285 - DEBUG - exchange is ISLAND
+2019-01-20 22:10:52,285 - DEBUG - exchange is ISLAND
+2019-01-20 22:10:52,309 - DEBUG - Flag set to 0
+2019-01-20 22:10:52,309 - DEBUG - Flag set to 0
+2019-01-20 22:10:53,347 - DEBUG - Connecting to Server
+2019-01-20 22:10:53,347 - DEBUG - Connecting to Server
+2019-01-20 22:10:54,368 - DEBUG - Registered HistoricalData Reply Handler
+2019-01-20 22:10:54,368 - DEBUG - Registered HistoricalData Reply Handler
+2019-01-20 22:10:55,380 - DEBUG - Requesting historical data
+2019-01-20 22:10:55,380 - DEBUG - Requesting historical data
+2019-01-20 22:10:55,393 - DEBUG - Returned from Reply Handler
+2019-01-20 22:10:55,393 - DEBUG - Returned from Reply Handler
+2019-01-20 22:10:56,408 - DEBUG - Disconnecting from Server
+2019-01-20 22:10:56,408 - DEBUG - Disconnecting from Server
+2019-01-20 22:10:56,422 - DEBUG - Ticker is ['AAPL', 'ISLAND']
+2019-01-20 22:10:56,422 - DEBUG - Ticker is ['AAPL', 'ISLAND']
+2019-01-20 22:10:56,437 - DEBUG - exchange is ISLAND
+2019-01-20 22:10:56,437 - DEBUG - exchange is ISLAND
+2019-01-20 22:10:56,455 - DEBUG - Flag set to 0
+2019-01-20 22:10:56,455 - DEBUG - Flag set to 0
+2019-01-20 22:10:57,485 - DEBUG - Connecting to Server
+2019-01-20 22:10:57,485 - DEBUG - Connecting to Server
+2019-01-20 22:10:58,500 - DEBUG - Registered HistoricalData Reply Handler
+2019-01-20 22:10:58,500 - DEBUG - Registered HistoricalData Reply Handler

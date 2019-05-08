@@ -1,0 +1,192 @@
+2018-12-02 21:45:14,370 - DEBUG - Starting DailyOHLC
+2018-12-02 21:45:14,400 - DEBUG - Flag set to 0
+2018-12-02 21:45:14,822 - DEBUG - Connecting to Server
+2018-12-02 21:45:15,859 - DEBUG - Registered HistoricalData Reply Handler
+2018-12-02 21:45:16,895 - DEBUG - Requesting historical data
+2018-12-02 21:45:17,263 - DEBUG - Returned from Reply Handler
+2018-12-02 21:45:18,468 - DEBUG - Disconnecting from Server
+2018-12-02 21:45:18,498 - DEBUG - Flag set to 0
+2018-12-02 21:45:18,828 - DEBUG - Connecting to Server
+2018-12-02 21:45:19,889 - DEBUG - Registered HistoricalData Reply Handler
+2018-12-02 21:45:20,926 - DEBUG - Requesting historical data
+2018-12-02 21:45:20,985 - DEBUG - Returned from Reply Handler
+2018-12-02 21:45:22,066 - DEBUG - Disconnecting from Server
+2018-12-02 21:45:22,090 - DEBUG - Flag set to 0
+2018-12-02 21:45:22,386 - DEBUG - Connecting to Server
+2018-12-02 21:45:23,494 - DEBUG - Registered HistoricalData Reply Handler
+2018-12-02 21:45:24,542 - DEBUG - Requesting historical data
+2018-12-02 21:45:24,601 - DEBUG - Returned from Reply Handler
+2018-12-02 21:45:25,674 - DEBUG - Disconnecting from Server
+2018-12-02 21:45:25,701 - DEBUG - Flag set to 0
+2018-12-02 21:45:25,943 - DEBUG - Connecting to Server
+2018-12-02 21:45:27,085 - DEBUG - Registered HistoricalData Reply Handler
+2018-12-02 21:45:28,212 - DEBUG - Requesting historical data
+2018-12-02 21:45:28,291 - DEBUG - Returned from Reply Handler
+2018-12-02 21:45:29,350 - DEBUG - Disconnecting from Server
+2018-12-02 21:45:29,385 - DEBUG - Flag set to 0
+2018-12-02 21:45:29,478 - DEBUG - Connecting to Server
+2018-12-02 21:45:30,497 - DEBUG - Registered HistoricalData Reply Handler
+2018-12-02 21:45:31,533 - DEBUG - Requesting historical data
+2018-12-02 21:45:31,634 - DEBUG - Returned from Reply Handler
+2018-12-02 21:45:32,731 - DEBUG - Disconnecting from Server
+2018-12-02 21:45:32,791 - DEBUG - Flag set to 0
+2018-12-02 21:45:32,924 - DEBUG - Connecting to Server
+2018-12-02 21:45:34,036 - DEBUG - Registered HistoricalData Reply Handler
+2018-12-02 21:45:35,073 - DEBUG - Requesting historical data
+2018-12-02 21:45:35,126 - DEBUG - Returned from Reply Handler
+2018-12-02 21:45:35,219 - DEBUG - In beginning of Reply Handler
+2018-12-02 21:45:35,275 - DEBUG - test 186.5
+2018-12-02 21:45:35,294 - DEBUG - test5 -1
+2018-12-02 21:45:35,311 - DEBUG - Flag 0
+2018-12-02 21:45:35,332 - DEBUG - In Reply Handler
+2018-12-02 21:45:35,372 - DEBUG - Valid Price Found (OPEN NOT -1)
+2018-12-02 21:45:35,568 - DEBUG - Connected to Database
+2018-12-02 21:45:35,689 - DEBUG - Ran Insert Script
+2018-12-02 21:45:35,705 - DEBUG - Yesterday2 was 12/01/2018
+2018-12-02 21:45:35,720 - DEBUG - Today is still  2018-12-02
+2018-12-02 21:45:35,743 - DEBUG - Date shifted back 10 is 2018-11-19
+2018-12-02 21:45:35,773 - DEBUG - First Date of Moving Average is 11/19/2018
+2018-12-02 21:45:35,790 - DEBUG - Query is SELECT max(ID) from AAPL
+2018-12-02 21:45:35,842 - DEBUG - ID1 is (394,)
+2018-12-02 21:45:35,858 - DEBUG - Query is SELECT (max(ID)-20) from AAPL
+2018-12-02 21:45:35,906 - DEBUG - ID1 is (394,)
+2018-12-02 21:45:35,932 - DEBUG - ID2 is (374,)
+2018-12-02 21:45:35,951 - DEBUG - Query is SELECT (max(ID)-1) from AAPL
+2018-12-02 21:45:36,004 - DEBUG - ID3 is (393,)
+2018-12-02 21:45:36,020 - DEBUG - Query is SELECT (max(ID)-5) from AAPL
+2018-12-02 21:45:36,062 - DEBUG - ID4 is (389,)
+2018-12-02 21:45:36,075 - DEBUG - Query is SELECT (max(ID)-30) from AAPL
+2018-12-02 21:45:36,117 - DEBUG - ID30 is (364,)
+2018-12-02 21:45:36,135 - DEBUG - Query is SELECT (max(ID)-60) from AAPL
+2018-12-02 21:45:36,179 - DEBUG - Disconnecting from Server
+2018-12-02 21:45:36,182 - DEBUG - ID60 is (334,)
+2018-12-02 21:45:36,204 - DEBUG - Flag set to 0
+2018-12-02 21:45:36,210 - DEBUG - Query is SELECT (max(ID)-90) from AAPL
+2018-12-02 21:45:36,260 - DEBUG - Connecting to Server
+2018-12-02 21:45:36,516 - DEBUG - ID90 is (304,)
+2018-12-02 21:45:36,553 - DEBUG - yClose is 178.84
+2018-12-02 21:45:36,587 - DEBUG - tClose is 178.9
+2018-12-02 21:45:36,604 - DEBUG - yClose is 178.84
+2018-12-02 21:45:36,622 - DEBUG - Close is 178.9
+2018-12-02 21:45:36,639 - DEBUG - Return is 0.03
+2018-12-02 21:45:36,656 - DEBUG - Query is UPDATE AAPL SET PercentReturn = 0.03 where ID = 394;
+2018-12-02 21:45:36,737 - DEBUG - Query is SELECT round(Avg(Close),2) as Avg from AAPL where ID BETWEEN 389 AND 394;
+2018-12-02 21:45:36,781 - DEBUG - MovAvg is (178.87,)
+2018-12-02 21:45:36,796 - DEBUG - Query is UPDATE hasPosition SET MovingAvgValue = 178.87 where CCY ='AAPL';
+2018-12-02 21:45:36,866 - DEBUG - Query is UPDATE AAPL SET TrueRange = 9.4600 where ID ='394';
+2018-12-02 21:45:37,181 - DEBUG - Query is SELECT round(Avg(TrueRange),2) as Avg from AAPL where ID BETWEEN 389 AND 394;
+2018-12-02 21:45:37,215 - DEBUG - ATR is (19.22,)
+2018-12-02 21:45:37,229 - DEBUG - Query is UPDATE hasPosition SET ATRValue = 19.22 where CCY ='AAPL';
+2018-12-02 21:45:37,276 - DEBUG - Registered HistoricalData Reply Handler
+2018-12-02 21:45:37,302 - DEBUG - Query is SELECT round(stddev(PercentReturn),2) as vol30 from AAPL where ID BETWEEN 364 AND 394;
+2018-12-02 21:45:37,340 - DEBUG - 30d is 40.00
+2018-12-02 21:45:37,351 - DEBUG - Query is UPDATE AAPL SET thirtyvol = 40.00 where ID ='394';
+2018-12-02 21:45:37,406 - DEBUG - Query is SELECT round(stddev(PercentReturn),2) as vol60 from AAPL where ID BETWEEN 334 AND 394;
+2018-12-02 21:45:37,437 - DEBUG - sixtyd is 35.08
+2018-12-02 21:45:37,450 - DEBUG - Query is UPDATE AAPL SET sixtyvol = 35.08 where ID ='394';
+2018-12-02 21:45:37,518 - DEBUG - Query is SELECT round(stddev(PercentReturn),2) as vol90 from AAPL where ID BETWEEN 304 AND 394;
+2018-12-02 21:45:37,615 - DEBUG - ninetyd is 32.06
+2018-12-02 21:45:37,627 - DEBUG - Query is UPDATE AAPL SET ninetyvol = 32.06 where ID ='394';
+2018-12-02 21:45:37,695 - DEBUG - Flag set to 1
+2018-12-02 21:45:37,724 - DEBUG - In beginning of Reply Handler
+2018-12-02 21:45:37,779 - DEBUG - test -1
+2018-12-02 21:45:37,822 - DEBUG - test5 -1
+2018-12-02 21:45:37,866 - DEBUG - Flag 1
+2018-12-02 21:45:37,898 - DEBUG - In Reply Handler
+2018-12-02 21:45:37,930 - DEBUG - Flag set to 1
+2018-12-02 21:45:38,293 - DEBUG - Requesting historical data
+2018-12-02 21:45:38,407 - DEBUG - Returned from Reply Handler
+2018-12-02 21:45:38,538 - DEBUG - In beginning of Reply Handler
+2018-12-02 21:45:38,653 - DEBUG - test 186.5
+2018-12-02 21:45:38,715 - DEBUG - test5 -1
+2018-12-02 21:45:38,804 - DEBUG - Flag 1
+2018-12-02 21:45:38,852 - DEBUG - In Reply Handler
+2018-12-02 21:45:38,903 - DEBUG - Valid Price Found (OPEN NOT -1)
+2018-12-02 21:45:39,195 - DEBUG - Connected to Database
+2018-12-02 21:45:39,298 - DEBUG - Ran Insert Script
+2018-12-02 21:45:39,323 - DEBUG - Yesterday2 was 12/01/2018
+2018-12-02 21:45:39,352 - DEBUG - Today is still  2018-12-02
+2018-12-02 21:45:39,386 - DEBUG - Date shifted back 10 is 2018-11-19
+2018-12-02 21:45:39,442 - DEBUG - First Date of Moving Average is 11/19/2018
+2018-12-02 21:45:39,485 - DEBUG - Query is SELECT max(ID) from AAPL
+2018-12-02 21:45:39,486 - DEBUG - Disconnecting from Server
+2018-12-02 21:45:39,587 - DEBUG - Finished SPY Daily OHLC
+2018-12-02 21:45:39,609 - DEBUG - ID1 is (395,)
+2018-12-02 21:45:39,701 - DEBUG - Query is SELECT (max(ID)-20) from AAPL
+2018-12-02 21:45:40,087 - DEBUG - ID1 is (395,)
+2018-12-02 21:45:40,104 - DEBUG - ID2 is (375,)
+2018-12-02 21:45:40,124 - DEBUG - Query is SELECT (max(ID)-1) from AAPL
+2018-12-02 21:45:40,284 - DEBUG - ID3 is (394,)
+2018-12-02 21:45:40,302 - DEBUG - Query is SELECT (max(ID)-5) from AAPL
+2018-12-02 21:45:40,462 - DEBUG - ID4 is (390,)
+2018-12-02 21:45:40,480 - DEBUG - Query is SELECT (max(ID)-30) from AAPL
+2018-12-02 21:45:40,553 - DEBUG - ID30 is (365,)
+2018-12-02 21:45:40,568 - DEBUG - Query is SELECT (max(ID)-60) from AAPL
+2018-12-02 21:45:40,665 - DEBUG - ID60 is (335,)
+2018-12-02 21:45:40,680 - DEBUG - Query is SELECT (max(ID)-90) from AAPL
+2018-12-02 21:45:40,808 - DEBUG - ID90 is (305,)
+2018-12-02 21:45:40,937 - DEBUG - yClose is 178.9
+2018-12-02 21:45:41,045 - DEBUG - tClose is 178.9
+2018-12-02 21:45:41,062 - DEBUG - yClose is 178.9
+2018-12-02 21:45:41,078 - DEBUG - Close is 178.9
+2018-12-02 21:45:41,099 - DEBUG - Return is 0.0
+2018-12-02 21:45:41,116 - DEBUG - Query is UPDATE AAPL SET PercentReturn = 0.0 where ID = 395;
+2018-12-02 21:45:41,263 - DEBUG - Query is SELECT round(Avg(Close),2) as Avg from AAPL where ID BETWEEN 390 AND 395;
+2018-12-02 21:45:41,301 - DEBUG - MovAvg is (179.51,)
+2018-12-02 21:45:41,317 - DEBUG - Query is UPDATE hasPosition SET MovingAvgValue = 179.51 where CCY ='AAPL';
+2018-12-02 21:45:41,542 - DEBUG - Query is UPDATE AAPL SET TrueRange = 9.4600 where ID ='395';
+2018-12-02 21:45:41,745 - DEBUG - Query is SELECT round(Avg(TrueRange),2) as Avg from AAPL where ID BETWEEN 390 AND 395;
+2018-12-02 21:45:41,783 - DEBUG - ATR is (12.21,)
+2018-12-02 21:45:41,796 - DEBUG - Query is UPDATE hasPosition SET ATRValue = 12.21 where CCY ='AAPL';
+2018-12-02 21:45:41,906 - DEBUG - Query is SELECT round(stddev(PercentReturn),2) as vol30 from AAPL where ID BETWEEN 365 AND 395;
+2018-12-02 21:45:42,000 - DEBUG - 30d is 39.84
+2018-12-02 21:45:42,014 - DEBUG - Query is UPDATE AAPL SET thirtyvol = 39.84 where ID ='395';
+2018-12-02 21:45:42,264 - DEBUG - Query is SELECT round(stddev(PercentReturn),2) as vol60 from AAPL where ID BETWEEN 335 AND 395;
+2018-12-02 21:45:42,367 - DEBUG - sixtyd is 35.08
+2018-12-02 21:45:42,378 - DEBUG - Query is UPDATE AAPL SET sixtyvol = 35.08 where ID ='395';
+2018-12-02 21:45:42,536 - DEBUG - Query is SELECT round(stddev(PercentReturn),2) as vol90 from AAPL where ID BETWEEN 305 AND 395;
+2018-12-02 21:45:43,009 - DEBUG - ninetyd is 31.90
+2018-12-02 21:45:43,022 - DEBUG - Query is UPDATE AAPL SET ninetyvol = 31.90 where ID ='395';
+2018-12-02 21:45:43,080 - DEBUG - Flag set to 1
+2018-12-02 21:45:43,094 - DEBUG - In beginning of Reply Handler
+2018-12-02 21:45:43,106 - DEBUG - test -1
+2018-12-02 21:45:43,119 - DEBUG - test5 -1
+2018-12-02 21:45:43,131 - DEBUG - Flag 1
+2018-12-02 21:45:43,143 - DEBUG - In Reply Handler
+2018-12-02 21:45:43,156 - DEBUG - Flag set to 1
+2018-12-02 21:45:52,533 - DEBUG - ****************************************************
+2018-12-02 21:45:52,883 - DEBUG - Connecting To Database
+2018-12-02 21:45:53,146 - DEBUG - Connecting To Database
+2018-12-02 21:45:53,190 - DEBUG - Query is SELECT max(ID) from SPY
+2018-12-02 21:45:53,261 - DEBUG - ID1 is (394,)
+2018-12-02 21:45:53,335 - DEBUG - MovingAvgValue is 273.28
+2018-12-02 21:45:53,412 - DEBUG - ATRValue is ('6.59',)
+2018-12-02 21:45:53,467 - DEBUG - yesterday High is 278.8
+2018-12-02 21:45:53,525 - DEBUG - Entry Pending is ('1',)
+2018-12-02 21:45:53,608 - DEBUG - yesterdays Close is 276.51
+2018-12-02 21:45:53,678 - DEBUG - OLD Order ID is ('276.51',)
+2018-12-02 21:45:53,717 - DEBUG - %%%%%%%%%%%%%% END STRATEGY %s%s
+2018-12-02 21:46:06,102 - DEBUG - ****************************************************
+2018-12-02 21:46:09,513 - DEBUG - Connecting To Database
+2018-12-02 21:46:09,783 - DEBUG - Connecting To Database
+2018-12-02 21:46:09,819 - DEBUG - Query is SELECT max(ID) from SPY
+2018-12-02 21:46:09,925 - DEBUG - ID1 is (394,)
+2018-12-02 21:46:09,990 - DEBUG - MovingAvgValue is 273.28
+2018-12-02 21:46:10,090 - DEBUG - ATRValue is ('6.59',)
+2018-12-02 21:46:10,401 - DEBUG - yesterday High is 278.8
+2018-12-02 21:46:10,890 - DEBUG - Entry Pending is ('1',)
+2018-12-02 21:46:11,007 - DEBUG - yesterdays Close is 276.51
+2018-12-02 21:46:11,110 - DEBUG - OLD Order ID is ('276.51',)
+2018-12-02 21:46:11,143 - DEBUG - %%%%%%%%%%%%%% END STRATEGY %s%s
+2018-12-02 21:48:21,317 - DEBUG - ****************************************************
+2018-12-02 21:48:23,130 - DEBUG - Connecting To Database
+2018-12-02 21:48:23,764 - DEBUG - Connecting To Database
+2018-12-02 21:48:23,813 - DEBUG - Query is SELECT max(ID) from SPY
+2018-12-02 21:48:24,004 - DEBUG - ID1 is (394,)
+2018-12-02 21:48:24,140 - DEBUG - MovingAvgValue is 273.28
+2018-12-02 21:48:24,272 - DEBUG - ATRValue is ('6.59',)
+2018-12-02 21:48:24,385 - DEBUG - yesterday High is 278.8
+2018-12-02 21:48:24,522 - DEBUG - Entry Pending is ('1',)
+2018-12-02 21:48:24,644 - DEBUG - yesterdays Close is 276.51
+2018-12-02 21:48:24,699 - DEBUG - OLD Order ID is ('276.51',)
+2018-12-02 21:48:24,731 - DEBUG - %%%%%%%%%%%%%% END STRATEGY %s%s

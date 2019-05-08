@@ -1,0 +1,890 @@
+2018-11-21 22:30:36,380 - DEBUG - Starting DailyOHLC
+2018-11-21 22:30:36,380 - DEBUG - Starting DailyOHLC
+2018-11-21 22:30:36,455 - DEBUG - Flag set to 0
+2018-11-21 22:30:36,455 - DEBUG - Flag set to 0
+2018-11-21 22:30:36,836 - DEBUG - Connecting to Server
+2018-11-21 22:30:36,836 - DEBUG - Connecting to Server
+2018-11-21 22:30:37,871 - DEBUG - Registered HistoricalData Reply Handler
+2018-11-21 22:30:37,871 - DEBUG - Registered HistoricalData Reply Handler
+2018-11-21 22:30:38,878 - DEBUG - Requesting historical data
+2018-11-21 22:30:38,878 - DEBUG - Requesting historical data
+2018-11-21 22:30:38,931 - DEBUG - Returned from Reply Handler
+2018-11-21 22:30:38,931 - DEBUG - Returned from Reply Handler
+2018-11-21 22:30:39,937 - DEBUG - Disconnecting from Server
+2018-11-21 22:30:39,937 - DEBUG - Disconnecting from Server
+2018-11-21 22:30:39,942 - DEBUG - Flag set to 0
+2018-11-21 22:30:39,942 - DEBUG - Flag set to 0
+2018-11-21 22:30:40,156 - DEBUG - Connecting to Server
+2018-11-21 22:30:40,156 - DEBUG - Connecting to Server
+2018-11-21 22:30:41,163 - DEBUG - Registered HistoricalData Reply Handler
+2018-11-21 22:30:41,163 - DEBUG - Registered HistoricalData Reply Handler
+2018-11-21 22:30:42,169 - DEBUG - Requesting historical data
+2018-11-21 22:30:42,169 - DEBUG - Requesting historical data
+2018-11-21 22:30:42,175 - DEBUG - Returned from Reply Handler
+2018-11-21 22:30:42,175 - DEBUG - Returned from Reply Handler
+2018-11-21 22:30:43,182 - DEBUG - Disconnecting from Server
+2018-11-21 22:30:43,182 - DEBUG - Disconnecting from Server
+2018-11-21 22:30:43,188 - DEBUG - Flag set to 0
+2018-11-21 22:30:43,188 - DEBUG - Flag set to 0
+2018-11-21 22:30:43,315 - DEBUG - Connecting to Server
+2018-11-21 22:30:43,315 - DEBUG - Connecting to Server
+2018-11-21 22:30:44,332 - DEBUG - Registered HistoricalData Reply Handler
+2018-11-21 22:30:44,332 - DEBUG - Registered HistoricalData Reply Handler
+2018-11-21 22:30:45,339 - DEBUG - Requesting historical data
+2018-11-21 22:30:45,339 - DEBUG - Requesting historical data
+2018-11-21 22:30:45,344 - DEBUG - Returned from Reply Handler
+2018-11-21 22:30:45,344 - DEBUG - Returned from Reply Handler
+2018-11-21 22:30:46,351 - DEBUG - Disconnecting from Server
+2018-11-21 22:30:46,351 - DEBUG - Disconnecting from Server
+2018-11-21 22:30:46,356 - DEBUG - Flag set to 0
+2018-11-21 22:30:46,356 - DEBUG - Flag set to 0
+2018-11-21 22:30:46,497 - DEBUG - Connecting to Server
+2018-11-21 22:30:46,497 - DEBUG - Connecting to Server
+2018-11-21 22:30:47,506 - DEBUG - Registered HistoricalData Reply Handler
+2018-11-21 22:30:47,506 - DEBUG - Registered HistoricalData Reply Handler
+2018-11-21 22:30:48,513 - DEBUG - Requesting historical data
+2018-11-21 22:30:48,513 - DEBUG - Requesting historical data
+2018-11-21 22:30:48,517 - DEBUG - Returned from Reply Handler
+2018-11-21 22:30:48,517 - DEBUG - Returned from Reply Handler
+2018-11-21 22:30:49,524 - DEBUG - Disconnecting from Server
+2018-11-21 22:30:49,524 - DEBUG - Disconnecting from Server
+2018-11-21 22:30:49,531 - DEBUG - Flag set to 0
+2018-11-21 22:30:49,531 - DEBUG - Flag set to 0
+2018-11-21 22:30:49,578 - DEBUG - Connecting to Server
+2018-11-21 22:30:49,578 - DEBUG - Connecting to Server
+2018-11-21 22:30:50,587 - DEBUG - Registered HistoricalData Reply Handler
+2018-11-21 22:30:50,587 - DEBUG - Registered HistoricalData Reply Handler
+2018-11-21 22:30:51,593 - DEBUG - Requesting historical data
+2018-11-21 22:30:51,593 - DEBUG - Requesting historical data
+2018-11-21 22:30:51,639 - DEBUG - Returned from Reply Handler
+2018-11-21 22:30:51,639 - DEBUG - Returned from Reply Handler
+2018-11-21 22:30:52,147 - DEBUG - In beginning of Reply Handler
+2018-11-21 22:30:52,147 - DEBUG - In beginning of Reply Handler
+2018-11-21 22:30:52,211 - DEBUG - test 275.86
+2018-11-21 22:30:52,211 - DEBUG - test 275.86
+2018-11-21 22:30:52,219 - DEBUG - test5 -1
+2018-11-21 22:30:52,219 - DEBUG - test5 -1
+2018-11-21 22:30:52,225 - DEBUG - Flag 0
+2018-11-21 22:30:52,225 - DEBUG - Flag 0
+2018-11-21 22:30:52,230 - DEBUG - In Reply Handler
+2018-11-21 22:30:52,230 - DEBUG - In Reply Handler
+2018-11-21 22:30:52,235 - DEBUG - Valid Price Found (OPEN NOT -1)
+2018-11-21 22:30:52,235 - DEBUG - Valid Price Found (OPEN NOT -1)
+2018-11-21 22:30:52,648 - DEBUG - Disconnecting from Server
+2018-11-21 22:30:52,648 - DEBUG - Disconnecting from Server
+2018-11-21 22:30:52,653 - DEBUG - Flag set to 0
+2018-11-21 22:30:52,653 - DEBUG - Flag set to 0
+2018-11-21 22:30:52,702 - DEBUG - Connected to Database
+2018-11-21 22:30:52,702 - DEBUG - Connected to Database
+2018-11-21 22:30:52,728 - DEBUG - Connecting to Server
+2018-11-21 22:30:52,728 - DEBUG - Connecting to Server
+2018-11-21 22:30:53,094 - DEBUG - Ran Insert Script
+2018-11-21 22:30:53,094 - DEBUG - Ran Insert Script
+2018-11-21 22:30:53,098 - DEBUG - Yesterday2 was 11/20/2018
+2018-11-21 22:30:53,098 - DEBUG - Yesterday2 was 11/20/2018
+2018-11-21 22:30:53,105 - DEBUG - Today is still  2018-11-21
+2018-11-21 22:30:53,105 - DEBUG - Today is still  2018-11-21
+2018-11-21 22:30:53,113 - DEBUG - Date shifted back 10 is 2018-11-08
+2018-11-21 22:30:53,113 - DEBUG - Date shifted back 10 is 2018-11-08
+2018-11-21 22:30:53,119 - DEBUG - First Date of BB Moving Average is 11/08/2018
+2018-11-21 22:30:53,119 - DEBUG - First Date of BB Moving Average is 11/08/2018
+2018-11-21 22:30:53,125 - DEBUG - Query is SELECT max(ID) from SPY
+2018-11-21 22:30:53,125 - DEBUG - Query is SELECT max(ID) from SPY
+2018-11-21 22:30:53,152 - DEBUG - BB ID1 is (386,)
+2018-11-21 22:30:53,152 - DEBUG - BB ID1 is (386,)
+2018-11-21 22:30:53,160 - DEBUG - Query is SELECT (max(ID)-20) from SPY
+2018-11-21 22:30:53,160 - DEBUG - Query is SELECT (max(ID)-20) from SPY
+2018-11-21 22:30:53,186 - DEBUG - BB ID1 is (386,)
+2018-11-21 22:30:53,186 - DEBUG - BB ID1 is (386,)
+2018-11-21 22:30:53,192 - DEBUG - BB ID2 is (366,)
+2018-11-21 22:30:53,192 - DEBUG - BB ID2 is (366,)
+2018-11-21 22:30:53,198 - DEBUG - Query is SELECT (max(ID)-1) from SPY
+2018-11-21 22:30:53,198 - DEBUG - Query is SELECT (max(ID)-1) from SPY
+2018-11-21 22:30:53,224 - DEBUG - ID3 is (385,)
+2018-11-21 22:30:53,224 - DEBUG - ID3 is (385,)
+2018-11-21 22:30:53,228 - DEBUG - Query is SELECT (max(ID)-5) from SPY
+2018-11-21 22:30:53,228 - DEBUG - Query is SELECT (max(ID)-5) from SPY
+2018-11-21 22:30:53,255 - DEBUG - ID4 is (381,)
+2018-11-21 22:30:53,255 - DEBUG - ID4 is (381,)
+2018-11-21 22:30:53,262 - DEBUG - Query is SELECT (max(ID)-30) from SPY
+2018-11-21 22:30:53,262 - DEBUG - Query is SELECT (max(ID)-30) from SPY
+2018-11-21 22:30:53,288 - DEBUG - ID30 is (356,)
+2018-11-21 22:30:53,288 - DEBUG - ID30 is (356,)
+2018-11-21 22:30:53,296 - DEBUG - Query is SELECT (max(ID)-60) from SPY
+2018-11-21 22:30:53,296 - DEBUG - Query is SELECT (max(ID)-60) from SPY
+2018-11-21 22:30:53,337 - DEBUG - ID60 is (326,)
+2018-11-21 22:30:53,337 - DEBUG - ID60 is (326,)
+2018-11-21 22:30:53,344 - DEBUG - Query is SELECT (max(ID)-90) from SPY
+2018-11-21 22:30:53,344 - DEBUG - Query is SELECT (max(ID)-90) from SPY
+2018-11-21 22:30:53,412 - DEBUG - ID90 is (296,)
+2018-11-21 22:30:53,412 - DEBUG - ID90 is (296,)
+2018-11-21 22:30:53,440 - DEBUG - yClose is 264.12
+2018-11-21 22:30:53,440 - DEBUG - yClose is 264.12
+2018-11-21 22:30:53,465 - DEBUG - tClose is 265.39
+2018-11-21 22:30:53,465 - DEBUG - tClose is 265.39
+2018-11-21 22:30:53,474 - DEBUG - yClose is 264.12
+2018-11-21 22:30:53,474 - DEBUG - yClose is 264.12
+2018-11-21 22:30:53,484 - DEBUG - Close is 265.39
+2018-11-21 22:30:53,484 - DEBUG - Close is 265.39
+2018-11-21 22:30:53,490 - DEBUG - Return is 0.48
+2018-11-21 22:30:53,490 - DEBUG - Return is 0.48
+2018-11-21 22:30:53,497 - DEBUG - Query is UPDATE SPY SET PercentReturn = 0.48 where ID = 386;
+2018-11-21 22:30:53,497 - DEBUG - Query is UPDATE SPY SET PercentReturn = 0.48 where ID = 386;
+2018-11-21 22:30:53,735 - DEBUG - Registered HistoricalData Reply Handler
+2018-11-21 22:30:53,735 - DEBUG - Registered HistoricalData Reply Handler
+2018-11-21 22:30:53,796 - DEBUG - Query is SELECT round(Avg(Close),2) as Avg from SPY where ID BETWEEN 381 AND 386;
+2018-11-21 22:30:53,796 - DEBUG - Query is SELECT round(Avg(Close),2) as Avg from SPY where ID BETWEEN 381 AND 386;
+2018-11-21 22:30:53,823 - DEBUG - BBMovAvg is (269.24,)
+2018-11-21 22:30:53,823 - DEBUG - BBMovAvg is (269.24,)
+2018-11-21 22:30:53,827 - DEBUG - Query is UPDATE hasPosition SET BB_STRATMovingAvgValue = 269.24 where CCY ='SPY';
+2018-11-21 22:30:53,827 - DEBUG - Query is UPDATE hasPosition SET BB_STRATMovingAvgValue = 269.24 where CCY ='SPY';
+2018-11-21 22:30:53,880 - DEBUG - Query is UPDATE SPY SET TrueRange = 1 where ID ='386';
+2018-11-21 22:30:53,880 - DEBUG - Query is UPDATE SPY SET TrueRange = 1 where ID ='386';
+2018-11-21 22:30:53,944 - DEBUG - Query is SELECT round(Avg(TrueRange),2) as Avg from SPY where ID BETWEEN 366 AND 386;
+2018-11-21 22:30:53,944 - DEBUG - Query is SELECT round(Avg(TrueRange),2) as Avg from SPY where ID BETWEEN 366 AND 386;
+2018-11-21 22:30:54,024 - DEBUG - ATR is (4.82,)
+2018-11-21 22:30:54,024 - DEBUG - ATR is (4.82,)
+2018-11-21 22:30:54,035 - DEBUG - Query is UPDATE hasPosition SET ATRValue = 4.82 where CCY ='SPY';
+2018-11-21 22:30:54,035 - DEBUG - Query is UPDATE hasPosition SET ATRValue = 4.82 where CCY ='SPY';
+2018-11-21 22:30:54,086 - DEBUG - Query is SELECT round(stddev(PercentReturn),2) as vol30 from SPY where ID BETWEEN 356 AND 386;
+2018-11-21 22:30:54,086 - DEBUG - Query is SELECT round(stddev(PercentReturn),2) as vol30 from SPY where ID BETWEEN 356 AND 386;
+2018-11-21 22:30:54,123 - DEBUG - 30d is 22.22
+2018-11-21 22:30:54,123 - DEBUG - 30d is 22.22
+2018-11-21 22:30:54,127 - DEBUG - Query is UPDATE SPY SET 30Dvol = 22.22 where ID ='386';
+2018-11-21 22:30:54,127 - DEBUG - Query is UPDATE SPY SET 30Dvol = 22.22 where ID ='386';
+2018-11-21 22:30:54,194 - DEBUG - Query is SELECT round(stddev(PercentReturn),2) as vol60 from SPY where ID BETWEEN 326 AND 386;
+2018-11-21 22:30:54,194 - DEBUG - Query is SELECT round(stddev(PercentReturn),2) as vol60 from SPY where ID BETWEEN 326 AND 386;
+2018-11-21 22:30:54,221 - DEBUG - sixtyd is 16.50
+2018-11-21 22:30:54,221 - DEBUG - sixtyd is 16.50
+2018-11-21 22:30:54,226 - DEBUG - Query is UPDATE SPY SET 60Dvol = 16.50 where ID ='386';
+2018-11-21 22:30:54,226 - DEBUG - Query is UPDATE SPY SET 60Dvol = 16.50 where ID ='386';
+2018-11-21 22:30:54,510 - DEBUG - Query is SELECT round(stddev(PercentReturn),2) as vol90 from SPY where ID BETWEEN 296 AND 386;
+2018-11-21 22:30:54,510 - DEBUG - Query is SELECT round(stddev(PercentReturn),2) as vol90 from SPY where ID BETWEEN 296 AND 386;
+2018-11-21 22:30:54,535 - DEBUG - ninetyd is 14.28
+2018-11-21 22:30:54,535 - DEBUG - ninetyd is 14.28
+2018-11-21 22:30:54,539 - DEBUG - Query is UPDATE SPY SET 90Dvol = 14.28 where ID ='386';
+2018-11-21 22:30:54,539 - DEBUG - Query is UPDATE SPY SET 90Dvol = 14.28 where ID ='386';
+2018-11-21 22:30:54,591 - DEBUG - Flag set to 1
+2018-11-21 22:30:54,591 - DEBUG - Flag set to 1
+2018-11-21 22:30:54,598 - DEBUG - In beginning of Reply Handler
+2018-11-21 22:30:54,598 - DEBUG - In beginning of Reply Handler
+2018-11-21 22:30:54,605 - DEBUG - test -1
+2018-11-21 22:30:54,605 - DEBUG - test -1
+2018-11-21 22:30:54,613 - DEBUG - test5 -1
+2018-11-21 22:30:54,613 - DEBUG - test5 -1
+2018-11-21 22:30:54,620 - DEBUG - Flag 1
+2018-11-21 22:30:54,620 - DEBUG - Flag 1
+2018-11-21 22:30:54,627 - DEBUG - In Reply Handler
+2018-11-21 22:30:54,627 - DEBUG - In Reply Handler
+2018-11-21 22:30:54,635 - DEBUG - Flag set to 1
+2018-11-21 22:30:54,635 - DEBUG - Flag set to 1
+2018-11-21 22:30:54,740 - DEBUG - Requesting historical data
+2018-11-21 22:30:54,740 - DEBUG - Requesting historical data
+2018-11-21 22:30:54,750 - DEBUG - Returned from Reply Handler
+2018-11-21 22:30:54,750 - DEBUG - Returned from Reply Handler
+2018-11-21 22:30:55,758 - DEBUG - Disconnecting from Server
+2018-11-21 22:30:55,758 - DEBUG - Disconnecting from Server
+2018-11-21 22:30:55,765 - DEBUG - Finished SPY Daily OHLC
+2018-11-21 22:30:55,765 - DEBUG - Finished SPY Daily OHLC
+2018-11-21 22:33:28,911 - DEBUG - Starting DailyOHLC
+2018-11-21 22:33:28,911 - DEBUG - Starting DailyOHLC
+2018-11-21 22:33:28,911 - DEBUG - Starting DailyOHLC
+2018-11-21 22:33:28,924 - DEBUG - Flag set to 0
+2018-11-21 22:33:28,924 - DEBUG - Flag set to 0
+2018-11-21 22:33:28,924 - DEBUG - Flag set to 0
+2018-11-21 22:33:28,984 - DEBUG - Connecting to Server
+2018-11-21 22:33:28,984 - DEBUG - Connecting to Server
+2018-11-21 22:33:28,984 - DEBUG - Connecting to Server
+2018-11-21 22:33:30,001 - DEBUG - Registered HistoricalData Reply Handler
+2018-11-21 22:33:30,001 - DEBUG - Registered HistoricalData Reply Handler
+2018-11-21 22:33:30,001 - DEBUG - Registered HistoricalData Reply Handler
+2018-11-21 22:33:31,013 - DEBUG - Requesting historical data
+2018-11-21 22:33:31,013 - DEBUG - Requesting historical data
+2018-11-21 22:33:31,013 - DEBUG - Requesting historical data
+2018-11-21 22:33:31,056 - DEBUG - Returned from Reply Handler
+2018-11-21 22:33:31,056 - DEBUG - Returned from Reply Handler
+2018-11-21 22:33:31,056 - DEBUG - Returned from Reply Handler
+2018-11-21 22:33:31,404 - DEBUG - In beginning of Reply Handler
+2018-11-21 22:33:31,404 - DEBUG - In beginning of Reply Handler
+2018-11-21 22:33:31,404 - DEBUG - In beginning of Reply Handler
+2018-11-21 22:33:31,490 - DEBUG - test 275.86
+2018-11-21 22:33:31,490 - DEBUG - test 275.86
+2018-11-21 22:33:31,490 - DEBUG - test 275.86
+2018-11-21 22:33:31,504 - DEBUG - test5 -1
+2018-11-21 22:33:31,504 - DEBUG - test5 -1
+2018-11-21 22:33:31,504 - DEBUG - test5 -1
+2018-11-21 22:33:31,520 - DEBUG - Flag 0
+2018-11-21 22:33:31,520 - DEBUG - Flag 0
+2018-11-21 22:33:31,520 - DEBUG - Flag 0
+2018-11-21 22:33:31,537 - DEBUG - In Reply Handler
+2018-11-21 22:33:31,537 - DEBUG - In Reply Handler
+2018-11-21 22:33:31,537 - DEBUG - In Reply Handler
+2018-11-21 22:33:31,552 - DEBUG - Valid Price Found (OPEN NOT -1)
+2018-11-21 22:33:31,552 - DEBUG - Valid Price Found (OPEN NOT -1)
+2018-11-21 22:33:31,552 - DEBUG - Valid Price Found (OPEN NOT -1)
+2018-11-21 22:33:32,050 - DEBUG - Connected to Database
+2018-11-21 22:33:32,050 - DEBUG - Connected to Database
+2018-11-21 22:33:32,050 - DEBUG - Connected to Database
+2018-11-21 22:33:32,067 - DEBUG - Disconnecting from Server
+2018-11-21 22:33:32,067 - DEBUG - Disconnecting from Server
+2018-11-21 22:33:32,067 - DEBUG - Disconnecting from Server
+2018-11-21 22:33:32,095 - DEBUG - Flag set to 0
+2018-11-21 22:33:32,095 - DEBUG - Flag set to 0
+2018-11-21 22:33:32,095 - DEBUG - Flag set to 0
+2018-11-21 22:33:32,274 - DEBUG - Ran Insert Script
+2018-11-21 22:33:32,274 - DEBUG - Ran Insert Script
+2018-11-21 22:33:32,274 - DEBUG - Ran Insert Script
+2018-11-21 22:33:32,290 - DEBUG - Yesterday2 was 11/20/2018
+2018-11-21 22:33:32,290 - DEBUG - Yesterday2 was 11/20/2018
+2018-11-21 22:33:32,290 - DEBUG - Yesterday2 was 11/20/2018
+2018-11-21 22:33:32,307 - DEBUG - Today is still  2018-11-21
+2018-11-21 22:33:32,307 - DEBUG - Today is still  2018-11-21
+2018-11-21 22:33:32,307 - DEBUG - Today is still  2018-11-21
+2018-11-21 22:33:32,339 - DEBUG - Date shifted back 10 is 2018-11-08
+2018-11-21 22:33:32,339 - DEBUG - Date shifted back 10 is 2018-11-08
+2018-11-21 22:33:32,339 - DEBUG - Date shifted back 10 is 2018-11-08
+2018-11-21 22:33:32,363 - DEBUG - First Date of BB Moving Average is 11/08/2018
+2018-11-21 22:33:32,363 - DEBUG - First Date of BB Moving Average is 11/08/2018
+2018-11-21 22:33:32,363 - DEBUG - First Date of BB Moving Average is 11/08/2018
+2018-11-21 22:33:32,380 - DEBUG - Query is SELECT max(ID) from SPY
+2018-11-21 22:33:32,380 - DEBUG - Query is SELECT max(ID) from SPY
+2018-11-21 22:33:32,394 - DEBUG - Connecting to Server
+2018-11-21 22:33:32,394 - DEBUG - Connecting to Server
+2018-11-21 22:33:32,380 - DEBUG - Query is SELECT max(ID) from SPY
+2018-11-21 22:33:32,394 - DEBUG - Connecting to Server
+2018-11-21 22:33:32,764 - DEBUG - BB ID1 is (386,)
+2018-11-21 22:33:32,764 - DEBUG - BB ID1 is (386,)
+2018-11-21 22:33:32,764 - DEBUG - BB ID1 is (386,)
+2018-11-21 22:33:32,775 - DEBUG - Query is SELECT (max(ID)-20) from SPY
+2018-11-21 22:33:32,775 - DEBUG - Query is SELECT (max(ID)-20) from SPY
+2018-11-21 22:33:32,775 - DEBUG - Query is SELECT (max(ID)-20) from SPY
+2018-11-21 22:33:32,880 - DEBUG - BB ID1 is (386,)
+2018-11-21 22:33:32,880 - DEBUG - BB ID1 is (386,)
+2018-11-21 22:33:32,880 - DEBUG - BB ID1 is (386,)
+2018-11-21 22:33:32,892 - DEBUG - BB ID2 is (366,)
+2018-11-21 22:33:32,892 - DEBUG - BB ID2 is (366,)
+2018-11-21 22:33:32,892 - DEBUG - BB ID2 is (366,)
+2018-11-21 22:33:32,904 - DEBUG - Query is SELECT (max(ID)-1) from SPY
+2018-11-21 22:33:32,904 - DEBUG - Query is SELECT (max(ID)-1) from SPY
+2018-11-21 22:33:32,904 - DEBUG - Query is SELECT (max(ID)-1) from SPY
+2018-11-21 22:33:33,000 - DEBUG - ID3 is (385,)
+2018-11-21 22:33:33,000 - DEBUG - ID3 is (385,)
+2018-11-21 22:33:33,000 - DEBUG - ID3 is (385,)
+2018-11-21 22:33:33,011 - DEBUG - Query is SELECT (max(ID)-5) from SPY
+2018-11-21 22:33:33,011 - DEBUG - Query is SELECT (max(ID)-5) from SPY
+2018-11-21 22:33:33,011 - DEBUG - Query is SELECT (max(ID)-5) from SPY
+2018-11-21 22:33:33,046 - DEBUG - ID4 is (381,)
+2018-11-21 22:33:33,046 - DEBUG - ID4 is (381,)
+2018-11-21 22:33:33,046 - DEBUG - ID4 is (381,)
+2018-11-21 22:33:33,057 - DEBUG - Query is SELECT (max(ID)-30) from SPY
+2018-11-21 22:33:33,057 - DEBUG - Query is SELECT (max(ID)-30) from SPY
+2018-11-21 22:33:33,057 - DEBUG - Query is SELECT (max(ID)-30) from SPY
+2018-11-21 22:33:33,261 - DEBUG - ID30 is (356,)
+2018-11-21 22:33:33,261 - DEBUG - ID30 is (356,)
+2018-11-21 22:33:33,261 - DEBUG - ID30 is (356,)
+2018-11-21 22:33:33,276 - DEBUG - Query is SELECT (max(ID)-60) from SPY
+2018-11-21 22:33:33,276 - DEBUG - Query is SELECT (max(ID)-60) from SPY
+2018-11-21 22:33:33,276 - DEBUG - Query is SELECT (max(ID)-60) from SPY
+2018-11-21 22:33:33,329 - DEBUG - ID60 is (326,)
+2018-11-21 22:33:33,329 - DEBUG - ID60 is (326,)
+2018-11-21 22:33:33,329 - DEBUG - ID60 is (326,)
+2018-11-21 22:33:33,338 - DEBUG - Query is SELECT (max(ID)-90) from SPY
+2018-11-21 22:33:33,338 - DEBUG - Query is SELECT (max(ID)-90) from SPY
+2018-11-21 22:33:33,338 - DEBUG - Query is SELECT (max(ID)-90) from SPY
+2018-11-21 22:33:33,401 - DEBUG - ID90 is (296,)
+2018-11-21 22:33:33,401 - DEBUG - ID90 is (296,)
+2018-11-21 22:33:33,401 - DEBUG - ID90 is (296,)
+2018-11-21 22:33:33,418 - DEBUG - Registered HistoricalData Reply Handler
+2018-11-21 22:33:33,418 - DEBUG - Registered HistoricalData Reply Handler
+2018-11-21 22:33:33,418 - DEBUG - Registered HistoricalData Reply Handler
+2018-11-21 22:33:33,434 - DEBUG - yClose is 264.12
+2018-11-21 22:33:33,434 - DEBUG - yClose is 264.12
+2018-11-21 22:33:33,434 - DEBUG - yClose is 264.12
+2018-11-21 22:33:33,468 - DEBUG - tClose is 265.39
+2018-11-21 22:33:33,468 - DEBUG - tClose is 265.39
+2018-11-21 22:33:33,468 - DEBUG - tClose is 265.39
+2018-11-21 22:33:33,481 - DEBUG - yClose is 264.12
+2018-11-21 22:33:33,481 - DEBUG - yClose is 264.12
+2018-11-21 22:33:33,481 - DEBUG - yClose is 264.12
+2018-11-21 22:33:33,499 - DEBUG - Close is 265.39
+2018-11-21 22:33:33,499 - DEBUG - Close is 265.39
+2018-11-21 22:33:33,499 - DEBUG - Close is 265.39
+2018-11-21 22:33:33,512 - DEBUG - Return is 0.48
+2018-11-21 22:33:33,512 - DEBUG - Return is 0.48
+2018-11-21 22:33:33,512 - DEBUG - Return is 0.48
+2018-11-21 22:33:33,527 - DEBUG - Query is UPDATE SPY SET PercentReturn = 0.48 where ID = 386;
+2018-11-21 22:33:33,527 - DEBUG - Query is UPDATE SPY SET PercentReturn = 0.48 where ID = 386;
+2018-11-21 22:33:33,527 - DEBUG - Query is UPDATE SPY SET PercentReturn = 0.48 where ID = 386;
+2018-11-21 22:33:33,621 - DEBUG - Query is SELECT round(Avg(Close),2) as Avg from SPY where ID BETWEEN 381 AND 386;
+2018-11-21 22:33:33,621 - DEBUG - Query is SELECT round(Avg(Close),2) as Avg from SPY where ID BETWEEN 381 AND 386;
+2018-11-21 22:33:33,621 - DEBUG - Query is SELECT round(Avg(Close),2) as Avg from SPY where ID BETWEEN 381 AND 386;
+2018-11-21 22:33:33,661 - DEBUG - BBMovAvg is (269.24,)
+2018-11-21 22:33:33,661 - DEBUG - BBMovAvg is (269.24,)
+2018-11-21 22:33:33,661 - DEBUG - BBMovAvg is (269.24,)
+2018-11-21 22:33:33,675 - DEBUG - Query is UPDATE hasPosition SET BB_STRATMovingAvgValue = 269.24 where CCY ='SPY';
+2018-11-21 22:33:33,675 - DEBUG - Query is UPDATE hasPosition SET BB_STRATMovingAvgValue = 269.24 where CCY ='SPY';
+2018-11-21 22:33:33,675 - DEBUG - Query is UPDATE hasPosition SET BB_STRATMovingAvgValue = 269.24 where CCY ='SPY';
+2018-11-21 22:33:34,044 - DEBUG - Query is UPDATE SPY SET TrueRange = 11.7400 where ID ='386';
+2018-11-21 22:33:34,044 - DEBUG - Query is UPDATE SPY SET TrueRange = 11.7400 where ID ='386';
+2018-11-21 22:33:34,044 - DEBUG - Query is UPDATE SPY SET TrueRange = 11.7400 where ID ='386';
+2018-11-21 22:33:34,217 - DEBUG - Query is SELECT round(Avg(TrueRange),2) as Avg from SPY where ID BETWEEN 366 AND 386;
+2018-11-21 22:33:34,217 - DEBUG - Query is SELECT round(Avg(TrueRange),2) as Avg from SPY where ID BETWEEN 366 AND 386;
+2018-11-21 22:33:34,217 - DEBUG - Query is SELECT round(Avg(TrueRange),2) as Avg from SPY where ID BETWEEN 366 AND 386;
+2018-11-21 22:33:34,250 - DEBUG - ATR is (5.33,)
+2018-11-21 22:33:34,250 - DEBUG - ATR is (5.33,)
+2018-11-21 22:33:34,250 - DEBUG - ATR is (5.33,)
+2018-11-21 22:33:34,261 - DEBUG - Query is UPDATE hasPosition SET ATRValue = 5.33 where CCY ='SPY';
+2018-11-21 22:33:34,261 - DEBUG - Query is UPDATE hasPosition SET ATRValue = 5.33 where CCY ='SPY';
+2018-11-21 22:33:34,261 - DEBUG - Query is UPDATE hasPosition SET ATRValue = 5.33 where CCY ='SPY';
+2018-11-21 22:33:34,351 - DEBUG - Query is SELECT round(stddev(PercentReturn),2) as vol30 from SPY where ID BETWEEN 356 AND 386;
+2018-11-21 22:33:34,351 - DEBUG - Query is SELECT round(stddev(PercentReturn),2) as vol30 from SPY where ID BETWEEN 356 AND 386;
+2018-11-21 22:33:34,351 - DEBUG - Query is SELECT round(stddev(PercentReturn),2) as vol30 from SPY where ID BETWEEN 356 AND 386;
+2018-11-21 22:33:34,389 - DEBUG - 30d is 22.22
+2018-11-21 22:33:34,389 - DEBUG - 30d is 22.22
+2018-11-21 22:33:34,389 - DEBUG - 30d is 22.22
+2018-11-21 22:33:34,401 - DEBUG - Query is UPDATE SPY SET 30Dvol = 22.22 where ID ='386';
+2018-11-21 22:33:34,401 - DEBUG - Query is UPDATE SPY SET 30Dvol = 22.22 where ID ='386';
+2018-11-21 22:33:34,401 - DEBUG - Query is UPDATE SPY SET 30Dvol = 22.22 where ID ='386';
+2018-11-21 22:33:34,430 - DEBUG - Requesting historical data
+2018-11-21 22:33:34,430 - DEBUG - Requesting historical data
+2018-11-21 22:33:34,430 - DEBUG - Requesting historical data
+2018-11-21 22:33:34,489 - DEBUG - Query is SELECT round(stddev(PercentReturn),2) as vol60 from SPY where ID BETWEEN 326 AND 386;
+2018-11-21 22:33:34,489 - DEBUG - Query is SELECT round(stddev(PercentReturn),2) as vol60 from SPY where ID BETWEEN 326 AND 386;
+2018-11-21 22:33:34,489 - DEBUG - Query is SELECT round(stddev(PercentReturn),2) as vol60 from SPY where ID BETWEEN 326 AND 386;
+2018-11-21 22:33:34,506 - DEBUG - Returned from Reply Handler
+2018-11-21 22:33:34,506 - DEBUG - Returned from Reply Handler
+2018-11-21 22:33:34,506 - DEBUG - Returned from Reply Handler
+2018-11-21 22:33:34,540 - DEBUG - sixtyd is 16.50
+2018-11-21 22:33:34,540 - DEBUG - sixtyd is 16.50
+2018-11-21 22:33:34,540 - DEBUG - sixtyd is 16.50
+2018-11-21 22:33:34,554 - DEBUG - Query is UPDATE SPY SET 60Dvol = 16.50 where ID ='386';
+2018-11-21 22:33:34,554 - DEBUG - Query is UPDATE SPY SET 60Dvol = 16.50 where ID ='386';
+2018-11-21 22:33:34,554 - DEBUG - Query is UPDATE SPY SET 60Dvol = 16.50 where ID ='386';
+2018-11-21 22:33:34,709 - DEBUG - Query is SELECT round(stddev(PercentReturn),2) as vol90 from SPY where ID BETWEEN 296 AND 386;
+2018-11-21 22:33:34,709 - DEBUG - Query is SELECT round(stddev(PercentReturn),2) as vol90 from SPY where ID BETWEEN 296 AND 386;
+2018-11-21 22:33:34,709 - DEBUG - Query is SELECT round(stddev(PercentReturn),2) as vol90 from SPY where ID BETWEEN 296 AND 386;
+2018-11-21 22:33:34,793 - DEBUG - ninetyd is 14.28
+2018-11-21 22:33:34,793 - DEBUG - ninetyd is 14.28
+2018-11-21 22:33:34,793 - DEBUG - ninetyd is 14.28
+2018-11-21 22:33:34,812 - DEBUG - Query is UPDATE SPY SET 90Dvol = 14.28 where ID ='386';
+2018-11-21 22:33:34,812 - DEBUG - Query is UPDATE SPY SET 90Dvol = 14.28 where ID ='386';
+2018-11-21 22:33:34,812 - DEBUG - Query is UPDATE SPY SET 90Dvol = 14.28 where ID ='386';
+2018-11-21 22:33:34,847 - DEBUG - In beginning of Reply Handler
+2018-11-21 22:33:34,847 - DEBUG - In beginning of Reply Handler
+2018-11-21 22:33:34,847 - DEBUG - In beginning of Reply Handler
+2018-11-21 22:33:34,900 - DEBUG - test 275.86
+2018-11-21 22:33:34,900 - DEBUG - test 275.86
+2018-11-21 22:33:34,900 - DEBUG - test 275.86
+2018-11-21 22:33:34,916 - DEBUG - test5 -1
+2018-11-21 22:33:34,916 - DEBUG - test5 -1
+2018-11-21 22:33:34,921 - DEBUG - Flag set to 1
+2018-11-21 22:33:34,921 - DEBUG - Flag set to 1
+2018-11-21 22:33:34,916 - DEBUG - test5 -1
+2018-11-21 22:33:34,921 - DEBUG - Flag set to 1
+2018-11-21 22:33:34,937 - DEBUG - Flag 1
+2018-11-21 22:33:34,937 - DEBUG - Flag 1
+2018-11-21 22:33:34,948 - DEBUG - In beginning of Reply Handler
+2018-11-21 22:33:34,948 - DEBUG - In beginning of Reply Handler
+2018-11-21 22:33:34,937 - DEBUG - Flag 1
+2018-11-21 22:33:34,948 - DEBUG - In beginning of Reply Handler
+2018-11-21 22:33:34,961 - DEBUG - In Reply Handler
+2018-11-21 22:33:34,961 - DEBUG - In Reply Handler
+2018-11-21 22:33:34,970 - DEBUG - test -1
+2018-11-21 22:33:34,970 - DEBUG - test -1
+2018-11-21 22:33:34,961 - DEBUG - In Reply Handler
+2018-11-21 22:33:34,979 - DEBUG - Valid Price Found (OPEN NOT -1)
+2018-11-21 22:33:34,979 - DEBUG - Valid Price Found (OPEN NOT -1)
+2018-11-21 22:33:34,970 - DEBUG - test -1
+2018-11-21 22:33:34,995 - DEBUG - test5 -1
+2018-11-21 22:33:34,995 - DEBUG - test5 -1
+2018-11-21 22:33:34,979 - DEBUG - Valid Price Found (OPEN NOT -1)
+2018-11-21 22:33:34,995 - DEBUG - test5 -1
+2018-11-21 22:33:35,015 - DEBUG - Flag 1
+2018-11-21 22:33:35,015 - DEBUG - Flag 1
+2018-11-21 22:33:35,015 - DEBUG - Flag 1
+2018-11-21 22:33:35,034 - DEBUG - In Reply Handler
+2018-11-21 22:33:35,034 - DEBUG - In Reply Handler
+2018-11-21 22:33:35,034 - DEBUG - In Reply Handler
+2018-11-21 22:33:35,050 - DEBUG - Flag set to 1
+2018-11-21 22:33:35,050 - DEBUG - Flag set to 1
+2018-11-21 22:33:35,050 - DEBUG - Flag set to 1
+2018-11-21 22:33:35,374 - DEBUG - Connected to Database
+2018-11-21 22:33:35,374 - DEBUG - Connected to Database
+2018-11-21 22:33:35,374 - DEBUG - Connected to Database
+2018-11-21 22:33:35,487 - DEBUG - Ran Insert Script
+2018-11-21 22:33:35,487 - DEBUG - Ran Insert Script
+2018-11-21 22:33:35,487 - DEBUG - Ran Insert Script
+2018-11-21 22:33:35,497 - DEBUG - Yesterday2 was 11/20/2018
+2018-11-21 22:33:35,497 - DEBUG - Yesterday2 was 11/20/2018
+2018-11-21 22:33:35,497 - DEBUG - Yesterday2 was 11/20/2018
+2018-11-21 22:33:35,508 - DEBUG - Today is still  2018-11-21
+2018-11-21 22:33:35,508 - DEBUG - Today is still  2018-11-21
+2018-11-21 22:33:35,508 - DEBUG - Today is still  2018-11-21
+2018-11-21 22:33:35,519 - DEBUG - Disconnecting from Server
+2018-11-21 22:33:35,519 - DEBUG - Disconnecting from Server
+2018-11-21 22:33:35,521 - DEBUG - Date shifted back 10 is 2018-11-08
+2018-11-21 22:33:35,521 - DEBUG - Date shifted back 10 is 2018-11-08
+2018-11-21 22:33:35,519 - DEBUG - Disconnecting from Server
+2018-11-21 22:33:35,521 - DEBUG - Date shifted back 10 is 2018-11-08
+2018-11-21 22:33:35,539 - DEBUG - Finished SPY Daily OHLC
+2018-11-21 22:33:35,539 - DEBUG - Finished SPY Daily OHLC
+2018-11-21 22:33:35,545 - DEBUG - First Date of BB Moving Average is 11/08/2018
+2018-11-21 22:33:35,545 - DEBUG - First Date of BB Moving Average is 11/08/2018
+2018-11-21 22:33:35,539 - DEBUG - Finished SPY Daily OHLC
+2018-11-21 22:33:35,545 - DEBUG - First Date of BB Moving Average is 11/08/2018
+2018-11-21 22:33:35,581 - DEBUG - Query is SELECT max(ID) from SPY
+2018-11-21 22:33:35,581 - DEBUG - Query is SELECT max(ID) from SPY
+2018-11-21 22:33:35,581 - DEBUG - Query is SELECT max(ID) from SPY
+2018-11-21 22:33:35,654 - DEBUG - BB ID1 is (387,)
+2018-11-21 22:33:35,654 - DEBUG - BB ID1 is (387,)
+2018-11-21 22:33:35,654 - DEBUG - BB ID1 is (387,)
+2018-11-21 22:33:35,670 - DEBUG - Query is SELECT (max(ID)-20) from SPY
+2018-11-21 22:33:35,670 - DEBUG - Query is SELECT (max(ID)-20) from SPY
+2018-11-21 22:33:35,670 - DEBUG - Query is SELECT (max(ID)-20) from SPY
+2018-11-21 22:33:35,751 - DEBUG - BB ID1 is (387,)
+2018-11-21 22:33:35,751 - DEBUG - BB ID1 is (387,)
+2018-11-21 22:33:35,751 - DEBUG - BB ID1 is (387,)
+2018-11-21 22:33:35,780 - DEBUG - BB ID2 is (367,)
+2018-11-21 22:33:35,780 - DEBUG - BB ID2 is (367,)
+2018-11-21 22:33:35,780 - DEBUG - BB ID2 is (367,)
+2018-11-21 22:33:35,798 - DEBUG - Query is SELECT (max(ID)-1) from SPY
+2018-11-21 22:33:35,798 - DEBUG - Query is SELECT (max(ID)-1) from SPY
+2018-11-21 22:33:35,798 - DEBUG - Query is SELECT (max(ID)-1) from SPY
+2018-11-21 22:33:35,849 - DEBUG - ID3 is (386,)
+2018-11-21 22:33:35,849 - DEBUG - ID3 is (386,)
+2018-11-21 22:33:35,849 - DEBUG - ID3 is (386,)
+2018-11-21 22:33:35,863 - DEBUG - Query is SELECT (max(ID)-5) from SPY
+2018-11-21 22:33:35,863 - DEBUG - Query is SELECT (max(ID)-5) from SPY
+2018-11-21 22:33:35,863 - DEBUG - Query is SELECT (max(ID)-5) from SPY
+2018-11-21 22:33:35,901 - DEBUG - ID4 is (382,)
+2018-11-21 22:33:35,901 - DEBUG - ID4 is (382,)
+2018-11-21 22:33:35,901 - DEBUG - ID4 is (382,)
+2018-11-21 22:33:35,917 - DEBUG - Query is SELECT (max(ID)-30) from SPY
+2018-11-21 22:33:35,917 - DEBUG - Query is SELECT (max(ID)-30) from SPY
+2018-11-21 22:33:35,917 - DEBUG - Query is SELECT (max(ID)-30) from SPY
+2018-11-21 22:33:35,962 - DEBUG - ID30 is (357,)
+2018-11-21 22:33:35,962 - DEBUG - ID30 is (357,)
+2018-11-21 22:33:35,962 - DEBUG - ID30 is (357,)
+2018-11-21 22:33:35,973 - DEBUG - Query is SELECT (max(ID)-60) from SPY
+2018-11-21 22:33:35,973 - DEBUG - Query is SELECT (max(ID)-60) from SPY
+2018-11-21 22:33:35,973 - DEBUG - Query is SELECT (max(ID)-60) from SPY
+2018-11-21 22:33:36,025 - DEBUG - ID60 is (327,)
+2018-11-21 22:33:36,025 - DEBUG - ID60 is (327,)
+2018-11-21 22:33:36,025 - DEBUG - ID60 is (327,)
+2018-11-21 22:33:36,041 - DEBUG - Query is SELECT (max(ID)-90) from SPY
+2018-11-21 22:33:36,041 - DEBUG - Query is SELECT (max(ID)-90) from SPY
+2018-11-21 22:33:36,041 - DEBUG - Query is SELECT (max(ID)-90) from SPY
+2018-11-21 22:33:36,098 - DEBUG - ID90 is (297,)
+2018-11-21 22:33:36,098 - DEBUG - ID90 is (297,)
+2018-11-21 22:33:36,098 - DEBUG - ID90 is (297,)
+2018-11-21 22:33:36,172 - DEBUG - yClose is 265.39
+2018-11-21 22:33:36,172 - DEBUG - yClose is 265.39
+2018-11-21 22:33:36,172 - DEBUG - yClose is 265.39
+2018-11-21 22:33:36,208 - DEBUG - tClose is 265.39
+2018-11-21 22:33:36,208 - DEBUG - tClose is 265.39
+2018-11-21 22:33:36,208 - DEBUG - tClose is 265.39
+2018-11-21 22:33:36,218 - DEBUG - yClose is 265.39
+2018-11-21 22:33:36,218 - DEBUG - yClose is 265.39
+2018-11-21 22:33:36,218 - DEBUG - yClose is 265.39
+2018-11-21 22:33:36,242 - DEBUG - Close is 265.39
+2018-11-21 22:33:36,242 - DEBUG - Close is 265.39
+2018-11-21 22:33:36,242 - DEBUG - Close is 265.39
+2018-11-21 22:33:36,260 - DEBUG - Return is 0.0
+2018-11-21 22:33:36,260 - DEBUG - Return is 0.0
+2018-11-21 22:33:36,260 - DEBUG - Return is 0.0
+2018-11-21 22:33:36,272 - DEBUG - Query is UPDATE SPY SET PercentReturn = 0.0 where ID = 387;
+2018-11-21 22:33:36,272 - DEBUG - Query is UPDATE SPY SET PercentReturn = 0.0 where ID = 387;
+2018-11-21 22:33:36,272 - DEBUG - Query is UPDATE SPY SET PercentReturn = 0.0 where ID = 387;
+2018-11-21 22:33:36,583 - DEBUG - Query is SELECT round(Avg(Close),2) as Avg from SPY where ID BETWEEN 382 AND 387;
+2018-11-21 22:33:36,583 - DEBUG - Query is SELECT round(Avg(Close),2) as Avg from SPY where ID BETWEEN 382 AND 387;
+2018-11-21 22:33:36,583 - DEBUG - Query is SELECT round(Avg(Close),2) as Avg from SPY where ID BETWEEN 382 AND 387;
+2018-11-21 22:33:36,621 - DEBUG - BBMovAvg is (268.44,)
+2018-11-21 22:33:36,621 - DEBUG - BBMovAvg is (268.44,)
+2018-11-21 22:33:36,621 - DEBUG - BBMovAvg is (268.44,)
+2018-11-21 22:33:36,633 - DEBUG - Query is UPDATE hasPosition SET BB_STRATMovingAvgValue = 268.44 where CCY ='SPY';
+2018-11-21 22:33:36,633 - DEBUG - Query is UPDATE hasPosition SET BB_STRATMovingAvgValue = 268.44 where CCY ='SPY';
+2018-11-21 22:33:36,633 - DEBUG - Query is UPDATE hasPosition SET BB_STRATMovingAvgValue = 268.44 where CCY ='SPY';
+2018-11-21 22:33:36,741 - DEBUG - Query is UPDATE SPY SET TrueRange = 11.0600 where ID ='387';
+2018-11-21 22:33:36,741 - DEBUG - Query is UPDATE SPY SET TrueRange = 11.0600 where ID ='387';
+2018-11-21 22:33:36,741 - DEBUG - Query is UPDATE SPY SET TrueRange = 11.0600 where ID ='387';
+2018-11-21 22:33:36,806 - DEBUG - Query is SELECT round(Avg(TrueRange),2) as Avg from SPY where ID BETWEEN 367 AND 387;
+2018-11-21 22:33:36,806 - DEBUG - Query is SELECT round(Avg(TrueRange),2) as Avg from SPY where ID BETWEEN 367 AND 387;
+2018-11-21 22:33:36,806 - DEBUG - Query is SELECT round(Avg(TrueRange),2) as Avg from SPY where ID BETWEEN 367 AND 387;
+2018-11-21 22:33:36,850 - DEBUG - ATR is (5.43,)
+2018-11-21 22:33:36,850 - DEBUG - ATR is (5.43,)
+2018-11-21 22:33:36,850 - DEBUG - ATR is (5.43,)
+2018-11-21 22:33:36,865 - DEBUG - Query is UPDATE hasPosition SET ATRValue = 5.43 where CCY ='SPY';
+2018-11-21 22:33:36,865 - DEBUG - Query is UPDATE hasPosition SET ATRValue = 5.43 where CCY ='SPY';
+2018-11-21 22:33:36,865 - DEBUG - Query is UPDATE hasPosition SET ATRValue = 5.43 where CCY ='SPY';
+2018-11-21 22:33:37,186 - DEBUG - Query is SELECT round(stddev(PercentReturn),2) as vol30 from SPY where ID BETWEEN 357 AND 387;
+2018-11-21 22:33:37,186 - DEBUG - Query is SELECT round(stddev(PercentReturn),2) as vol30 from SPY where ID BETWEEN 357 AND 387;
+2018-11-21 22:33:37,186 - DEBUG - Query is SELECT round(stddev(PercentReturn),2) as vol30 from SPY where ID BETWEEN 357 AND 387;
+2018-11-21 22:33:37,218 - DEBUG - 30d is 20.63
+2018-11-21 22:33:37,218 - DEBUG - 30d is 20.63
+2018-11-21 22:33:37,218 - DEBUG - 30d is 20.63
+2018-11-21 22:33:37,230 - DEBUG - Query is UPDATE SPY SET 30Dvol = 20.63 where ID ='387';
+2018-11-21 22:33:37,230 - DEBUG - Query is UPDATE SPY SET 30Dvol = 20.63 where ID ='387';
+2018-11-21 22:33:37,230 - DEBUG - Query is UPDATE SPY SET 30Dvol = 20.63 where ID ='387';
+2018-11-21 22:33:37,392 - DEBUG - Query is SELECT round(stddev(PercentReturn),2) as vol60 from SPY where ID BETWEEN 327 AND 387;
+2018-11-21 22:33:37,392 - DEBUG - Query is SELECT round(stddev(PercentReturn),2) as vol60 from SPY where ID BETWEEN 327 AND 387;
+2018-11-21 22:33:37,392 - DEBUG - Query is SELECT round(stddev(PercentReturn),2) as vol60 from SPY where ID BETWEEN 327 AND 387;
+2018-11-21 22:33:37,432 - DEBUG - sixtyd is 16.50
+2018-11-21 22:33:37,432 - DEBUG - sixtyd is 16.50
+2018-11-21 22:33:37,432 - DEBUG - sixtyd is 16.50
+2018-11-21 22:33:37,449 - DEBUG - Query is UPDATE SPY SET 60Dvol = 16.50 where ID ='387';
+2018-11-21 22:33:37,449 - DEBUG - Query is UPDATE SPY SET 60Dvol = 16.50 where ID ='387';
+2018-11-21 22:33:37,449 - DEBUG - Query is UPDATE SPY SET 60Dvol = 16.50 where ID ='387';
+2018-11-21 22:33:37,810 - DEBUG - Query is SELECT round(stddev(PercentReturn),2) as vol90 from SPY where ID BETWEEN 297 AND 387;
+2018-11-21 22:33:37,810 - DEBUG - Query is SELECT round(stddev(PercentReturn),2) as vol90 from SPY where ID BETWEEN 297 AND 387;
+2018-11-21 22:33:37,810 - DEBUG - Query is SELECT round(stddev(PercentReturn),2) as vol90 from SPY where ID BETWEEN 297 AND 387;
+2018-11-21 22:33:37,838 - DEBUG - ninetyd is 14.28
+2018-11-21 22:33:37,838 - DEBUG - ninetyd is 14.28
+2018-11-21 22:33:37,838 - DEBUG - ninetyd is 14.28
+2018-11-21 22:33:37,849 - DEBUG - Query is UPDATE SPY SET 90Dvol = 14.28 where ID ='387';
+2018-11-21 22:33:37,849 - DEBUG - Query is UPDATE SPY SET 90Dvol = 14.28 where ID ='387';
+2018-11-21 22:33:37,849 - DEBUG - Query is UPDATE SPY SET 90Dvol = 14.28 where ID ='387';
+2018-11-21 22:33:37,967 - DEBUG - Flag set to 1
+2018-11-21 22:33:37,967 - DEBUG - Flag set to 1
+2018-11-21 22:33:37,967 - DEBUG - Flag set to 1
+2018-11-21 22:33:37,981 - DEBUG - In beginning of Reply Handler
+2018-11-21 22:33:37,981 - DEBUG - In beginning of Reply Handler
+2018-11-21 22:33:37,981 - DEBUG - In beginning of Reply Handler
+2018-11-21 22:33:37,994 - DEBUG - test -1
+2018-11-21 22:33:37,994 - DEBUG - test -1
+2018-11-21 22:33:37,994 - DEBUG - test -1
+2018-11-21 22:33:38,008 - DEBUG - test5 -1
+2018-11-21 22:33:38,008 - DEBUG - test5 -1
+2018-11-21 22:33:38,008 - DEBUG - test5 -1
+2018-11-21 22:33:38,021 - DEBUG - Flag 1
+2018-11-21 22:33:38,021 - DEBUG - Flag 1
+2018-11-21 22:33:38,021 - DEBUG - Flag 1
+2018-11-21 22:33:38,032 - DEBUG - In Reply Handler
+2018-11-21 22:33:38,032 - DEBUG - In Reply Handler
+2018-11-21 22:33:38,032 - DEBUG - In Reply Handler
+2018-11-21 22:33:38,046 - DEBUG - Flag set to 1
+2018-11-21 22:33:38,046 - DEBUG - Flag set to 1
+2018-11-21 22:33:38,046 - DEBUG - Flag set to 1
+2018-11-21 22:38:03,188 - DEBUG - Starting DailyOHLC
+2018-11-21 22:38:03,188 - DEBUG - Starting DailyOHLC
+2018-11-21 22:38:03,249 - DEBUG - Flag set to 0
+2018-11-21 22:38:03,249 - DEBUG - Flag set to 0
+2018-11-21 22:38:03,311 - DEBUG - Connecting to Server
+2018-11-21 22:38:03,311 - DEBUG - Connecting to Server
+2018-11-21 22:38:04,320 - DEBUG - Registered HistoricalData Reply Handler
+2018-11-21 22:38:04,320 - DEBUG - Registered HistoricalData Reply Handler
+2018-11-21 22:38:05,325 - DEBUG - Requesting historical data
+2018-11-21 22:38:05,325 - DEBUG - Requesting historical data
+2018-11-21 22:38:05,360 - DEBUG - Returned from Reply Handler
+2018-11-21 22:38:05,360 - DEBUG - Returned from Reply Handler
+2018-11-21 22:38:05,819 - DEBUG - In beginning of Reply Handler
+2018-11-21 22:38:05,819 - DEBUG - In beginning of Reply Handler
+2018-11-21 22:38:05,880 - DEBUG - test 275.86
+2018-11-21 22:38:05,880 - DEBUG - test 275.86
+2018-11-21 22:38:05,892 - DEBUG - test5 -1
+2018-11-21 22:38:05,892 - DEBUG - test5 -1
+2018-11-21 22:38:05,899 - DEBUG - Flag 0
+2018-11-21 22:38:05,899 - DEBUG - Flag 0
+2018-11-21 22:38:05,906 - DEBUG - In Reply Handler
+2018-11-21 22:38:05,906 - DEBUG - In Reply Handler
+2018-11-21 22:38:05,914 - DEBUG - Valid Price Found (OPEN NOT -1)
+2018-11-21 22:38:05,914 - DEBUG - Valid Price Found (OPEN NOT -1)
+2018-11-21 22:38:06,323 - DEBUG - Connected to Database
+2018-11-21 22:38:06,323 - DEBUG - Connected to Database
+2018-11-21 22:38:06,365 - DEBUG - Disconnecting from Server
+2018-11-21 22:38:06,365 - DEBUG - Disconnecting from Server
+2018-11-21 22:38:06,369 - DEBUG - Flag set to 0
+2018-11-21 22:38:06,369 - DEBUG - Flag set to 0
+2018-11-21 22:38:06,407 - DEBUG - Ran Insert Script
+2018-11-21 22:38:06,407 - DEBUG - Ran Insert Script
+2018-11-21 22:38:06,415 - DEBUG - Yesterday2 was 11/20/2018
+2018-11-21 22:38:06,415 - DEBUG - Yesterday2 was 11/20/2018
+2018-11-21 22:38:06,426 - DEBUG - Today is still  2018-11-21
+2018-11-21 22:38:06,426 - DEBUG - Today is still  2018-11-21
+2018-11-21 22:38:06,436 - DEBUG - Date shifted back 10 is 2018-11-08
+2018-11-21 22:38:06,436 - DEBUG - Date shifted back 10 is 2018-11-08
+2018-11-21 22:38:06,444 - DEBUG - First Date of BB Moving Average is 11/08/2018
+2018-11-21 22:38:06,444 - DEBUG - First Date of BB Moving Average is 11/08/2018
+2018-11-21 22:38:06,455 - DEBUG - Query is SELECT max(ID) from SPY
+2018-11-21 22:38:06,455 - DEBUG - Query is SELECT max(ID) from SPY
+2018-11-21 22:38:06,478 - DEBUG - Connecting to Server
+2018-11-21 22:38:06,478 - DEBUG - Connecting to Server
+2018-11-21 22:38:06,493 - DEBUG - BB ID1 is (386,)
+2018-11-21 22:38:06,493 - DEBUG - BB ID1 is (386,)
+2018-11-21 22:38:06,502 - DEBUG - Query is SELECT (max(ID)-20) from SPY
+2018-11-21 22:38:06,502 - DEBUG - Query is SELECT (max(ID)-20) from SPY
+2018-11-21 22:38:06,543 - DEBUG - BB ID1 is (386,)
+2018-11-21 22:38:06,543 - DEBUG - BB ID1 is (386,)
+2018-11-21 22:38:06,547 - DEBUG - BB ID2 is (366,)
+2018-11-21 22:38:06,547 - DEBUG - BB ID2 is (366,)
+2018-11-21 22:38:06,552 - DEBUG - Query is SELECT (max(ID)-1) from SPY
+2018-11-21 22:38:06,552 - DEBUG - Query is SELECT (max(ID)-1) from SPY
+2018-11-21 22:38:06,598 - DEBUG - ID3 is (385,)
+2018-11-21 22:38:06,598 - DEBUG - ID3 is (385,)
+2018-11-21 22:38:06,603 - DEBUG - Query is SELECT (max(ID)-5) from SPY
+2018-11-21 22:38:06,603 - DEBUG - Query is SELECT (max(ID)-5) from SPY
+2018-11-21 22:38:06,636 - DEBUG - ID4 is (381,)
+2018-11-21 22:38:06,636 - DEBUG - ID4 is (381,)
+2018-11-21 22:38:06,645 - DEBUG - Query is SELECT (max(ID)-30) from SPY
+2018-11-21 22:38:06,645 - DEBUG - Query is SELECT (max(ID)-30) from SPY
+2018-11-21 22:38:06,675 - DEBUG - ID30 is (356,)
+2018-11-21 22:38:06,675 - DEBUG - ID30 is (356,)
+2018-11-21 22:38:06,681 - DEBUG - Query is SELECT (max(ID)-60) from SPY
+2018-11-21 22:38:06,681 - DEBUG - Query is SELECT (max(ID)-60) from SPY
+2018-11-21 22:38:06,712 - DEBUG - ID60 is (326,)
+2018-11-21 22:38:06,712 - DEBUG - ID60 is (326,)
+2018-11-21 22:38:06,720 - DEBUG - Query is SELECT (max(ID)-90) from SPY
+2018-11-21 22:38:06,720 - DEBUG - Query is SELECT (max(ID)-90) from SPY
+2018-11-21 22:38:06,815 - DEBUG - ID90 is (296,)
+2018-11-21 22:38:06,815 - DEBUG - ID90 is (296,)
+2018-11-21 22:38:07,091 - DEBUG - yClose is 264.12
+2018-11-21 22:38:07,091 - DEBUG - yClose is 264.12
+2018-11-21 22:38:07,131 - DEBUG - tClose is 265.39
+2018-11-21 22:38:07,131 - DEBUG - tClose is 265.39
+2018-11-21 22:38:07,137 - DEBUG - yClose is 264.12
+2018-11-21 22:38:07,137 - DEBUG - yClose is 264.12
+2018-11-21 22:38:07,144 - DEBUG - Close is 265.39
+2018-11-21 22:38:07,144 - DEBUG - Close is 265.39
+2018-11-21 22:38:07,150 - DEBUG - Return is 0.48
+2018-11-21 22:38:07,150 - DEBUG - Return is 0.48
+2018-11-21 22:38:07,160 - DEBUG - Query is UPDATE SPY SET PercentReturn = 0.48 where ID = 386;
+2018-11-21 22:38:07,160 - DEBUG - Query is UPDATE SPY SET PercentReturn = 0.48 where ID = 386;
+2018-11-21 22:38:07,217 - DEBUG - Query is SELECT round(Avg(Close),2) as Avg from SPY where ID BETWEEN 381 AND 386;
+2018-11-21 22:38:07,217 - DEBUG - Query is SELECT round(Avg(Close),2) as Avg from SPY where ID BETWEEN 381 AND 386;
+2018-11-21 22:38:07,255 - DEBUG - BBMovAvg is (269.24,)
+2018-11-21 22:38:07,255 - DEBUG - BBMovAvg is (269.24,)
+2018-11-21 22:38:07,260 - DEBUG - Query is UPDATE hasPosition SET BB_STRATMovingAvgValue = 269.24 where CCY ='SPY';
+2018-11-21 22:38:07,260 - DEBUG - Query is UPDATE hasPosition SET BB_STRATMovingAvgValue = 269.24 where CCY ='SPY';
+2018-11-21 22:38:07,419 - DEBUG - Query is UPDATE SPY SET TrueRange = 11.7400 where ID ='386';
+2018-11-21 22:38:07,419 - DEBUG - Query is UPDATE SPY SET TrueRange = 11.7400 where ID ='386';
+2018-11-21 22:38:07,489 - DEBUG - Registered HistoricalData Reply Handler
+2018-11-21 22:38:07,489 - DEBUG - Registered HistoricalData Reply Handler
+2018-11-21 22:38:07,495 - DEBUG - Query is SELECT round(Avg(TrueRange),2) as Avg from SPY where ID BETWEEN 366 AND 386;
+2018-11-21 22:38:07,495 - DEBUG - Query is SELECT round(Avg(TrueRange),2) as Avg from SPY where ID BETWEEN 366 AND 386;
+2018-11-21 22:38:07,524 - DEBUG - ATR is (5.33,)
+2018-11-21 22:38:07,524 - DEBUG - ATR is (5.33,)
+2018-11-21 22:38:07,531 - DEBUG - Query is UPDATE hasPosition SET ATRValue = 5.33 where CCY ='SPY';
+2018-11-21 22:38:07,531 - DEBUG - Query is UPDATE hasPosition SET ATRValue = 5.33 where CCY ='SPY';
+2018-11-21 22:38:07,658 - DEBUG - Query is SELECT round(stddev(PercentReturn),2) as vol30 from SPY where ID BETWEEN 356 AND 386;
+2018-11-21 22:38:07,658 - DEBUG - Query is SELECT round(stddev(PercentReturn),2) as vol30 from SPY where ID BETWEEN 356 AND 386;
+2018-11-21 22:38:07,725 - DEBUG - 30d is 22.22
+2018-11-21 22:38:07,725 - DEBUG - 30d is 22.22
+2018-11-21 22:38:07,733 - DEBUG - Query is UPDATE SPY SET 30Dvol = 22.22 where ID ='386';
+2018-11-21 22:38:07,733 - DEBUG - Query is UPDATE SPY SET 30Dvol = 22.22 where ID ='386';
+2018-11-21 22:38:07,801 - DEBUG - Query is SELECT round(stddev(PercentReturn),2) as vol60 from SPY where ID BETWEEN 326 AND 386;
+2018-11-21 22:38:07,801 - DEBUG - Query is SELECT round(stddev(PercentReturn),2) as vol60 from SPY where ID BETWEEN 326 AND 386;
+2018-11-21 22:38:07,830 - DEBUG - sixtyd is 16.50
+2018-11-21 22:38:07,830 - DEBUG - sixtyd is 16.50
+2018-11-21 22:38:07,836 - DEBUG - Query is UPDATE SPY SET 60Dvol = 16.50 where ID ='386';
+2018-11-21 22:38:07,836 - DEBUG - Query is UPDATE SPY SET 60Dvol = 16.50 where ID ='386';
+2018-11-21 22:38:07,893 - DEBUG - Query is SELECT round(stddev(PercentReturn),2) as vol90 from SPY where ID BETWEEN 296 AND 386;
+2018-11-21 22:38:07,893 - DEBUG - Query is SELECT round(stddev(PercentReturn),2) as vol90 from SPY where ID BETWEEN 296 AND 386;
+2018-11-21 22:38:07,921 - DEBUG - ninetyd is 14.28
+2018-11-21 22:38:07,921 - DEBUG - ninetyd is 14.28
+2018-11-21 22:38:07,926 - DEBUG - Query is UPDATE SPY SET 90Dvol = 14.28 where ID ='386';
+2018-11-21 22:38:07,926 - DEBUG - Query is UPDATE SPY SET 90Dvol = 14.28 where ID ='386';
+2018-11-21 22:38:07,981 - DEBUG - Flag set to 1
+2018-11-21 22:38:07,981 - DEBUG - Flag set to 1
+2018-11-21 22:38:07,988 - DEBUG - In beginning of Reply Handler
+2018-11-21 22:38:07,988 - DEBUG - In beginning of Reply Handler
+2018-11-21 22:38:07,995 - DEBUG - test -1
+2018-11-21 22:38:07,995 - DEBUG - test -1
+2018-11-21 22:38:08,001 - DEBUG - test5 -1
+2018-11-21 22:38:08,001 - DEBUG - test5 -1
+2018-11-21 22:38:08,010 - DEBUG - Flag 1
+2018-11-21 22:38:08,010 - DEBUG - Flag 1
+2018-11-21 22:38:08,016 - DEBUG - In Reply Handler
+2018-11-21 22:38:08,016 - DEBUG - In Reply Handler
+2018-11-21 22:38:08,022 - DEBUG - Flag set to 1
+2018-11-21 22:38:08,022 - DEBUG - Flag set to 1
+2018-11-21 22:38:08,494 - DEBUG - Requesting historical data
+2018-11-21 22:38:08,494 - DEBUG - Requesting historical data
+2018-11-21 22:38:08,529 - DEBUG - Returned from Reply Handler
+2018-11-21 22:38:08,529 - DEBUG - Returned from Reply Handler
+2018-11-21 22:38:08,970 - DEBUG - In beginning of Reply Handler
+2018-11-21 22:38:08,970 - DEBUG - In beginning of Reply Handler
+2018-11-21 22:38:09,035 - DEBUG - test 275.86
+2018-11-21 22:38:09,035 - DEBUG - test 275.86
+2018-11-21 22:38:09,044 - DEBUG - test5 -1
+2018-11-21 22:38:09,044 - DEBUG - test5 -1
+2018-11-21 22:38:09,051 - DEBUG - Flag 1
+2018-11-21 22:38:09,051 - DEBUG - Flag 1
+2018-11-21 22:38:09,059 - DEBUG - In Reply Handler
+2018-11-21 22:38:09,059 - DEBUG - In Reply Handler
+2018-11-21 22:38:09,065 - DEBUG - Valid Price Found (OPEN NOT -1)
+2018-11-21 22:38:09,065 - DEBUG - Valid Price Found (OPEN NOT -1)
+2018-11-21 22:38:09,208 - DEBUG - Connected to Database
+2018-11-21 22:38:09,208 - DEBUG - Connected to Database
+2018-11-21 22:38:09,337 - DEBUG - Ran Insert Script
+2018-11-21 22:38:09,337 - DEBUG - Ran Insert Script
+2018-11-21 22:38:09,341 - DEBUG - Yesterday2 was 11/20/2018
+2018-11-21 22:38:09,341 - DEBUG - Yesterday2 was 11/20/2018
+2018-11-21 22:38:09,346 - DEBUG - Today is still  2018-11-21
+2018-11-21 22:38:09,346 - DEBUG - Today is still  2018-11-21
+2018-11-21 22:38:09,353 - DEBUG - Date shifted back 10 is 2018-11-08
+2018-11-21 22:38:09,353 - DEBUG - Date shifted back 10 is 2018-11-08
+2018-11-21 22:38:09,361 - DEBUG - First Date of BB Moving Average is 11/08/2018
+2018-11-21 22:38:09,361 - DEBUG - First Date of BB Moving Average is 11/08/2018
+2018-11-21 22:38:09,368 - DEBUG - Query is SELECT max(ID) from SPY
+2018-11-21 22:38:09,368 - DEBUG - Query is SELECT max(ID) from SPY
+2018-11-21 22:38:09,506 - DEBUG - BB ID1 is (387,)
+2018-11-21 22:38:09,506 - DEBUG - BB ID1 is (387,)
+2018-11-21 22:38:09,510 - DEBUG - Query is SELECT (max(ID)-20) from SPY
+2018-11-21 22:38:09,510 - DEBUG - Query is SELECT (max(ID)-20) from SPY
+2018-11-21 22:38:09,539 - DEBUG - BB ID1 is (387,)
+2018-11-21 22:38:09,539 - DEBUG - BB ID1 is (387,)
+2018-11-21 22:38:09,545 - DEBUG - BB ID2 is (367,)
+2018-11-21 22:38:09,545 - DEBUG - BB ID2 is (367,)
+2018-11-21 22:38:09,551 - DEBUG - Query is SELECT (max(ID)-1) from SPY
+2018-11-21 22:38:09,551 - DEBUG - Query is SELECT (max(ID)-1) from SPY
+2018-11-21 22:38:09,584 - DEBUG - ID3 is (386,)
+2018-11-21 22:38:09,584 - DEBUG - ID3 is (386,)
+2018-11-21 22:38:09,591 - DEBUG - Query is SELECT (max(ID)-5) from SPY
+2018-11-21 22:38:09,591 - DEBUG - Query is SELECT (max(ID)-5) from SPY
+2018-11-21 22:38:09,631 - DEBUG - ID4 is (382,)
+2018-11-21 22:38:09,631 - DEBUG - ID4 is (382,)
+2018-11-21 22:38:09,634 - DEBUG - Disconnecting from Server
+2018-11-21 22:38:09,634 - DEBUG - Disconnecting from Server
+2018-11-21 22:38:09,637 - DEBUG - Query is SELECT (max(ID)-30) from SPY
+2018-11-21 22:38:09,637 - DEBUG - Query is SELECT (max(ID)-30) from SPY
+2018-11-21 22:38:09,657 - DEBUG - Finished SPY Daily OHLC
+2018-11-21 22:38:09,657 - DEBUG - Finished SPY Daily OHLC
+2018-11-21 22:38:09,679 - DEBUG - ID30 is (357,)
+2018-11-21 22:38:09,679 - DEBUG - ID30 is (357,)
+2018-11-21 22:38:09,687 - DEBUG - Query is SELECT (max(ID)-60) from SPY
+2018-11-21 22:38:09,687 - DEBUG - Query is SELECT (max(ID)-60) from SPY
+2018-11-21 22:38:09,724 - DEBUG - ID60 is (327,)
+2018-11-21 22:38:09,724 - DEBUG - ID60 is (327,)
+2018-11-21 22:38:09,743 - DEBUG - Query is SELECT (max(ID)-90) from SPY
+2018-11-21 22:38:09,743 - DEBUG - Query is SELECT (max(ID)-90) from SPY
+2018-11-21 22:38:09,789 - DEBUG - ID90 is (297,)
+2018-11-21 22:38:09,789 - DEBUG - ID90 is (297,)
+2018-11-21 22:38:09,862 - DEBUG - yClose is 265.39
+2018-11-21 22:38:09,862 - DEBUG - yClose is 265.39
+2018-11-21 22:38:09,900 - DEBUG - tClose is 265.39
+2018-11-21 22:38:09,900 - DEBUG - tClose is 265.39
+2018-11-21 22:38:09,906 - DEBUG - yClose is 265.39
+2018-11-21 22:38:09,906 - DEBUG - yClose is 265.39
+2018-11-21 22:38:09,913 - DEBUG - Close is 265.39
+2018-11-21 22:38:09,913 - DEBUG - Close is 265.39
+2018-11-21 22:38:09,920 - DEBUG - Return is 0.0
+2018-11-21 22:38:09,920 - DEBUG - Return is 0.0
+2018-11-21 22:38:09,927 - DEBUG - Query is UPDATE SPY SET PercentReturn = 0.0 where ID = 387;
+2018-11-21 22:38:09,927 - DEBUG - Query is UPDATE SPY SET PercentReturn = 0.0 where ID = 387;
+2018-11-21 22:38:10,041 - DEBUG - Query is SELECT round(Avg(Close),2) as Avg from SPY where ID BETWEEN 382 AND 387;
+2018-11-21 22:38:10,041 - DEBUG - Query is SELECT round(Avg(Close),2) as Avg from SPY where ID BETWEEN 382 AND 387;
+2018-11-21 22:38:10,083 - DEBUG - BBMovAvg is (268.44,)
+2018-11-21 22:38:10,083 - DEBUG - BBMovAvg is (268.44,)
+2018-11-21 22:38:10,086 - DEBUG - Query is UPDATE hasPosition SET BB_STRATMovingAvgValue = 268.44 where CCY ='SPY';
+2018-11-21 22:38:10,086 - DEBUG - Query is UPDATE hasPosition SET BB_STRATMovingAvgValue = 268.44 where CCY ='SPY';
+2018-11-21 22:38:10,172 - DEBUG - Query is UPDATE SPY SET TrueRange = 11.0600 where ID ='387';
+2018-11-21 22:38:10,172 - DEBUG - Query is UPDATE SPY SET TrueRange = 11.0600 where ID ='387';
+2018-11-21 22:38:10,229 - DEBUG - Query is SELECT round(Avg(TrueRange),2) as Avg from SPY where ID BETWEEN 367 AND 387;
+2018-11-21 22:38:10,229 - DEBUG - Query is SELECT round(Avg(TrueRange),2) as Avg from SPY where ID BETWEEN 367 AND 387;
+2018-11-21 22:38:10,273 - DEBUG - ATR is (5.43,)
+2018-11-21 22:38:10,273 - DEBUG - ATR is (5.43,)
+2018-11-21 22:38:10,279 - DEBUG - Query is UPDATE hasPosition SET ATRValue = 5.43 where CCY ='SPY';
+2018-11-21 22:38:10,279 - DEBUG - Query is UPDATE hasPosition SET ATRValue = 5.43 where CCY ='SPY';
+2018-11-21 22:38:10,371 - DEBUG - Query is SELECT round(stddev(PercentReturn),2) as vol30 from SPY where ID BETWEEN 357 AND 387;
+2018-11-21 22:38:10,371 - DEBUG - Query is SELECT round(stddev(PercentReturn),2) as vol30 from SPY where ID BETWEEN 357 AND 387;
+2018-11-21 22:38:10,409 - DEBUG - 30d is 20.63
+2018-11-21 22:38:10,409 - DEBUG - 30d is 20.63
+2018-11-21 22:38:10,414 - DEBUG - Query is UPDATE SPY SET 30Dvol = 20.63 where ID ='387';
+2018-11-21 22:38:10,414 - DEBUG - Query is UPDATE SPY SET 30Dvol = 20.63 where ID ='387';
+2018-11-21 22:38:10,478 - DEBUG - Query is SELECT round(stddev(PercentReturn),2) as vol60 from SPY where ID BETWEEN 327 AND 387;
+2018-11-21 22:38:10,478 - DEBUG - Query is SELECT round(stddev(PercentReturn),2) as vol60 from SPY where ID BETWEEN 327 AND 387;
+2018-11-21 22:38:10,507 - DEBUG - sixtyd is 16.50
+2018-11-21 22:38:10,507 - DEBUG - sixtyd is 16.50
+2018-11-21 22:38:10,514 - DEBUG - Query is UPDATE SPY SET 60Dvol = 16.50 where ID ='387';
+2018-11-21 22:38:10,514 - DEBUG - Query is UPDATE SPY SET 60Dvol = 16.50 where ID ='387';
+2018-11-21 22:38:10,774 - DEBUG - Query is SELECT round(stddev(PercentReturn),2) as vol90 from SPY where ID BETWEEN 297 AND 387;
+2018-11-21 22:38:10,774 - DEBUG - Query is SELECT round(stddev(PercentReturn),2) as vol90 from SPY where ID BETWEEN 297 AND 387;
+2018-11-21 22:38:10,798 - DEBUG - ninetyd is 14.28
+2018-11-21 22:38:10,798 - DEBUG - ninetyd is 14.28
+2018-11-21 22:38:10,804 - DEBUG - Query is UPDATE SPY SET 90Dvol = 14.28 where ID ='387';
+2018-11-21 22:38:10,804 - DEBUG - Query is UPDATE SPY SET 90Dvol = 14.28 where ID ='387';
+2018-11-21 22:38:10,862 - DEBUG - Flag set to 1
+2018-11-21 22:38:10,862 - DEBUG - Flag set to 1
+2018-11-21 22:38:10,868 - DEBUG - In beginning of Reply Handler
+2018-11-21 22:38:10,868 - DEBUG - In beginning of Reply Handler
+2018-11-21 22:38:10,876 - DEBUG - test -1
+2018-11-21 22:38:10,876 - DEBUG - test -1
+2018-11-21 22:38:10,885 - DEBUG - test5 -1
+2018-11-21 22:38:10,885 - DEBUG - test5 -1
+2018-11-21 22:38:10,893 - DEBUG - Flag 1
+2018-11-21 22:38:10,893 - DEBUG - Flag 1
+2018-11-21 22:38:10,900 - DEBUG - In Reply Handler
+2018-11-21 22:38:10,900 - DEBUG - In Reply Handler
+2018-11-21 22:38:10,908 - DEBUG - Flag set to 1
+2018-11-21 22:38:10,908 - DEBUG - Flag set to 1
+2018-11-22 21:43:35,193 - DEBUG - ****************************************************
+2018-11-22 21:43:35,193 - DEBUG - ****************************************************
+2018-11-22 21:43:35,557 - DEBUG - Connected to Database
+2018-11-22 21:43:35,557 - DEBUG - Connected to Database
+2018-11-22 21:43:35,626 - DEBUG - Query is SELECT max(ID) from SPY
+2018-11-22 21:43:35,626 - DEBUG - Query is SELECT max(ID) from SPY
+2018-11-22 21:43:35,665 - DEBUG - ID1 is (387,)
+2018-11-22 21:43:35,665 - DEBUG - ID1 is (387,)
+2018-11-22 21:43:47,159 - DEBUG - ****************************************************
+2018-11-22 21:43:47,159 - DEBUG - ****************************************************
+2018-11-22 21:43:47,712 - DEBUG - Connected to Database
+2018-11-22 21:43:47,712 - DEBUG - Connected to Database
+2018-11-22 21:43:47,755 - DEBUG - Query is SELECT max(ID) from SPY
+2018-11-22 21:43:47,755 - DEBUG - Query is SELECT max(ID) from SPY
+2018-11-22 21:43:47,895 - DEBUG - ID1 is (387,)
+2018-11-22 21:43:47,895 - DEBUG - ID1 is (387,)
+2018-11-22 21:43:47,918 - DEBUG - Query is SELECT max(ID) from MMM
+2018-11-22 21:43:47,918 - DEBUG - Query is SELECT max(ID) from MMM
+2018-11-22 21:43:48,068 - DEBUG - ID2 is (387,)
+2018-11-22 21:43:48,068 - DEBUG - ID2 is (387,)
+2018-11-22 21:43:48,251 - DEBUG - Index Returns is ('0.0',)
+2018-11-22 21:43:48,251 - DEBUG - Index Returns is ('0.0',)
+2018-11-22 21:43:48,289 - DEBUG - Stock Returns is ('0.0',)
+2018-11-22 21:43:48,289 - DEBUG - Stock Returns is ('0.0',)
+2018-11-22 21:44:21,156 - DEBUG - ****************************************************
+2018-11-22 21:44:21,156 - DEBUG - ****************************************************
+2018-11-22 21:44:21,400 - DEBUG - Connected to Database
+2018-11-22 21:44:21,400 - DEBUG - Connected to Database
+2018-11-22 21:44:21,450 - DEBUG - Query is SELECT max(ID) from SPY
+2018-11-22 21:44:21,450 - DEBUG - Query is SELECT max(ID) from SPY
+2018-11-22 21:44:21,500 - DEBUG - ID1 is (387,)
+2018-11-22 21:44:21,500 - DEBUG - ID1 is (387,)
+2018-11-22 21:44:21,526 - DEBUG - Query is SELECT max(ID) from MMM
+2018-11-22 21:44:21,526 - DEBUG - Query is SELECT max(ID) from MMM
+2018-11-22 21:44:21,572 - DEBUG - ID2 is (387,)
+2018-11-22 21:44:21,572 - DEBUG - ID2 is (387,)
+2018-11-22 21:44:21,618 - DEBUG - Index Returns is ('0.0',)
+2018-11-22 21:44:21,618 - DEBUG - Index Returns is ('0.0',)
+2018-11-22 21:44:21,669 - DEBUG - Stock Returns is ('0.0',)
+2018-11-22 21:44:21,669 - DEBUG - Stock Returns is ('0.0',)
+2018-11-22 21:45:21,043 - DEBUG - ****************************************************
+2018-11-22 21:45:21,043 - DEBUG - ****************************************************
+2018-11-22 21:45:21,260 - DEBUG - Connected to Database
+2018-11-22 21:45:21,260 - DEBUG - Connected to Database
+2018-11-22 21:45:21,338 - DEBUG - Query is SELECT max(ID) from SPY
+2018-11-22 21:45:21,338 - DEBUG - Query is SELECT max(ID) from SPY
+2018-11-22 21:45:21,394 - DEBUG - ID1 is (387,)
+2018-11-22 21:45:21,394 - DEBUG - ID1 is (387,)
+2018-11-22 21:45:21,427 - DEBUG - Query is SELECT max(ID) from MMM
+2018-11-22 21:45:21,427 - DEBUG - Query is SELECT max(ID) from MMM
+2018-11-22 21:45:21,485 - DEBUG - ID2 is (387,)
+2018-11-22 21:45:21,485 - DEBUG - ID2 is (387,)
+2018-11-22 21:45:21,543 - DEBUG - Index Returns is ('0.0',)
+2018-11-22 21:45:21,543 - DEBUG - Index Returns is ('0.0',)
+2018-11-22 21:45:21,882 - DEBUG - Stock Returns is ('0.0',)
+2018-11-22 21:45:21,882 - DEBUG - Stock Returns is ('0.0',)
+2018-11-22 21:52:49,594 - DEBUG - ****************************************************
+2018-11-22 21:52:49,594 - DEBUG - ****************************************************
+2018-11-22 21:52:50,677 - DEBUG - Connected to Database
+2018-11-22 21:52:50,677 - DEBUG - Connected to Database
+2018-11-22 21:52:50,798 - DEBUG - Query is SELECT max(ID) from SPY
+2018-11-22 21:52:50,798 - DEBUG - Query is SELECT max(ID) from SPY
+2018-11-22 21:52:51,704 - DEBUG - ID1 is (386,)
+2018-11-22 21:52:51,704 - DEBUG - ID1 is (386,)
+2018-11-22 21:52:51,743 - DEBUG - Query is SELECT max(ID) from MMM
+2018-11-22 21:52:51,743 - DEBUG - Query is SELECT max(ID) from MMM
+2018-11-22 21:52:51,841 - DEBUG - ID2 is (386,)
+2018-11-22 21:52:51,841 - DEBUG - ID2 is (386,)
+2018-11-22 21:52:51,907 - DEBUG - Index Returns is ('0.48',)
+2018-11-22 21:52:51,907 - DEBUG - Index Returns is ('0.48',)
+2018-11-22 21:52:51,994 - DEBUG - Stock Returns is ('0.0',)
+2018-11-22 21:52:51,994 - DEBUG - Stock Returns is ('0.0',)

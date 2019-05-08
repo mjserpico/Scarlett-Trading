@@ -1,0 +1,138 @@
+2019-01-24 21:28:33,741 - DEBUG - Starting DailyOHLC
+2019-01-24 21:28:33,774 - DEBUG - Flag set to 0
+2019-01-24 21:28:35,765 - DEBUG - Connecting to Server
+2019-01-24 21:28:36,777 - DEBUG - Registered HistoricalData Reply Handler
+2019-01-24 21:28:37,784 - DEBUG - Requesting historical data
+2019-01-24 21:28:37,870 - DEBUG - Returned from Reply Handler
+2019-01-24 21:28:38,578 - DEBUG - In beginning of Reply Handler
+2019-01-24 21:28:38,662 - DEBUG - test 99.71
+2019-01-24 21:28:38,684 - DEBUG - test5 29871
+2019-01-24 21:28:38,702 - DEBUG - Flag 0
+2019-01-24 21:28:38,723 - DEBUG - In Reply Handler
+2019-01-24 21:28:38,747 - DEBUG - Valid Price Found (OPEN NOT -1)
+2019-01-24 21:28:38,883 - DEBUG - Disconnecting from Server
+2019-01-24 21:28:38,962 - DEBUG - Flag set to 0
+2019-01-24 21:28:39,086 - DEBUG - Connected to Database
+2019-01-24 21:28:39,168 - DEBUG - Ran Insert Script
+2019-01-24 21:28:39,177 - DEBUG - Yesterday2 was 01/23/2019
+2019-01-24 21:28:39,202 - DEBUG - Today is still  2019-01-24
+2019-01-24 21:28:39,217 - DEBUG - Date shifted back 10 is 2019-01-11
+2019-01-24 21:28:39,238 - DEBUG - First Date of Moving Average is 01/11/2019
+2019-01-24 21:28:39,249 - DEBUG - Query is SELECT max(ID) from AXP
+2019-01-24 21:28:39,752 - DEBUG - ID1 is (427,)
+2019-01-24 21:28:39,762 - DEBUG - Query is SELECT (max(ID)-20) from AXP
+2019-01-24 21:28:39,844 - DEBUG - ID1 is (427,)
+2019-01-24 21:28:39,853 - DEBUG - ID2 is (407,)
+2019-01-24 21:28:39,865 - DEBUG - Query is SELECT (max(ID)-1) from AXP
+2019-01-24 21:28:40,160 - DEBUG - ID3 is (426,)
+2019-01-24 21:28:40,168 - DEBUG - Query is Select RiskParametersValue from RiskParameters where RiskParametersName = 'ATRlength';
+2019-01-24 21:28:40,210 - DEBUG - ID4 is (5.0,)
+2019-01-24 21:28:40,222 - DEBUG - Query is SELECT (max(ID)-5.0) from AXP
+2019-01-24 21:28:40,316 - DEBUG - ID4 is (Decimal('422.0'),)
+2019-01-24 21:28:40,324 - DEBUG - Query is Select RiskParametersValue from RiskParameters where RiskParametersName = 'MovAvgLength';
+2019-01-24 21:28:40,362 - DEBUG - ID is (5.0,)
+2019-01-24 21:28:40,371 - DEBUG - Query is SELECT (max(ID)-50.0) from AXP
+2019-01-24 21:28:40,514 - DEBUG - ID5 is (Decimal('377.0'),)
+2019-01-24 21:28:40,524 - DEBUG - Query is SELECT (max(ID)-30) from AXP
+2019-01-24 21:28:40,885 - DEBUG - ID30 is (397,)
+2019-01-24 21:28:40,896 - DEBUG - Query is SELECT (max(ID)-60) from AXP
+2019-01-24 21:28:40,985 - DEBUG - ID60 is (367,)
+2019-01-24 21:28:40,992 - DEBUG - Query is SELECT (max(ID)-90) from AXP
+2019-01-24 21:28:41,036 - DEBUG - ID90 is (337,)
+2019-01-24 21:28:41,070 - DEBUG - yClose is 99.0
+2019-01-24 21:28:41,102 - DEBUG - tClose is 99.41
+2019-01-24 21:28:41,111 - DEBUG - yClose is 99.0
+2019-01-24 21:28:41,120 - DEBUG - Close is 99.41
+2019-01-24 21:28:41,129 - DEBUG - Return is 0.41
+2019-01-24 21:28:41,136 - DEBUG - Query is UPDATE AXP SET PercentReturn = 0.41 where ID = 427;
+2019-01-24 21:28:41,193 - DEBUG - Query is SELECT round(Avg(Close),2) as Avg from AXP where ID BETWEEN 377.0 AND 427;
+2019-01-24 21:28:41,224 - DEBUG - MovAvg is (102.47,)
+2019-01-24 21:28:41,230 - DEBUG - Query is UPDATE hasPosition SET MovingAvgValue = 102.47 where CCY ='AXP';
+2019-01-24 21:28:41,296 - DEBUG - Query is UPDATE AXP SET TrueRange = 1.5400 where ID ='427';
+2019-01-24 21:28:41,601 - DEBUG - Query is SELECT round(Avg(TrueRange),2) as Avg from AXP where ID BETWEEN 422.0 AND 427;
+2019-01-24 21:28:41,641 - DEBUG - ATR is (2.65,)
+2019-01-24 21:28:41,647 - DEBUG - Query is UPDATE hasPosition SET ATRValue = 2.65 where CCY ='AXP';
+2019-01-24 21:28:41,699 - DEBUG - Query is SELECT round(stddev(PercentReturn),2) as vol30 from AXP where ID BETWEEN 397 AND 427;
+2019-01-24 21:28:41,755 - DEBUG - 30d is 30.32
+2019-01-24 21:28:41,761 - DEBUG - Query is UPDATE AXP SET thirtyvol = 30.32 where ID ='427';
+2019-01-24 21:28:41,821 - DEBUG - Query is SELECT round(stddev(PercentReturn),2) as vol60 from AXP where ID BETWEEN 367 AND 427;
+2019-01-24 21:28:41,849 - DEBUG - sixtyd is 27.30
+2019-01-24 21:28:41,858 - DEBUG - Query is UPDATE AXP SET sixtyvol = 27.30 where ID ='427';
+2019-01-24 21:28:41,964 - DEBUG - Query is SELECT round(stddev(PercentReturn),2) as vol90 from AXP where ID BETWEEN 337 AND 427;
+2019-01-24 21:28:42,000 - DEBUG - ninetyd is 25.39
+2019-01-24 21:28:42,008 - DEBUG - Query is UPDATE AXP SET ninetyvol = 25.39 where ID ='427';
+2019-01-24 21:28:42,069 - DEBUG - Flag set to 1
+2019-01-24 21:28:42,080 - DEBUG - In beginning of Reply Handler
+2019-01-24 21:28:42,089 - DEBUG - test -1
+2019-01-24 21:28:42,096 - DEBUG - test5 -1
+2019-01-24 21:28:42,107 - DEBUG - Flag 1
+2019-01-24 21:28:42,113 - DEBUG - In Reply Handler
+2019-01-24 21:28:42,121 - DEBUG - Flag set to 1
+2019-01-24 21:28:46,525 - DEBUG - Connecting to Server
+2019-01-24 21:28:47,536 - DEBUG - Registered HistoricalData Reply Handler
+2019-01-24 21:28:48,543 - DEBUG - Requesting historical data
+2019-01-24 21:28:48,567 - DEBUG - Returned from Reply Handler
+2019-01-24 21:28:48,629 - DEBUG - In beginning of Reply Handler
+2019-01-24 21:28:48,668 - DEBUG - test 99.71
+2019-01-24 21:28:48,675 - DEBUG - test5 29871
+2019-01-24 21:28:48,686 - DEBUG - Flag 1
+2019-01-24 21:28:48,702 - DEBUG - In Reply Handler
+2019-01-24 21:28:48,710 - DEBUG - Valid Price Found (OPEN NOT -1)
+2019-01-24 21:28:49,060 - DEBUG - Connected to Database
+2019-01-24 21:28:49,146 - DEBUG - Ran Insert Script
+2019-01-24 21:28:49,152 - DEBUG - Yesterday2 was 01/23/2019
+2019-01-24 21:28:49,159 - DEBUG - Today is still  2019-01-24
+2019-01-24 21:28:49,166 - DEBUG - Date shifted back 10 is 2019-01-11
+2019-01-24 21:28:49,173 - DEBUG - First Date of Moving Average is 01/11/2019
+2019-01-24 21:28:49,180 - DEBUG - Query is SELECT max(ID) from AXP
+2019-01-24 21:28:49,219 - DEBUG - ID1 is (428,)
+2019-01-24 21:28:49,224 - DEBUG - Query is SELECT (max(ID)-20) from AXP
+2019-01-24 21:28:49,253 - DEBUG - ID1 is (428,)
+2019-01-24 21:28:49,258 - DEBUG - ID2 is (408,)
+2019-01-24 21:28:49,265 - DEBUG - Query is SELECT (max(ID)-1) from AXP
+2019-01-24 21:28:49,298 - DEBUG - ID3 is (427,)
+2019-01-24 21:28:49,302 - DEBUG - Query is Select RiskParametersValue from RiskParameters where RiskParametersName = 'ATRlength';
+2019-01-24 21:28:49,337 - DEBUG - ID4 is (5.0,)
+2019-01-24 21:28:49,342 - DEBUG - Query is SELECT (max(ID)-5.0) from AXP
+2019-01-24 21:28:49,380 - DEBUG - ID4 is (Decimal('423.0'),)
+2019-01-24 21:28:49,386 - DEBUG - Query is Select RiskParametersValue from RiskParameters where RiskParametersName = 'MovAvgLength';
+2019-01-24 21:28:49,418 - DEBUG - ID is (5.0,)
+2019-01-24 21:28:49,425 - DEBUG - Query is SELECT (max(ID)-50.0) from AXP
+2019-01-24 21:28:49,453 - DEBUG - ID5 is (Decimal('378.0'),)
+2019-01-24 21:28:49,460 - DEBUG - Query is SELECT (max(ID)-30) from AXP
+2019-01-24 21:28:49,574 - DEBUG - Disconnecting from Server
+2019-01-24 21:28:49,581 - DEBUG - Finished AXP Daily OHLC
+2019-01-24 21:28:49,805 - DEBUG - ID30 is (398,)
+2019-01-24 21:28:49,809 - DEBUG - Query is SELECT (max(ID)-60) from AXP
+2019-01-24 21:28:49,860 - DEBUG - ID60 is (368,)
+2019-01-24 21:28:49,870 - DEBUG - Query is SELECT (max(ID)-90) from AXP
+2019-01-24 21:28:49,919 - DEBUG - ID90 is (338,)
+2019-01-24 21:28:49,957 - DEBUG - yClose is 99.41
+2019-01-24 21:28:50,012 - DEBUG - tClose is 99.41
+2019-01-24 21:28:50,032 - DEBUG - yClose is 99.41
+2019-01-24 21:28:50,050 - DEBUG - Close is 99.41
+2019-01-24 21:28:50,068 - DEBUG - Return is 0.0
+2019-01-24 21:28:50,084 - DEBUG - Query is UPDATE AXP SET PercentReturn = 0.0 where ID = 428;
+2019-01-24 21:28:50,191 - DEBUG - Query is SELECT round(Avg(Close),2) as Avg from AXP where ID BETWEEN 378.0 AND 428;
+2019-01-24 21:28:50,246 - DEBUG - MovAvg is (102.29,)
+2019-01-24 21:28:50,267 - DEBUG - Query is UPDATE hasPosition SET MovingAvgValue = 102.29 where CCY ='AXP';
+2019-01-24 21:28:50,350 - DEBUG - Query is UPDATE AXP SET TrueRange = 1.5400 where ID ='428';
+2019-01-24 21:28:50,425 - DEBUG - Query is SELECT round(Avg(TrueRange),2) as Avg from AXP where ID BETWEEN 423.0 AND 428;
+2019-01-24 21:28:50,460 - DEBUG - ATR is (2.16,)
+2019-01-24 21:28:50,472 - DEBUG - Query is UPDATE hasPosition SET ATRValue = 2.16 where CCY ='AXP';
+2019-01-24 21:28:50,551 - DEBUG - Query is SELECT round(stddev(PercentReturn),2) as vol30 from AXP where ID BETWEEN 398 AND 428;
+2019-01-24 21:28:50,604 - DEBUG - 30d is 30.32
+2019-01-24 21:28:50,617 - DEBUG - Query is UPDATE AXP SET thirtyvol = 30.32 where ID ='428';
+2019-01-24 21:28:50,708 - DEBUG - Query is SELECT round(stddev(PercentReturn),2) as vol60 from AXP where ID BETWEEN 368 AND 428;
+2019-01-24 21:28:51,001 - DEBUG - sixtyd is 27.14
+2019-01-24 21:28:51,015 - DEBUG - Query is UPDATE AXP SET sixtyvol = 27.14 where ID ='428';
+2019-01-24 21:28:51,098 - DEBUG - Query is SELECT round(stddev(PercentReturn),2) as vol90 from AXP where ID BETWEEN 338 AND 428;
+2019-01-24 21:28:51,140 - DEBUG - ninetyd is 25.39
+2019-01-24 21:28:51,152 - DEBUG - Query is UPDATE AXP SET ninetyvol = 25.39 where ID ='428';
+2019-01-24 21:28:51,257 - DEBUG - Flag set to 1
+2019-01-24 21:28:51,272 - DEBUG - In beginning of Reply Handler
+2019-01-24 21:28:51,288 - DEBUG - test -1
+2019-01-24 21:28:51,324 - DEBUG - test5 -1
+2019-01-24 21:28:51,341 - DEBUG - Flag 1
+2019-01-24 21:28:51,369 - DEBUG - In Reply Handler
+2019-01-24 21:28:51,382 - DEBUG - Flag set to 1
